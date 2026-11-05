@@ -17,6 +17,8 @@ n'est plus à jour, ou s'il trouve un tiret cadratin ou demi-cadratin.
 Pages produites :
     index.html            Meli, français        en/index.html         Meli, anglais
     sophie/index.html     Sophie, français      en/sophie/index.html  Sophie, anglais
+Un clic sur un prénom ouvre l'espace de la personne dans sa langue par défaut
+(Meli en français, Sophie en anglais) : voir LANGUE_PAR_DEFAUT.
 """
 import json, re, sys
 from pathlib import Path
@@ -32,6 +34,8 @@ PERSONNES = {
     "meli": ("index.html", "", "Meli", "@still.becoming.me24"),
     "sophie": ("sophie.html", "sophie/", "Sophie", "let's bloom."),
 }
+# langue dans laquelle s'ouvre l'espace d'une personne quand on clique sur son prénom
+LANGUE_PAR_DEFAUT = {"meli": "fr", "sophie": "en"}
 LANGUES = {"fr": "", "en": "en/"}
 
 
@@ -88,8 +92,9 @@ def main():
                 "actif_fr": "actif" if lang == "fr" else "", "actif_en": "actif" if lang == "en" else "",
                 "actif_meli": "actif" if personne == "meli" else "",
                 "actif_sophie": "actif" if personne == "sophie" else "",
-                "logo_meli": "#accueil" if personne == "meli" else root + chemin(lang, "meli"),
-                "logo_sophie": "#accueil" if personne == "sophie" else root + chemin(lang, "sophie"),
+                "logo_meli": "#accueil" if personne == "meli" else root + chemin(LANGUE_PAR_DEFAUT["meli"], "meli"),
+                "logo_sophie": "#accueil" if personne == "sophie" else root + chemin(LANGUE_PAR_DEFAUT["sophie"], "sophie"),
+                "href_defaut": root + chemin(LANGUE_PAR_DEFAUT[personne], personne),
                 "lien_legal": "#mentions-legales" if personne == "meli" else root + chemin(lang, "meli") + "#mentions-legales",
             }
             page = SEG.sub(lambda m: m.group(2) if lang == "fr" else en[m.group(1)]["en"], gabarits[personne])
