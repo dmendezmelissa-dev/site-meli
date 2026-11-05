@@ -1,6 +1,6 @@
 # Site let's bloom. : espaces de Meli (@still.becoming.me24) et de Sophie
 
-Site statique, en français et en anglais, publié avec GitHub Pages.
+Site statique en français, anglais et espagnol, publié avec GitHub Pages.
 En haut de chaque page, « Meli. » et « Sophie. » permettent de choisir la personne.
 
 ## Comment c'est rangé
@@ -8,21 +8,22 @@ En haut de chaque page, « Meli. » et « Sophie. » permettent de choisir la pe
   écrits en français, entre doubles crochets avec un identifiant : `[[accueil.titre|Prends soin de toi]]`.
 - `src/partials/` : blocs communs (en-tête avec le choix de la personne, langues, présentation
   let's bloom., pied de page et script), insérés avec `<!-- @inclure fichier.html -->`.
-- `i18n/en.json` : les traductions anglaises, une par identifiant.
-- `build.py` : fabrique `index.html`, `en/index.html`, `sophie/index.html`, `en/sophie/index.html`.
+- `i18n/en.json`, `i18n/es.json` : les traductions anglaises et espagnoles, une par identifiant.
+- `build.py` : fabrique les pages de chaque personne dans chaque langue (`index.html`, `en/`, `es/`, `sophie/`, `en/sophie/`, `es/sophie/`).
+  Un clic sur un prénom ouvre l'espace dans sa langue par défaut (Meli en français, Sophie en anglais).
   Ces fichiers sont générés : ne pas les modifier à la main.
 - `css/style.css`, `fonts/`, `images/` : communs aux deux langues.
 
 ## Modifier un texte
 1. Changer le français dans `src/index.html`, `src/sophie.html` ou `src/partials/` (ou ajouter un nouveau `[[cle|texte]]`).
-2. `python3 build.py --sync` ajoute les nouvelles clés dans `i18n/en.json`.
-3. Écrire l'anglais dans `i18n/en.json` (et recopier le nouveau français dans `"fr"` si le texte a changé).
+2. `python3 build.py --sync` ajoute les nouvelles clés dans `i18n/en.json` et `i18n/es.json`.
+3. Écrire l'anglais et l'espagnol (et recopier le nouveau français dans `"fr"` si le texte a changé).
 4. `python3 build.py` : refuse de construire s'il manque une traduction, si une traduction
    n'est plus à jour, ou s'il y a un tiret cadratin ou demi-cadratin.
 
 ## Fonctionnement de la page
 - Une page HTML par langue, découpée en « pages » (`section.page[data-page]`) affichées
   une à une selon l'adresse : `#histoire`, `#packs`, `#packs-nutrition`, `#pack-routine`...
-- Le bouton FR · EN garde la page en cours.
+- Le choix FR · EN · ES garde la page en cours.
 - Bouton « Réserver » fixe en bas sur téléphone (après le haut de page).
 - Animations douces (`.reveal`), désactivées si le téléphone demande moins d'animations.
