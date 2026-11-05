@@ -527,10 +527,6 @@
     "fr": "On démarre ensemble, à ton rythme.",
     "en": "We get started together, at your pace."
   },
-  "equipe.devise": {
-    "fr": "Des vies réelles. Des vies bien remplies. Grandir ensemble.",
-    "en": "Real lives. Full lives. Growing together."
-  },
   "faq.e1.q": {
     "fr": "Faut-il un diplôme ou de l'expérience ?",
     "en": "Do I need a qualification or experience?"
@@ -690,5 +686,93 @@
   "footer.legal": {
     "fr": "Mentions légales",
     "en": "Legal notice"
+  },
+  "bloom.devise": {
+    "fr": "Des vies réelles. Des vies bien remplies. Grandir ensemble.",
+    "en": "Real lives. Full lives. Growing together."
+  },
+  "bloom.qui.titre": {
+    "fr": "Qui sommes-nous",
+    "en": "Who we are"
+  },
+  "bloom.qui.texte": {
+    "fr": "Let's Bloom est une communauté lifestyle et bien-être chaleureuse, pensée pour des personnes réelles aux vies bien remplies, qui souhaitent se sentir mieux, instaurer des habitudes durables, prendre soin d'elles, concilier maternité, vie professionnelle et vie personnelle, et continuer à grandir avec intention.",
+    "en": "Let's Bloom is a warm lifestyle and wellbeing community, designed for real people with full lives who want to feel better, build lasting habits, take care of themselves, balance motherhood, work and personal life, and keep growing with intention."
+  },
+  "bloom.histoire.titre": {
+    "fr": "Notre histoire",
+    "en": "Our story"
+  },
+  "bloom.histoire.texte": {
+    "fr": "Nous sommes deux amies d'enfance, aujourd'hui installées au Guatemala et en France, qui se sont retrouvées autour de valeurs partagées et d'une vision commune : créer une communauté qui inspire, soutient et encourage chacun à vivre une vie réelle, bien remplie, et à continuer de grandir, ensemble.",
+    "en": "We are two childhood friends, now living in Guatemala and France, who came together around shared values and a common vision: to create a community that inspires, supports and encourages everyone to live a real, full life, and to keep growing, together."
+  },
+  "bloom.unit.titre": {
+    "fr": "Ce qui nous unit",
+    "en": "What brings us together"
+  },
+  "bloom.unit.texte": {
+    "fr": "Des personnes réelles, des vies bien remplies, une croissance partagée.",
+    "en": "Real people, full lives, shared growth."
+  },
+  "bloom.piliers.titre": {
+    "fr": "Nos piliers",
+    "en": "Our pillars"
+  },
+  "bloom.pilier.bienetre.titre": {
+    "fr": "Bien-être",
+    "en": "Wellbeing"
+  },
+  "bloom.pilier.bienetre.texte": {
+    "fr": "Se sentir bien, prendre soin de son corps et de son esprit.",
+    "en": "Feeling good, taking care of your body and your mind."
+  },
+  "bloom.pilier.habitudes.titre": {
+    "fr": "Habitudes",
+    "en": "Habits"
+  },
+  "bloom.pilier.habitudes.texte": {
+    "fr": "Instaurer des routines simples et durables qui font une vraie différence.",
+    "en": "Building simple, lasting routines that make a real difference."
+  },
+  "bloom.pilier.maternite.titre": {
+    "fr": "Maternité",
+    "en": "Motherhood"
+  },
+  "bloom.pilier.maternite.texte": {
+    "fr": "Vivre la maternité de façon plus équilibrée, sereine et épanouie.",
+    "en": "Living motherhood in a more balanced, calm and fulfilling way."
+  },
+  "bloom.pilier.connexion.titre": {
+    "fr": "Connexion &amp; authenticité",
+    "en": "Connection &amp; authenticity"
+  },
+  "bloom.pilier.connexion.texte": {
+    "fr": "Une communauté bienveillante, des échanges vrais et un espace sans jugement.",
+    "en": "A caring community, honest conversations and a judgement-free space."
+  },
+  "bloom.pilier.evolution.titre": {
+    "fr": "Évolution",
+    "en": "Growth"
+  },
+  "bloom.pilier.evolution.texte": {
+    "fr": "Des vies réelles, des défis, des apprentissages et une envie constante de progresser.",
+    "en": "Real lives, challenges, lessons and a constant drive to keep progressing."
+  },
+  "bloom.pilier.opportunites.titre": {
+    "fr": "Opportunités",
+    "en": "Opportunities"
+  },
+  "bloom.pilier.opportunites.texte": {
+    "fr": "Découvrir de nouvelles possibilités personnelles et professionnelles.",
+    "en": "Discovering new personal and professional possibilities."
+  },
+  "bloom.manuscrit": {
+    "fr": "Pensé avec le cœur, avec intention, et ancré dans la vraie vie.",
+    "en": "Made with heart, with intention, and rooted in real life."
+  },
+  "faq.equipe.titre": {
+    "fr": "Avant de te <span class=\"kw\">lancer</span>",
+    "en": "Before you <span class=\"kw\">get started</span>"
   }
 }
