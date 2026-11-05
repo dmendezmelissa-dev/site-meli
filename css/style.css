@@ -555,3 +555,7 @@ html[lang="en"] .bloom .fr { display: none; }
   .personnes .logo { font-size: 23px; }
   .personnes .logo + .logo { padding-left: 12px; }
 }
+
+/* Espace entre un bouton et la petite mention en dessous (partout) */
+.btns + .petit { margin-top: 24px; }
+.equipe-fin .petit { max-width: 620px; margin-left: auto; margin-right: auto; }

@@ -53,6 +53,13 @@ def segments(gabarits):
     return vus
 
 
+def insecables(texte):
+    """Typographie française : espace fine insécable avant ? ! ; et insécable avant :, et dans « »."""
+    texte = re.sub(r" ([?!;])", "\u202f\\1", texte)
+    texte = re.sub(r" :", "\u00a0:", texte)
+    return texte.replace("« ", "«\u00a0").replace(" »", "\u00a0»")
+
+
 def chemin(lang, personne):
     return LANGUES[lang] + PERSONNES[personne][1] + "index.html"
 
@@ -108,7 +115,7 @@ def main():
                 "logo_sophie": "#accueil" if personne == "sophie" else root + chemin(LANGUE_PAR_DEFAUT["sophie"], "sophie"),
                 "lien_legal": "#mentions-legales" if personne == "meli" else root + chemin(lang, "meli") + "#mentions-legales",
             }
-            page = SEG.sub(lambda m: m.group(2) if lang == "fr" else trad[lang][m.group(1)][lang], gabarits[personne])
+            page = SEG.sub(lambda m: insecables(m.group(2)) if lang == "fr" else trad[lang][m.group(1)][lang], gabarits[personne])
             for k, v in vars.items():
                 page = page.replace("{{" + k + "}}", v)
             if re.search(r"\{\{\w+\}\}|\[\[|@inclure", page):
