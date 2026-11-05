@@ -47,7 +47,12 @@
       </div>
       <div class="visuel">
         <div class="arche-ligne"></div>
-        <div class="arche photo">[[todo.photo|TA PHOTO ICI]]</div>
+        <div class="arche photo">
+          <picture>
+            <source type="image/webp" srcset="{{root}}images/meli-accueil-480.webp 480w, {{root}}images/meli-accueil-800.webp 800w, {{root}}images/meli-accueil-1100.webp 1100w" sizes="(max-width: 900px) 74vw, 400px">
+            <img src="{{root}}images/meli-accueil-800.jpg" srcset="{{root}}images/meli-accueil-480.jpg 480w, {{root}}images/meli-accueil-800.jpg 800w" sizes="(max-width: 900px) 74vw, 400px" width="800" height="1040" alt="[[accueil.photo_alt|Meli, souriante, avec ses produits Farmasi préférés]]" fetchpriority="high">
+          </picture>
+        </div>
         <div class="pastille"><span>[[accueil.pastille|<b>1<sup>er</sup></b>bilan<br>gratuit]]</span></div>
         <p class="manuscrit">[[accueil.manuscrit|Toujours en construction,<br>et c'est très bien comme ça.]]</p>
       </div>

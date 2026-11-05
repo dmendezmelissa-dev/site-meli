@@ -62,7 +62,12 @@
       </div>
       <div class="visuel">
         <div class="arche-ligne"></div>
-        <div class="arche photo">YOUR PHOTO HERE</div>
+        <div class="arche photo">
+          <picture>
+            <source type="image/webp" srcset="../images/meli-accueil-480.webp 480w, ../images/meli-accueil-800.webp 800w, ../images/meli-accueil-1100.webp 1100w" sizes="(max-width: 900px) 74vw, 400px">
+            <img src="../images/meli-accueil-800.jpg" srcset="../images/meli-accueil-480.jpg 480w, ../images/meli-accueil-800.jpg 800w" sizes="(max-width: 900px) 74vw, 400px" width="800" height="1040" alt="Meli smiling with her favourite Farmasi products" fetchpriority="high">
+          </picture>
+        </div>
         <div class="pastille"><span><b>Free</b>first<br>check-in</span></div>
         <p class="manuscrit">Still a work in progress,<br>and that's perfectly fine.</p>
       </div>

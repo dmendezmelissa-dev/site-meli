@@ -559,3 +559,7 @@ html[lang="en"] .bloom .fr { display: none; }
 /* Espace entre un bouton et la petite mention en dessous (partout) */
 .btns + .petit { margin-top: 24px; }
 .equipe-fin .petit { max-width: 620px; margin-left: auto; margin-right: auto; }
+
+/* Vraies photos dans les arches */
+.arche.photo picture { position: absolute; inset: 0; }
+.arche.photo picture img { width: 100%; height: 100%; object-fit: cover; object-position: 45% 25%; }
