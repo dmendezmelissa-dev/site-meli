@@ -177,6 +177,7 @@
     var menu = document.querySelector('.menu');
     var burger = document.querySelector('.burger');
     function menuOuvert(ouvert) {
+      if (ouvert) document.getElementById('menu-principal').style.top = Math.max(0, menu.getBoundingClientRect().bottom) + 'px';
       menu.classList.toggle('ouvert', ouvert);
       document.body.classList.toggle('menu-ouvert', ouvert);
       burger.setAttribute('aria-expanded', ouvert ? 'true' : 'false');
@@ -241,6 +242,15 @@
     /* Le bouton fixe n'apparaît qu'une fois le haut de page dépassé */
     function defile() { document.body.classList.toggle('defile', window.scrollY > 420); }
     window.addEventListener('scroll', defile, { passive: true });
+
+    /* Offres : tout ce qui a une date de fin dépassée disparaît (bandeau, groupes d'offres) */
+    var aujourdhui = new Date().toISOString().slice(0, 10);
+    document.querySelectorAll('[data-fin]').forEach(function (el) {
+      var active = el.dataset.fin >= aujourdhui;
+      el.hidden = !active;
+    });
+    var vide = document.querySelector('.offres-vide');
+    if (vide) vide.hidden = !!document.querySelector('.offre-groupe:not([hidden])');
 
     window.addEventListener('hashchange', function () { afficher(); defile(); });
     afficher();

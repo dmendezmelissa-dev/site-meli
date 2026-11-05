@@ -830,5 +830,189 @@
   "accueil.photo_alt": {
     "fr": "Meli, souriante, avec ses produits Farmasi préférés",
     "en": "Meli smiling with her favourite Farmasi products"
+  },
+  "bandeau.noel": {
+    "fr": "<b>Noël :</b> 5 coffrets prêts à offrir, sans papier cadeau",
+    "en": "<b>Christmas:</b> 5 gift sets ready to give, no wrapping needed"
+  },
+  "menu.offres": {
+    "fr": "Offres",
+    "en": "Offers"
+  },
+  "titre.offres": {
+    "fr": "Offres du moment · Meli",
+    "en": "Current offers · Meli"
+  },
+  "offres.surtitre": {
+    "fr": "Offres du moment",
+    "en": "Current offers"
+  },
+  "offres.titre": {
+    "fr": "Ce qui se passe <span class=\"kw\">en ce moment</span>",
+    "en": "What's on <span class=\"kw\">right now</span>"
+  },
+  "noel.badge": {
+    "fr": "Noël 2026",
+    "en": "Christmas 2026"
+  },
+  "noel.titre": {
+    "fr": "5 coffrets, <span class=\"kw\">5 façons</span> de faire plaisir",
+    "en": "5 gift sets, <span class=\"kw\">5 ways</span> to make someone happy"
+  },
+  "noel.texte": {
+    "fr": "Chaque coffret est déjà dans sa trousse réutilisable : pas besoin de papier cadeau. Il y en a un pour chaque personnalité.",
+    "en": "Each set already comes in its reusable pouch: no need for wrapping paper. There's one for every personality."
+  },
+  "noel.validite": {
+    "fr": "Offre valable jusqu'au",
+    "en": "Offer valid until"
+  },
+  "todo.date_fin": {
+    "fr": "date de fin à confirmer",
+    "en": "end date to be confirmed"
+  },
+  "todo.photo_coffret": {
+    "fr": "PHOTO DU COFFRET",
+    "en": "GIFT SET PHOTO"
+  },
+  "noel.hera.pour": {
+    "fr": "Pour celle qui aime <span class='kw'>les parfums</span>",
+    "en": "For her, if she loves <span class='kw'>fragrance</span>"
+  },
+  "noel.hera.nom": {
+    "fr": "Coffret Hera Rose Gold",
+    "en": "Hera Rose Gold set"
+  },
+  "noel.item.hera_edp": {
+    "fr": "Eau de parfum Hera 65 ml",
+    "en": "Hera eau de parfum 65 ml"
+  },
+  "noel.item.gel_parfume": {
+    "fr": "Gel douche parfumé 100 ml",
+    "en": "Scented shower gel 100 ml"
+  },
+  "noel.item.lait": {
+    "fr": "Lait corps parfumé 100 ml",
+    "en": "Scented body lotion 100 ml"
+  },
+  "noel.item.trousse_rose": {
+    "fr": "Sa trousse rose gold réutilisable",
+    "en": "Its reusable rose gold pouch"
+  },
+  "noel.hera.phrase": {
+    "fr": "Son parfum, de la douche à la dernière touche.",
+    "en": "Her fragrance, from the shower to the final touch."
+  },
+  "noel.commander": {
+    "fr": "Commander ce coffret",
+    "en": "Order this set"
+  },
+  "noel.reina.pour": {
+    "fr": "Pour celle qui aime <span class='kw'>les parfums intenses</span>",
+    "en": "For her, if she loves <span class='kw'>intense fragrances</span>"
+  },
+  "noel.reina.nom": {
+    "fr": "Coffret Reina Midnight",
+    "en": "Reina Midnight set"
+  },
+  "noel.item.reina_edp": {
+    "fr": "Eau de parfum Reina Midnight 45 ml",
+    "en": "Reina Midnight eau de parfum 45 ml"
+  },
+  "noel.item.trousse_bordeaux": {
+    "fr": "Sa trousse bordeaux réutilisable",
+    "en": "Its reusable burgundy pouch"
+  },
+  "noel.reina.phrase": {
+    "fr": "Audacieux et sophistiqué, comme elle.",
+    "en": "Bold and sophisticated, just like her."
+  },
+  "noel.herpassion.pour": {
+    "fr": "Pour celle qui aime <span class='kw-s'>le make-up</span>",
+    "en": "For her, if she loves <span class='kw-s'>make-up</span>"
+  },
+  "noel.herpassion.nom": {
+    "fr": "Coffret Her Passion Silver",
+    "en": "Her Passion Silver set"
+  },
+  "noel.item.hp_edp": {
+    "fr": "Eau de parfum Her Passion 60 ml",
+    "en": "Her Passion eau de parfum 60 ml"
+  },
+  "noel.item.lipoil": {
+    "fr": "Huile à lèvres Lip Oil Cherry",
+    "en": "Lip Oil Cherry"
+  },
+  "noel.item.mascara": {
+    "fr": "Mascara Intense Lift",
+    "en": "Intense Lift mascara"
+  },
+  "noel.item.trousse_argent": {
+    "fr": "Sa trousse argentée réutilisable",
+    "en": "Its reusable silver pouch"
+  },
+  "noel.herpassion.phrase": {
+    "fr": "Des lèvres qui brillent, un regard qui pétille.",
+    "en": "Shiny lips, sparkling eyes."
+  },
+  "noel.shooters.pour": {
+    "fr": "Pour lui, <span class='kw-s'>version élégance</span>",
+    "en": "For him, <span class='kw-s'>the elegant one</span>"
+  },
+  "noel.shooters.nom": {
+    "fr": "Coffret Shooter's Man",
+    "en": "Shooter's Man set"
+  },
+  "noel.item.sm_edp": {
+    "fr": "Eau de parfum Shooter's Man 100 ml",
+    "en": "Shooter's Man eau de parfum 100 ml"
+  },
+  "noel.item.gel": {
+    "fr": "Gel douche 100 ml",
+    "en": "Shower gel 100 ml"
+  },
+  "noel.item.baume": {
+    "fr": "Baume après-rasage 100 ml",
+    "en": "Aftershave balm 100 ml"
+  },
+  "noel.item.trousse_marron": {
+    "fr": "Sa trousse marron réutilisable",
+    "en": "Its reusable brown pouch"
+  },
+  "noel.shooters.phrase": {
+    "fr": "Enfin un cadeau qu'il va vraiment utiliser.",
+    "en": "Finally, a gift he'll actually use."
+  },
+  "noel.baoli.pour": {
+    "fr": "Pour lui, <span class='kw'>version fraîcheur</span>",
+    "en": "For him, <span class='kw'>the fresh one</span>"
+  },
+  "noel.baoli.nom": {
+    "fr": "Coffret Baoli",
+    "en": "Baoli set"
+  },
+  "noel.item.baoli_edp": {
+    "fr": "Eau de parfum Baoli 90 ml",
+    "en": "Baoli eau de parfum 90 ml"
+  },
+  "noel.item.trousse_nuit": {
+    "fr": "Sa trousse bleu nuit réutilisable",
+    "en": "Its reusable midnight blue pouch"
+  },
+  "noel.baoli.phrase": {
+    "fr": "Frais, chic, et déjà emballé.",
+    "en": "Fresh, stylish, and already wrapped."
+  },
+  "noel.question": {
+    "fr": "Tu l'offrirais à qui ?",
+    "en": "Who would you give it to?"
+  },
+  "offres.vide": {
+    "fr": "Pas d'offre spéciale en ce moment. Reviens bientôt, ou découvre mes packs en attendant.",
+    "en": "No special offer right now. Come back soon, or browse my packs in the meantime."
+  },
+  "offres.vide_lien": {
+    "fr": "Voir mes packs",
+    "en": "See my packs"
   }
 }

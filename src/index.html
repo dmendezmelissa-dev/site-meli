@@ -13,6 +13,8 @@
 </head>
 <body>
 
+<!-- Bandeau des offres en cours (s'affiche seulement jusqu'à data-fin) -->
+<div class="bandeau" data-fin="2026-12-24" hidden><a href="#offres">[[bandeau.noel|<b>Noël :</b> 5 coffrets prêts à offrir, sans papier cadeau]]<span aria-hidden="true"> →</span></a></div>
 <!-- @inclure entete.html -->
       <a href="#accueil">[[menu.accueil|Accueil]]</a>
       <a href="#histoire">[[menu.histoire|Mon histoire]]</a>
@@ -26,6 +28,7 @@
           <a href="#packs-visage">[[cat.visage|Soins visage]]</a>
         </div></div>
       </div>
+      <a href="#offres">[[menu.offres|Offres]]</a>
       <a href="#equipe">[[menu.equipe|L'équipe]]</a>
       <a href="#contact">[[menu.contact|Contact]]</a>
 <!-- @inclure langues.html -->
@@ -313,6 +316,115 @@
         <p>[[packs.remise|La remise de 30 % est réservée aux personnes inscrites comme Farmasi Influencer. Envie d'en profiter ?]] <a href="#equipe" class="fort">[[packs.remise_lien|Tout est expliqué dans la page L'équipe.]]</a></p>
       </div>
       <p class="petit center">[[packs.mention|Les compléments alimentaires ne remplacent pas une alimentation variée et équilibrée ni un mode de vie sain. Grossesse, allaitement ou traitement : demande l'avis de ton médecin.]]</p>
+    </div>
+  </section>
+
+  <!-- 4 bis. Offres du moment (chaque groupe d'offres disparaît seul après sa date de fin : data-fin) -->
+  <section class="page offres" data-page="offres" data-titre="[[titre.offres|Offres du moment · Meli]]">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">[[offres.surtitre|Offres du moment]]</p>
+        <h2>[[offres.titre|Ce qui se passe <span class="kw">en ce moment</span>]]</h2>
+        <div class="rule"></div>
+      </div>
+
+      <div class="offre-groupe" data-fin="2026-12-24">
+        <div class="center offre-tete">
+          <p class="offre-badge">[[noel.badge|Noël 2026]]</p>
+          <h3 class="offre-titre">[[noel.titre|5 coffrets, <span class="kw">5 façons</span> de faire plaisir]]</h3>
+          <p class="intro">[[noel.texte|Chaque coffret est déjà dans sa trousse réutilisable : pas besoin de papier cadeau. Il y en a un pour chaque personnalité.]]</p>
+          <p class="petit">[[noel.validite|Offre valable jusqu'au]] <span class="todo">[[todo.date_fin|date de fin à confirmer]]</span></p>
+        </div>
+        <div class="cartes">
+          <article class="carte reveal" data-offre="hera">
+            <div class="arche photo">[[todo.photo_coffret|PHOTO DU COFFRET]]</div>
+            <div class="corps">
+              <p class="pour">[[noel.hera.pour|Pour celle qui aime <span class='kw'>les parfums</span>]]</p>
+              <h3>[[noel.hera.nom|Coffret Hera Rose Gold]]</h3>
+              <ul class="contenu-liste">
+                <li>[[noel.item.hera_edp|Eau de parfum Hera 65 ml]]</li>
+                <li>[[noel.item.gel_parfume|Gel douche parfumé 100 ml]]</li>
+                <li>[[noel.item.lait|Lait corps parfumé 100 ml]]</li>
+                <li>[[noel.item.trousse_rose|Sa trousse rose gold réutilisable]]</li>
+              </ul>
+              <p class="phrase">[[noel.hera.phrase|Son parfum, de la douche à la dernière touche.]]</p>
+              <p class="prix"><span class="todo">[[todo.prix|prix]]</span></p>
+              <a class="btn plein" href="#">[[noel.commander|Commander ce coffret]]</a>
+            </div>
+          </article>
+          <article class="carte reveal" data-offre="reina">
+            <div class="arche photo">[[todo.photo_coffret|PHOTO DU COFFRET]]</div>
+            <div class="corps">
+              <p class="pour">[[noel.reina.pour|Pour celle qui aime <span class='kw'>les parfums intenses</span>]]</p>
+              <h3>[[noel.reina.nom|Coffret Reina Midnight]]</h3>
+              <ul class="contenu-liste">
+                <li>[[noel.item.reina_edp|Eau de parfum Reina Midnight 45 ml]]</li>
+                <li>[[noel.item.gel_parfume|Gel douche parfumé 100 ml]]</li>
+                <li>[[noel.item.lait|Lait corps parfumé 100 ml]]</li>
+                <li>[[noel.item.trousse_bordeaux|Sa trousse bordeaux réutilisable]]</li>
+              </ul>
+              <p class="phrase">[[noel.reina.phrase|Audacieux et sophistiqué, comme elle.]]</p>
+              <p class="prix"><span class="todo">[[todo.prix|prix]]</span></p>
+              <a class="btn plein" href="#">[[noel.commander|Commander ce coffret]]</a>
+            </div>
+          </article>
+          <article class="carte reveal" data-offre="herpassion">
+            <div class="arche photo">[[todo.photo_coffret|PHOTO DU COFFRET]]</div>
+            <div class="corps">
+              <p class="pour">[[noel.herpassion.pour|Pour celle qui aime <span class='kw-s'>le make-up</span>]]</p>
+              <h3>[[noel.herpassion.nom|Coffret Her Passion Silver]]</h3>
+              <ul class="contenu-liste">
+                <li>[[noel.item.hp_edp|Eau de parfum Her Passion 60 ml]]</li>
+                <li>[[noel.item.lipoil|Huile à lèvres Lip Oil Cherry]]</li>
+                <li>[[noel.item.mascara|Mascara Intense Lift]]</li>
+                <li>[[noel.item.trousse_argent|Sa trousse argentée réutilisable]]</li>
+              </ul>
+              <p class="phrase">[[noel.herpassion.phrase|Des lèvres qui brillent, un regard qui pétille.]]</p>
+              <p class="prix"><span class="todo">[[todo.prix|prix]]</span></p>
+              <a class="btn plein" href="#">[[noel.commander|Commander ce coffret]]</a>
+            </div>
+          </article>
+          <article class="carte reveal" data-offre="shooters">
+            <div class="arche photo">[[todo.photo_coffret|PHOTO DU COFFRET]]</div>
+            <div class="corps">
+              <p class="pour">[[noel.shooters.pour|Pour lui, <span class='kw-s'>version élégance</span>]]</p>
+              <h3>[[noel.shooters.nom|Coffret Shooter's Man]]</h3>
+              <ul class="contenu-liste">
+                <li>[[noel.item.sm_edp|Eau de parfum Shooter's Man 100 ml]]</li>
+                <li>[[noel.item.gel|Gel douche 100 ml]]</li>
+                <li>[[noel.item.baume|Baume après-rasage 100 ml]]</li>
+                <li>[[noel.item.trousse_marron|Sa trousse marron réutilisable]]</li>
+              </ul>
+              <p class="phrase">[[noel.shooters.phrase|Enfin un cadeau qu'il va vraiment utiliser.]]</p>
+              <p class="prix"><span class="todo">[[todo.prix|prix]]</span></p>
+              <a class="btn plein" href="#">[[noel.commander|Commander ce coffret]]</a>
+            </div>
+          </article>
+          <article class="carte reveal" data-offre="baoli">
+            <div class="arche photo">[[todo.photo_coffret|PHOTO DU COFFRET]]</div>
+            <div class="corps">
+              <p class="pour">[[noel.baoli.pour|Pour lui, <span class='kw'>version fraîcheur</span>]]</p>
+              <h3>[[noel.baoli.nom|Coffret Baoli]]</h3>
+              <ul class="contenu-liste">
+                <li>[[noel.item.baoli_edp|Eau de parfum Baoli 90 ml]]</li>
+                <li>[[noel.item.gel|Gel douche 100 ml]]</li>
+                <li>[[noel.item.baume|Baume après-rasage 100 ml]]</li>
+                <li>[[noel.item.trousse_nuit|Sa trousse bleu nuit réutilisable]]</li>
+              </ul>
+              <p class="phrase">[[noel.baoli.phrase|Frais, chic, et déjà emballé.]]</p>
+              <p class="prix"><span class="todo">[[todo.prix|prix]]</span></p>
+              <a class="btn plein" href="#">[[noel.commander|Commander ce coffret]]</a>
+            </div>
+          </article>
+        </div>
+        <p class="center question-offre">[[noel.question|Tu l'offrirais à qui ?]]</p>
+      </div>
+
+      <p class="offres-vide center" hidden>[[offres.vide|Pas d'offre spéciale en ce moment. Reviens bientôt, ou découvre mes packs en attendant.]] <a href="#packs" class="fort">[[offres.vide_lien|Voir mes packs]]</a></p>
+
+      <div class="center btns">
+        <a class="btn vide" href="https://www.fr.farmasi.com/melissamendez1" target="_blank" rel="noopener">[[packs.boutique|Voir toute ma boutique]]</a>
+      </div>
     </div>
   </section>
 

@@ -16,6 +16,8 @@
 </head>
 <body>
 
+<!-- Bandeau des offres en cours (s'affiche seulement jusqu'à data-fin) -->
+<div class="bandeau" data-fin="2026-12-24" hidden><a href="#offres"><b>Noël :</b> 5 coffrets prêts à offrir, sans papier cadeau<span aria-hidden="true"> →</span></a></div>
 <header class="menu">
   <div class="wrap">
     <div class="personnes" aria-label="Choisir la personne">
@@ -36,6 +38,7 @@
           <a href="#packs-visage">Soins visage</a>
         </div></div>
       </div>
+      <a href="#offres">Offres</a>
       <a href="#equipe">L'équipe</a>
       <a href="#contact">Contact</a>
       <div class="langues" aria-label="Langue">
@@ -331,6 +334,115 @@
     </div>
   </section>
 
+  <!-- 4 bis. Offres du moment (chaque groupe d'offres disparaît seul après sa date de fin : data-fin) -->
+  <section class="page offres" data-page="offres" data-titre="Offres du moment · Meli">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Offres du moment</p>
+        <h2>Ce qui se passe <span class="kw">en ce moment</span></h2>
+        <div class="rule"></div>
+      </div>
+
+      <div class="offre-groupe" data-fin="2026-12-24">
+        <div class="center offre-tete">
+          <p class="offre-badge">Noël 2026</p>
+          <h3 class="offre-titre">5 coffrets, <span class="kw">5 façons</span> de faire plaisir</h3>
+          <p class="intro">Chaque coffret est déjà dans sa trousse réutilisable : pas besoin de papier cadeau. Il y en a un pour chaque personnalité.</p>
+          <p class="petit">Offre valable jusqu'au <span class="todo">date de fin à confirmer</span></p>
+        </div>
+        <div class="cartes">
+          <article class="carte reveal" data-offre="hera">
+            <div class="arche photo">PHOTO DU COFFRET</div>
+            <div class="corps">
+              <p class="pour">Pour celle qui aime <span class='kw'>les parfums</span></p>
+              <h3>Coffret Hera Rose Gold</h3>
+              <ul class="contenu-liste">
+                <li>Eau de parfum Hera 65 ml</li>
+                <li>Gel douche parfumé 100 ml</li>
+                <li>Lait corps parfumé 100 ml</li>
+                <li>Sa trousse rose gold réutilisable</li>
+              </ul>
+              <p class="phrase">Son parfum, de la douche à la dernière touche.</p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce coffret</a>
+            </div>
+          </article>
+          <article class="carte reveal" data-offre="reina">
+            <div class="arche photo">PHOTO DU COFFRET</div>
+            <div class="corps">
+              <p class="pour">Pour celle qui aime <span class='kw'>les parfums intenses</span></p>
+              <h3>Coffret Reina Midnight</h3>
+              <ul class="contenu-liste">
+                <li>Eau de parfum Reina Midnight 45 ml</li>
+                <li>Gel douche parfumé 100 ml</li>
+                <li>Lait corps parfumé 100 ml</li>
+                <li>Sa trousse bordeaux réutilisable</li>
+              </ul>
+              <p class="phrase">Audacieux et sophistiqué, comme elle.</p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce coffret</a>
+            </div>
+          </article>
+          <article class="carte reveal" data-offre="herpassion">
+            <div class="arche photo">PHOTO DU COFFRET</div>
+            <div class="corps">
+              <p class="pour">Pour celle qui aime <span class='kw-s'>le make-up</span></p>
+              <h3>Coffret Her Passion Silver</h3>
+              <ul class="contenu-liste">
+                <li>Eau de parfum Her Passion 60 ml</li>
+                <li>Huile à lèvres Lip Oil Cherry</li>
+                <li>Mascara Intense Lift</li>
+                <li>Sa trousse argentée réutilisable</li>
+              </ul>
+              <p class="phrase">Des lèvres qui brillent, un regard qui pétille.</p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce coffret</a>
+            </div>
+          </article>
+          <article class="carte reveal" data-offre="shooters">
+            <div class="arche photo">PHOTO DU COFFRET</div>
+            <div class="corps">
+              <p class="pour">Pour lui, <span class='kw-s'>version élégance</span></p>
+              <h3>Coffret Shooter's Man</h3>
+              <ul class="contenu-liste">
+                <li>Eau de parfum Shooter's Man 100 ml</li>
+                <li>Gel douche 100 ml</li>
+                <li>Baume après-rasage 100 ml</li>
+                <li>Sa trousse marron réutilisable</li>
+              </ul>
+              <p class="phrase">Enfin un cadeau qu'il va vraiment utiliser.</p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce coffret</a>
+            </div>
+          </article>
+          <article class="carte reveal" data-offre="baoli">
+            <div class="arche photo">PHOTO DU COFFRET</div>
+            <div class="corps">
+              <p class="pour">Pour lui, <span class='kw'>version fraîcheur</span></p>
+              <h3>Coffret Baoli</h3>
+              <ul class="contenu-liste">
+                <li>Eau de parfum Baoli 90 ml</li>
+                <li>Gel douche 100 ml</li>
+                <li>Baume après-rasage 100 ml</li>
+                <li>Sa trousse bleu nuit réutilisable</li>
+              </ul>
+              <p class="phrase">Frais, chic, et déjà emballé.</p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce coffret</a>
+            </div>
+          </article>
+        </div>
+        <p class="center question-offre">Tu l'offrirais à qui ?</p>
+      </div>
+
+      <p class="offres-vide center" hidden>Pas d'offre spéciale en ce moment. Reviens bientôt, ou découvre mes packs en attendant. <a href="#packs" class="fort">Voir mes packs</a></p>
+
+      <div class="center btns">
+        <a class="btn vide" href="https://www.fr.farmasi.com/melissamendez1" target="_blank" rel="noopener">Voir toute ma boutique</a>
+      </div>
+    </div>
+  </section>
+
   <!-- 5. Rejoindre l'équipe -->
   <section class="page equipe" data-page="equipe" data-titre="Rejoindre l'équipe · Meli">
     <div class="arche-ligne" style="width:460px;height:320px;right:-200px;top:40px"></div>
@@ -543,6 +655,7 @@
     var menu = document.querySelector('.menu');
     var burger = document.querySelector('.burger');
     function menuOuvert(ouvert) {
+      if (ouvert) document.getElementById('menu-principal').style.top = Math.max(0, menu.getBoundingClientRect().bottom) + 'px';
       menu.classList.toggle('ouvert', ouvert);
       document.body.classList.toggle('menu-ouvert', ouvert);
       burger.setAttribute('aria-expanded', ouvert ? 'true' : 'false');
@@ -607,6 +720,15 @@
     /* Le bouton fixe n'apparaît qu'une fois le haut de page dépassé */
     function defile() { document.body.classList.toggle('defile', window.scrollY > 420); }
     window.addEventListener('scroll', defile, { passive: true });
+
+    /* Offres : tout ce qui a une date de fin dépassée disparaît (bandeau, groupes d'offres) */
+    var aujourdhui = new Date().toISOString().slice(0, 10);
+    document.querySelectorAll('[data-fin]').forEach(function (el) {
+      var active = el.dataset.fin >= aujourdhui;
+      el.hidden = !active;
+    });
+    var vide = document.querySelector('.offres-vide');
+    if (vide) vide.hidden = !!document.querySelector('.offre-groupe:not([hidden])');
 
     window.addEventListener('hashchange', function () { afficher(); defile(); });
     afficher();

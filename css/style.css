@@ -573,3 +573,33 @@ html[lang="en"] .bloom .fr { display: none; }
   .hero-bloom img { height: 52px; }
   .accueil .cadre .pastille { top: auto; bottom: 6px; }
 }
+
+/* ---------- Offres du moment ---------- */
+.bandeau { background: var(--sauge-b); text-align: center; padding: 9px 16px; font-size: 14px; line-height: 1.4; }
+.bandeau a { color: var(--creme); text-decoration: none; }
+.bandeau a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.bandeau b { font-weight: 700; }
+.offres { background: var(--creme); }
+.offre-groupe { margin-top: 10px; }
+.offre-tete { margin-bottom: 40px; }
+.offre-badge {
+  display: inline-block; margin: 0 0 14px; padding: 6px 16px; border-radius: 999px;
+  background: var(--terra); color: var(--blanc); font-weight: 700; font-size: 13px; letter-spacing: .14em; text-transform: uppercase;
+}
+.offre-titre { font-size: clamp(26px, 3.4vw, 34px); margin-bottom: 14px; }
+.offre-groupe .cartes { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.offre-groupe .carte { width: min(262px, calc((100% - 40px) / 3)); }
+.carte .pour { margin: 0 0 4px; font-size: 14px; color: var(--doux); }
+.contenu-liste { list-style: none; margin: 10px 0 12px; padding: 0; font-size: 14px; color: var(--encre); line-height: 1.45; }
+.contenu-liste li { position: relative; padding-left: 16px; margin: 4px 0; }
+.contenu-liste li::before { content: ""; position: absolute; left: 0; top: .55em; width: 6px; height: 6px; border-radius: 50%; background: var(--terra); }
+.contenu-liste li:last-child { color: var(--sauge-b); font-weight: 700; }
+.question-offre { font-family: "Dancing Script", cursive; font-weight: 600; font-size: 30px; color: var(--terra); margin: 34px 0 0; }
+.offres-vide { max-width: 560px; margin: 0 auto; color: var(--doux); }
+@media (min-width: 761px) and (max-width: 960px) {
+  .offre-groupe .carte { width: min(300px, calc((100% - 20px) / 2)); }
+}
+@media (max-width: 760px) {
+  .offre-groupe .carte { width: 100%; }
+  .bandeau { font-size: 13px; padding: 8px 14px; }
+}
