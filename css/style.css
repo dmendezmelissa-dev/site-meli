@@ -1,0 +1,258 @@
+/* Site de Meli · @still.becoming.me24 · version 1 */
+
+@font-face { font-family: "Lora"; font-weight: 400; font-display: swap; src: url("../fonts/lora-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Lora"; font-weight: 500; font-display: swap; src: url("../fonts/lora-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Quicksand"; font-weight: 400; font-display: swap; src: url("../fonts/quicksand-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Quicksand"; font-weight: 500; font-display: swap; src: url("../fonts/quicksand-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Quicksand"; font-weight: 700; font-display: swap; src: url("../fonts/quicksand-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Dancing Script"; font-weight: 600; font-display: swap; src: url("../fonts/dancing-script-latin-600-normal.woff2") format("woff2"); }
+
+:root {
+  --creme: #F8F1EA;
+  --creme-2: #F2E7DC;
+  --encre: #343434;
+  --doux: #6B625A;
+  --terra: #A35F47;
+  --terra-b: #8E4F3A;
+  --sauge: #68745A;
+  --sauge-b: #57624B;
+  --sable: #B8916F;
+  --blanc: #FFFFFF;
+  --ligne: #E3D4C4;
+  --rayon: 22px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+body {
+  margin: 0;
+  background: var(--creme);
+  color: var(--encre);
+  font-family: "Quicksand", system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+p { margin: 0 0 1em; }
+
+.wrap { width: min(1100px, 100% - 48px); margin: 0 auto; }
+
+/* ---------- Menu ---------- */
+.menu {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(248, 241, 234, .92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--ligne);
+}
+.menu .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 68px; }
+.logo { font-family: "Lora", serif; font-size: 26px; text-decoration: none; letter-spacing: .01em; }
+.logo span { color: var(--terra); }
+.menu nav { display: flex; gap: 26px; overflow-x: auto; scrollbar-width: none; }
+.menu nav::-webkit-scrollbar { display: none; }
+.menu nav a { text-decoration: none; font-size: 15px; white-space: nowrap; color: var(--doux); transition: color .2s; }
+.menu nav a:hover { color: var(--terra); }
+
+/* ---------- Éléments communs ---------- */
+section { padding: 96px 0; position: relative; }
+.eyebrow {
+  font-weight: 700; font-size: 13px; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--sauge); margin: 0 0 14px;
+}
+h1, h2, h3 { font-family: "Lora", serif; font-weight: 500; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(40px, 6vw, 64px); }
+h2 { font-size: clamp(32px, 4.4vw, 46px); }
+h3 { font-size: 22px; }
+.kw { color: var(--terra); }
+.kw-s { color: var(--sauge); }
+
+/* fin trait avec un point à chaque bout */
+.rule { position: relative; width: 120px; height: 2px; background: var(--terra); margin: 26px 0 30px; }
+.rule::before, .rule::after { content: ""; position: absolute; top: -4px; width: 10px; height: 10px; border-radius: 50%; background: var(--terra); }
+.rule::before { left: -5px; } .rule::after { right: -5px; }
+.center { text-align: center; }
+.center .rule { margin-left: auto; margin-right: auto; }
+.intro { max-width: 640px; color: var(--doux); font-size: 18px; }
+.center .intro { margin-left: auto; margin-right: auto; }
+
+.btns { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 30px; }
+.center .btns, .btns.center { justify-content: center; }
+.btn {
+  display: inline-block; text-decoration: none; font-weight: 700; font-size: 16px;
+  padding: 15px 30px; border-radius: 999px; border: 1.5px solid var(--terra);
+  transition: background .2s, color .2s, transform .2s;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn.plein { background: var(--terra); color: var(--blanc); }
+.btn.plein:hover { background: var(--terra-b); border-color: var(--terra-b); }
+.btn.vide { color: var(--terra); }
+.btn.vide:hover { background: var(--terra); color: var(--blanc); }
+.btn.sauge { background: var(--sauge); border-color: var(--sauge); color: var(--blanc); }
+.btn.sauge:hover { background: var(--sauge-b); border-color: var(--sauge-b); }
+
+.manuscrit { font-family: "Dancing Script", cursive; font-weight: 600; color: var(--terra); }
+.petit { font-size: 13.5px; color: var(--doux); line-height: 1.55; }
+.fort { font-weight: 700; color: var(--sauge-b); }
+
+/* éléments à compléter (version de travail) */
+.todo {
+  display: inline-block; font-weight: 700; font-size: .9em; color: var(--terra-b);
+  background: #F3E3D6; border: 1px dashed var(--sable); border-radius: 999px; padding: 0 12px;
+}
+
+/* ---------- Arches (formes « demi miroir ») ---------- */
+.arche {
+  border-radius: 999px 999px 18px 18px;
+  overflow: hidden; position: relative;
+}
+.arche.photo {
+  background: linear-gradient(170deg, #E9D8C8 0%, #D9C1AB 100%);
+  display: grid; place-items: center; text-align: center; color: var(--terra-b);
+  font-weight: 700; font-size: 14px; letter-spacing: .06em;
+}
+.arche.photo img { width: 100%; height: 100%; object-fit: cover; }
+.arche-ligne {
+  position: absolute; border: 1.5px solid var(--sable); opacity: .45;
+  border-radius: 999px 999px 0 0; border-bottom: 0; pointer-events: none;
+}
+
+/* ---------- 1. Accueil ---------- */
+.accueil { padding: 72px 0 96px; overflow: hidden; }
+.accueil .wrap { display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center; }
+.accueil .texte p.intro { margin-top: 0; }
+.accueil .visuel { position: relative; justify-self: center; width: min(400px, 100%); }
+.accueil .visuel .arche.photo { aspect-ratio: 4 / 5.2; }
+.accueil .visuel .arche-ligne { inset: -22px -22px 40% -22px; }
+.pastille {
+  position: absolute; left: -38px; bottom: 70px;
+  width: 132px; height: 132px; border-radius: 50%;
+  background: var(--sauge); color: var(--blanc);
+  display: grid; place-items: center; text-align: center;
+  font-family: "Lora", serif; font-size: 19px; line-height: 1.15;
+  box-shadow: 0 10px 26px rgba(87, 98, 75, .25);
+  transform: rotate(-8deg);
+}
+.pastille b { display: block; font-size: 30px; font-weight: 500; }
+.accueil .manuscrit { text-align: center; font-size: 25px; margin-top: 22px; line-height: 1.3; }
+
+/* ---------- 2. Mon histoire ---------- */
+.histoire { background: var(--blanc); }
+.histoire .grille { display: grid; grid-template-columns: .8fr 1.2fr; gap: 64px; align-items: start; }
+.histoire .arche.photo { aspect-ratio: 3 / 4; position: sticky; top: 110px; }
+.histoire .recit p { color: var(--encre); }
+.citation {
+  margin: 34px 0 0; padding: 26px 30px; border-left: 3px solid var(--sauge);
+  background: var(--creme); border-radius: 0 var(--rayon) var(--rayon) 0;
+  font-weight: 700; color: var(--sauge-b); font-size: 19px; line-height: 1.55;
+}
+.valeurs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 64px; }
+.valeur { text-align: center; padding: 34px 26px 28px; border: 1px solid var(--ligne); border-radius: 999px 999px var(--rayon) var(--rayon); }
+.valeur .num { font-family: "Lora", serif; font-size: 34px; color: var(--terra); line-height: 1; margin-bottom: 14px; }
+.valeur h3 { font-size: 20px; margin-bottom: 10px; }
+.valeur p { margin: 0; font-size: 15.5px; color: var(--doux); }
+
+/* ---------- 3. Accompagnement ---------- */
+.etapes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin: 56px 0 0; padding: 0; list-style: none; }
+.etape { background: var(--blanc); border-radius: var(--rayon); padding: 32px 28px 30px; }
+.etape .num { font-family: "Lora", serif; font-size: 48px; color: var(--terra); line-height: 1; }
+.etape h3 { margin: 16px 0 10px; font-size: 21px; }
+.etape p { margin: 0; font-size: 15.5px; color: var(--doux); }
+.bientot {
+  margin: 34px auto 0; max-width: 640px; text-align: center;
+  border: 1px dashed var(--sauge); border-radius: 999px; padding: 14px 26px; color: var(--sauge-b);
+}
+.bientot b { font-weight: 700; }
+.accompagnement .petit { max-width: 560px; margin: 22px auto 0; text-align: center; }
+
+/* ---------- 4. Mes packs ---------- */
+.packs { background: var(--creme-2); }
+.cartes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 56px; }
+.carte { background: var(--blanc); border-radius: var(--rayon); padding: 14px 14px 24px; display: flex; flex-direction: column; }
+.carte .arche.photo { aspect-ratio: 1 / 1; font-size: 12px; }
+.carte .corps { padding: 20px 8px 0; display: flex; flex-direction: column; flex: 1; }
+.carte h3 { font-size: 21px; }
+.carte .contenu { font-size: 14px; color: var(--sauge-b); font-weight: 700; margin: 8px 0 10px; line-height: 1.45; }
+.carte .phrase { font-size: 15px; color: var(--doux); flex: 1; }
+.carte .prix { font-family: "Lora", serif; font-size: 22px; margin: 6px 0 16px; }
+.carte .btn { text-align: center; padding: 12px 18px; font-size: 15px; }
+.encart {
+  margin: 44px auto 0; max-width: 760px; text-align: center; background: var(--blanc);
+  border-radius: var(--rayon); padding: 22px 30px;
+}
+.encart p { margin: 0; }
+.packs .petit.center { max-width: 640px; margin: 26px auto 0; }
+
+/* ---------- 5. Rejoindre l'équipe ---------- */
+.equipe { background: var(--sauge); color: var(--creme); overflow: hidden; }
+.equipe .eyebrow { color: #DCE2D2; }
+.equipe .kw { color: #F3D9CC; }
+.equipe .rule, .equipe .rule::before, .equipe .rule::after { background: #F3D9CC; }
+.equipe .intro { color: #EEF0E8; }
+.equipe .arche-ligne { border-color: var(--creme); opacity: .18; }
+.atouts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 56px; }
+.atout { border: 1px solid rgba(248, 241, 234, .35); border-radius: 999px 999px var(--rayon) var(--rayon); padding: 40px 28px 30px; text-align: center; }
+.atout .gros { font-family: "Lora", serif; font-size: 40px; line-height: 1; margin-bottom: 14px; color: #F3D9CC; }
+.atout h3 { font-size: 21px; margin-bottom: 10px; }
+.atout p { margin: 0; font-size: 15.5px; color: #EEF0E8; }
+.demarrer { max-width: 620px; margin: 56px auto 0; padding: 0; list-style: none; counter-reset: e; }
+.demarrer li { counter-increment: e; display: grid; grid-template-columns: 46px 1fr; gap: 16px; align-items: start; margin-bottom: 18px; }
+.demarrer li::before {
+  content: counter(e); width: 46px; height: 46px; border-radius: 50%; background: var(--creme); color: var(--sauge-b);
+  display: grid; place-items: center; font-family: "Lora", serif; font-size: 21px;
+}
+.demarrer li p { margin: 9px 0 0; }
+.bloom { text-align: center; margin-top: 46px; }
+.bloom .nom { font-family: "Lora", serif; font-size: 34px; letter-spacing: .01em; }
+.bloom .devise { font-size: 13px; letter-spacing: .2em; text-transform: uppercase; margin-top: 6px; color: #DCE2D2; }
+.bloom .fr { font-size: 14.5px; color: #DCE2D2; margin-top: 4px; }
+.equipe .btn.vide { border-color: var(--creme); color: var(--creme); }
+.equipe .btn.vide:hover { background: var(--creme); color: var(--sauge-b); }
+.equipe .btn.plein { background: var(--creme); border-color: var(--creme); color: var(--sauge-b); }
+.equipe .petit { color: #DCE2D2; max-width: 620px; margin: 24px auto 0; text-align: center; }
+.equipe .todo { background: rgba(255,255,255,.15); color: var(--creme); border-color: rgba(255,255,255,.55); }
+
+/* ---------- 6. Contact ---------- */
+.contact .reseaux { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin-top: 34px; }
+.contact .manuscrit { font-size: 30px; margin-top: 40px; }
+
+/* ---------- Bas de page ---------- */
+footer { border-top: 1px solid var(--ligne); padding: 34px 0 40px; text-align: center; font-size: 14px; color: var(--doux); }
+footer .sig { font-weight: 700; color: var(--encre); margin-bottom: 8px; font-size: 15px; }
+footer a { text-decoration: none; }
+footer a:hover { color: var(--terra); }
+footer .sep { margin: 0 10px; color: var(--sable); }
+
+/* ---------- Page mentions légales ---------- */
+.legal { padding: 72px 0 96px; }
+.legal .wrap { max-width: 760px; }
+.legal dl { margin: 40px 0 0; }
+.legal dt { font-family: "Lora", serif; font-size: 20px; margin-top: 28px; }
+.legal dd { margin: 6px 0 0; color: var(--doux); }
+
+/* ---------- Téléphone ---------- */
+@media (max-width: 900px) {
+  .cartes { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  section { padding: 68px 0; }
+  .menu .wrap { height: auto; padding: 12px 0 10px; flex-direction: column; gap: 6px; }
+  .menu nav { gap: 20px; width: 100%; justify-content: flex-start; padding-bottom: 2px; }
+  .menu nav a { font-size: 14px; }
+  html { scroll-padding-top: 100px; }
+  .accueil { padding: 44px 0 64px; }
+  .accueil .wrap, .histoire .grille { grid-template-columns: 1fr; gap: 44px; }
+  .accueil .visuel { width: min(290px, 74%); }
+  .pastille { width: 104px; height: 104px; font-size: 15.5px; left: -22px; top: 70px; bottom: auto; }
+  .pastille b { font-size: 25px; }
+  .histoire .arche.photo { position: static; width: min(300px, 80%); margin: 0 auto; }
+  .valeurs, .etapes, .atouts { grid-template-columns: 1fr; gap: 16px; }
+  .cartes { grid-template-columns: 1fr; }
+  .carte .arche.photo { aspect-ratio: 16 / 11; }
+  .equipe .arche-ligne { display: none; }
+  .btn { width: 100%; text-align: center; }
+  .btns { gap: 12px; }
+  .encart { border-radius: var(--rayon); }
+}
