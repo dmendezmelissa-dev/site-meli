@@ -1,0 +1,694 @@
+{
+  "meta.titre": {
+    "fr": "Meli · Sport, bien-être et beauté pour les mamans",
+    "en": "Meli · Fitness, wellbeing and beauty for mums"
+  },
+  "meta.description": {
+    "fr": "Maman passionnée de sport et de bien-être, je t'aide à retrouver la forme à ton rythme. 1er bilan gratuit, mes packs favoris et une équipe pour avancer ensemble.",
+    "en": "Mum of two with a passion for fitness and wellbeing, I help you get back in shape at your own pace. Free first check-in, my favourite packs and a team to grow with."
+  },
+  "menu.ouvrir": {
+    "fr": "Ouvrir le menu",
+    "en": "Open the menu"
+  },
+  "menu.fermer": {
+    "fr": "Fermer le menu",
+    "en": "Close the menu"
+  },
+  "menu.accueil": {
+    "fr": "Accueil",
+    "en": "Home"
+  },
+  "menu.histoire": {
+    "fr": "Mon histoire",
+    "en": "My story"
+  },
+  "menu.accompagnement": {
+    "fr": "Accompagnement",
+    "en": "Coaching"
+  },
+  "menu.packs": {
+    "fr": "Packs",
+    "en": "Packs"
+  },
+  "cat.nutrition": {
+    "fr": "Nutrition",
+    "en": "Nutrition"
+  },
+  "cat.maquillage": {
+    "fr": "Maquillage",
+    "en": "Make-up"
+  },
+  "cat.cheveux": {
+    "fr": "Cheveux",
+    "en": "Hair"
+  },
+  "cat.visage": {
+    "fr": "Soins visage",
+    "en": "Skincare"
+  },
+  "menu.equipe": {
+    "fr": "L'équipe",
+    "en": "The team"
+  },
+  "menu.contact": {
+    "fr": "Contact",
+    "en": "Contact"
+  },
+  "menu.langue": {
+    "fr": "Langue",
+    "en": "Language"
+  },
+  "accueil.surtitre": {
+    "fr": "Sport · Bien-être · Beauté",
+    "en": "Fitness · Wellbeing · Beauty"
+  },
+  "accueil.titre": {
+    "fr": "Prends soin <span class=\"kw\">de toi</span>, à ton rythme.",
+    "en": "Take care <span class=\"kw\">of yourself</span>, at your own pace."
+  },
+  "accueil.texte": {
+    "fr": "Moi, c'est Meli, maman de deux enfants, passionnée de sport et de bien-être. Je t'aide à retrouver la forme avec des exercices simples à faire à la maison et les produits que j'utilise chaque jour.",
+    "en": "Hi, I'm Meli, mum of two, passionate about fitness and wellbeing. I help you get back in shape with simple exercises you can do at home and the products I use every day."
+  },
+  "cta.reserver": {
+    "fr": "Réserver mon bilan gratuit",
+    "en": "Book my free check-in"
+  },
+  "accueil.voir_packs": {
+    "fr": "Voir mes packs",
+    "en": "See my packs"
+  },
+  "todo.photo": {
+    "fr": "TA PHOTO ICI",
+    "en": "YOUR PHOTO HERE"
+  },
+  "accueil.pastille": {
+    "fr": "<b>1<sup>er</sup></b>bilan<br>gratuit",
+    "en": "<b>Free</b>first<br>check-in"
+  },
+  "accueil.manuscrit": {
+    "fr": "Toujours en construction,<br>et c'est très bien comme ça.",
+    "en": "Still a work in progress,<br>and that's perfectly fine."
+  },
+  "todo.video": {
+    "fr": "TA VIDÉO ICI",
+    "en": "YOUR VIDEO HERE"
+  },
+  "video.surtitre": {
+    "fr": "En une minute",
+    "en": "In one minute"
+  },
+  "video.titre": {
+    "fr": "Je me <span class=\"kw\">présente</span>",
+    "en": "Let me <span class=\"kw\">introduce myself</span>"
+  },
+  "video.texte": {
+    "fr": "Avant de réserver quoi que ce soit, tu as le droit de savoir à qui tu parles. Voilà qui je suis, pourquoi je fais ça, et comment je peux t'aider.",
+    "en": "Before you book anything, you deserve to know who you're talking to. Here's who I am, why I do this, and how I can help you."
+  },
+  "video.manuscrit": {
+    "fr": "Promis, je ne mords pas.",
+    "en": "I promise I don't bite."
+  },
+  "raccourcis.surtitre": {
+    "fr": "Par où commencer ?",
+    "en": "Where to start?"
+  },
+  "raccourcis.1.titre": {
+    "fr": "Mon histoire",
+    "en": "My story"
+  },
+  "raccourcis.1.texte": {
+    "fr": "Qui je suis, et pourquoi je fais ça.",
+    "en": "Who I am, and why I do this."
+  },
+  "raccourcis.1.lien": {
+    "fr": "Lire",
+    "en": "Read"
+  },
+  "raccourcis.2.titre": {
+    "fr": "Ton bilan offert",
+    "en": "Your free check-in"
+  },
+  "raccourcis.2.texte": {
+    "fr": "Une rencontre sans engagement.",
+    "en": "A no-strings-attached first chat."
+  },
+  "raccourcis.2.lien": {
+    "fr": "Découvrir",
+    "en": "Discover"
+  },
+  "raccourcis.3.titre": {
+    "fr": "Mes packs",
+    "en": "My packs"
+  },
+  "raccourcis.3.texte": {
+    "fr": "Nutrition, maquillage, cheveux, visage.",
+    "en": "Nutrition, make-up, hair, skincare."
+  },
+  "raccourcis.3.lien": {
+    "fr": "Voir",
+    "en": "Browse"
+  },
+  "raccourcis.4.titre": {
+    "fr": "Rejoindre l'équipe",
+    "en": "Join the team"
+  },
+  "raccourcis.4.texte": {
+    "fr": "Un projet à toi, à ton rythme.",
+    "en": "A project of your own, at your pace."
+  },
+  "raccourcis.4.lien": {
+    "fr": "En savoir plus",
+    "en": "Learn more"
+  },
+  "titre.histoire": {
+    "fr": "Mon histoire · Meli",
+    "en": "My story · Meli"
+  },
+  "histoire.surtitre": {
+    "fr": "Mon histoire",
+    "en": "My story"
+  },
+  "histoire.titre": {
+    "fr": "Toujours <span class=\"kw\">en construction</span>",
+    "en": "Still <span class=\"kw\">a work in progress</span>"
+  },
+  "histoire.p1": {
+    "fr": "Moi, c'est Meli. Maman d'un petit garçon et d'une petite fille, je travaille aujourd'hui depuis chez moi, après des années dans l'hôtellerie avec des horaires décalés.",
+    "en": "Hi, I'm Meli. Mum of a little boy and a little girl, I now work from home, after years in the hotel industry with irregular hours."
+  },
+  "todo.salvador": {
+    "fr": "Salvador : oui ou non ?",
+    "en": "El Salvador: yes or no?"
+  },
+  "histoire.p2": {
+    "fr": "En 2019, j'ai décidé de changer ma façon de vivre. Je me suis donnée à fond dans le sport, et pas seulement pour en faire : j'ai voulu apprendre. Comment respirer, comment placer mon corps, quelles postures prendre pour que chaque exercice fasse du bien au lieu de faire mal.",
+    "en": "In 2019, I decided to change the way I lived. I threw myself into exercise, and not just doing it: I wanted to learn. How to breathe, how to position my body, which postures to use so every exercise does good instead of harm."
+  },
+  "todo.envie": {
+    "fr": "ce qui t'a donné envie de changer",
+    "en": "what made you want to change"
+  },
+  "histoire.p3": {
+    "fr": "Puis sont arrivées mes deux grossesses. Après mon post-partum, j'ai dû me reconstruire, doucement. C'est à ce moment-là que les compléments sont entrés dans ma routine, et ils y sont restés.",
+    "en": "Then came my two pregnancies. After my postpartum, I had to rebuild myself, gently. That's when supplements became part of my routine, and they've stayed there."
+  },
+  "histoire.p4": {
+    "fr": "Je n'ai pas de photo avant/après à te montrer, et c'est voulu. Je ne suis pas « arrivée » : j'avance, un jour après l'autre, et je montre mon ventre tel qu'il est aujourd'hui.",
+    "en": "I don't have a before and after photo to show you, and that's on purpose. I haven't \"arrived\": I keep going, one day at a time, and I show my tummy as it is today."
+  },
+  "histoire.citation": {
+    "fr": "Ce que je veux, c'est aider les mamans qui se sont un peu perdues en route à se retrouver. Sans promesse miracle, en avançant avec elles.",
+    "en": "What I want is to help mums who got a little lost along the way find themselves again. No miracle promises, just moving forward together."
+  },
+  "valeurs.1.titre": {
+    "fr": "Apprendre avant de forcer",
+    "en": "Learn before you push"
+  },
+  "valeurs.1.texte": {
+    "fr": "La respiration et la posture d'abord, l'intensité ensuite.",
+    "en": "Breathing and posture first, intensity second."
+  },
+  "valeurs.2.titre": {
+    "fr": "Avancer à ton rythme",
+    "en": "Go at your own pace"
+  },
+  "valeurs.2.texte": {
+    "fr": "Entre les enfants, le travail et la fatigue, chaque petit pas compte.",
+    "en": "Between the kids, work and tiredness, every small step counts."
+  },
+  "valeurs.3.titre": {
+    "fr": "Être vraie",
+    "en": "Keep it real"
+  },
+  "valeurs.3.texte": {
+    "fr": "Je partage ce que je vis et ce que j'utilise, rien d'autre.",
+    "en": "I share what I live and what I use, nothing else."
+  },
+  "titre.accompagnement": {
+    "fr": "Accompagnement · Meli",
+    "en": "Coaching · Meli"
+  },
+  "accomp.surtitre": {
+    "fr": "Accompagnement remise en forme",
+    "en": "Get back in shape coaching"
+  },
+  "accomp.titre": {
+    "fr": "Ton 1<sup>er</sup> bilan, <span class=\"kw-s\">offert</span>",
+    "en": "Your first check-in, <span class=\"kw-s\">on me</span>"
+  },
+  "accomp.texte": {
+    "fr": "On commence par se rencontrer. Tu me parles de toi, de tes journées, de ce que tu aimerais changer, et on regarde ensemble par où commencer.",
+    "en": "We start by getting to know each other. You tell me about yourself, your days, what you'd like to change, and we figure out together where to begin."
+  },
+  "todo.bilan": {
+    "fr": "en visio, en vrai ? durée ?",
+    "en": "online, in person? how long?"
+  },
+  "etapes.1.titre": {
+    "fr": "On fait connaissance",
+    "en": "We get to know each other"
+  },
+  "etapes.1.texte": {
+    "fr": "Tes besoins, ton rythme, ton énergie, ce que tu as déjà essayé.",
+    "en": "Your needs, your pace, your energy, what you've already tried."
+  },
+  "etapes.2.titre": {
+    "fr": "Je te montre des exercices",
+    "en": "I show you some exercises"
+  },
+  "etapes.2.texte": {
+    "fr": "Simples, pensés pour une vie de maman, à faire à la maison sans matériel (une bouteille d'eau suffit).",
+    "en": "Simple, designed for mum life, to do at home with no equipment (a bottle of water is enough)."
+  },
+  "etapes.3.titre": {
+    "fr": "On parle compléments, si tu veux",
+    "en": "We talk supplements, if you like"
+  },
+  "etapes.3.texte": {
+    "fr": "Je te montre ceux que j'utilise et ce qui pourrait te convenir. Aucune obligation d'achat.",
+    "en": "I show you the ones I use and what might suit you. No obligation to buy."
+  },
+  "accomp.bientot": {
+    "fr": "<b>Bientôt :</b> des séances en groupe, en plein air, au parc.",
+    "en": "<b>Coming soon:</b> outdoor group sessions in the park."
+  },
+  "todo.date": {
+    "fr": "date à venir",
+    "en": "date to come"
+  },
+  "accomp.mention": {
+    "fr": "Mes conseils viennent de mon expérience. Ils ne remplacent pas l'avis d'un médecin ou d'une sage-femme, surtout pendant la grossesse, après un accouchement ou en cas de douleur.",
+    "en": "My advice comes from my own experience. It doesn't replace the opinion of a doctor or midwife, especially during pregnancy, after giving birth or if you feel pain."
+  },
+  "temoins.surtitre": {
+    "fr": "Elles ont commencé",
+    "en": "They've started"
+  },
+  "temoins.titre": {
+    "fr": "Ce qu'elles <span class=\"kw\">en disent</span>",
+    "en": "What <span class=\"kw\">they say</span>"
+  },
+  "todo.temoin": {
+    "fr": "ses mots, avec son accord",
+    "en": "her words, with her consent"
+  },
+  "todo.prenom": {
+    "fr": "prénom",
+    "en": "first name"
+  },
+  "temoins.qui": {
+    "fr": "maman de 2 enfants",
+    "en": "mum of 2"
+  },
+  "temoins.mention": {
+    "fr": "Témoignages partagés avec l'accord de chaque personne. Chaque parcours est unique.",
+    "en": "Testimonials shared with each person's consent. Every journey is unique."
+  },
+  "faq.surtitre": {
+    "fr": "Questions fréquentes",
+    "en": "Frequently asked questions"
+  },
+  "faq.bilan.titre": {
+    "fr": "Avant de <span class=\"kw\">réserver</span>",
+    "en": "Before you <span class=\"kw\">book</span>"
+  },
+  "faq.b1.q": {
+    "fr": "Le bilan est-il vraiment gratuit ?",
+    "en": "Is the check-in really free?"
+  },
+  "faq.b1.r": {
+    "fr": "Oui. C'est un premier échange sans engagement, et sans aucune obligation d'achat à la fin.",
+    "en": "Yes. It's a first chat with no commitment, and no obligation to buy anything at the end."
+  },
+  "faq.b2.q": {
+    "fr": "Combien de temps dure-t-il ?",
+    "en": "How long does it last?"
+  },
+  "todo.duree": {
+    "fr": "durée à préciser",
+    "en": "length to be confirmed"
+  },
+  "faq.b3.q": {
+    "fr": "En visio ou en vrai ?",
+    "en": "Online or in person?"
+  },
+  "todo.format": {
+    "fr": "à préciser",
+    "en": "to be confirmed"
+  },
+  "faq.b4.q": {
+    "fr": "Faut-il du matériel ?",
+    "en": "Do I need any equipment?"
+  },
+  "faq.b4.r": {
+    "fr": "Non. Les exercices se font à la maison, sans matériel. Une bouteille d'eau suffit.",
+    "en": "No. The exercises are done at home, with no equipment. A bottle of water is enough."
+  },
+  "faq.b5.q": {
+    "fr": "J'ai accouché récemment, je peux commencer ?",
+    "en": "I gave birth recently, can I start?"
+  },
+  "faq.b5.r": {
+    "fr": "Demande d'abord le feu vert de ton médecin ou de ta sage-femme pour reprendre le sport. Ensuite, on avance en douceur, à ton rythme.",
+    "en": "First, get the green light from your doctor or midwife to start exercising again. Then we take it gently, at your pace."
+  },
+  "faq.b6.q": {
+    "fr": "Suis-je obligée de prendre des compléments ?",
+    "en": "Do I have to take supplements?"
+  },
+  "faq.b6.r": {
+    "fr": "Pas du tout. On en parle seulement si tu en as envie.",
+    "en": "Not at all. We only talk about them if you want to."
+  },
+  "titre.packs": {
+    "fr": "Mes packs · Meli",
+    "en": "My packs · Meli"
+  },
+  "packs.surtitre": {
+    "fr": "Mes packs",
+    "en": "My packs"
+  },
+  "packs.titre": {
+    "fr": "Mes <span class=\"kw\">favoris</span>, réunis pour toi",
+    "en": "My <span class=\"kw\">favourites</span>, all in one place"
+  },
+  "packs.texte": {
+    "fr": "Les produits que j'utilise vraiment, rangés par envie. Un clic, et ton panier est prêt sur la boutique officielle Farmasi.",
+    "en": "The products I actually use, sorted by what you're after. One click, and your basket is ready on the official Farmasi shop."
+  },
+  "todo.photo_pack": {
+    "fr": "PHOTO DU PACK",
+    "en": "PACK PHOTO"
+  },
+  "pack.routine.nom": {
+    "fr": "Ma routine de Meli",
+    "en": "Meli's routine"
+  },
+  "pack.delish": {
+    "fr": "Café Delish",
+    "en": "Delish coffee"
+  },
+  "pack.routine.phrase": {
+    "fr": "Mon matin, mon après-midi, mon soir : les 3 produits de ma journée.",
+    "en": "My morning, my afternoon, my evening: the 3 products of my day."
+  },
+  "todo.prix": {
+    "fr": "prix",
+    "en": "price"
+  },
+  "cta.commander": {
+    "fr": "Commander ce pack",
+    "en": "Order this pack"
+  },
+  "pack.beaute.nom": {
+    "fr": "Beauté de l'intérieur",
+    "en": "Beauty from within"
+  },
+  "pack.beaute.contenu": {
+    "fr": "Collagène chocolat",
+    "en": "Chocolate collagen"
+  },
+  "pack.beaute.phrase": {
+    "fr": "Ma pause gourmande : 10 g de collagène et de la vitamine C, qui contribue à la formation normale du collagène.",
+    "en": "My sweet break: 10 g of collagen and vitamin C, which contributes to normal collagen formation."
+  },
+  "pack.beaute.prix": {
+    "fr": "55,00 €",
+    "en": "€55.00"
+  },
+  "pack.decouverte.nom": {
+    "fr": "Découverte",
+    "en": "Discovery"
+  },
+  "pack.decouverte.contenu": {
+    "fr": "Collagène comprimés · Café Delish",
+    "en": "Collagen tablets · Delish coffee"
+  },
+  "pack.decouverte.phrase": {
+    "fr": "Pour tester sans se ruiner.",
+    "en": "To try without breaking the bank."
+  },
+  "pack.makeup.nom": {
+    "fr": "Mes favoris make-up",
+    "en": "My make-up favourites"
+  },
+  "todo.produits": {
+    "fr": "produits à choisir",
+    "en": "products to choose"
+  },
+  "todo.phrase": {
+    "fr": "phrase à écrire",
+    "en": "sentence to write"
+  },
+  "pack.cheveux.nom": {
+    "fr": "Pack cheveux",
+    "en": "Hair pack"
+  },
+  "pack.visage.nom": {
+    "fr": "Pack soins visage",
+    "en": "Skincare pack"
+  },
+  "packs.boutique": {
+    "fr": "Voir toute ma boutique",
+    "en": "See my whole shop"
+  },
+  "packs.pays": {
+    "fr": "Hors de France, pense à changer le pays en haut de la page.",
+    "en": "Outside France? Remember to change the country at the top of the page."
+  },
+  "packs.remise": {
+    "fr": "La remise de 30 % est réservée aux personnes inscrites comme Farmasi Influencer. Envie d'en profiter ?",
+    "en": "The 30% discount is for people registered as Farmasi Influencers. Want to enjoy it?"
+  },
+  "packs.remise_lien": {
+    "fr": "Tout est expliqué dans la page L'équipe.",
+    "en": "It's all explained on The team page."
+  },
+  "packs.mention": {
+    "fr": "Les compléments alimentaires ne remplacent pas une alimentation variée et équilibrée ni un mode de vie sain. Grossesse, allaitement ou traitement : demande l'avis de ton médecin.",
+    "en": "Food supplements are not a substitute for a varied and balanced diet and a healthy lifestyle. Pregnant, breastfeeding or on medication? Ask your doctor first."
+  },
+  "titre.equipe": {
+    "fr": "Rejoindre l'équipe · Meli",
+    "en": "Join the team · Meli"
+  },
+  "equipe.surtitre": {
+    "fr": "Rejoindre l'équipe",
+    "en": "Join the team"
+  },
+  "equipe.titre": {
+    "fr": "Et si tu te lançais <span class=\"kw\">avec moi</span> ?",
+    "en": "What if you started <span class=\"kw\">with me</span>?"
+  },
+  "equipe.texte": {
+    "fr": "J'ai commencé avec Farmasi pour gagner en liberté et me reconstruire après mon post-partum. Si toi aussi tu cherches un projet à toi, à côté de ta vie de famille, on peut avancer ensemble.",
+    "en": "I started with Farmasi to gain some freedom and rebuild myself after my postpartum. If you're also looking for a project of your own, alongside family life, we can grow together."
+  },
+  "atouts.1.titre": {
+    "fr": "Des commissions",
+    "en": "Commissions"
+  },
+  "atouts.1.texte": {
+    "fr": "Sur chaque vente faite avec ton lien ou ton code, sans stock à gérer.",
+    "en": "On every sale made with your link or code, with no stock to manage."
+  },
+  "atouts.2.titre": {
+    "fr": "De remise à vie",
+    "en": "Lifetime discount"
+  },
+  "atouts.2.texte": {
+    "fr": "Sur tous les produits, en gardant un minimum de points chaque mois.",
+    "en": "On all products, as long as you keep a minimum of points each month."
+  },
+  "atouts.3.titre": {
+    "fr": "Tu n'es jamais seule",
+    "en": "You're never alone"
+  },
+  "atouts.3.texte": {
+    "fr": "Des formations en ligne, des supports prêts à l'emploi et une équipe pour te motiver.",
+    "en": "Online training, ready-to-use materials and a team to keep you motivated."
+  },
+  "demarrer.1": {
+    "fr": "Tu t'inscris avec mon lien, avec un pack de bienvenue pour tester ce que tu vas recommander.",
+    "en": "You sign up with my link, with a welcome pack to try what you'll be recommending."
+  },
+  "todo.lien": {
+    "fr": "lien",
+    "en": "link"
+  },
+  "demarrer.2": {
+    "fr": "Tu prends le statut VDI : je t'explique tout avec ma fiche de bienvenue.",
+    "en": "You register as an independent seller (VDI status in France): I explain everything in my welcome guide."
+  },
+  "demarrer.3": {
+    "fr": "On démarre ensemble, à ton rythme.",
+    "en": "We get started together, at your pace."
+  },
+  "equipe.devise": {
+    "fr": "Des vies réelles. Des vies bien remplies. Grandir ensemble.",
+    "en": "Real lives. Full lives. Growing together."
+  },
+  "faq.e1.q": {
+    "fr": "Faut-il un diplôme ou de l'expérience ?",
+    "en": "Do I need a qualification or experience?"
+  },
+  "faq.e1.r": {
+    "fr": "Non. Il faut être majeure et signer un contrat avec la marque. Je t'accompagne pour tout le reste.",
+    "en": "No. You need to be over 18 and sign a contract with the brand. I'll guide you through the rest."
+  },
+  "faq.e2.q": {
+    "fr": "Je suis salariée, je peux quand même ?",
+    "en": "I have a job, can I still do it?"
+  },
+  "faq.e2.r": {
+    "fr": "Oui, c'est cumulable avec un emploi salarié, sauf si ton contrat de travail contient une clause d'exclusivité.",
+    "en": "Yes, in France it can be combined with a salaried job, unless your employment contract has an exclusivity clause."
+  },
+  "faq.e3.q": {
+    "fr": "Dois-je acheter du stock ?",
+    "en": "Do I need to buy stock?"
+  },
+  "faq.e3.r": {
+    "fr": "Non. Tes clientes commandent en ligne avec ton lien ou ton code, tu n'as rien à stocker.",
+    "en": "No. Your customers order online with your link or code, so there's nothing to store."
+  },
+  "faq.e4.q": {
+    "fr": "Combien ça coûte pour commencer ?",
+    "en": "How much does it cost to start?"
+  },
+  "todo.frais": {
+    "fr": "frais d'inscription à préciser",
+    "en": "sign-up fee to be confirmed"
+  },
+  "faq.e5.q": {
+    "fr": "Combien vais-je gagner ?",
+    "en": "How much will I earn?"
+  },
+  "faq.e5.r": {
+    "fr": "Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes faites avec ton lien ou ton code.",
+    "en": "It depends entirely on your activity: nothing is guaranteed, and everyone moves at her own pace. You earn a commission on sales made with your link or code."
+  },
+  "faq.e6.q": {
+    "fr": "Et si je manque de temps ?",
+    "en": "What if I'm short on time?"
+  },
+  "faq.e6.r": {
+    "fr": "C'est justement pensé pour une activité à côté. Tu y consacres le temps que tu as, même quelques minutes par jour.",
+    "en": "That's exactly what it's designed for: a side activity. You give it the time you have, even a few minutes a day."
+  },
+  "equipe.cta": {
+    "fr": "Je veux en savoir plus",
+    "en": "I want to know more"
+  },
+  "equipe.mention": {
+    "fr": "Chacune avance à son rythme. Les revenus dépendent de ton activité et ne sont jamais garantis. Farmasi est une marque internationale de beauté et de bien-être ; je suis distributrice indépendante.",
+    "en": "Everyone moves at her own pace. Earnings depend on your activity and are never guaranteed. Farmasi is an international beauty and wellbeing brand; I am an independent distributor."
+  },
+  "titre.contact": {
+    "fr": "Contact · Meli",
+    "en": "Contact · Meli"
+  },
+  "contact.surtitre": {
+    "fr": "On en parle ?",
+    "en": "Shall we talk?"
+  },
+  "contact.titre": {
+    "fr": "Une question ? <span class=\"kw\">Il n'y en a pas de bête.</span>",
+    "en": "Got a question? <span class=\"kw\">There's no silly one.</span>"
+  },
+  "contact.texte": {
+    "fr": "Un produit, ton bilan gratuit, l'équipe : choisis ce qui te va le mieux, je te réponds avec plaisir.",
+    "en": "A product, your free check-in, the team: pick what suits you best, I'll be happy to reply."
+  },
+  "contact.signature": {
+    "fr": "À très vite,<br>Meli",
+    "en": "Talk soon,<br>Meli"
+  },
+  "titre.legal": {
+    "fr": "Mentions légales · Meli",
+    "en": "Legal notice · Meli"
+  },
+  "legal.surtitre": {
+    "fr": "Informations",
+    "en": "Information"
+  },
+  "legal.titre": {
+    "fr": "Mentions <span class=\"kw\">légales</span>",
+    "en": "Legal <span class=\"kw\">notice</span>"
+  },
+  "legal.editrice": {
+    "fr": "Éditrice du site",
+    "en": "Site publisher"
+  },
+  "todo.nom": {
+    "fr": "prénom et nom",
+    "en": "first and last name"
+  },
+  "legal.statut": {
+    "fr": ", entrepreneuse individuelle (micro-entreprise), SIRET",
+    "en": ", sole trader (French micro-entreprise), SIRET"
+  },
+  "todo.completer": {
+    "fr": "à compléter",
+    "en": "to be completed"
+  },
+  "legal.adresse": {
+    "fr": "Adresse",
+    "en": "Address"
+  },
+  "todo.domiciliation": {
+    "fr": "domiciliation à définir",
+    "en": "business address to be defined"
+  },
+  "legal.contact": {
+    "fr": "Contact",
+    "en": "Contact"
+  },
+  "todo.email": {
+    "fr": "adresse e-mail du site",
+    "en": "site email address"
+  },
+  "legal.hebergeur": {
+    "fr": "Hébergeur",
+    "en": "Host"
+  },
+  "legal.hebergeur_texte": {
+    "fr": "GitHub, Inc., 88 Colin P Kelly Jr Street, San Francisco, CA 94107, États-Unis (GitHub Pages)",
+    "en": "GitHub, Inc., 88 Colin P Kelly Jr Street, San Francisco, CA 94107, United States (GitHub Pages)"
+  },
+  "legal.marque": {
+    "fr": "Marque",
+    "en": "Brand"
+  },
+  "legal.marque_texte": {
+    "fr": "Farmasi est une marque déposée. Ce site est celui d'une distributrice indépendante, ce n'est pas le site officiel de la marque.",
+    "en": "Farmasi is a registered trademark. This is the website of an independent distributor, not the brand's official website."
+  },
+  "legal.donnees": {
+    "fr": "Données personnelles",
+    "en": "Personal data"
+  },
+  "legal.donnees_texte": {
+    "fr": "Ce site ne collecte aucune donnée (pas de formulaire, pas de cookies de statistiques). Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.",
+    "en": "This site does not collect any data (no form, no analytics cookies). Orders are placed on the Farmasi website, which has its own privacy policy."
+  },
+  "legal.photos": {
+    "fr": "Photos",
+    "en": "Photos"
+  },
+  "legal.photos_texte": {
+    "fr": "Photos personnelles de l'éditrice ; photos produits Farmasi.",
+    "en": "Personal photos of the publisher; Farmasi product photos."
+  },
+  "footer.distributrice": {
+    "fr": "Distributrice indépendante Farmasi",
+    "en": "Independent Farmasi distributor"
+  },
+  "footer.legal": {
+    "fr": "Mentions légales",
+    "en": "Legal notice"
+  }
+}

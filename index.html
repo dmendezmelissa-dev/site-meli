@@ -2,25 +2,41 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Meli · Sport, bien-être et beauté pour les mamans</title>
   <meta name="description" content="Maman passionnée de sport et de bien-être, je t'aide à retrouver la forme à ton rythme. 1er bilan gratuit, mes packs favoris et une équipe pour avancer ensemble.">
+  <link rel="alternate" hreflang="fr" href="./">
+  <link rel="alternate" hreflang="en" href="en/">
+  <link rel="alternate" hreflang="x-default" href="./">
   <link rel="preload" href="fonts/lora-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/quicksand-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
 
 <header class="menu">
   <div class="wrap">
     <a class="logo" href="#accueil">Meli<span>.</span></a>
-    <nav>
+    <button class="burger" type="button" aria-label="Ouvrir le menu" data-ouvrir="Ouvrir le menu" data-fermer="Fermer le menu" aria-expanded="false" aria-controls="menu-principal"><span></span><span></span><span></span></button>
+    <nav id="menu-principal">
       <a href="#accueil">Accueil</a>
       <a href="#histoire">Mon histoire</a>
       <a href="#accompagnement">Accompagnement</a>
-      <a href="#packs">Packs</a>
+      <div class="deroulant">
+        <a href="#packs" class="lien-packs">Packs</a>
+        <div class="sous-menu"><div class="sm-boite">
+          <a href="#packs-nutrition">Nutrition</a>
+          <a href="#packs-maquillage">Maquillage</a>
+          <a href="#packs-cheveux">Cheveux</a>
+          <a href="#packs-visage">Soins visage</a>
+        </div></div>
+      </div>
       <a href="#equipe">L'équipe</a>
       <a href="#contact">Contact</a>
+      <div class="langues" aria-label="Langue">
+        <a href="index.html" lang="fr" hreflang="fr" class="actif">FR</a><span aria-hidden="true">·</span><a href="en/index.html" lang="en" hreflang="en" class="">EN</a>
+      </div>
     </nav>
   </div>
 </header>
@@ -28,7 +44,7 @@
 <main>
 
   <!-- 1. Accueil -->
-  <section class="accueil" id="accueil">
+  <section class="page accueil" data-page="accueil" data-titre="Meli · Sport, bien-être et beauté pour les mamans">
     <div class="wrap">
       <div class="texte">
         <p class="eyebrow">Sport · Bien-être · Beauté</p>
@@ -36,21 +52,53 @@
         <div class="rule"></div>
         <p class="intro">Moi, c'est Meli, maman de deux enfants, passionnée de sport et de bien-être. Je t'aide à retrouver la forme avec des exercices simples à faire à la maison et les produits que j'utilise chaque jour.</p>
         <div class="btns">
-          <a class="btn plein" href="#accompagnement">Réserver mon bilan gratuit</a>
+          <a class="btn plein" href="#contact" data-reserver>Réserver mon bilan gratuit</a>
           <a class="btn vide" href="#packs">Voir mes packs</a>
         </div>
       </div>
       <div class="visuel">
         <div class="arche-ligne"></div>
         <div class="arche photo">TA PHOTO ICI</div>
-        <div class="pastille"><span><b>1<sup style="font-size:.5em">er</sup></b>bilan<br>gratuit</span></div>
+        <div class="pastille"><span><b>1<sup>er</sup></b>bilan<br>gratuit</span></div>
         <p class="manuscrit">Toujours en construction,<br>et c'est très bien comme ça.</p>
       </div>
     </div>
   </section>
 
+  <!-- Accueil : vidéo de bienvenue -->
+  <section class="page bienvenue" data-page="accueil">
+    <div class="wrap">
+      <div class="video-cadre reveal">
+        <div class="arche video">
+          <span class="lecture" aria-hidden="true"></span>
+          <span>TA VIDÉO ICI</span>
+        </div>
+      </div>
+      <div class="texte reveal">
+        <p class="eyebrow">En une minute</p>
+        <h2>Je me <span class="kw">présente</span></h2>
+        <div class="rule"></div>
+        <p class="intro">Avant de réserver quoi que ce soit, tu as le droit de savoir à qui tu parles. Voilà qui je suis, pourquoi je fais ça, et comment je peux t'aider.</p>
+        <p class="manuscrit">Promis, je ne mords pas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accueil : par où commencer -->
+  <section class="page accueil-suite" data-page="accueil">
+    <div class="wrap center">
+      <p class="eyebrow">Par où commencer ?</p>
+      <div class="raccourcis">
+        <a class="raccourci reveal" href="#histoire"><span class="num">01</span><b>Mon histoire</b><span>Qui je suis, et pourquoi je fais ça.</span><i>Lire</i></a>
+        <a class="raccourci reveal" href="#accompagnement"><span class="num">02</span><b>Ton bilan offert</b><span>Une rencontre sans engagement.</span><i>Découvrir</i></a>
+        <a class="raccourci reveal" href="#packs"><span class="num">03</span><b>Mes packs</b><span>Nutrition, maquillage, cheveux, visage.</span><i>Voir</i></a>
+        <a class="raccourci reveal" href="#equipe"><span class="num">04</span><b>Rejoindre l'équipe</b><span>Un projet à toi, à ton rythme.</span><i>En savoir plus</i></a>
+      </div>
+    </div>
+  </section>
+
   <!-- 2. Mon histoire -->
-  <section class="histoire" id="histoire">
+  <section class="page histoire" data-page="histoire" data-titre="Mon histoire · Meli">
     <div class="wrap">
       <div class="grille">
         <div class="arche photo">TA PHOTO ICI</div>
@@ -67,17 +115,17 @@
       </div>
 
       <div class="valeurs">
-        <div class="valeur">
+        <div class="valeur reveal">
           <div class="num">01</div>
           <h3>Apprendre avant de forcer</h3>
           <p>La respiration et la posture d'abord, l'intensité ensuite.</p>
         </div>
-        <div class="valeur">
+        <div class="valeur reveal">
           <div class="num">02</div>
           <h3>Avancer à ton rythme</h3>
           <p>Entre les enfants, le travail et la fatigue, chaque petit pas compte.</p>
         </div>
-        <div class="valeur">
+        <div class="valeur reveal">
           <div class="num">03</div>
           <h3>Être vraie</h3>
           <p>Je partage ce que je vis et ce que j'utilise, rien d'autre.</p>
@@ -87,25 +135,25 @@
   </section>
 
   <!-- 3. Accompagnement -->
-  <section class="accompagnement" id="accompagnement">
+  <section class="page accompagnement" data-page="accompagnement" data-titre="Accompagnement · Meli">
     <div class="wrap center">
       <p class="eyebrow">Accompagnement remise en forme</p>
-      <h2>Ton 1<sup style="font-size:.5em">er</sup> bilan, <span class="kw-s">offert</span></h2>
+      <h2>Ton 1<sup>er</sup> bilan, <span class="kw-s">offert</span></h2>
       <div class="rule"></div>
       <p class="intro">On commence par se rencontrer. Tu me parles de toi, de tes journées, de ce que tu aimerais changer, et on regarde ensemble par où commencer. <span class="todo">en visio, en vrai ? durée ?</span></p>
 
-      <ol class="etapes" style="text-align:left">
-        <li class="etape">
+      <ol class="etapes">
+        <li class="etape reveal">
           <div class="num">01</div>
           <h3>On fait connaissance</h3>
           <p>Tes besoins, ton rythme, ton énergie, ce que tu as déjà essayé.</p>
         </li>
-        <li class="etape">
+        <li class="etape reveal">
           <div class="num">02</div>
           <h3>Je te montre des exercices</h3>
           <p>Simples, pensés pour une vie de maman, à faire à la maison sans matériel (une bouteille d'eau suffit).</p>
         </li>
-        <li class="etape">
+        <li class="etape reveal">
           <div class="num">03</div>
           <h3>On parle compléments, si tu veux</h3>
           <p>Je te montre ceux que j'utilise et ce qui pourrait te convenir. Aucune obligation d'achat.</p>
@@ -115,63 +163,148 @@
       <p class="bientot"><b>Bientôt :</b> des séances en groupe, en plein air, au parc. <span class="todo">date à venir</span></p>
 
       <div class="btns">
-        <a class="btn plein" href="#contact">Je réserve mon bilan gratuit</a>
+        <a class="btn plein" href="#contact" data-reserver>Réserver mon bilan gratuit</a>
       </div>
       <p class="petit">Mes conseils viennent de mon expérience. Ils ne remplacent pas l'avis d'un médecin ou d'une sage-femme, surtout pendant la grossesse, après un accouchement ou en cas de douleur.</p>
+    </div>
+
+    <!-- Témoignages -->
+    <div class="wrap temoignages">
+      <div class="center">
+        <p class="eyebrow">Elles ont commencé</p>
+        <h2>Ce qu'elles <span class="kw">en disent</span></h2>
+        <div class="rule"></div>
+      </div>
+      <div class="avis">
+        <figure class="temoin reveal">
+          <blockquote><span class="todo">ses mots, avec son accord</span></blockquote>
+          <figcaption><b><span class="todo">prénom</span></b>maman de 2 enfants</figcaption>
+        </figure>
+        <figure class="temoin reveal">
+          <blockquote><span class="todo">ses mots, avec son accord</span></blockquote>
+          <figcaption><b><span class="todo">prénom</span></b>maman de 2 enfants</figcaption>
+        </figure>
+      </div>
+      <p class="petit center">Témoignages partagés avec l'accord de chaque personne. Chaque parcours est unique.</p>
+    </div>
+
+    <!-- FAQ du bilan -->
+    <div class="wrap faq-zone">
+      <div class="center">
+        <p class="eyebrow">Questions fréquentes</p>
+        <h2>Avant de <span class="kw">réserver</span></h2>
+        <div class="rule"></div>
+      </div>
+      <div class="faq">
+        <details><summary>Le bilan est-il vraiment gratuit ?</summary><p>Oui. C'est un premier échange sans engagement, et sans aucune obligation d'achat à la fin.</p></details>
+        <details><summary>Combien de temps dure-t-il ?</summary><p><span class="todo">durée à préciser</span></p></details>
+        <details><summary>En visio ou en vrai ?</summary><p><span class="todo">à préciser</span></p></details>
+        <details><summary>Faut-il du matériel ?</summary><p>Non. Les exercices se font à la maison, sans matériel. Une bouteille d'eau suffit.</p></details>
+        <details><summary>J'ai accouché récemment, je peux commencer ?</summary><p>Demande d'abord le feu vert de ton médecin ou de ta sage-femme pour reprendre le sport. Ensuite, on avance en douceur, à ton rythme.</p></details>
+        <details><summary>Suis-je obligée de prendre des compléments ?</summary><p>Pas du tout. On en parle seulement si tu en as envie.</p></details>
+      </div>
     </div>
   </section>
 
   <!-- 4. Mes packs -->
-  <section class="packs" id="packs">
+  <section class="page packs" data-page="packs" data-titre="Mes packs · Meli">
     <div class="wrap">
       <div class="center">
         <p class="eyebrow">Mes packs</p>
         <h2>Mes <span class="kw">favoris</span>, réunis pour toi</h2>
         <div class="rule"></div>
-        <p class="intro">Les produits que j'utilise vraiment, rassemblés par moment de la journée. Un clic, et ton panier est prêt sur la boutique officielle Farmasi.</p>
+        <p class="intro">Les produits que j'utilise vraiment, rangés par envie. Un clic, et ton panier est prêt sur la boutique officielle Farmasi.</p>
       </div>
 
-      <div class="cartes">
-        <article class="carte">
-          <div class="arche photo">PHOTO DU PACK</div>
-          <div class="corps">
-            <h3>Ma routine de Meli</h3>
-            <p class="contenu">Nutrishake Cookie Crunch · Café Delish · Restore</p>
-            <p class="phrase">Mon matin, mon après-midi, mon soir : les 3 produits de ma journée.</p>
-            <p class="prix"><span class="todo">prix</span></p>
-            <a class="btn plein" href="#">Commander ce pack</a>
-          </div>
-        </article>
-        <article class="carte">
-          <div class="arche photo">PHOTO DU PACK</div>
-          <div class="corps">
-            <h3>Beauté de l'intérieur</h3>
-            <p class="contenu">Collagène chocolat</p>
-            <p class="phrase">Ma pause gourmande : 10 g de collagène et de la vitamine C, qui contribue à la formation normale du collagène.</p>
-            <p class="prix">55,00 €</p>
-            <a class="btn plein" href="#">Commander ce pack</a>
-          </div>
-        </article>
-        <article class="carte">
-          <div class="arche photo">PHOTO DU PACK</div>
-          <div class="corps">
-            <h3>Découverte</h3>
-            <p class="contenu">Collagène comprimés · Café Delish</p>
-            <p class="phrase">Pour tester sans se ruiner.</p>
-            <p class="prix"><span class="todo">prix</span></p>
-            <a class="btn plein" href="#">Commander ce pack</a>
-          </div>
-        </article>
-        <article class="carte">
-          <div class="arche photo">PHOTO DU PACK</div>
-          <div class="corps">
-            <h3>Mes favoris make-up</h3>
-            <p class="contenu"><span class="todo">produits à choisir</span></p>
-            <p class="phrase"><span class="todo">phrase à écrire</span></p>
-            <p class="prix"><span class="todo">prix</span></p>
-            <a class="btn plein" href="#">Commander ce pack</a>
-          </div>
-        </article>
+      <div class="onglets" role="tablist">
+        <button class="onglet actif" type="button" role="tab" data-cat="nutrition" aria-selected="true">Nutrition</button>
+        <button class="onglet" type="button" role="tab" data-cat="maquillage" aria-selected="false">Maquillage</button>
+        <button class="onglet" type="button" role="tab" data-cat="cheveux" aria-selected="false">Cheveux</button>
+        <button class="onglet" type="button" role="tab" data-cat="visage" aria-selected="false">Soins visage</button>
+      </div>
+
+      <div class="groupe" data-cat="nutrition" role="tabpanel">
+        <h3 class="groupe-titre">Nutrition</h3>
+        <div class="cartes">
+          <article class="carte" data-pack="routine">
+            <div class="arche photo">PHOTO DU PACK</div>
+            <div class="corps">
+              <h3>Ma routine de Meli</h3>
+              <p class="contenu">Nutrishake Cookie Crunch · Café Delish · Restore</p>
+              <p class="phrase">Mon matin, mon après-midi, mon soir : les 3 produits de ma journée.</p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce pack</a>
+            </div>
+          </article>
+          <article class="carte" data-pack="beaute-interieur">
+            <div class="arche photo">PHOTO DU PACK</div>
+            <div class="corps">
+              <h3>Beauté de l'intérieur</h3>
+              <p class="contenu">Collagène chocolat</p>
+              <p class="phrase">Ma pause gourmande : 10 g de collagène et de la vitamine C, qui contribue à la formation normale du collagène.</p>
+              <p class="prix">55,00 €</p>
+              <a class="btn plein" href="#">Commander ce pack</a>
+            </div>
+          </article>
+          <article class="carte" data-pack="decouverte">
+            <div class="arche photo">PHOTO DU PACK</div>
+            <div class="corps">
+              <h3>Découverte</h3>
+              <p class="contenu">Collagène comprimés · Café Delish</p>
+              <p class="phrase">Pour tester sans se ruiner.</p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce pack</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="groupe" data-cat="maquillage" role="tabpanel">
+        <h3 class="groupe-titre">Maquillage</h3>
+        <div class="cartes">
+          <article class="carte" data-pack="make-up">
+            <div class="arche photo">PHOTO DU PACK</div>
+            <div class="corps">
+              <h3>Mes favoris make-up</h3>
+              <p class="contenu"><span class="todo">produits à choisir</span></p>
+              <p class="phrase"><span class="todo">phrase à écrire</span></p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce pack</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="groupe" data-cat="cheveux" role="tabpanel">
+        <h3 class="groupe-titre">Cheveux</h3>
+        <div class="cartes">
+          <article class="carte" data-pack="cheveux">
+            <div class="arche photo">PHOTO DU PACK</div>
+            <div class="corps">
+              <h3>Pack cheveux</h3>
+              <p class="contenu"><span class="todo">produits à choisir</span></p>
+              <p class="phrase"><span class="todo">phrase à écrire</span></p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce pack</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="groupe" data-cat="visage" role="tabpanel">
+        <h3 class="groupe-titre">Soins visage</h3>
+        <div class="cartes">
+          <article class="carte" data-pack="visage">
+            <div class="arche photo">PHOTO DU PACK</div>
+            <div class="corps">
+              <h3>Pack soins visage</h3>
+              <p class="contenu"><span class="todo">produits à choisir</span></p>
+              <p class="phrase"><span class="todo">phrase à écrire</span></p>
+              <p class="prix"><span class="todo">prix</span></p>
+              <a class="btn plein" href="#">Commander ce pack</a>
+            </div>
+          </article>
+        </div>
       </div>
 
       <div class="center btns">
@@ -180,14 +313,14 @@
       <p class="petit center" style="margin-top:12px">Hors de France, pense à changer le pays en haut de la page.</p>
 
       <div class="encart">
-        <p>La remise de 30 % est réservée aux personnes inscrites comme Farmasi Influencer. Envie d'en profiter ? <a href="#equipe" class="fort">Tout est expliqué juste en dessous.</a></p>
+        <p>La remise de 30 % est réservée aux personnes inscrites comme Farmasi Influencer. Envie d'en profiter ? <a href="#equipe" class="fort">Tout est expliqué dans la page L'équipe.</a></p>
       </div>
       <p class="petit center">Les compléments alimentaires ne remplacent pas une alimentation variée et équilibrée ni un mode de vie sain. Grossesse, allaitement ou traitement : demande l'avis de ton médecin.</p>
     </div>
   </section>
 
   <!-- 5. Rejoindre l'équipe -->
-  <section class="equipe" id="equipe">
+  <section class="page equipe" data-page="equipe" data-titre="Rejoindre l'équipe · Meli">
     <div class="arche-ligne" style="width:460px;height:320px;right:-200px;top:40px"></div>
     <div class="arche-ligne" style="width:360px;height:440px;left:-150px;bottom:-120px"></div>
     <div class="wrap center">
@@ -197,24 +330,24 @@
       <p class="intro">J'ai commencé avec Farmasi pour gagner en liberté et me reconstruire après mon post-partum. Si toi aussi tu cherches un projet à toi, à côté de ta vie de famille, on peut avancer ensemble.</p>
 
       <div class="atouts">
-        <div class="atout">
+        <div class="atout reveal">
           <div class="gros">%</div>
           <h3>Des commissions</h3>
           <p>Sur chaque vente faite avec ton lien ou ton code, sans stock à gérer.</p>
         </div>
-        <div class="atout">
+        <div class="atout reveal">
           <div class="gros">30 %</div>
           <h3>De remise à vie</h3>
           <p>Sur tous les produits, en gardant un minimum de points chaque mois.</p>
         </div>
-        <div class="atout">
+        <div class="atout reveal">
           <div class="gros">♡</div>
           <h3>Tu n'es jamais seule</h3>
           <p>Des formations en ligne, des supports prêts à l'emploi et une équipe pour te motiver.</p>
         </div>
       </div>
 
-      <ol class="demarrer" style="text-align:left">
+      <ol class="demarrer">
         <li><p>Tu t'inscris avec mon lien, avec un pack de bienvenue pour tester ce que tu vas recommander. <span class="todo">lien</span></p></li>
         <li><p>Tu prends le statut VDI : je t'explique tout avec ma fiche de bienvenue.</p></li>
         <li><p>On démarre ensemble, à ton rythme.</p></li>
@@ -226,6 +359,15 @@
         <div class="fr">Des vies réelles. Des vies bien remplies. Grandir ensemble.</div>
       </div>
 
+      <div class="faq faq-sombre">
+        <details><summary>Faut-il un diplôme ou de l'expérience ?</summary><p>Non. Il faut être majeure et signer un contrat avec la marque. Je t'accompagne pour tout le reste.</p></details>
+        <details><summary>Je suis salariée, je peux quand même ?</summary><p>Oui, c'est cumulable avec un emploi salarié, sauf si ton contrat de travail contient une clause d'exclusivité.</p></details>
+        <details><summary>Dois-je acheter du stock ?</summary><p>Non. Tes clientes commandent en ligne avec ton lien ou ton code, tu n'as rien à stocker.</p></details>
+        <details><summary>Combien ça coûte pour commencer ?</summary><p><span class="todo">frais d'inscription à préciser</span></p></details>
+        <details><summary>Combien vais-je gagner ?</summary><p>Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes faites avec ton lien ou ton code.</p></details>
+        <details><summary>Et si je manque de temps ?</summary><p>C'est justement pensé pour une activité à côté. Tu y consacres le temps que tu as, même quelques minutes par jour.</p></details>
+      </div>
+
       <div class="btns">
         <a class="btn plein" href="#contact">Je veux en savoir plus</a>
       </div>
@@ -234,7 +376,7 @@
   </section>
 
   <!-- 6. Contact -->
-  <section class="contact" id="contact">
+  <section class="page contact" data-page="contact" data-titre="Contact · Meli">
     <div class="wrap center">
       <p class="eyebrow">On en parle ?</p>
       <h2>Une question ? <span class="kw">Il n'y en a pas de bête.</span></h2>
@@ -250,14 +392,139 @@
     </div>
   </section>
 
+  <!-- Mentions légales -->
+  <section class="page legal" data-page="mentions-legales" data-titre="Mentions légales · Meli">
+    <div class="wrap">
+      <p class="eyebrow">Informations</p>
+      <h2>Mentions <span class="kw">légales</span></h2>
+      <div class="rule"></div>
+      <dl>
+        <dt>Éditrice du site</dt>
+        <dd><span class="todo">prénom et nom</span>, entrepreneuse individuelle (micro-entreprise), SIRET <span class="todo">à compléter</span></dd>
+        <dt>Adresse</dt>
+        <dd><span class="todo">domiciliation à définir</span></dd>
+        <dt>Contact</dt>
+        <dd><span class="todo">adresse e-mail du site</span></dd>
+        <dt>Hébergeur</dt>
+        <dd>GitHub, Inc., 88 Colin P Kelly Jr Street, San Francisco, CA 94107, États-Unis (GitHub Pages)</dd>
+        <dt>Marque</dt>
+        <dd>Farmasi est une marque déposée. Ce site est celui d'une distributrice indépendante, ce n'est pas le site officiel de la marque.</dd>
+        <dt>Données personnelles</dt>
+        <dd>Ce site ne collecte aucune donnée (pas de formulaire, pas de cookies de statistiques). Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.</dd>
+        <dt>Photos</dt>
+        <dd>Photos personnelles de l'éditrice ; photos produits Farmasi.</dd>
+      </dl>
+    </div>
+  </section>
+
 </main>
 
 <footer>
   <div class="wrap">
     <div class="sig">@still.becoming.me24</div>
-    <div>Distributrice indépendante Farmasi<span class="sep">·</span><a href="mentions-legales.html">Mentions légales</a><span class="sep">·</span>© 2026 Meli</div>
+    <div class="liens"><span>Distributrice indépendante Farmasi</span><span class="sep">·</span><a href="#mentions-legales">Mentions légales</a><span class="sep">·</span><span>© 2026 Meli</span></div>
   </div>
 </footer>
 
+<!-- Bouton fixe en bas de l'écran (téléphone) -->
+<a class="cta-fixe" href="#contact" data-reserver>Réserver mon bilan gratuit</a>
+
+<script>
+  /* Site en une seule page HTML par langue : navigation sans rechargement.
+     Adresses : #histoire, #packs, #packs-nutrition (une catégorie), #pack-routine (un pack précis). */
+  (function () {
+    var pages = document.querySelectorAll('.page');
+    var liens = document.querySelectorAll('.menu nav > a, .menu .lien-packs');
+    var onglets = document.querySelectorAll('.onglet');
+    var groupes = document.querySelectorAll('.groupe');
+    var noms = {};
+    pages.forEach(function (p) { noms[p.dataset.page] = true; });
+
+    /* Catégories de packs */
+    function categorie(cat) {
+      onglets.forEach(function (b) {
+        var ok = b.dataset.cat === cat;
+        b.classList.toggle('actif', ok);
+        b.setAttribute('aria-selected', ok ? 'true' : 'false');
+      });
+      groupes.forEach(function (g) { g.hidden = g.dataset.cat !== cat; });
+    }
+    onglets.forEach(function (b) { b.addEventListener('click', function () { categorie(b.dataset.cat); }); });
+    categorie('nutrition');
+
+    /* Menu du téléphone */
+    var menu = document.querySelector('.menu');
+    var burger = document.querySelector('.burger');
+    function menuOuvert(ouvert) {
+      menu.classList.toggle('ouvert', ouvert);
+      document.body.classList.toggle('menu-ouvert', ouvert);
+      burger.setAttribute('aria-expanded', ouvert ? 'true' : 'false');
+      burger.setAttribute('aria-label', ouvert ? burger.dataset.fermer : burger.dataset.ouvrir);
+    }
+    burger.addEventListener('click', function () { menuOuvert(!menu.classList.contains('ouvert')); });
+    document.querySelectorAll('.menu nav a').forEach(function (a) { a.addEventListener('click', function () { menuOuvert(false); }); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') menuOuvert(false); });
+    window.matchMedia('(min-width: 961px)').addEventListener('change', function (m) { if (m.matches) menuOuvert(false); });
+
+    /* Changer de langue en restant sur la même page */
+    document.querySelectorAll('.langues a').forEach(function (a) {
+      a.addEventListener('click', function () { a.href = a.href.split('#')[0] + location.hash; });
+    });
+
+    /* Apparition douce des blocs au défilement */
+    var blocs = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('anim');
+      var obs = new IntersectionObserver(function (entrees) {
+        entrees.forEach(function (e) {
+          if (e.isIntersecting) {
+            var b = e.target; b.classList.add('vu'); obs.unobserve(b);
+            setTimeout(function () { b.style.transitionDelay = ''; }, 1000);
+          }
+        });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      blocs.forEach(function (b, i) { b.style.transitionDelay = (i % 4) * 80 + 'ms'; obs.observe(b); });
+    }
+
+    /* Affichage d'une page */
+    function afficher() {
+      var nom = location.hash.replace('#', '');
+      var cat = null, carte = null;
+      if (nom.indexOf('packs-') === 0) { cat = nom.slice(6); nom = 'packs'; }
+      else if (nom.indexOf('pack-') === 0) {
+        carte = document.querySelector('.carte[data-pack="' + nom.slice(5) + '"]');
+        if (carte) cat = carte.closest('.groupe').dataset.cat;
+        nom = 'packs';
+      }
+      if (!noms[nom]) nom = 'accueil';
+      var titre = '';
+      pages.forEach(function (p) {
+        var ok = p.dataset.page === nom;
+        p.hidden = !ok;
+        p.classList.toggle('entree', ok);
+        if (ok && p.dataset.titre) titre = p.dataset.titre;
+      });
+      document.body.dataset.page = nom;
+      liens.forEach(function (a) { a.classList.toggle('actif', a.getAttribute('href') === '#' + nom); });
+      if (titre) document.title = titre;
+      if (cat) categorie(cat);
+      if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      if (carte) {
+        setTimeout(function () {
+          carte.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          carte.classList.remove('vise'); void carte.offsetWidth; carte.classList.add('vise');
+        }, 250);
+      }
+    }
+    /* Le bouton fixe n'apparaît qu'une fois le haut de page dépassé */
+    function defile() { document.body.classList.toggle('defile', window.scrollY > 420); }
+    window.addEventListener('scroll', defile, { passive: true });
+
+    window.addEventListener('hashchange', function () { afficher(); defile(); });
+    afficher();
+    defile();
+  })();
+</script>
 </body>
 </html>
