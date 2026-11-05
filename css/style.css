@@ -676,3 +676,4 @@ html[lang="en"] .bloom .fr { display: none; }
   .voies { grid-template-columns: 1fr; gap: 16px; }
   .voie { padding: 24px 22px 20px; }
 }
+.voies-note b { color: var(--creme); }

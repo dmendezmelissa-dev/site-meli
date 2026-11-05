@@ -1156,8 +1156,8 @@
     "en": "how many?"
   },
   "voies.perso.l3": {
-    "fr": "Pas de vente, pas d'obligation de parrainer",
-    "en": "No selling, no obligation to recruit"
+    "fr": "Tu commandes pour toi, c'est tout",
+    "en": "You order for yourself, that's all"
   },
   "voies.revenu.tag": {
     "fr": "Pour un revenu",
@@ -1184,7 +1184,7 @@
     "en": "Support from the let's bloom. team"
   },
   "voies.note": {
-    "fr": "Tu hésites ? Commence pour toi, et tu verras plus tard si tu as envie d'aller plus loin. On en parle quand tu veux.",
-    "en": "Not sure yet? Start for yourself, and see later if you'd like to go further. We can talk about it whenever you like."
+    "fr": "<b>Aucune obligation, quel que soit ton choix :</b> ni de vendre, ni de parrainer. Tu fais ce que tu veux, à ton rythme. Tu hésites ? Commence pour toi, et tu verras plus tard si tu as envie d'aller plus loin.",
+    "en": "<b>No obligation, whichever you choose:</b> no selling, no recruiting required. You do what you want, at your own pace. Not sure yet? Start for yourself, and see later if you'd like to go further."
   }
 }

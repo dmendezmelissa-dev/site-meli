@@ -1156,8 +1156,8 @@
     "es": "¿cuántos?"
   },
   "voies.perso.l3": {
-    "fr": "Pas de vente, pas d'obligation de parrainer",
-    "es": "Sin vender, sin obligación de reclutar"
+    "fr": "Tu commandes pour toi, c'est tout",
+    "es": "Pides para ti, nada más"
   },
   "voies.revenu.tag": {
     "fr": "Pour un revenu",
@@ -1184,7 +1184,7 @@
     "es": "El acompañamiento del equipo let's bloom."
   },
   "voies.note": {
-    "fr": "Tu hésites ? Commence pour toi, et tu verras plus tard si tu as envie d'aller plus loin. On en parle quand tu veux.",
-    "es": "¿Dudas? Empieza para ti y verás más adelante si quieres ir más allá. Lo hablamos cuando quieras."
+    "fr": "<b>Aucune obligation, quel que soit ton choix :</b> ni de vendre, ni de parrainer. Tu fais ce que tu veux, à ton rythme. Tu hésites ? Commence pour toi, et tu verras plus tard si tu as envie d'aller plus loin.",
+    "es": "<b>Sin ninguna obligación, elijas lo que elijas:</b> ni de vender, ni de reclutar. Haces lo que quieras, a tu ritmo. ¿Dudas? Empieza para ti y verás más adelante si quieres ir más allá."
   }
 }
