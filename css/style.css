@@ -543,3 +543,15 @@ html[lang="en"] .bloom .fr { display: none; }
 .bloom-fleur { position: absolute; top: 0; right: 0; width: clamp(96px, 18vw, 240px); height: auto; pointer-events: none; z-index: 0; }
 .bloom-page .wrap { z-index: 1; }
 @media (max-width: 760px) { .bloom-page { padding-top: 76px; } }
+
+/* ---------- Choix de la personne (Meli · Sophie) ---------- */
+.personnes { display: flex; align-items: baseline; gap: 16px; }
+.personnes .logo { color: var(--doux); opacity: .6; transition: opacity .2s, color .2s; }
+.personnes .logo:hover { opacity: 1; color: var(--encre); }
+.personnes .logo.actif { color: var(--encre); opacity: 1; }
+.personnes .logo + .logo { padding-left: 16px; border-left: 1px solid var(--ligne); }
+@media (max-width: 400px) {
+  .personnes { gap: 12px; }
+  .personnes .logo { font-size: 23px; }
+  .personnes .logo + .logo { padding-left: 12px; }
+}

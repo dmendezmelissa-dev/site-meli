@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Meli · Fitness, wellbeing and beauty for mums</title>
   <meta name="description" content="Mum of two with a passion for fitness and wellbeing, I help you get back in shape at your own pace. Free first check-in, my favourite packs and a team to grow with.">
-  <link rel="alternate" hreflang="fr" href=".././">
-  <link rel="alternate" hreflang="en" href="../en/">
-  <link rel="alternate" hreflang="x-default" href=".././">
+  <link rel="alternate" hreflang="fr" href="../index.html">
+  <link rel="alternate" hreflang="en" href="../en/index.html">
+  <link rel="alternate" hreflang="x-default" href="../index.html">
   <link rel="preload" href="../fonts/lora-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../fonts/quicksand-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../css/style.css">
@@ -17,7 +17,10 @@
 
 <header class="menu">
   <div class="wrap">
-    <a class="logo" href="#accueil">Meli<span>.</span></a>
+    <div class="personnes" aria-label="Choose the person">
+      <a class="logo actif" href="#accueil">Meli<span>.</span></a>
+      <a class="logo " href="../en/sophie/index.html">Sophie<span>.</span></a>
+    </div>
     <button class="burger" type="button" aria-label="Open the menu" data-ouvrir="Open the menu" data-fermer="Close the menu" aria-expanded="false" aria-controls="menu-principal"><span></span><span></span><span></span></button>
     <nav id="menu-principal">
       <a href="#accueil">Home</a>
@@ -35,7 +38,7 @@
       <a href="#equipe">The team</a>
       <a href="#contact">Contact</a>
       <div class="langues" aria-label="Language">
-        <a href="../index.html" lang="fr" hreflang="fr" class="">FR</a><span aria-hidden="true">·</span><a href="index.html" lang="en" hreflang="en" class="actif">EN</a>
+        <a href="../index.html" lang="fr" hreflang="fr" class="">FR</a><span aria-hidden="true">·</span><a href="../en/index.html" lang="en" hreflang="en" class="actif">EN</a>
       </div>
     </nav>
   </div>
@@ -494,15 +497,15 @@
 
 </main>
 
+<!-- Bouton fixe en bas de l'écran (téléphone) -->
+<a class="cta-fixe" href="#contact" data-reserver>Book my free check-in</a>
+
 <footer>
   <div class="wrap">
     <div class="sig">@still.becoming.me24</div>
     <div class="liens"><span>Independent Farmasi distributor</span><span class="sep">·</span><a href="#mentions-legales">Legal notice</a><span class="sep">·</span><span>© 2026 Meli</span></div>
   </div>
 </footer>
-
-<!-- Bouton fixe en bas de l'écran (téléphone) -->
-<a class="cta-fixe" href="#contact" data-reserver>Book my free check-in</a>
 
 <script>
   /* Site en une seule page HTML par langue : navigation sans rechargement.

@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Meli · Sport, bien-être et beauté pour les mamans</title>
   <meta name="description" content="Maman passionnée de sport et de bien-être, je t'aide à retrouver la forme à ton rythme. 1er bilan gratuit, mes packs favoris et une équipe pour avancer ensemble.">
-  <link rel="alternate" hreflang="fr" href="./">
-  <link rel="alternate" hreflang="en" href="en/">
-  <link rel="alternate" hreflang="x-default" href="./">
+  <link rel="alternate" hreflang="fr" href="index.html">
+  <link rel="alternate" hreflang="en" href="en/index.html">
+  <link rel="alternate" hreflang="x-default" href="index.html">
   <link rel="preload" href="fonts/lora-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/quicksand-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
@@ -17,7 +17,10 @@
 
 <header class="menu">
   <div class="wrap">
-    <a class="logo" href="#accueil">Meli<span>.</span></a>
+    <div class="personnes" aria-label="Choisir la personne">
+      <a class="logo actif" href="#accueil">Meli<span>.</span></a>
+      <a class="logo " href="sophie/index.html">Sophie<span>.</span></a>
+    </div>
     <button class="burger" type="button" aria-label="Ouvrir le menu" data-ouvrir="Ouvrir le menu" data-fermer="Fermer le menu" aria-expanded="false" aria-controls="menu-principal"><span></span><span></span><span></span></button>
     <nav id="menu-principal">
       <a href="#accueil">Accueil</a>
@@ -494,15 +497,15 @@
 
 </main>
 
+<!-- Bouton fixe en bas de l'écran (téléphone) -->
+<a class="cta-fixe" href="#contact" data-reserver>Réserver mon bilan gratuit</a>
+
 <footer>
   <div class="wrap">
     <div class="sig">@still.becoming.me24</div>
     <div class="liens"><span>Distributrice indépendante Farmasi</span><span class="sep">·</span><a href="#mentions-legales">Mentions légales</a><span class="sep">·</span><span>© 2026 Meli</span></div>
   </div>
 </footer>
-
-<!-- Bouton fixe en bas de l'écran (téléphone) -->
-<a class="cta-fixe" href="#contact" data-reserver>Réserver mon bilan gratuit</a>
 
 <script>
   /* Site en une seule page HTML par langue : navigation sans rechargement.

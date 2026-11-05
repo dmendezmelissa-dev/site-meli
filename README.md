@@ -1,17 +1,20 @@
-# Site de Meli (@still.becoming.me24)
+# Site let's bloom. : espaces de Meli (@still.becoming.me24) et de Sophie
 
 Site statique, en français et en anglais, publié avec GitHub Pages.
+En haut de chaque page, « Meli. » et « Sophie. » permettent de choisir la personne.
 
 ## Comment c'est rangé
-- `src/index.html` : **la seule page à modifier**. Les textes y sont écrits en français,
-  entre doubles crochets avec un identifiant : `[[accueil.titre|Prends soin de toi]]`.
+- `src/index.html` (Meli) et `src/sophie.html` (Sophie) : **les pages à modifier**. Les textes y sont
+  écrits en français, entre doubles crochets avec un identifiant : `[[accueil.titre|Prends soin de toi]]`.
+- `src/partials/` : blocs communs (en-tête avec le choix de la personne, langues, présentation
+  let's bloom., pied de page et script), insérés avec `<!-- @inclure fichier.html -->`.
 - `i18n/en.json` : les traductions anglaises, une par identifiant.
-- `build.py` : fabrique `index.html` (français) et `en/index.html` (anglais).
-  Ces deux fichiers sont générés : ne pas les modifier à la main.
+- `build.py` : fabrique `index.html`, `en/index.html`, `sophie/index.html`, `en/sophie/index.html`.
+  Ces fichiers sont générés : ne pas les modifier à la main.
 - `css/style.css`, `fonts/`, `images/` : communs aux deux langues.
 
 ## Modifier un texte
-1. Changer le français dans `src/index.html` (ou ajouter un nouveau `[[cle|texte]]`).
+1. Changer le français dans `src/index.html`, `src/sophie.html` ou `src/partials/` (ou ajouter un nouveau `[[cle|texte]]`).
 2. `python3 build.py --sync` ajoute les nouvelles clés dans `i18n/en.json`.
 3. Écrire l'anglais dans `i18n/en.json` (et recopier le nouveau français dans `"fr"` si le texte a changé).
 4. `python3 build.py` : refuse de construire s'il manque une traduction, si une traduction

@@ -774,5 +774,57 @@
   "faq.equipe.titre": {
     "fr": "Avant de te <span class=\"kw\">lancer</span>",
     "en": "Before you <span class=\"kw\">get started</span>"
+  },
+  "menu.personnes": {
+    "fr": "Choisir la personne",
+    "en": "Choose the person"
+  },
+  "sophie.meta.titre": {
+    "fr": "Sophie · let's bloom.",
+    "en": "Sophie · let's bloom."
+  },
+  "sophie.meta.description": {
+    "fr": "Sophie, co-fondatrice de la communauté let's bloom., depuis le Guatemala.",
+    "en": "Sophie, co-founder of the let's bloom. community, from Guatemala."
+  },
+  "sophie.surtitre": {
+    "fr": "Guatemala · let's bloom.",
+    "en": "Guatemala · let's bloom."
+  },
+  "sophie.titre": {
+    "fr": "Moi, c'est <span class=\"kw-s\">Sophie</span>",
+    "en": "Hi, I'm <span class=\"kw-s\">Sophie</span>"
+  },
+  "todo.sophie.presentation": {
+    "fr": "sa présentation à venir",
+    "en": "her introduction, coming soon"
+  },
+  "todo.sophie.offre": {
+    "fr": "ce qu'elle propose, à venir",
+    "en": "what she offers, coming soon"
+  },
+  "sophie.cta": {
+    "fr": "Écrire à Sophie",
+    "en": "Write to Sophie"
+  },
+  "sophie.voir_equipe": {
+    "fr": "Découvrir let's bloom.",
+    "en": "Discover let's bloom."
+  },
+  "todo.photo_sophie": {
+    "fr": "PHOTO DE SOPHIE",
+    "en": "SOPHIE'S PHOTO"
+  },
+  "sophie.titre.contact": {
+    "fr": "Contact · Sophie",
+    "en": "Contact · Sophie"
+  },
+  "sophie.contact.titre": {
+    "fr": "Écris à <span class=\"kw-s\">Sophie</span>",
+    "en": "Write to <span class=\"kw-s\">Sophie</span>"
+  },
+  "todo.sophie.contact": {
+    "fr": "ses liens : WhatsApp, Instagram...",
+    "en": "her links: WhatsApp, Instagram..."
   }
 }

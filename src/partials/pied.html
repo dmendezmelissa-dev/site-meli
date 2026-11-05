@@ -1,0 +1,106 @@
+<footer>
+  <div class="wrap">
+    <div class="sig">{{signature}}</div>
+    <div class="liens"><span>[[footer.distributrice|Distributrice indépendante Farmasi]]</span><span class="sep">·</span><a href="{{lien_legal}}">[[footer.legal|Mentions légales]]</a><span class="sep">·</span><span>© 2026 {{nom}}</span></div>
+  </div>
+</footer>
+
+<script>
+  /* Site en une seule page HTML par langue : navigation sans rechargement.
+     Adresses : #histoire, #packs, #packs-nutrition (une catégorie), #pack-routine (un pack précis). */
+  (function () {
+    var pages = document.querySelectorAll('.page');
+    var liens = document.querySelectorAll('.menu nav > a, .menu .lien-packs');
+    var onglets = document.querySelectorAll('.onglet');
+    var groupes = document.querySelectorAll('.groupe');
+    var noms = {};
+    pages.forEach(function (p) { noms[p.dataset.page] = true; });
+
+    /* Catégories de packs */
+    function categorie(cat) {
+      onglets.forEach(function (b) {
+        var ok = b.dataset.cat === cat;
+        b.classList.toggle('actif', ok);
+        b.setAttribute('aria-selected', ok ? 'true' : 'false');
+      });
+      groupes.forEach(function (g) { g.hidden = g.dataset.cat !== cat; });
+    }
+    onglets.forEach(function (b) { b.addEventListener('click', function () { categorie(b.dataset.cat); }); });
+    categorie('nutrition');
+
+    /* Menu du téléphone */
+    var menu = document.querySelector('.menu');
+    var burger = document.querySelector('.burger');
+    function menuOuvert(ouvert) {
+      menu.classList.toggle('ouvert', ouvert);
+      document.body.classList.toggle('menu-ouvert', ouvert);
+      burger.setAttribute('aria-expanded', ouvert ? 'true' : 'false');
+      burger.setAttribute('aria-label', ouvert ? burger.dataset.fermer : burger.dataset.ouvrir);
+    }
+    burger.addEventListener('click', function () { menuOuvert(!menu.classList.contains('ouvert')); });
+    document.querySelectorAll('.menu nav a').forEach(function (a) { a.addEventListener('click', function () { menuOuvert(false); }); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') menuOuvert(false); });
+    window.matchMedia('(min-width: 961px)').addEventListener('change', function (m) { if (m.matches) menuOuvert(false); });
+
+    /* Changer de langue en restant sur la même page */
+    document.querySelectorAll('.langues a').forEach(function (a) {
+      a.addEventListener('click', function () { a.href = a.href.split('#')[0] + location.hash; });
+    });
+
+    /* Apparition douce des blocs au défilement */
+    var blocs = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('anim');
+      var obs = new IntersectionObserver(function (entrees) {
+        entrees.forEach(function (e) {
+          if (e.isIntersecting) {
+            var b = e.target; b.classList.add('vu'); obs.unobserve(b);
+            setTimeout(function () { b.style.transitionDelay = ''; }, 1000);
+          }
+        });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      blocs.forEach(function (b, i) { b.style.transitionDelay = (i % 4) * 80 + 'ms'; obs.observe(b); });
+    }
+
+    /* Affichage d'une page */
+    function afficher() {
+      var nom = location.hash.replace('#', '');
+      var cat = null, carte = null;
+      if (nom.indexOf('packs-') === 0) { cat = nom.slice(6); nom = 'packs'; }
+      else if (nom.indexOf('pack-') === 0) {
+        carte = document.querySelector('.carte[data-pack="' + nom.slice(5) + '"]');
+        if (carte) cat = carte.closest('.groupe').dataset.cat;
+        nom = 'packs';
+      }
+      if (!noms[nom]) nom = 'accueil';
+      var titre = '';
+      pages.forEach(function (p) {
+        var ok = p.dataset.page === nom;
+        p.hidden = !ok;
+        p.classList.toggle('entree', ok);
+        if (ok && p.dataset.titre) titre = p.dataset.titre;
+      });
+      document.body.dataset.page = nom;
+      liens.forEach(function (a) { a.classList.toggle('actif', a.getAttribute('href') === '#' + nom); });
+      if (titre) document.title = titre;
+      if (cat) categorie(cat);
+      if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      if (carte) {
+        setTimeout(function () {
+          carte.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          carte.classList.remove('vise'); void carte.offsetWidth; carte.classList.add('vise');
+        }, 250);
+      }
+    }
+    /* Le bouton fixe n'apparaît qu'une fois le haut de page dépassé */
+    function defile() { document.body.classList.toggle('defile', window.scrollY > 420); }
+    window.addEventListener('scroll', defile, { passive: true });
+
+    window.addEventListener('hashchange', function () { afficher(); defile(); });
+    afficher();
+    defile();
+  })();
+</script>
+</body>
+</html>
