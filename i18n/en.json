@@ -1186,5 +1186,29 @@
   "voies.note": {
     "fr": "<b>Aucune obligation, quel que soit ton choix :</b> ni de vendre, ni de parrainer. Tu fais ce que tu veux, à ton rythme. Tu hésites ? Commence pour toi. Pour bien recommander des produits, il faut d'abord les avoir testés : c'est exactement par là que j'ai commencé. Tu verras ensuite si tu as envie d'aller plus loin.",
     "en": "<b>No obligation, whichever you choose:</b> no selling, no recruiting required. You do what you want, at your own pace. Not sure yet? Start for yourself. To recommend products well, you need to have tried them first: that's exactly how I started. You'll see later if you'd like to go further."
+  },
+  "noel.accueil.titre": {
+    "fr": "Les offres de Noël <span class=\"kw\">sont là</span>",
+    "en": "Christmas offers <span class=\"kw\">are here</span>"
+  },
+  "noel.accueil.texte_avent": {
+    "fr": "Le calendrier de l'Avent et 5 coffrets prêts à offrir, déjà dans leur trousse.",
+    "en": "The Advent calendar and 5 gift sets ready to give, already in their pouch."
+  },
+  "noel.accueil.texte": {
+    "fr": "5 coffrets prêts à offrir, déjà dans leur trousse.",
+    "en": "5 gift sets ready to give, already in their pouch."
+  },
+  "noel.accueil.remise": {
+    "fr": "Et -30 % pour les inscrites.",
+    "en": "And 30% off when registered."
+  },
+  "noel.accueil.coffrets": {
+    "fr": "Voir les coffrets",
+    "en": "See the gift sets"
+  },
+  "noel.accueil.avent": {
+    "fr": "Le calendrier de l'Avent",
+    "en": "The Advent calendar"
   }
 }

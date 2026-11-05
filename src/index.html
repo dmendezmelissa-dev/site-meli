@@ -14,8 +14,8 @@
 <body>
 
 <!-- Bandeau des offres en cours (s'affiche seulement jusqu'à data-fin) -->
-<div class="bandeau" data-fin="2026-11-30" hidden><a href="#offres">[[bandeau.avent|<b>Noël :</b> le calendrier de l'Avent et 5 coffrets prêts à offrir]]<span aria-hidden="true"> →</span></a></div>
-<div class="bandeau" data-debut="2026-12-01" data-fin="2026-12-24" hidden><a href="#offres-coffrets">[[bandeau.noel|<b>Noël :</b> 5 coffrets prêts à offrir, sans papier cadeau]]<span aria-hidden="true"> →</span></a></div>
+<div class="bandeau" data-fin="2026-11-30" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres">[[bandeau.avent|<b>Noël :</b> le calendrier de l'Avent et 5 coffrets prêts à offrir]]<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<div class="bandeau" data-debut="2026-12-01" data-fin="2026-12-24" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres-coffrets">[[bandeau.noel|<b>Noël :</b> 5 coffrets prêts à offrir, sans papier cadeau]]<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
 <!-- @inclure entete.html -->
       <a href="#accueil">[[menu.accueil|Accueil]]</a>
       <a href="#histoire">[[menu.histoire|Mon histoire]]</a>
@@ -62,6 +62,28 @@
           <div class="pastille"><span>[[accueil.pastille|<b>1<sup>er</sup></b>bilan<br>gratuit]]</span></div>
         </div>
         <p class="manuscrit">[[accueil.manuscrit|Toujours en construction,<br>et c'est très bien comme ça.]]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accueil : offres de Noël (disparaît seul après la date de fin) -->
+  <section class="page noel-accueil" data-page="accueil">
+    <div class="wrap">
+      <div class="noel-carte reveal" data-fin="2026-12-24">
+        <picture class="noel-fond">
+          <source type="image/webp" srcset="{{root}}images/noel-fond-900.webp 900w, {{root}}images/noel-fond-1600.webp 1600w" sizes="(max-width: 1100px) 100vw, 1100px">
+          <img src="{{root}}images/noel-fond-1600.jpg" srcset="{{root}}images/noel-fond-900.jpg 900w, {{root}}images/noel-fond-1600.jpg 1600w" sizes="(max-width: 1100px) 100vw, 1100px" width="1600" height="800" alt="[[noel.alt_trousses|Les trousses des coffrets de Noël Farmasi]]" loading="lazy">
+        </picture>
+        <div class="noel-texte">
+          <p class="noel-etoiles" aria-hidden="true">✦ ✦ ✦</p>
+          <p class="offre-badge">[[noel.badge|Noël 2026]]</p>
+          <h2>[[noel.accueil.titre|Les offres de Noël <span class="kw">sont là</span>]]</h2>
+          <p><span data-fin="2026-11-30">[[noel.accueil.texte_avent|Le calendrier de l'Avent et 5 coffrets prêts à offrir, déjà dans leur trousse.]]</span><span data-debut="2026-12-01" data-fin="2026-12-24">[[noel.accueil.texte|5 coffrets prêts à offrir, déjà dans leur trousse.]]</span> [[noel.accueil.remise|Et -30 % pour les inscrites.]]</p>
+          <div class="btns">
+            <a class="btn creme" href="#offres-coffrets">[[noel.accueil.coffrets|Voir les coffrets]]</a>
+            <a class="btn vide-creme" href="#offres-calendrier" data-fin="2026-11-30">[[noel.accueil.avent|Le calendrier de l'Avent]]</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>

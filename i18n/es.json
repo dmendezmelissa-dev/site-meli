@@ -1186,5 +1186,29 @@
   "voies.note": {
     "fr": "<b>Aucune obligation, quel que soit ton choix :</b> ni de vendre, ni de parrainer. Tu fais ce que tu veux, à ton rythme. Tu hésites ? Commence pour toi. Pour bien recommander des produits, il faut d'abord les avoir testés : c'est exactement par là que j'ai commencé. Tu verras ensuite si tu as envie d'aller plus loin.",
     "es": "<b>Sin ninguna obligación, elijas lo que elijas:</b> ni de vender, ni de reclutar. Haces lo que quieras, a tu ritmo. ¿Dudas? Empieza para ti. Para recomendar bien los productos, primero hay que probarlos: así es exactamente como empecé yo. Después verás si quieres ir más allá."
+  },
+  "noel.accueil.titre": {
+    "fr": "Les offres de Noël <span class=\"kw\">sont là</span>",
+    "es": "Las ofertas de Navidad <span class=\"kw\">ya están aquí</span>"
+  },
+  "noel.accueil.texte_avent": {
+    "fr": "Le calendrier de l'Avent et 5 coffrets prêts à offrir, déjà dans leur trousse.",
+    "es": "El calendario de Adviento y 5 sets listos para regalar, ya en su neceser."
+  },
+  "noel.accueil.texte": {
+    "fr": "5 coffrets prêts à offrir, déjà dans leur trousse.",
+    "es": "5 sets listos para regalar, ya en su neceser."
+  },
+  "noel.accueil.remise": {
+    "fr": "Et -30 % pour les inscrites.",
+    "es": "Y -30 % para las inscritas."
+  },
+  "noel.accueil.coffrets": {
+    "fr": "Voir les coffrets",
+    "es": "Ver los sets"
+  },
+  "noel.accueil.avent": {
+    "fr": "Le calendrier de l'Avent",
+    "es": "El calendario de Adviento"
   }
 }

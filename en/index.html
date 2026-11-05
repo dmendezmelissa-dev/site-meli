@@ -17,8 +17,8 @@
 <body>
 
 <!-- Bandeau des offres en cours (s'affiche seulement jusqu'à data-fin) -->
-<div class="bandeau" data-fin="2026-11-30" hidden><a href="#offres"><b>Christmas:</b> the Advent calendar and 5 gift sets ready to give<span aria-hidden="true"> →</span></a></div>
-<div class="bandeau" data-debut="2026-12-01" data-fin="2026-12-24" hidden><a href="#offres-coffrets"><b>Christmas:</b> 5 gift sets ready to give, no wrapping needed<span aria-hidden="true"> →</span></a></div>
+<div class="bandeau" data-fin="2026-11-30" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres"><b>Christmas:</b> the Advent calendar and 5 gift sets ready to give<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<div class="bandeau" data-debut="2026-12-01" data-fin="2026-12-24" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres-coffrets"><b>Christmas:</b> 5 gift sets ready to give, no wrapping needed<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
 <header class="menu">
   <div class="wrap">
     <div class="personnes" aria-label="Choose the person">
@@ -77,6 +77,28 @@
           <div class="pastille"><span><b>Free</b>first<br>check-in</span></div>
         </div>
         <p class="manuscrit">Still a work in progress,<br>and that's perfectly fine.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accueil : offres de Noël (disparaît seul après la date de fin) -->
+  <section class="page noel-accueil" data-page="accueil">
+    <div class="wrap">
+      <div class="noel-carte reveal" data-fin="2026-12-24">
+        <picture class="noel-fond">
+          <source type="image/webp" srcset="../images/noel-fond-900.webp 900w, ../images/noel-fond-1600.webp 1600w" sizes="(max-width: 1100px) 100vw, 1100px">
+          <img src="../images/noel-fond-1600.jpg" srcset="../images/noel-fond-900.jpg 900w, ../images/noel-fond-1600.jpg 1600w" sizes="(max-width: 1100px) 100vw, 1100px" width="1600" height="800" alt="The pouches of the Farmasi Christmas gift sets" loading="lazy">
+        </picture>
+        <div class="noel-texte">
+          <p class="noel-etoiles" aria-hidden="true">✦ ✦ ✦</p>
+          <p class="offre-badge">Christmas 2026</p>
+          <h2>Christmas offers <span class="kw">are here</span></h2>
+          <p><span data-fin="2026-11-30">The Advent calendar and 5 gift sets ready to give, already in their pouch.</span><span data-debut="2026-12-01" data-fin="2026-12-24">5 gift sets ready to give, already in their pouch.</span> And 30% off when registered.</p>
+          <div class="btns">
+            <a class="btn creme" href="#offres-coffrets">See the gift sets</a>
+            <a class="btn vide-creme" href="#offres-calendrier" data-fin="2026-11-30">The Advent calendar</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>

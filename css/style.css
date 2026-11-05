@@ -677,3 +677,53 @@ html[lang="en"] .bloom .fr { display: none; }
   .voie { padding: 24px 22px 20px; }
 }
 .voies-note b { color: var(--creme); }
+
+/* ---------- Noël : bandeau festif et bloc sur l'accueil ---------- */
+:root { --noel: #560A1D; --noel-clair: #F3D9CC; }
+.bandeau { background: var(--noel); display: flex; justify-content: center; align-items: center; gap: 14px; }
+.bandeau[hidden] { display: none; }
+.bandeau a { color: #FBF1EA; }
+.scintille { color: var(--noel-clair); font-size: 12px; animation: scintille 2.4s ease-in-out infinite; }
+.scintille.s2 { animation-delay: 1.2s; }
+@keyframes scintille { 0%, 100% { opacity: .25; transform: scale(.7) rotate(0deg); } 50% { opacity: 1; transform: scale(1.15) rotate(45deg); } }
+
+.noel-accueil { padding: 0; }
+.noel-carte {
+  position: relative; overflow: hidden; border-radius: var(--rayon); background: var(--noel); color: #FBF1EA;
+  min-height: 400px; display: flex; align-items: center; margin: 8px 0 40px; box-shadow: 0 22px 46px rgba(86, 10, 29, .25);
+}
+.noel-fond { position: absolute; inset: 0; }
+.noel-fond img { width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%; display: block; }
+.noel-carte::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(86,10,29,.96) 0%, rgba(86,10,29,.85) 34%, rgba(86,10,29,0) 62%); pointer-events: none; }
+.noel-texte { position: relative; z-index: 1; max-width: 460px; padding: 44px 0 44px 52px; }
+.noel-texte h2 { color: #FBF1EA; margin: 10px 0 14px; }
+.noel-texte h2 .kw { color: var(--noel-clair); }
+.noel-texte p { color: #F1DFD8; margin: 0; font-size: 17px; }
+.noel-texte .offre-badge { background: var(--noel-clair); color: var(--noel); margin: 0; }
+.noel-etoiles { letter-spacing: .6em; color: var(--noel-clair) !important; font-size: 13px !important; margin-bottom: 14px !important; }
+.btn.creme { background: #FBF1EA; border-color: #FBF1EA; color: var(--noel); }
+.btn.creme:hover { background: #fff; }
+.btn.vide-creme { border-color: rgba(251, 241, 234, .7); color: #FBF1EA; }
+.btn.vide-creme:hover { background: rgba(251, 241, 234, .12); }
+.noel-texte .btns .btn[hidden] { display: none; }
+@media (max-width: 960px) {
+  .noel-carte { flex-direction: column; align-items: stretch; min-height: 0; }
+  .noel-fond { position: relative; inset: auto; aspect-ratio: 16 / 10; }
+  .noel-fond img { object-position: 78% 50%; }
+  .noel-carte::after { background: linear-gradient(180deg, rgba(86,10,29,0) 35%, rgba(86,10,29,1) 62%); }
+  .noel-texte { max-width: none; padding: 0 24px 28px; margin-top: -40px; text-align: center; }
+  .noel-texte .btns { justify-content: center; }
+  .bandeau { gap: 8px; }
+}
+/* Noël : l'image occupe la droite de la carte sur ordinateur */
+@media (min-width: 961px) {
+  .noel-fond { left: 36%; }
+  .noel-fond img { object-position: 50% 50%; }
+  .noel-carte::after { background: linear-gradient(90deg, var(--noel) 0%, var(--noel) 36%, rgba(86,10,29,.0) 52%); }
+  .noel-texte { max-width: 520px; }
+}
+@media (max-width: 960px) {
+  .noel-etoiles { display: none; }
+  .noel-texte { margin-top: -18px; }
+}
+@media (min-width: 761px) and (max-width: 960px) { .noel-fond { aspect-ratio: 2 / 1; } .noel-texte { padding: 0 48px 36px; } }
