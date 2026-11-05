@@ -17,7 +17,8 @@
 <body>
 
 <!-- Bandeau des offres en cours (s'affiche seulement jusqu'à data-fin) -->
-<div class="bandeau" data-fin="2026-12-24" hidden><a href="#offres"><b>Christmas:</b> 5 gift sets ready to give, no wrapping needed<span aria-hidden="true"> →</span></a></div>
+<div class="bandeau" data-fin="2026-11-30" hidden><a href="#offres"><b>Christmas:</b> the Advent calendar and 5 gift sets ready to give<span aria-hidden="true"> →</span></a></div>
+<div class="bandeau" data-debut="2026-12-01" data-fin="2026-12-24" hidden><a href="#offres-coffrets"><b>Christmas:</b> 5 gift sets ready to give, no wrapping needed<span aria-hidden="true"> →</span></a></div>
 <header class="menu">
   <div class="wrap">
     <div class="personnes" aria-label="Choose the person">
@@ -334,7 +335,8 @@
     </div>
   </section>
 
-  <!-- 4 bis. Offres du moment (chaque groupe d'offres disparaît seul après sa date de fin : data-fin) -->
+  <!-- 4 bis. Offres du moment : page de choix, puis une page par offre.
+       Chaque élément avec data-fin (et data-debut) ne s'affiche que pendant sa période. -->
   <section class="page offres" data-page="offres" data-titre="Current offers · Meli">
     <div class="wrap">
       <div class="center">
@@ -342,11 +344,38 @@
         <h2>What's on <span class="kw">right now</span></h2>
         <div class="rule"></div>
       </div>
+      <div class="choix-offres">
+        <a class="choix-offre reveal" href="#offres-coffrets" data-fin="2026-12-24">
+          <div class="arche photo">GIFT SETS PHOTO</div>
+          <span class="offre-badge">Christmas 2026</span>
+          <b>Christmas gift sets</b>
+          <span>5 sets ready to give, no wrapping needed.</span>
+          <i>Discover</i>
+        </a>
+        <a class="choix-offre reveal" href="#offres-calendrier" data-fin="2026-11-30">
+          <div class="arche photo">ADVENT CALENDAR PHOTO</div>
+          <span class="offre-badge offre-badge-s">Limited edition</span>
+          <b>The Advent calendar</b>
+          <span>A surprise a day while you wait for Christmas.</span>
+          <i>Discover</i>
+        </a>
+      </div>
+      <p class="offres-vide center" hidden>No special offer right now. Come back soon, or browse my packs in the meantime. <a href="#packs" class="fort">See my packs</a></p>
+      <div class="center btns">
+        <a class="btn vide" href="https://www.fr.farmasi.com/melissamendez1" target="_blank" rel="noopener">See my whole shop</a>
+      </div>
+    </div>
+  </section>
 
-      <div class="offre-groupe" data-fin="2026-12-24">
+  <!-- Offre : coffrets de Noël -->
+  <section class="page offres offre-page" data-page="offres-coffrets" data-titre="Christmas gift sets · Meli">
+    <div class="wrap">
+        <a class="retour" href="#offres">All offers</a>
+      <div class="offre-bloc" data-fin="2026-12-24">
         <div class="center offre-tete">
           <p class="offre-badge">Christmas 2026</p>
-          <h3 class="offre-titre">5 gift sets, <span class="kw">5 ways</span> to make someone happy</h3>
+          <h2>5 gift sets, <span class="kw">5 ways</span> to make someone happy</h2>
+          <div class="rule"></div>
           <p class="intro">Each set already comes in its reusable pouch: no need for wrapping paper. There's one for every personality.</p>
           <p class="petit">Offer valid until <span class="todo">end date to be confirmed</span></p>
         </div>
@@ -434,12 +463,29 @@
         </div>
         <p class="center question-offre">Who would you give it to?</p>
       </div>
+      <p class="offre-terminee center" hidden>This offer has ended. Take a look at the current offers, or my packs. <a href="#offres" class="fort">See the offers</a></p>
+    </div>
+  </section>
 
-      <p class="offres-vide center" hidden>No special offer right now. Come back soon, or browse my packs in the meantime. <a href="#packs" class="fort">See my packs</a></p>
-
-      <div class="center btns">
-        <a class="btn vide" href="https://www.fr.farmasi.com/melissamendez1" target="_blank" rel="noopener">See my whole shop</a>
+  <!-- Offre : calendrier de l'Avent -->
+  <section class="page offres offre-page" data-page="offres-calendrier" data-titre="Advent calendar · Meli">
+    <div class="wrap">
+        <a class="retour" href="#offres">All offers</a>
+      <div class="offre-bloc" data-fin="2026-11-30">
+        <article class="vedette reveal" data-offre="calendrier">
+          <div class="arche photo">ADVENT CALENDAR PHOTO</div>
+          <div class="vedette-texte">
+            <p class="offre-badge offre-badge-s">Limited edition</p>
+            <h3>The <span class="kw">Advent</span> calendar</h3>
+            <p>A surprise to open every day while you wait for Christmas. To treat yourself, or to give to someone who matters.</p>
+            <p><span class="todo">number of surprises and 2026 contents</span></p>
+            <p class="prix"><span class="todo">price</span></p>
+            <a class="btn plein" href="#">Order the calendar</a>
+            <p class="petit">Order before 1 December to open it from day one.</p>
+          </div>
+        </article>
       </div>
+      <p class="offre-terminee center" hidden>This offer has ended. Take a look at the current offers, or my packs. <a href="#offres" class="fort">See the offers</a></p>
     </div>
   </section>
 
@@ -705,7 +751,8 @@
         if (ok && p.dataset.titre) titre = p.dataset.titre;
       });
       document.body.dataset.page = nom;
-      liens.forEach(function (a) { a.classList.toggle('actif', a.getAttribute('href') === '#' + nom); });
+      var rubrique = nom.indexOf('offres-') === 0 ? 'offres' : nom;
+      liens.forEach(function (a) { a.classList.toggle('actif', a.getAttribute('href') === '#' + rubrique); });
       if (titre) document.title = titre;
       if (cat) categorie(cat);
       if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
@@ -721,14 +768,18 @@
     function defile() { document.body.classList.toggle('defile', window.scrollY > 420); }
     window.addEventListener('scroll', defile, { passive: true });
 
-    /* Offres : tout ce qui a une date de fin dépassée disparaît (bandeau, groupes d'offres) */
+    /* Offres : chaque élément avec data-fin (et éventuellement data-debut) ne s'affiche que pendant sa période */
     var aujourdhui = new Date().toISOString().slice(0, 10);
     document.querySelectorAll('[data-fin]').forEach(function (el) {
-      var active = el.dataset.fin >= aujourdhui;
+      var active = el.dataset.fin >= aujourdhui && (!el.dataset.debut || el.dataset.debut <= aujourdhui);
       el.hidden = !active;
     });
     var vide = document.querySelector('.offres-vide');
-    if (vide) vide.hidden = !!document.querySelector('.offre-groupe:not([hidden])');
+    if (vide) vide.hidden = !!document.querySelector('.choix-offre:not([hidden])');
+    document.querySelectorAll('.offre-page').forEach(function (pg) {
+      var bloc = pg.querySelector('.offre-bloc'), fin = pg.querySelector('.offre-terminee');
+      if (bloc && fin) fin.hidden = !bloc.hidden;
+    });
 
     window.addEventListener('hashchange', function () { afficher(); defile(); });
     afficher();

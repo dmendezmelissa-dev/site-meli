@@ -227,7 +227,8 @@
         if (ok && p.dataset.titre) titre = p.dataset.titre;
       });
       document.body.dataset.page = nom;
-      liens.forEach(function (a) { a.classList.toggle('actif', a.getAttribute('href') === '#' + nom); });
+      var rubrique = nom.indexOf('offres-') === 0 ? 'offres' : nom;
+      liens.forEach(function (a) { a.classList.toggle('actif', a.getAttribute('href') === '#' + rubrique); });
       if (titre) document.title = titre;
       if (cat) categorie(cat);
       if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
@@ -243,14 +244,18 @@
     function defile() { document.body.classList.toggle('defile', window.scrollY > 420); }
     window.addEventListener('scroll', defile, { passive: true });
 
-    /* Offres : tout ce qui a une date de fin dépassée disparaît (bandeau, groupes d'offres) */
+    /* Offres : chaque élément avec data-fin (et éventuellement data-debut) ne s'affiche que pendant sa période */
     var aujourdhui = new Date().toISOString().slice(0, 10);
     document.querySelectorAll('[data-fin]').forEach(function (el) {
-      var active = el.dataset.fin >= aujourdhui;
+      var active = el.dataset.fin >= aujourdhui && (!el.dataset.debut || el.dataset.debut <= aujourdhui);
       el.hidden = !active;
     });
     var vide = document.querySelector('.offres-vide');
-    if (vide) vide.hidden = !!document.querySelector('.offre-groupe:not([hidden])');
+    if (vide) vide.hidden = !!document.querySelector('.choix-offre:not([hidden])');
+    document.querySelectorAll('.offre-page').forEach(function (pg) {
+      var bloc = pg.querySelector('.offre-bloc'), fin = pg.querySelector('.offre-terminee');
+      if (bloc && fin) fin.hidden = !bloc.hidden;
+    });
 
     window.addEventListener('hashchange', function () { afficher(); defile(); });
     afficher();
