@@ -871,10 +871,6 @@
     "fr": "date de fin à confirmer",
     "en": "end date to be confirmed"
   },
-  "todo.photo_coffret": {
-    "fr": "PHOTO DU COFFRET",
-    "en": "GIFT SET PHOTO"
-  },
   "noel.hera.pour": {
     "fr": "Pour celle qui aime <span class='kw'>les parfums</span>",
     "en": "For her, if she loves <span class='kw'>fragrance</span>"
@@ -1047,10 +1043,6 @@
     "fr": "À commander avant le 1<sup>er</sup> décembre pour l'ouvrir dès le premier jour.",
     "en": "Order before 1 December to open it from day one."
   },
-  "todo.photo_coffrets": {
-    "fr": "PHOTO DES COFFRETS",
-    "en": "GIFT SETS PHOTO"
-  },
   "choix.coffrets.titre": {
     "fr": "Les coffrets de Noël",
     "en": "Christmas gift sets"
@@ -1090,5 +1082,13 @@
   "titre.calendrier": {
     "fr": "Calendrier de l'Avent · Meli",
     "en": "Advent calendar · Meli"
+  },
+  "noel.alt_trousses": {
+    "fr": "Les trousses des coffrets de Noël Farmasi",
+    "en": "The pouches of the Farmasi Christmas gift sets"
+  },
+  "noel.alt_couverture": {
+    "fr": "Holidays Sets : les 5 coffrets de Noël Farmasi dans leurs trousses",
+    "en": "Holidays Sets: the 5 Farmasi Christmas gift sets in their pouches"
   }
 }

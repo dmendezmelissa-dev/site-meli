@@ -643,3 +643,9 @@ html[lang="en"] .bloom .fr { display: none; }
   .offre-page .carte { width: 100%; }
   .choix-offre .arche.photo { aspect-ratio: 16 / 11; }
 }
+
+/* Images des offres */
+.offre-banniere { display: block; max-width: 1000px; margin: 0 auto 44px; border-radius: var(--rayon); overflow: hidden; box-shadow: 0 18px 40px rgba(80, 50, 30, .14); }
+.offre-banniere img { display: block; width: 100%; height: auto; }
+.arche.photo.produit { background: linear-gradient(170deg, #F4EAE0 0%, #E8D7C6 100%); }
+.arche.photo.produit picture img { object-fit: contain; object-position: center 70%; padding: 34px 18px 14px; filter: drop-shadow(0 10px 14px rgba(80, 50, 30, .18)); }
