@@ -649,3 +649,11 @@ html[lang="en"] .bloom .fr { display: none; }
 .offre-banniere img { display: block; width: 100%; height: auto; }
 .arche.photo.produit { background: linear-gradient(170deg, #F4EAE0 0%, #E8D7C6 100%); }
 .arche.photo.produit picture img { object-fit: contain; object-position: center 70%; padding: 34px 18px 14px; filter: drop-shadow(0 10px 14px rgba(80, 50, 30, .18)); }
+
+/* Prix boutique et prix inscrites (-30 %) */
+.carte .prix { margin-bottom: 4px; }
+.prix-fi { margin: 0 0 16px; font-size: 15px; color: var(--sauge-b); font-weight: 700; display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.prix-fi .moins { background: var(--sauge); color: var(--blanc); border-radius: 999px; padding: 2px 9px; font-size: 12px; letter-spacing: .04em; }
+.prix-fi small { font-weight: 500; font-size: 13px; color: var(--doux); }
+.info-fi { max-width: 620px; margin: 18px auto 0; background: var(--blanc); border-radius: 16px; padding: 14px 20px; font-size: 15px; }
+.info-fi b { color: var(--sauge-b); }

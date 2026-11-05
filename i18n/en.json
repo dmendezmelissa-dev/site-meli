@@ -415,10 +415,6 @@
     "fr": "Ma pause gourmande : 10 g de collagène et de la vitamine C, qui contribue à la formation normale du collagène.",
     "en": "My sweet break: 10 g of collagen and vitamin C, which contributes to normal collagen formation."
   },
-  "pack.beaute.prix": {
-    "fr": "55,00 €",
-    "en": "€55.00"
-  },
   "pack.decouverte.nom": {
     "fr": "Découverte",
     "en": "Discovery"
@@ -1090,5 +1086,45 @@
   "noel.alt_couverture": {
     "fr": "Holidays Sets : les 5 coffrets de Noël Farmasi dans leurs trousses",
     "en": "Holidays Sets: the 5 Farmasi Christmas gift sets in their pouches"
+  },
+  "prix.65": {
+    "fr": "65,00 €",
+    "en": "€65.00"
+  },
+  "prix.65.fi": {
+    "fr": "45,50 €",
+    "en": "€45.50"
+  },
+  "prix.80": {
+    "fr": "80,00 €",
+    "en": "€80.00"
+  },
+  "prix.80.fi": {
+    "fr": "56,00 €",
+    "en": "€56.00"
+  },
+  "prix.55": {
+    "fr": "55,00 €",
+    "en": "€55.00"
+  },
+  "prix.55.fi": {
+    "fr": "38,50 €",
+    "en": "€38.50"
+  },
+  "prix.inscrites": {
+    "fr": "avec l'inscription",
+    "en": "when registered"
+  },
+  "noel.info_fi": {
+    "fr": "<b>-30 % pour les inscrites :</b> les prix affichés sont les prix boutique. Inscrite comme Farmasi Influencer, tu paies le prix réduit indiqué sous chaque coffret.",
+    "en": "<b>30% off when registered:</b> the prices shown are shop prices. Registered as a Farmasi Influencer, you pay the reduced price shown under each set."
+  },
+  "noel.info_fi_lien": {
+    "fr": "Comment s'inscrire",
+    "en": "How to register"
+  },
+  "prix.moins": {
+    "fr": "-30 %",
+    "en": "-30%"
   }
 }

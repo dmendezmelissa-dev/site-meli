@@ -57,6 +57,7 @@ def insecables(texte):
     """Typographie française : espace fine insécable avant ? ! ; et insécable avant :, et dans « »."""
     texte = re.sub(r" ([?!;])", "\u202f\\1", texte)
     texte = re.sub(r" :", "\u00a0:", texte)
+    texte = re.sub(r"(\d) ([%€])", "\\1\u00a0\\2", texte)
     return texte.replace("« ", "«\u00a0").replace(" »", "\u00a0»")
 
 

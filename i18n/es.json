@@ -419,10 +419,6 @@
     "fr": "Ma pause gourmande : 10 g de collagène et de la vitamine C, qui contribue à la formation normale du collagène.",
     "es": "Mi pausa golosa: 10 g de colágeno y vitamina C, que contribuye a la formación normal del colágeno."
   },
-  "pack.beaute.prix": {
-    "fr": "55,00 €",
-    "es": "55,00 €"
-  },
   "pack.decouverte.nom": {
     "fr": "Découverte",
     "es": "Descubrimiento"
@@ -1090,5 +1086,45 @@
   "noel.alt_couverture": {
     "fr": "Holidays Sets : les 5 coffrets de Noël Farmasi dans leurs trousses",
     "es": "Holidays Sets: los 5 sets de Navidad Farmasi en sus neceseres"
+  },
+  "prix.65": {
+    "fr": "65,00 €",
+    "es": "65,00 €"
+  },
+  "prix.65.fi": {
+    "fr": "45,50 €",
+    "es": "45,50 €"
+  },
+  "prix.80": {
+    "fr": "80,00 €",
+    "es": "80,00 €"
+  },
+  "prix.80.fi": {
+    "fr": "56,00 €",
+    "es": "56,00 €"
+  },
+  "prix.55": {
+    "fr": "55,00 €",
+    "es": "55,00 €"
+  },
+  "prix.55.fi": {
+    "fr": "38,50 €",
+    "es": "38,50 €"
+  },
+  "prix.inscrites": {
+    "fr": "avec l'inscription",
+    "es": "con la inscripción"
+  },
+  "noel.info_fi": {
+    "fr": "<b>-30 % pour les inscrites :</b> les prix affichés sont les prix boutique. Inscrite comme Farmasi Influencer, tu paies le prix réduit indiqué sous chaque coffret.",
+    "es": "<b>-30 % para las inscritas:</b> los precios indicados son los precios de tienda. Inscrita como Farmasi Influencer, pagas el precio reducido que aparece bajo cada set."
+  },
+  "noel.info_fi_lien": {
+    "fr": "Comment s'inscrire",
+    "es": "Cómo inscribirse"
+  },
+  "prix.moins": {
+    "fr": "-30 %",
+    "es": "-30 %"
   }
 }
