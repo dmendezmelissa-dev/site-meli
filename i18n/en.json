@@ -516,8 +516,8 @@
     "en": "link"
   },
   "demarrer.2": {
-    "fr": "Tu prends le statut VDI : je t'explique tout avec ma fiche de bienvenue.",
-    "en": "You register as an independent seller (VDI status in France): I explain everything in my welcome guide."
+    "fr": "Si tu veux toucher des commissions, tu prends le statut VDI : je t'explique tout avec ma fiche de bienvenue.",
+    "en": "If you want to earn commissions, you register as an independent seller (VDI status in France): I explain everything in my welcome guide."
   },
   "demarrer.3": {
     "fr": "On démarre ensemble, à ton rythme.",
@@ -1126,5 +1126,65 @@
   "prix.moins": {
     "fr": "-30 %",
     "en": "-30%"
+  },
+  "voies.titre": {
+    "fr": "Deux façons de t'inscrire",
+    "en": "Two ways to sign up"
+  },
+  "voies.perso.tag": {
+    "fr": "Pour toi",
+    "en": "For you"
+  },
+  "voies.perso.titre": {
+    "fr": "Je consomme les produits",
+    "en": "I use the products"
+  },
+  "voies.perso.texte": {
+    "fr": "Tu aimes les produits et tu veux simplement les payer moins cher. Tu t'inscris comme Farmasi Influencer et tu as 30 % de remise sur tes commandes, chaque mois.",
+    "en": "You love the products and simply want to pay less for them. You sign up as a Farmasi Influencer and get 30% off your orders, every month."
+  },
+  "voies.perso.l1": {
+    "fr": "30 % de remise à vie sur tout le catalogue",
+    "en": "30% lifetime discount on the whole catalogue"
+  },
+  "voies.perso.l2": {
+    "fr": "Un minimum de points à valider chaque mois",
+    "en": "A minimum of points to reach each month"
+  },
+  "todo.points": {
+    "fr": "combien ?",
+    "en": "how many?"
+  },
+  "voies.perso.l3": {
+    "fr": "Pas de vente, pas d'obligation de parrainer",
+    "en": "No selling, no obligation to recruit"
+  },
+  "voies.revenu.tag": {
+    "fr": "Pour un revenu",
+    "en": "For an income"
+  },
+  "voies.revenu.titre": {
+    "fr": "Je rejoins l'équipe",
+    "en": "I join the team"
+  },
+  "voies.revenu.texte": {
+    "fr": "Tu cherches un projet à toi, à côté de ta vie de famille. Tu partages les produits avec ton lien ou ton code, et tu touches des commissions sur les ventes.",
+    "en": "You're looking for a project of your own, alongside family life. You share the products with your link or code, and you earn commissions on sales."
+  },
+  "voies.revenu.l1": {
+    "fr": "Les mêmes 30 % de remise sur tes commandes",
+    "en": "The same 30% discount on your orders"
+  },
+  "voies.revenu.l2": {
+    "fr": "Des commissions sur chaque vente, sans stock",
+    "en": "Commissions on every sale, no stock"
+  },
+  "voies.revenu.l3": {
+    "fr": "L'accompagnement de l'équipe let's bloom.",
+    "en": "Support from the let's bloom. team"
+  },
+  "voies.note": {
+    "fr": "Tu hésites ? Commence pour toi, et tu verras plus tard si tu as envie d'aller plus loin. On en parle quand tu veux.",
+    "en": "Not sure yet? Start for yourself, and see later if you'd like to go further. We can talk about it whenever you like."
   }
 }

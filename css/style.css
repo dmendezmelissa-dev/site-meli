@@ -657,3 +657,22 @@ html[lang="en"] .bloom .fr { display: none; }
 .prix-fi small { font-weight: 500; font-size: 13px; color: var(--doux); }
 .info-fi { max-width: 620px; margin: 18px auto 0; background: var(--blanc); border-radius: 16px; padding: 14px 20px; font-size: 15px; }
 .info-fi b { color: var(--sauge-b); }
+
+/* L'équipe : deux façons de s'inscrire */
+.deux-voies { margin-top: 48px; }
+.deux-voies-titre { font-family: "Lora", serif; font-size: clamp(24px, 3vw, 30px); margin: 0 0 24px; }
+.voies { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; text-align: left; }
+.voie { background: var(--creme); color: var(--encre); border-radius: var(--rayon); padding: 30px 30px 26px; }
+.voie-tag { display: inline-block; margin: 0 0 12px; padding: 4px 14px; border-radius: 999px; background: var(--terra); color: var(--blanc); font-weight: 700; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+.voie:nth-child(2) .voie-tag { background: var(--sauge-b); }
+.voie h3 { font-size: 23px; margin-bottom: 10px; }
+.voie > p:not(.voie-tag) { color: var(--doux); font-size: 15.5px; margin-bottom: 14px; }
+.voie ul { list-style: none; margin: 0; padding: 0; }
+.voie li { position: relative; padding-left: 26px; margin: 8px 0; font-size: 15px; font-weight: 500; }
+.voie li::before { content: ""; position: absolute; left: 2px; top: .35em; width: 12px; height: 7px; border-left: 2px solid var(--sauge-b); border-bottom: 2px solid var(--sauge-b); transform: rotate(-45deg); }
+.voie .todo { background: #F3E3D6; color: var(--terra-b); border-color: var(--sable); }
+.voies-note { margin: 22px auto 0; max-width: 620px; color: #EEF0E8; font-size: 15.5px; }
+@media (max-width: 760px) {
+  .voies { grid-template-columns: 1fr; gap: 16px; }
+  .voie { padding: 24px 22px 20px; }
+}
