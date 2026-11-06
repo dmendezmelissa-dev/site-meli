@@ -732,3 +732,18 @@ html[lang="en"] .bloom .fr { display: none; }
 .avent-liste li:last-child { color: var(--encre); font-weight: 500; }
 .offre-banniere img[src*="avent-bandeau"] { aspect-ratio: 1159 / 395; object-fit: cover; }
 @media (max-width: 760px) { .vedette .avent-liste { display: inline-block; text-align: left; } }
+
+/* ---------- Bouton Retour (toujours accessible, sauf sur l'accueil) ---------- */
+.retour-zone { position: sticky; top: 68px; height: 0; z-index: 9; }
+.btn-retour {
+  position: absolute; top: 14px; left: max(16px, calc((100vw - 1100px) / 2 - 8px));
+  display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+  background: rgba(255, 255, 255, .92); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  border: 1px solid var(--ligne); border-radius: 999px; padding: 8px 16px 8px 12px; min-height: 40px;
+  font-weight: 700; font-size: 14px; color: var(--terra-b); box-shadow: 0 6px 18px rgba(80, 50, 30, .10);
+  transition: background .2s, transform .2s;
+}
+.btn-retour::before { content: "\2190"; font-size: 17px; line-height: 1; }
+.btn-retour:hover { background: var(--blanc); transform: translateX(-2px); }
+.btn-retour[hidden] { display: none; }
+@media (max-width: 960px) { .retour-zone { top: 64px; } .btn-retour { top: 10px; } }

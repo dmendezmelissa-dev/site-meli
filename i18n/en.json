@@ -1055,10 +1055,6 @@
     "fr": "Coffrets de Noël · Meli",
     "en": "Christmas gift sets · Meli"
   },
-  "offres.retour": {
-    "fr": "Toutes les offres",
-    "en": "All offers"
-  },
   "offres.terminee": {
     "fr": "Cette offre est terminée. Découvre les offres en cours, ou mes packs.",
     "en": "This offer has ended. Take a look at the current offers, or my packs."
@@ -1226,5 +1222,9 @@
   "avent.l3": {
     "fr": "Des produits exclusifs à l'intérieur",
     "en": "Exclusive products inside"
+  },
+  "nav.retour": {
+    "fr": "Retour",
+    "en": "Back"
   }
 }

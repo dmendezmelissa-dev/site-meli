@@ -1055,10 +1055,6 @@
     "fr": "Coffrets de Noël · Meli",
     "es": "Sets de Navidad · Meli"
   },
-  "offres.retour": {
-    "fr": "Toutes les offres",
-    "es": "Todas las ofertas"
-  },
   "offres.terminee": {
     "fr": "Cette offre est terminée. Découvre les offres en cours, ou mes packs.",
     "es": "Esta oferta terminó. Descubre las ofertas actuales o mis packs."
@@ -1226,5 +1222,9 @@
   "avent.l3": {
     "fr": "Des produits exclusifs à l'intérieur",
     "es": "Productos exclusivos en su interior"
+  },
+  "nav.retour": {
+    "fr": "Retour",
+    "es": "Volver"
   }
 }
