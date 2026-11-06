@@ -1426,5 +1426,17 @@
   "prix.eco.24": {
     "fr": "Tu économises 24,00 €",
     "es": "Ahorras 24,00 €"
+  },
+  "prix.180": {
+    "fr": "180,00 €",
+    "es": "180,00 €"
+  },
+  "prix.180.fi": {
+    "fr": "126,00 €",
+    "es": "126,00 €"
+  },
+  "prix.eco.54": {
+    "fr": "Tu économises 54,00 €",
+    "es": "Ahorras 54,00 €"
   }
 }

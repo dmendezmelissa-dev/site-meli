@@ -76,14 +76,15 @@
         </div>
       </div>
       <div class="visuel">
-        <div class="arche-ligne"></div>
         <div class="cadre">
+          <div class="arche-ligne"></div>
           <div class="arche photo">
             <picture>
               <source type="image/webp" srcset="../images/meli-accueil-480.webp 480w, ../images/meli-accueil-800.webp 800w, ../images/meli-accueil-1100.webp 1100w" sizes="(max-width: 900px) 74vw, 400px">
               <img src="../images/meli-accueil-800.jpg" srcset="../images/meli-accueil-480.jpg 480w, ../images/meli-accueil-800.jpg 800w" sizes="(max-width: 900px) 74vw, 400px" width="800" height="1040" alt="Meli sonriendo con sus productos Farmasi favoritos" fetchpriority="high">
             </picture>
           </div>
+          <span class="socle" aria-hidden="true"><i></i></span>
           <div class="pastille"><span><b>1<sup>ra</sup></b>evaluación<br>gratis</span></div>
         </div>
         <p class="manuscrit">Siempre en construcción,<br>y está muy bien así.</p>
@@ -136,10 +137,10 @@
     <div class="wrap center">
       <p class="eyebrow">¿Por dónde empezar?</p>
       <div class="raccourcis">
-        <a class="raccourci reveal" href="#histoire"><span class="num">01</span><b>Mi historia</b><span>Quién soy y por qué hago esto.</span><i>Leer</i></a>
-        <a class="raccourci reveal" href="#accompagnement"><span class="num">02</span><b>Tu evaluación gratis</b><span>Un encuentro sin compromiso.</span><i>Descubrir</i></a>
-        <a class="raccourci reveal" href="#packs"><span class="num">03</span><b>Mis packs</b><span>Nutrición, maquillaje, cabello, rostro.</span><i>Ver</i></a>
-        <a class="raccourci reveal" href="#equipe-rejoindre"><span class="num">04</span><b>Unirte al equipo</b><span>Un proyecto propio, a tu ritmo.</span><i>Saber más</i></a>
+        <a class="raccourci reveal" href="#histoire"><span class="socle" aria-hidden="true"><i></i></span><span class="num">01</span><b>Mi historia</b><span>Quién soy y por qué hago esto.</span><i>Leer</i></a>
+        <a class="raccourci reveal" href="#accompagnement"><span class="socle" aria-hidden="true"><i></i></span><span class="num">02</span><b>Tu evaluación gratis</b><span>Un encuentro sin compromiso.</span><i>Descubrir</i></a>
+        <a class="raccourci reveal" href="#packs"><span class="socle" aria-hidden="true"><i></i></span><span class="num">03</span><b>Mis packs</b><span>Nutrición, maquillaje, cabello, rostro.</span><i>Ver</i></a>
+        <a class="raccourci reveal" href="#equipe-rejoindre"><span class="socle" aria-hidden="true"><i></i></span><span class="num">04</span><b>Unirte al equipo</b><span>Un proyecto propio, a tu ritmo.</span><i>Saber más</i></a>
       </div>
     </div>
   </section>
@@ -634,7 +635,11 @@
               <li>24 días de belleza, bienestar y cuidado</li>
               <li>Productos exclusivos en su interior</li>
             </ul>
-            <p class="prix"><span class="todo">precio</span></p>
+            <div class="prix-duo">
+              <div class="pd-boutique"><span>Precio tienda</span><b>180,00 €</b></div>
+              <div class="pd-inscrite"><span>Inscrita <i>-30 %</i></span><b>126,00 €</b></div>
+              <p class="pd-eco">Ahorras 54,00 €</p>
+            </div>
             <a class="btn plein" href="#">Pedir el calendario</a>
             <p class="petit">Pídelo antes del 1 de diciembre para abrirlo desde el primer día.</p>
           </div>

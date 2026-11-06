@@ -76,14 +76,15 @@
         </div>
       </div>
       <div class="visuel">
-        <div class="arche-ligne"></div>
         <div class="cadre">
+          <div class="arche-ligne"></div>
           <div class="arche photo">
             <picture>
               <source type="image/webp" srcset="../images/meli-accueil-480.webp 480w, ../images/meli-accueil-800.webp 800w, ../images/meli-accueil-1100.webp 1100w" sizes="(max-width: 900px) 74vw, 400px">
               <img src="../images/meli-accueil-800.jpg" srcset="../images/meli-accueil-480.jpg 480w, ../images/meli-accueil-800.jpg 800w" sizes="(max-width: 900px) 74vw, 400px" width="800" height="1040" alt="Meli smiling with her favourite Farmasi products" fetchpriority="high">
             </picture>
           </div>
+          <span class="socle" aria-hidden="true"><i></i></span>
           <div class="pastille"><span><b>Free</b>first<br>check-in</span></div>
         </div>
         <p class="manuscrit">Still a work in progress,<br>and that's perfectly fine.</p>
@@ -136,10 +137,10 @@
     <div class="wrap center">
       <p class="eyebrow">Where to start?</p>
       <div class="raccourcis">
-        <a class="raccourci reveal" href="#histoire"><span class="num">01</span><b>My story</b><span>Who I am, and why I do this.</span><i>Read</i></a>
-        <a class="raccourci reveal" href="#accompagnement"><span class="num">02</span><b>Your free check-in</b><span>A no-strings-attached first chat.</span><i>Discover</i></a>
-        <a class="raccourci reveal" href="#packs"><span class="num">03</span><b>My packs</b><span>Nutrition, make-up, hair, skincare.</span><i>Browse</i></a>
-        <a class="raccourci reveal" href="#equipe-rejoindre"><span class="num">04</span><b>Join the team</b><span>A project of your own, at your pace.</span><i>Learn more</i></a>
+        <a class="raccourci reveal" href="#histoire"><span class="socle" aria-hidden="true"><i></i></span><span class="num">01</span><b>My story</b><span>Who I am, and why I do this.</span><i>Read</i></a>
+        <a class="raccourci reveal" href="#accompagnement"><span class="socle" aria-hidden="true"><i></i></span><span class="num">02</span><b>Your free check-in</b><span>A no-strings-attached first chat.</span><i>Discover</i></a>
+        <a class="raccourci reveal" href="#packs"><span class="socle" aria-hidden="true"><i></i></span><span class="num">03</span><b>My packs</b><span>Nutrition, make-up, hair, skincare.</span><i>Browse</i></a>
+        <a class="raccourci reveal" href="#equipe-rejoindre"><span class="socle" aria-hidden="true"><i></i></span><span class="num">04</span><b>Join the team</b><span>A project of your own, at your pace.</span><i>Learn more</i></a>
       </div>
     </div>
   </section>
@@ -634,7 +635,11 @@
               <li>24 days of beauty, wellbeing and self-care</li>
               <li>Exclusive products inside</li>
             </ul>
-            <p class="prix"><span class="todo">price</span></p>
+            <div class="prix-duo">
+              <div class="pd-boutique"><span>Store price</span><b>€180.00</b></div>
+              <div class="pd-inscrite"><span>Member <i>-30%</i></span><b>€126.00</b></div>
+              <p class="pd-eco">You save €54.00</p>
+            </div>
             <a class="btn plein" href="#">Order the calendar</a>
             <p class="petit">Order before 1 December to open it from day one.</p>
           </div>
