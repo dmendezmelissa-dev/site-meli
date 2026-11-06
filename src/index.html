@@ -46,7 +46,7 @@
         <div class="rule"></div>
         <p class="intro">[[accueil.texte|Moi, c'est Meli, maman de deux enfants, passionnée de sport et de bien-être. Je t'aide à retrouver la forme avec des exercices simples à faire à la maison et les produits que j'utilise chaque jour.]]</p>
         <div class="btns">
-          <a class="btn plein" href="#bilan" data-reserver>[[cta.reserver|Réserver mon bilan gratuit]]</a>
+          <a class="btn plein" href="#bilan" data-reserver data-sujet="sport">[[cta.reserver|Réserver mon bilan gratuit]]</a>
           <a class="btn vide" href="#packs">[[accueil.voir_packs|Voir mes packs]]</a>
         </div>
       </div>
@@ -186,7 +186,7 @@
       <p class="bientot">[[accomp.bientot|<b>Bientôt :</b> des séances en groupe, en plein air, au parc.]] <span class="todo">[[todo.date|date à venir]]</span></p>
 
       <div class="btns">
-        <a class="btn plein" href="#bilan" data-reserver>[[cta.reserver|Réserver mon bilan gratuit]]</a>
+        <a class="btn plein" href="#bilan" data-reserver data-sujet="sport">[[cta.reserver|Réserver mon bilan gratuit]]</a>
       </div>
       <p class="petit">[[accomp.mention|Mes conseils viennent de mon expérience. Ils ne remplacent pas l'avis d'un médecin ou d'une sage-femme, surtout pendant la grossesse, après un accouchement ou en cas de douleur.]]</p>
     </div>
@@ -230,18 +230,19 @@
   </section>
 
   <!-- 3 bis. Réserver son bilan : formulaire qui prépare un message WhatsApp (rien n'est envoyé au site) -->
-  <section class="page bilan" data-page="bilan" data-titre="[[titre.bilan|Réserver mon bilan · Meli]]">
+  <section class="page bilan" data-page="bilan" data-titre="[[titre.bilan|Écris-moi · Meli]]">
     <div class="wrap">
       <div class="center">
-        <p class="eyebrow">[[bilan.surtitre|Ton bilan gratuit]]</p>
+        <p class="eyebrow">[[bilan.surtitre|Écris-moi]]</p>
         <h2>[[bilan.titre|Faisons <span class="kw">connaissance</span>]]</h2>
         <div class="rule"></div>
-        <p class="intro">[[bilan.intro|Remplis ces quelques lignes : ton message est prêt en un clic, tu me l'envoies sur WhatsApp et je te réponds pour fixer notre rendez-vous.]]</p>
+        <p class="intro">[[bilan.intro|Dis-moi ce qui t'amène et quelques mots sur toi : ton message est prêt en un clic, tu me l'envoies sur WhatsApp et je te réponds vite.]]</p>
       </div>
 
       <form class="form-bilan" novalidate
             data-whatsapp=""
-            data-bonjour="[[bilan.msg.bonjour|Bonjour Meli ! Je souhaite réserver mon bilan gratuit.]]"
+            data-bonjour="[[bilan.msg.bonjour_site|Bonjour Meli ! Je viens de ton site.]]"
+            data-bonjour-bilan="[[bilan.msg.bonjour|Bonjour Meli ! Je souhaite réserver mon bilan gratuit.]]"
             data-oui="[[bilan.msg.envoye|Ton message est prêt.]]"
             data-copie="[[bilan.msg.copie|Message copié ! Colle-le dans WhatsApp ou ailleurs.]]"
             data-erreur="[[bilan.msg.erreur|Indique au moins ton prénom et ton nom.]]">
@@ -261,14 +262,19 @@
           </label>
         </div>
 
-        <fieldset class="champ cases" data-msg="[[bilan.msg.profil|Profil]]">
-          <legend>[[bilan.qui|Qui es-tu ?]] <small>[[bilan.qui.aide|(plusieurs choix possibles)]]</small></legend>
-          <label><input type="checkbox" name="qui" value="maman"><span>[[bilan.qui.maman|Maman]]</span></label>
-          <label><input type="checkbox" name="qui" value="travail"><span>[[bilan.qui.travail|Je travaille]]</span></label>
-          <label><input type="checkbox" name="qui" value="sport"><span>[[bilan.qui.sport|J'ai envie de reprendre le sport]]</span></label>
-          <label><input type="checkbox" name="qui" value="carences" data-montre="precision"><span>[[bilan.qui.carences|J'ai des besoins spécifiques (carences, fatigue...)]]</span></label>
+        <fieldset class="champ pilules" data-msg="[[bilan.msg.interet|Ce qui m'intéresse]]">
+          <legend>[[bilan.amene|Qu'est-ce qui t'amène ?]] <small>[[bilan.plusieurs|(plusieurs choix possibles)]]</small></legend>
+          <label><input type="checkbox" name="amene" value="sport"><span>[[bilan.amene.sport|Reprendre le sport]]</span></label>
+          <label><input type="checkbox" name="amene" value="complements" data-montre="precision"><span>[[bilan.amene.complements|Compléments et besoins spécifiques]]</span></label>
+          <label><input type="checkbox" name="amene" value="beaute"><span>[[bilan.amene.beaute|Beauté et maquillage]]</span></label>
+          <label><input type="checkbox" name="amene" value="activite"><span>[[bilan.amene.activite|L'activité Farmasi]]</span></label>
         </fieldset>
-        <label class="champ" data-champ="precision" hidden><span>[[bilan.precision|Précise si tu veux]]</span><input name="precision" type="text" data-msg="[[bilan.msg.precisions|Précisions]]"><small class="aide">[[bilan.precision.aide|Partage seulement ce que tu veux. Je ne remplace pas un avis médical.]]</small></label>
+        <fieldset class="champ pilules" data-msg="[[bilan.msg.situation|Ma situation]]">
+          <legend>[[bilan.situation|Ta situation]] <small>[[bilan.facultatif|(facultatif)]]</small></legend>
+          <label><input type="checkbox" name="situation" value="maman"><span>[[bilan.qui.maman|Maman]]</span></label>
+          <label><input type="checkbox" name="situation" value="travail"><span>[[bilan.qui.travail|Je travaille]]</span></label>
+        </fieldset>
+        <label class="champ" data-champ="precision" hidden><span>[[bilan.precision|Tes besoins, si tu veux les préciser]]</span><input name="precision" type="text" data-msg="[[bilan.msg.precisions|Précisions]]"><small class="aide">[[bilan.precision.aide|Partage seulement ce que tu veux. Je ne remplace pas un avis médical.]]</small></label>
 
         <label class="champ"><span>[[bilan.message|Un petit mot (facultatif)]]</span><textarea name="message" rows="3" placeholder="[[bilan.message.ph|Tes objectifs, tes disponibilités...]]"></textarea></label>
 
@@ -678,7 +684,7 @@
       </div>
 
       <div class="btns">
-        <a class="btn plein" href="#contact">[[equipe.cta|Je veux en savoir plus]]</a>
+        <a class="btn plein" href="#bilan" data-sujet="activite">[[equipe.cta|Je veux en savoir plus]]</a>
       </div>
       <p class="petit">[[equipe.mention|Chacune avance à son rythme. Les revenus dépendent de ton activité et ne sont jamais garantis. Farmasi est une marque internationale de beauté et de bien-être ; je suis distributrice indépendante.]]</p>
     </div>
@@ -692,7 +698,8 @@
       <div class="rule"></div>
       <p class="intro">[[contact.texte|Un produit, ton bilan gratuit, l'équipe : choisis ce qui te va le mieux, je te réponds avec plaisir.]]</p>
       <div class="reseaux">
-        <a class="btn sauge" href="#">WhatsApp</a>
+        <a class="btn plein" href="#bilan">[[contact.ecrire|Écrire mon message]]</a>
+        <a class="btn vide" href="#">WhatsApp</a>
         <a class="btn vide" href="https://www.instagram.com/still.becoming.me24/" target="_blank" rel="noopener">Instagram</a>
         <a class="btn vide" href="#">TikTok</a>
       </div>
@@ -728,6 +735,6 @@
 </main>
 
 <!-- Bouton fixe en bas de l'écran (téléphone) -->
-<a class="cta-fixe" href="#bilan" data-reserver>[[cta.reserver|Réserver mon bilan gratuit]]</a>
+<a class="cta-fixe" href="#bilan" data-reserver data-sujet="sport">[[cta.reserver|Réserver mon bilan gratuit]]</a>
 
 <!-- @inclure pied.html -->

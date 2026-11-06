@@ -784,3 +784,12 @@ html[lang="en"] .bloom .fr { display: none; }
 }
 button.btn { font-family: inherit; cursor: pointer; line-height: inherit; }
 button.btn.vide { background: transparent; } button.btn.vide:hover { background: var(--terra); }
+
+/* Formulaire : choix en pastilles */
+.pilules { display: flex; flex-wrap: wrap; gap: 10px; }
+.pilules legend { width: 100%; margin-bottom: 10px; }
+.pilules label { position: relative; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; padding: 10px 18px; border: 1px solid var(--ligne); border-radius: 999px; background: var(--creme); font-size: 15px; font-weight: 500; transition: background .2s, border-color .2s, color .2s; }
+.pilules input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.pilules label:has(input:checked) { background: var(--sauge-b); border-color: var(--sauge-b); color: var(--blanc); }
+.pilules label:has(input:checked)::before { content: "\2713"; font-weight: 700; }
+.pilules label:has(input:focus-visible) { outline: 2px solid var(--terra); outline-offset: 2px; }

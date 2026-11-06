@@ -62,7 +62,7 @@
         <div class="rule"></div>
         <p class="intro">Moi, c'est Meli, maman de deux enfants, passionnée de sport et de bien-être. Je t'aide à retrouver la forme avec des exercices simples à faire à la maison et les produits que j'utilise chaque jour.</p>
         <div class="btns">
-          <a class="btn plein" href="#bilan" data-reserver>Réserver mon bilan gratuit</a>
+          <a class="btn plein" href="#bilan" data-reserver data-sujet="sport">Réserver mon bilan gratuit</a>
           <a class="btn vide" href="#packs">Voir mes packs</a>
         </div>
       </div>
@@ -202,7 +202,7 @@
       <p class="bientot"><b>Bientôt :</b> des séances en groupe, en plein air, au parc. <span class="todo">date à venir</span></p>
 
       <div class="btns">
-        <a class="btn plein" href="#bilan" data-reserver>Réserver mon bilan gratuit</a>
+        <a class="btn plein" href="#bilan" data-reserver data-sujet="sport">Réserver mon bilan gratuit</a>
       </div>
       <p class="petit">Mes conseils viennent de mon expérience. Ils ne remplacent pas l'avis d'un médecin ou d'une sage-femme, surtout pendant la grossesse, après un accouchement ou en cas de douleur.</p>
     </div>
@@ -246,18 +246,19 @@
   </section>
 
   <!-- 3 bis. Réserver son bilan : formulaire qui prépare un message WhatsApp (rien n'est envoyé au site) -->
-  <section class="page bilan" data-page="bilan" data-titre="Réserver mon bilan · Meli">
+  <section class="page bilan" data-page="bilan" data-titre="Écris-moi · Meli">
     <div class="wrap">
       <div class="center">
-        <p class="eyebrow">Ton bilan gratuit</p>
+        <p class="eyebrow">Écris-moi</p>
         <h2>Faisons <span class="kw">connaissance</span></h2>
         <div class="rule"></div>
-        <p class="intro">Remplis ces quelques lignes : ton message est prêt en un clic, tu me l'envoies sur WhatsApp et je te réponds pour fixer notre rendez-vous.</p>
+        <p class="intro">Dis-moi ce qui t'amène et quelques mots sur toi : ton message est prêt en un clic, tu me l'envoies sur WhatsApp et je te réponds vite.</p>
       </div>
 
       <form class="form-bilan" novalidate
             data-whatsapp=""
-            data-bonjour="Bonjour Meli ! Je souhaite réserver mon bilan gratuit."
+            data-bonjour="Bonjour Meli ! Je viens de ton site."
+            data-bonjour-bilan="Bonjour Meli ! Je souhaite réserver mon bilan gratuit."
             data-oui="Ton message est prêt."
             data-copie="Message copié ! Colle-le dans WhatsApp ou ailleurs."
             data-erreur="Indique au moins ton prénom et ton nom.">
@@ -277,14 +278,19 @@
           </label>
         </div>
 
-        <fieldset class="champ cases" data-msg="Profil">
-          <legend>Qui es-tu ? <small>(plusieurs choix possibles)</small></legend>
-          <label><input type="checkbox" name="qui" value="maman"><span>Maman</span></label>
-          <label><input type="checkbox" name="qui" value="travail"><span>Je travaille</span></label>
-          <label><input type="checkbox" name="qui" value="sport"><span>J'ai envie de reprendre le sport</span></label>
-          <label><input type="checkbox" name="qui" value="carences" data-montre="precision"><span>J'ai des besoins spécifiques (carences, fatigue...)</span></label>
+        <fieldset class="champ pilules" data-msg="Ce qui m'intéresse">
+          <legend>Qu'est-ce qui t'amène ? <small>(plusieurs choix possibles)</small></legend>
+          <label><input type="checkbox" name="amene" value="sport"><span>Reprendre le sport</span></label>
+          <label><input type="checkbox" name="amene" value="complements" data-montre="precision"><span>Compléments et besoins spécifiques</span></label>
+          <label><input type="checkbox" name="amene" value="beaute"><span>Beauté et maquillage</span></label>
+          <label><input type="checkbox" name="amene" value="activite"><span>L'activité Farmasi</span></label>
         </fieldset>
-        <label class="champ" data-champ="precision" hidden><span>Précise si tu veux</span><input name="precision" type="text" data-msg="Précisions"><small class="aide">Partage seulement ce que tu veux. Je ne remplace pas un avis médical.</small></label>
+        <fieldset class="champ pilules" data-msg="Ma situation">
+          <legend>Ta situation <small>(facultatif)</small></legend>
+          <label><input type="checkbox" name="situation" value="maman"><span>Maman</span></label>
+          <label><input type="checkbox" name="situation" value="travail"><span>Je travaille</span></label>
+        </fieldset>
+        <label class="champ" data-champ="precision" hidden><span>Tes besoins, si tu veux les préciser</span><input name="precision" type="text" data-msg="Précisions"><small class="aide">Partage seulement ce que tu veux. Je ne remplace pas un avis médical.</small></label>
 
         <label class="champ"><span>Un petit mot (facultatif)</span><textarea name="message" rows="3" placeholder="Tes objectifs, tes disponibilités..."></textarea></label>
 
@@ -765,7 +771,7 @@
       </div>
 
       <div class="btns">
-        <a class="btn plein" href="#contact">Je veux en savoir plus</a>
+        <a class="btn plein" href="#bilan" data-sujet="activite">Je veux en savoir plus</a>
       </div>
       <p class="petit">Chacune avance à son rythme. Les revenus dépendent de ton activité et ne sont jamais garantis. Farmasi est une marque internationale de beauté et de bien-être ; je suis distributrice indépendante.</p>
     </div>
@@ -779,7 +785,8 @@
       <div class="rule"></div>
       <p class="intro">Un produit, ton bilan gratuit, l'équipe : choisis ce qui te va le mieux, je te réponds avec plaisir.</p>
       <div class="reseaux">
-        <a class="btn sauge" href="#">WhatsApp</a>
+        <a class="btn plein" href="#bilan">Écrire mon message</a>
+        <a class="btn vide" href="#">WhatsApp</a>
         <a class="btn vide" href="https://www.instagram.com/still.becoming.me24/" target="_blank" rel="noopener">Instagram</a>
         <a class="btn vide" href="#">TikTok</a>
       </div>
@@ -815,7 +822,7 @@
 </main>
 
 <!-- Bouton fixe en bas de l'écran (téléphone) -->
-<a class="cta-fixe" href="#bilan" data-reserver>Réserver mon bilan gratuit</a>
+<a class="cta-fixe" href="#bilan" data-reserver data-sujet="sport">Réserver mon bilan gratuit</a>
 
 <footer>
   <div class="wrap">
@@ -895,10 +902,12 @@
       form.addEventListener('submit', function (e) {
         e.preventDefault();
         if (!form.prenom.value.trim() || !form.nom.value.trim()) { etat.textContent = form.dataset.erreur; apercu.hidden = false; zone.value = ''; form.prenom.focus(); return; }
-        var lignes = [form.dataset.bonjour, ''];
+        var lignes = [form.querySelector('input[value=sport]').checked ? form.dataset.bonjourBilan : form.dataset.bonjour, ''];
         ['prenom', 'nom', 'age', 'sexe'].forEach(function (n) { var v = form[n].value.trim(); if (v && !(n === 'sexe' && form[n].selectedIndex === 0)) lignes.push(libelle(form[n]) + ' : ' + v); });
-        var qui = [].slice.call(form.querySelectorAll('input[name=qui]:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
-        if (qui.length) lignes.push(form.querySelector('.cases').dataset.msg + ' : ' + qui.join(', '));
+        form.querySelectorAll('.pilules').forEach(function (g) {
+          var choix = [].slice.call(g.querySelectorAll('input:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
+          if (choix.length) lignes.push(g.dataset.msg + ' : ' + choix.join(', '));
+        });
         if (!form.querySelector('[data-champ=precision]').hidden && form.precision.value.trim()) lignes.push(libelle(form.precision) + ' : ' + form.precision.value.trim());
         if (form.message.value.trim()) lignes.push('', form.message.value.trim());
         var texte = lignes.join('\n');
@@ -914,6 +923,18 @@
         try { navigator.clipboard.writeText(zone.value).then(ok, function () { zone.select(); document.execCommand('copy'); ok(); }); }
         catch (err) { zone.select(); try { document.execCommand('copy'); ok(); } catch (e2) {} }
       });
+    }
+
+    /* Un bouton peut pré-cocher un sujet du formulaire (data-sujet) */
+    var sujetDemande = null;
+    document.querySelectorAll('[data-sujet]').forEach(function (a) {
+      a.addEventListener('click', function () { sujetDemande = a.dataset.sujet; });
+    });
+    function preCocher() {
+      if (!form || !sujetDemande) return;
+      var c = form.querySelector('input[name=amene][value="' + sujetDemande + '"]');
+      if (c && !c.checked) { c.checked = true; c.dispatchEvent(new Event('change')); }
+      sujetDemande = null;
     }
 
     /* Bouton Retour : revient à la page précédente du site, sinon à la page parente */
@@ -970,6 +991,7 @@
       window.scrollTo({ top: y, behavior: 'instant' });
       if (retour && y) setTimeout(function () { window.scrollTo({ top: y, behavior: 'instant' }); }, 60);
       boutonRetour.hidden = (nom === 'accueil');
+      if (nom === 'bilan') preCocher();
       if (carte) {
         setTimeout(function () {
           carte.scrollIntoView({ behavior: 'smooth', block: 'center' });

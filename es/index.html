@@ -62,7 +62,7 @@
         <div class="rule"></div>
         <p class="intro">Soy Meli, mamá de dos niños, apasionada por el deporte y el bienestar. Te ayudo a recuperar tu forma con ejercicios sencillos para hacer en casa y los productos que uso todos los días.</p>
         <div class="btns">
-          <a class="btn plein" href="#bilan" data-reserver>Reservar mi evaluación gratis</a>
+          <a class="btn plein" href="#bilan" data-reserver data-sujet="sport">Reservar mi evaluación gratis</a>
           <a class="btn vide" href="#packs">Ver mis packs</a>
         </div>
       </div>
@@ -202,7 +202,7 @@
       <p class="bientot"><b>Muy pronto:</b> sesiones en grupo, al aire libre, en el parque. <span class="todo">fecha por definir</span></p>
 
       <div class="btns">
-        <a class="btn plein" href="#bilan" data-reserver>Reservar mi evaluación gratis</a>
+        <a class="btn plein" href="#bilan" data-reserver data-sujet="sport">Reservar mi evaluación gratis</a>
       </div>
       <p class="petit">Mis consejos vienen de mi experiencia. No reemplazan la opinión de un médico o una partera, sobre todo durante el embarazo, después del parto o si sientes dolor.</p>
     </div>
@@ -246,18 +246,19 @@
   </section>
 
   <!-- 3 bis. Réserver son bilan : formulaire qui prépare un message WhatsApp (rien n'est envoyé au site) -->
-  <section class="page bilan" data-page="bilan" data-titre="Reservar mi evaluación · Meli">
+  <section class="page bilan" data-page="bilan" data-titre="Escríbeme · Meli">
     <div class="wrap">
       <div class="center">
-        <p class="eyebrow">Tu evaluación gratis</p>
+        <p class="eyebrow">Escríbeme</p>
         <h2><span class="kw">Conozcámonos</span></h2>
         <div class="rule"></div>
-        <p class="intro">Completa estas pocas líneas: tu mensaje queda listo en un clic, me lo envías por WhatsApp y te respondo para fijar nuestra cita.</p>
+        <p class="intro">Cuéntame qué te trae por aquí y un poco sobre ti: tu mensaje queda listo en un clic, me lo envías por WhatsApp y te respondo enseguida.</p>
       </div>
 
       <form class="form-bilan" novalidate
             data-whatsapp=""
-            data-bonjour="¡Hola Meli! Quiero reservar mi evaluación gratis."
+            data-bonjour="¡Hola Meli! Te encontré en tu sitio web."
+            data-bonjour-bilan="¡Hola Meli! Quiero reservar mi evaluación gratis."
             data-oui="Tu mensaje está listo."
             data-copie="¡Mensaje copiado! Pégalo en WhatsApp o donde quieras."
             data-erreur="Indica al menos tu nombre y tu apellido.">
@@ -277,14 +278,19 @@
           </label>
         </div>
 
-        <fieldset class="champ cases" data-msg="Perfil">
-          <legend>¿Quién eres? <small>(puedes elegir varias)</small></legend>
-          <label><input type="checkbox" name="qui" value="maman"><span>Mamá</span></label>
-          <label><input type="checkbox" name="qui" value="travail"><span>Trabajo</span></label>
-          <label><input type="checkbox" name="qui" value="sport"><span>Quiero retomar el deporte</span></label>
-          <label><input type="checkbox" name="qui" value="carences" data-montre="precision"><span>Tengo necesidades específicas (carencias, cansancio...)</span></label>
+        <fieldset class="champ pilules" data-msg="Me interesa">
+          <legend>¿Qué te trae por aquí? <small>(puedes elegir varias)</small></legend>
+          <label><input type="checkbox" name="amene" value="sport"><span>Retomar el deporte</span></label>
+          <label><input type="checkbox" name="amene" value="complements" data-montre="precision"><span>Suplementos y necesidades específicas</span></label>
+          <label><input type="checkbox" name="amene" value="beaute"><span>Belleza y maquillaje</span></label>
+          <label><input type="checkbox" name="amene" value="activite"><span>El negocio Farmasi</span></label>
         </fieldset>
-        <label class="champ" data-champ="precision" hidden><span>Cuéntame más si quieres</span><input name="precision" type="text" data-msg="Detalles"><small class="aide">Comparte solo lo que quieras. No reemplazo una opinión médica.</small></label>
+        <fieldset class="champ pilules" data-msg="Mi situación">
+          <legend>Tu situación <small>(opcional)</small></legend>
+          <label><input type="checkbox" name="situation" value="maman"><span>Mamá</span></label>
+          <label><input type="checkbox" name="situation" value="travail"><span>Trabajo</span></label>
+        </fieldset>
+        <label class="champ" data-champ="precision" hidden><span>Tus necesidades, si quieres precisarlas</span><input name="precision" type="text" data-msg="Detalles"><small class="aide">Comparte solo lo que quieras. No reemplazo una opinión médica.</small></label>
 
         <label class="champ"><span>Unas palabras (opcional)</span><textarea name="message" rows="3" placeholder="Tus objetivos, tu disponibilidad..."></textarea></label>
 
@@ -765,7 +771,7 @@
       </div>
 
       <div class="btns">
-        <a class="btn plein" href="#contact">Quiero saber más</a>
+        <a class="btn plein" href="#bilan" data-sujet="activite">Quiero saber más</a>
       </div>
       <p class="petit">Cada una avanza a su ritmo. Los ingresos dependen de tu actividad y nunca están garantizados. Farmasi es una marca internacional de belleza y bienestar; soy distribuidora independiente.</p>
     </div>
@@ -779,7 +785,8 @@
       <div class="rule"></div>
       <p class="intro">Un producto, tu evaluación gratis, el equipo: elige lo que más te convenga, te respondo con gusto.</p>
       <div class="reseaux">
-        <a class="btn sauge" href="#">WhatsApp</a>
+        <a class="btn plein" href="#bilan">Escribir mi mensaje</a>
+        <a class="btn vide" href="#">WhatsApp</a>
         <a class="btn vide" href="https://www.instagram.com/still.becoming.me24/" target="_blank" rel="noopener">Instagram</a>
         <a class="btn vide" href="#">TikTok</a>
       </div>
@@ -815,7 +822,7 @@
 </main>
 
 <!-- Bouton fixe en bas de l'écran (téléphone) -->
-<a class="cta-fixe" href="#bilan" data-reserver>Reservar mi evaluación gratis</a>
+<a class="cta-fixe" href="#bilan" data-reserver data-sujet="sport">Reservar mi evaluación gratis</a>
 
 <footer>
   <div class="wrap">
@@ -895,10 +902,12 @@
       form.addEventListener('submit', function (e) {
         e.preventDefault();
         if (!form.prenom.value.trim() || !form.nom.value.trim()) { etat.textContent = form.dataset.erreur; apercu.hidden = false; zone.value = ''; form.prenom.focus(); return; }
-        var lignes = [form.dataset.bonjour, ''];
+        var lignes = [form.querySelector('input[value=sport]').checked ? form.dataset.bonjourBilan : form.dataset.bonjour, ''];
         ['prenom', 'nom', 'age', 'sexe'].forEach(function (n) { var v = form[n].value.trim(); if (v && !(n === 'sexe' && form[n].selectedIndex === 0)) lignes.push(libelle(form[n]) + ' : ' + v); });
-        var qui = [].slice.call(form.querySelectorAll('input[name=qui]:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
-        if (qui.length) lignes.push(form.querySelector('.cases').dataset.msg + ' : ' + qui.join(', '));
+        form.querySelectorAll('.pilules').forEach(function (g) {
+          var choix = [].slice.call(g.querySelectorAll('input:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
+          if (choix.length) lignes.push(g.dataset.msg + ' : ' + choix.join(', '));
+        });
         if (!form.querySelector('[data-champ=precision]').hidden && form.precision.value.trim()) lignes.push(libelle(form.precision) + ' : ' + form.precision.value.trim());
         if (form.message.value.trim()) lignes.push('', form.message.value.trim());
         var texte = lignes.join('\n');
@@ -914,6 +923,18 @@
         try { navigator.clipboard.writeText(zone.value).then(ok, function () { zone.select(); document.execCommand('copy'); ok(); }); }
         catch (err) { zone.select(); try { document.execCommand('copy'); ok(); } catch (e2) {} }
       });
+    }
+
+    /* Un bouton peut pré-cocher un sujet du formulaire (data-sujet) */
+    var sujetDemande = null;
+    document.querySelectorAll('[data-sujet]').forEach(function (a) {
+      a.addEventListener('click', function () { sujetDemande = a.dataset.sujet; });
+    });
+    function preCocher() {
+      if (!form || !sujetDemande) return;
+      var c = form.querySelector('input[name=amene][value="' + sujetDemande + '"]');
+      if (c && !c.checked) { c.checked = true; c.dispatchEvent(new Event('change')); }
+      sujetDemande = null;
     }
 
     /* Bouton Retour : revient à la page précédente du site, sinon à la page parente */
@@ -970,6 +991,7 @@
       window.scrollTo({ top: y, behavior: 'instant' });
       if (retour && y) setTimeout(function () { window.scrollTo({ top: y, behavior: 'instant' }); }, 60);
       boutonRetour.hidden = (nom === 'accueil');
+      if (nom === 'bilan') preCocher();
       if (carte) {
         setTimeout(function () {
           carte.scrollIntoView({ behavior: 'smooth', block: 'center' });

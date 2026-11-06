@@ -222,10 +222,12 @@
       form.addEventListener('submit', function (e) {
         e.preventDefault();
         if (!form.prenom.value.trim() || !form.nom.value.trim()) { etat.textContent = form.dataset.erreur; apercu.hidden = false; zone.value = ''; form.prenom.focus(); return; }
-        var lignes = [form.dataset.bonjour, ''];
+        var lignes = [form.querySelector('input[value=sport]').checked ? form.dataset.bonjourBilan : form.dataset.bonjour, ''];
         ['prenom', 'nom', 'age', 'sexe'].forEach(function (n) { var v = form[n].value.trim(); if (v && !(n === 'sexe' && form[n].selectedIndex === 0)) lignes.push(libelle(form[n]) + ' : ' + v); });
-        var qui = [].slice.call(form.querySelectorAll('input[name=qui]:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
-        if (qui.length) lignes.push(form.querySelector('.cases').dataset.msg + ' : ' + qui.join(', '));
+        form.querySelectorAll('.pilules').forEach(function (g) {
+          var choix = [].slice.call(g.querySelectorAll('input:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
+          if (choix.length) lignes.push(g.dataset.msg + ' : ' + choix.join(', '));
+        });
         if (!form.querySelector('[data-champ=precision]').hidden && form.precision.value.trim()) lignes.push(libelle(form.precision) + ' : ' + form.precision.value.trim());
         if (form.message.value.trim()) lignes.push('', form.message.value.trim());
         var texte = lignes.join('\n');
@@ -241,6 +243,18 @@
         try { navigator.clipboard.writeText(zone.value).then(ok, function () { zone.select(); document.execCommand('copy'); ok(); }); }
         catch (err) { zone.select(); try { document.execCommand('copy'); ok(); } catch (e2) {} }
       });
+    }
+
+    /* Un bouton peut pré-cocher un sujet du formulaire (data-sujet) */
+    var sujetDemande = null;
+    document.querySelectorAll('[data-sujet]').forEach(function (a) {
+      a.addEventListener('click', function () { sujetDemande = a.dataset.sujet; });
+    });
+    function preCocher() {
+      if (!form || !sujetDemande) return;
+      var c = form.querySelector('input[name=amene][value="' + sujetDemande + '"]');
+      if (c && !c.checked) { c.checked = true; c.dispatchEvent(new Event('change')); }
+      sujetDemande = null;
     }
 
     /* Bouton Retour : revient à la page précédente du site, sinon à la page parente */
@@ -297,6 +311,7 @@
       window.scrollTo({ top: y, behavior: 'instant' });
       if (retour && y) setTimeout(function () { window.scrollTo({ top: y, behavior: 'instant' }); }, 60);
       boutonRetour.hidden = (nom === 'accueil');
+      if (nom === 'bilan') preCocher();
       if (carte) {
         setTimeout(function () {
           carte.scrollIntoView({ behavior: 'smooth', block: 'center' });

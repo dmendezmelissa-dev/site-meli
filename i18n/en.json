@@ -1228,20 +1228,20 @@
     "en": "Back"
   },
   "titre.bilan": {
-    "fr": "Réserver mon bilan · Meli",
-    "en": "Book my check-in · Meli"
+    "fr": "Écris-moi · Meli",
+    "en": "Write to me · Meli"
   },
   "bilan.surtitre": {
-    "fr": "Ton bilan gratuit",
-    "en": "Your free check-in"
+    "fr": "Écris-moi",
+    "en": "Write to me"
   },
   "bilan.titre": {
     "fr": "Faisons <span class=\"kw\">connaissance</span>",
     "en": "Let's get <span class=\"kw\">to know each other</span>"
   },
   "bilan.intro": {
-    "fr": "Remplis ces quelques lignes : ton message est prêt en un clic, tu me l'envoies sur WhatsApp et je te réponds pour fixer notre rendez-vous.",
-    "en": "Fill in these few lines: your message is ready in one click, you send it to me on WhatsApp and I'll reply to set up our appointment."
+    "fr": "Dis-moi ce qui t'amène et quelques mots sur toi : ton message est prêt en un clic, tu me l'envoies sur WhatsApp et je te réponds vite.",
+    "en": "Tell me what brings you here and a little about yourself: your message is ready in one click, you send it to me on WhatsApp and I'll get back to you quickly."
   },
   "bilan.msg.bonjour": {
     "fr": "Bonjour Meli ! Je souhaite réserver mon bilan gratuit.",
@@ -1291,14 +1291,6 @@
     "fr": "Je préfère ne pas répondre",
     "en": "I'd rather not say"
   },
-  "bilan.qui": {
-    "fr": "Qui es-tu ?",
-    "en": "Who are you?"
-  },
-  "bilan.qui.aide": {
-    "fr": "(plusieurs choix possibles)",
-    "en": "(you can pick several)"
-  },
   "bilan.qui.maman": {
     "fr": "Maman",
     "en": "Mum"
@@ -1307,17 +1299,9 @@
     "fr": "Je travaille",
     "en": "I work"
   },
-  "bilan.qui.sport": {
-    "fr": "J'ai envie de reprendre le sport",
-    "en": "I want to get back into exercise"
-  },
-  "bilan.qui.carences": {
-    "fr": "J'ai des besoins spécifiques (carences, fatigue...)",
-    "en": "I have specific needs (deficiencies, tiredness...)"
-  },
   "bilan.precision": {
-    "fr": "Précise si tu veux",
-    "en": "Tell me more if you like"
+    "fr": "Tes besoins, si tu veux les préciser",
+    "en": "Your needs, if you'd like to say more"
   },
   "bilan.precision.aide": {
     "fr": "Partage seulement ce que tu veux. Je ne remplace pas un avis médical.",
@@ -1351,12 +1335,56 @@
     "fr": "Rien n'est enregistré sur ce site : le message reste sur ton appareil jusqu'à ce que tu l'envoies toi-même.",
     "en": "Nothing is saved on this site: the message stays on your device until you send it yourself."
   },
-  "bilan.msg.profil": {
-    "fr": "Profil",
-    "en": "About me"
-  },
   "bilan.msg.precisions": {
     "fr": "Précisions",
     "en": "Details"
+  },
+  "bilan.msg.interet": {
+    "fr": "Ce qui m'intéresse",
+    "en": "I'm interested in"
+  },
+  "bilan.amene": {
+    "fr": "Qu'est-ce qui t'amène ?",
+    "en": "What brings you here?"
+  },
+  "bilan.plusieurs": {
+    "fr": "(plusieurs choix possibles)",
+    "en": "(you can pick several)"
+  },
+  "bilan.amene.sport": {
+    "fr": "Reprendre le sport",
+    "en": "Getting back into exercise"
+  },
+  "bilan.amene.complements": {
+    "fr": "Compléments et besoins spécifiques",
+    "en": "Supplements and specific needs"
+  },
+  "bilan.amene.beaute": {
+    "fr": "Beauté et maquillage",
+    "en": "Beauty and make-up"
+  },
+  "bilan.amene.activite": {
+    "fr": "L'activité Farmasi",
+    "en": "The Farmasi business"
+  },
+  "bilan.msg.situation": {
+    "fr": "Ma situation",
+    "en": "My situation"
+  },
+  "bilan.situation": {
+    "fr": "Ta situation",
+    "en": "Your situation"
+  },
+  "bilan.facultatif": {
+    "fr": "(facultatif)",
+    "en": "(optional)"
+  },
+  "bilan.msg.bonjour_site": {
+    "fr": "Bonjour Meli ! Je viens de ton site.",
+    "en": "Hi Meli! I found you through your website."
+  },
+  "contact.ecrire": {
+    "fr": "Écrire mon message",
+    "en": "Write my message"
   }
 }
