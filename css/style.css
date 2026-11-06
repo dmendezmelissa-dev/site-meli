@@ -62,7 +62,7 @@ section { padding: 96px 0; position: relative; }
   color: var(--sauge); margin: 0 0 14px;
 }
 h1, h2, h3 { font-family: "Lora", serif; font-weight: 500; margin: 0; line-height: 1.15; }
-h1 { font-size: clamp(40px, 6vw, 64px); }
+h1 { font-size: clamp(34px, 5vw, 52px); }
 h2 { font-size: clamp(32px, 4.4vw, 46px); }
 h3 { font-size: 22px; }
 .kw { color: var(--terra); }
@@ -566,11 +566,11 @@ html[lang="en"] .bloom .fr { display: none; }
 
 /* Accueil : logo let's bloom. au-dessus du surtitre, pastille en bas de la photo */
 .hero-bloom { display: inline-block; margin-bottom: 18px; }
-.hero-bloom img { height: 62px; width: auto; display: block; }
+.hero-bloom img { height: 84px; width: auto; display: block; }
 .accueil .cadre { position: relative; }
 .accueil .cadre .pastille { top: auto; bottom: 36px; }
 @media (max-width: 760px) {
-  .hero-bloom img { height: 52px; }
+  .hero-bloom img { height: 68px; }
   .accueil .cadre .pastille { top: auto; bottom: 6px; }
 }
 
