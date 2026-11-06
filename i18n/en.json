@@ -107,10 +107,6 @@
     "fr": "Avant de réserver quoi que ce soit, tu as le droit de savoir à qui tu parles. Voilà qui je suis, pourquoi je fais ça, et comment je peux t'aider.",
     "en": "Before you book anything, you deserve to know who you're talking to. Here's who I am, why I do this, and how I can help you."
   },
-  "video.manuscrit": {
-    "fr": "Promis, je ne mords pas.",
-    "en": "I promise I don't bite."
-  },
   "raccourcis.surtitre": {
     "fr": "Par où commencer ?",
     "en": "Where to start?"
@@ -1414,5 +1410,21 @@
   "titre.questions": {
     "fr": "Questions avant de te lancer · Meli",
     "en": "Questions before you start · Meli"
+  },
+  "prix.boutique": {
+    "fr": "Prix boutique",
+    "en": "Store price"
+  },
+  "prix.inscrite": {
+    "fr": "Inscrite",
+    "en": "Member"
+  },
+  "prix.eco.19": {
+    "fr": "Tu économises 19,50 €",
+    "en": "You save €19.50"
+  },
+  "prix.eco.24": {
+    "fr": "Tu économises 24,00 €",
+    "en": "You save €24.00"
   }
 }

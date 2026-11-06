@@ -111,10 +111,6 @@
     "fr": "Avant de réserver quoi que ce soit, tu as le droit de savoir à qui tu parles. Voilà qui je suis, pourquoi je fais ça, et comment je peux t'aider.",
     "es": "Antes de reservar cualquier cosa, tienes derecho a saber con quién hablas. Esta soy yo, por qué hago esto y cómo puedo ayudarte."
   },
-  "video.manuscrit": {
-    "fr": "Promis, je ne mords pas.",
-    "es": "Prometo que no muerdo."
-  },
   "raccourcis.surtitre": {
     "fr": "Par où commencer ?",
     "es": "¿Por dónde empezar?"
@@ -1414,5 +1410,21 @@
   "titre.questions": {
     "fr": "Questions avant de te lancer · Meli",
     "es": "Preguntas antes de empezar · Meli"
+  },
+  "prix.boutique": {
+    "fr": "Prix boutique",
+    "es": "Precio tienda"
+  },
+  "prix.inscrite": {
+    "fr": "Inscrite",
+    "es": "Inscrita"
+  },
+  "prix.eco.19": {
+    "fr": "Tu économises 19,50 €",
+    "es": "Ahorras 19,50 €"
+  },
+  "prix.eco.24": {
+    "fr": "Tu économises 24,00 €",
+    "es": "Ahorras 24,00 €"
   }
 }

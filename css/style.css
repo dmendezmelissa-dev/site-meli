@@ -813,3 +813,16 @@ section.page:has(> .wrap > .onglets-equipe) { padding-top: 52px; }
 @media (max-width: 1100px) {
   .menu .deroulant-equipe .sm-boite a:last-child { grid-column: 1 / -1; justify-self: center; width: calc(50% - 3px); }
 }
+
+/* Coffrets : prix boutique / prix inscrite mis en avant */
+.prix-duo { display: grid; grid-template-columns: 1fr 1.15fr; margin: 10px 0 18px; border: 2px solid var(--sauge); border-radius: 16px; overflow: hidden; text-align: center; }
+.prix-duo > div { display: flex; flex-direction: column; justify-content: center; gap: 2px; padding: 10px 6px; }
+.prix-duo span { font-size: 12px; font-weight: 700; letter-spacing: .03em; }
+.prix-duo b { font-family: "Lora", serif; font-weight: 500; line-height: 1.15; }
+.pd-boutique span { color: var(--doux); }
+.pd-boutique b { font-size: 19px; color: var(--doux); }
+.pd-inscrite { background: var(--sauge); color: var(--blanc); }
+.pd-inscrite span { color: rgba(255,255,255,.9); }
+.pd-inscrite i { font-style: normal; background: var(--blanc); color: var(--sauge-b); border-radius: 999px; padding: 1px 7px; margin-left: 2px; font-size: 11px; }
+.pd-inscrite b { font-size: 25px; }
+.pd-eco { grid-column: 1 / -1; margin: 0; padding: 8px 6px; background: rgba(104, 116, 90, .12); color: var(--sauge-b); font-weight: 700; font-size: 14px; }
