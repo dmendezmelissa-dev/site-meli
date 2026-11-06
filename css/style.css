@@ -81,7 +81,7 @@ h3 { font-size: 22px; }
 .center .btns, .btns.center { justify-content: center; }
 .btn {
   display: inline-block; text-decoration: none; font-weight: 700; font-size: 16px;
-  padding: 15px 30px; border-radius: 999px; border: 1.5px solid var(--terra);
+  padding: 15px 30px; border-radius: 999px; border: 2px solid var(--terra);
   transition: background .2s, color .2s, transform .2s;
 }
 .btn:hover { transform: translateY(-2px); }
@@ -114,7 +114,7 @@ h3 { font-size: 22px; }
 }
 .arche.photo img { width: 100%; height: 100%; object-fit: cover; }
 .arche-ligne {
-  position: absolute; border: 1.5px solid var(--sable); opacity: .45;
+  position: absolute; border: 1px solid var(--sable); opacity: .45;
   border-radius: 999px 999px 0 0; border-bottom: 0; pointer-events: none;
 }
 
@@ -257,7 +257,7 @@ footer .sep { margin: 0 10px; color: var(--sable); }
 .onglets { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 44px; }
 .onglet {
   font: inherit; font-weight: 700; font-size: 15px; cursor: pointer;
-  padding: 11px 24px; border-radius: 999px; border: 1.5px solid var(--terra);
+  padding: 11px 24px; border-radius: 999px; border: 2px solid var(--terra);
   background: transparent; color: var(--terra); transition: background .2s, color .2s;
 }
 .onglet:hover { background: rgba(163, 95, 71, .08); }
@@ -279,7 +279,7 @@ html:not(.js) .onglets { display: none; }
 /* ---------- Pages sans rechargement ---------- */
 .js .page.entree { animation: entree .45s ease both; }
 @keyframes entree { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
-.menu nav a.actif { color: var(--terra); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1.5px; }
+.menu nav a.actif { color: var(--terra); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; }
 .js main { min-height: calc(100vh - 68px - 120px); }
 .js .accueil { padding-bottom: 40px; }
 
@@ -309,9 +309,9 @@ html:not(.js) .onglets { display: none; }
 /* ---------- Sous-menu des packs (au survol, sur ordinateur) ---------- */
 .deroulant { position: relative; }
 .lien-packs { text-decoration: none; font-size: 15px; white-space: nowrap; color: var(--doux); transition: color .2s; }
-.lien-packs::after { content: ""; display: inline-block; width: 6px; height: 6px; margin-left: 7px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-3px) rotate(45deg); }
+.lien-packs::after { content: ""; display: inline-block; width: 6px; height: 6px; margin-left: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-3px) rotate(45deg); }
 .lien-packs:hover, .deroulant:hover .lien-packs { color: var(--terra); }
-.lien-packs.actif { color: var(--terra); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1.5px; }
+.lien-packs.actif { color: var(--terra); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; }
 .sous-menu {
   position: absolute; top: 100%; left: 50%; padding-top: 22px; z-index: 20;
   opacity: 0; visibility: hidden; transform: translate(-50%, 8px); transition: opacity .2s, transform .2s, visibility .2s;
@@ -435,9 +435,9 @@ sup { font-size: .5em; line-height: 0; }
 }
 .faq summary::-webkit-details-marker { display: none; }
 .faq summary::after {
-  content: ""; flex: none; width: 30px; height: 30px; border-radius: 50%; border: 1.5px solid var(--terra);
-  background: linear-gradient(var(--terra), var(--terra)) center / 11px 1.5px no-repeat,
-              linear-gradient(var(--terra), var(--terra)) center / 1.5px 11px no-repeat;
+  content: ""; flex: none; width: 30px; height: 30px; border-radius: 50%; border: 2px solid var(--terra);
+  background: linear-gradient(var(--terra), var(--terra)) center / 11px 2px no-repeat,
+              linear-gradient(var(--terra), var(--terra)) center / 2px 11px no-repeat;
   transition: transform .25s;
 }
 .faq details[open] summary::after { transform: rotate(45deg); }
@@ -446,7 +446,7 @@ sup { font-size: .5em; line-height: 0; }
 .faq-sombre { margin-top: 56px; }
 .faq-sombre details { border-color: rgba(248, 241, 234, .3); }
 .faq-sombre summary:hover { color: #F3D9CC; }
-.faq-sombre summary::after { border-color: #F3D9CC; background: linear-gradient(#F3D9CC, #F3D9CC) center / 11px 1.5px no-repeat, linear-gradient(#F3D9CC, #F3D9CC) center / 1.5px 11px no-repeat; }
+.faq-sombre summary::after { border-color: #F3D9CC; background: linear-gradient(#F3D9CC, #F3D9CC) center / 11px 2px no-repeat, linear-gradient(#F3D9CC, #F3D9CC) center / 2px 11px no-repeat; }
 .faq-sombre details p { color: #EEF0E8; }
 
 /* Bouton fixe en bas (téléphone) */
