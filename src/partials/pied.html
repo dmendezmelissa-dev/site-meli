@@ -82,7 +82,6 @@
           var choix = [].slice.call(g.querySelectorAll('input:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
           if (choix.length) lignes.push(g.dataset.msg + ' : ' + choix.join(', '));
         });
-        if (!form.querySelector('[data-champ=precision]').hidden && form.precision.value.trim()) lignes.push(libelle(form.precision) + ' : ' + form.precision.value.trim());
         if (form.message.value.trim()) lignes.push('', form.message.value.trim());
         var texte = lignes.join('\n');
         zone.value = texte;

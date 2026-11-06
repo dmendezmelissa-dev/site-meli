@@ -1295,14 +1295,6 @@
     "fr": "Je travaille",
     "es": "Trabajo"
   },
-  "bilan.precision": {
-    "fr": "Tes besoins, si tu veux les préciser",
-    "es": "Tus necesidades, si quieres precisarlas"
-  },
-  "bilan.precision.aide": {
-    "fr": "Partage seulement ce que tu veux. Je ne remplace pas un avis médical.",
-    "es": "Comparte solo lo que quieras. No reemplazo una opinión médica."
-  },
   "bilan.message": {
     "fr": "Un petit mot (facultatif)",
     "es": "Unas palabras (opcional)"
@@ -1330,10 +1322,6 @@
   "bilan.confidentialite": {
     "fr": "Rien n'est enregistré sur ce site : le message reste sur ton appareil jusqu'à ce que tu l'envoies toi-même.",
     "es": "No se guarda nada en este sitio: el mensaje se queda en tu dispositivo hasta que lo envíes tú misma."
-  },
-  "bilan.msg.precisions": {
-    "fr": "Précisions",
-    "es": "Detalles"
   },
   "bilan.msg.interet": {
     "fr": "Ce qui m'intéresse",
@@ -1390,5 +1378,9 @@
   "bilan.sit.postpartum": {
     "fr": "Enceinte ou jeune maman",
     "es": "Embarazada o mamá reciente"
+  },
+  "bilan.medical": {
+    "fr": "<b>On parlera de tes besoins ensemble</b>, pendant notre échange. Mes conseils viennent de mon expérience et ne remplacent pas l'avis d'un médecin, d'une sage-femme ou d'un pharmacien, surtout pendant la grossesse, après un accouchement ou si tu suis un traitement.",
+    "es": "<b>Hablaremos de tus necesidades juntas</b>, durante nuestra conversación. Mis consejos vienen de mi experiencia y no reemplazan la opinión de un médico, una partera o un farmacéutico, sobre todo durante el embarazo, después del parto o si sigues un tratamiento."
   }
 }

@@ -1295,14 +1295,6 @@
     "fr": "Je travaille",
     "en": "I work"
   },
-  "bilan.precision": {
-    "fr": "Tes besoins, si tu veux les préciser",
-    "en": "Your needs, if you'd like to say more"
-  },
-  "bilan.precision.aide": {
-    "fr": "Partage seulement ce que tu veux. Je ne remplace pas un avis médical.",
-    "en": "Only share what you want. I don't replace medical advice."
-  },
   "bilan.message": {
     "fr": "Un petit mot (facultatif)",
     "en": "A short note (optional)"
@@ -1330,10 +1322,6 @@
   "bilan.confidentialite": {
     "fr": "Rien n'est enregistré sur ce site : le message reste sur ton appareil jusqu'à ce que tu l'envoies toi-même.",
     "en": "Nothing is saved on this site: the message stays on your device until you send it yourself."
-  },
-  "bilan.msg.precisions": {
-    "fr": "Précisions",
-    "en": "Details"
   },
   "bilan.msg.interet": {
     "fr": "Ce qui m'intéresse",
@@ -1390,5 +1378,9 @@
   "bilan.sit.postpartum": {
     "fr": "Enceinte ou jeune maman",
     "en": "Pregnant or new mum"
+  },
+  "bilan.medical": {
+    "fr": "<b>On parlera de tes besoins ensemble</b>, pendant notre échange. Mes conseils viennent de mon expérience et ne remplacent pas l'avis d'un médecin, d'une sage-femme ou d'un pharmacien, surtout pendant la grossesse, après un accouchement ou si tu suis un traitement.",
+    "en": "<b>We'll talk about your needs together</b>, during our chat. My advice comes from my own experience and doesn't replace the opinion of a doctor, midwife or pharmacist, especially during pregnancy, after giving birth or if you're on medication."
   }
 }

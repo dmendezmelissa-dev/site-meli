@@ -793,3 +793,6 @@ button.btn.vide { background: transparent; } button.btn.vide:hover { background:
 .pilules label:has(input:checked) { background: var(--sauge-b); border-color: var(--sauge-b); color: var(--blanc); }
 .pilules label:has(input:checked)::before { content: "\2713"; font-weight: 700; }
 .pilules label:has(input:focus-visible) { outline: 2px solid var(--terra); outline-offset: 2px; }
+.rappel-medical { margin: 0; padding: 14px 16px 14px 46px; position: relative; background: #EEF1E8; border-radius: 14px; font-size: 14px; line-height: 1.55; color: var(--encre); }
+.rappel-medical::before { content: "\2661"; position: absolute; left: 16px; top: 12px; font-size: 20px; color: var(--sauge-b); }
+.rappel-medical b { color: var(--sauge-b); }

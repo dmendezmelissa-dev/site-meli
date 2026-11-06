@@ -265,7 +265,7 @@
         <fieldset class="champ pilules" data-msg="[[bilan.msg.interet|Ce qui m'intéresse]]">
           <legend>[[bilan.amene|Qu'est-ce qui t'amène ?]] <small>[[bilan.plusieurs|(plusieurs choix possibles)]]</small></legend>
           <label><input type="checkbox" name="amene" value="sport"><span>[[bilan.amene.sport|Reprendre le sport]]</span></label>
-          <label><input type="checkbox" name="amene" value="complements" data-montre="precision"><span>[[bilan.amene.complements|Compléments et besoins spécifiques]]</span></label>
+          <label><input type="checkbox" name="amene" value="complements"><span>[[bilan.amene.complements|Compléments et besoins spécifiques]]</span></label>
           <label><input type="checkbox" name="amene" value="beaute"><span>[[bilan.amene.beaute|Beauté et maquillage]]</span></label>
           <label><input type="checkbox" name="amene" value="activite"><span>[[bilan.amene.activite|L'activité Farmasi]]</span></label>
         </fieldset>
@@ -275,9 +275,10 @@
           <label><input type="checkbox" name="situation" value="travail"><span>[[bilan.qui.travail|Je travaille]]</span></label>
           <label><input type="checkbox" name="situation" value="postpartum"><span>[[bilan.sit.postpartum|Enceinte ou jeune maman]]</span></label>
         </fieldset>
-        <label class="champ" data-champ="precision" hidden><span>[[bilan.precision|Tes besoins, si tu veux les préciser]]</span><input name="precision" type="text" data-msg="[[bilan.msg.precisions|Précisions]]"><small class="aide">[[bilan.precision.aide|Partage seulement ce que tu veux. Je ne remplace pas un avis médical.]]</small></label>
 
         <label class="champ"><span>[[bilan.message|Un petit mot (facultatif)]]</span><textarea name="message" rows="3" placeholder="[[bilan.message.ph|Tes objectifs, tes disponibilités...]]"></textarea></label>
+
+        <p class="rappel-medical">[[bilan.medical|<b>On parlera de tes besoins ensemble</b>, pendant notre échange. Mes conseils viennent de mon expérience et ne remplacent pas l'avis d'un médecin, d'une sage-femme ou d'un pharmacien, surtout pendant la grossesse, après un accouchement ou si tu suis un traitement.]]</p>
 
         <button class="btn plein envoyer" type="submit">[[bilan.preparer|Préparer mon message]]</button>
 

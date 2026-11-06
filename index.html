@@ -281,7 +281,7 @@
         <fieldset class="champ pilules" data-msg="Ce qui m'intéresse">
           <legend>Qu'est-ce qui t'amène ? <small>(plusieurs choix possibles)</small></legend>
           <label><input type="checkbox" name="amene" value="sport"><span>Reprendre le sport</span></label>
-          <label><input type="checkbox" name="amene" value="complements" data-montre="precision"><span>Compléments et besoins spécifiques</span></label>
+          <label><input type="checkbox" name="amene" value="complements"><span>Compléments et besoins spécifiques</span></label>
           <label><input type="checkbox" name="amene" value="beaute"><span>Beauté et maquillage</span></label>
           <label><input type="checkbox" name="amene" value="activite"><span>L'activité Farmasi</span></label>
         </fieldset>
@@ -291,9 +291,10 @@
           <label><input type="checkbox" name="situation" value="travail"><span>Je travaille</span></label>
           <label><input type="checkbox" name="situation" value="postpartum"><span>Enceinte ou jeune maman</span></label>
         </fieldset>
-        <label class="champ" data-champ="precision" hidden><span>Tes besoins, si tu veux les préciser</span><input name="precision" type="text" data-msg="Précisions"><small class="aide">Partage seulement ce que tu veux. Je ne remplace pas un avis médical.</small></label>
 
         <label class="champ"><span>Un petit mot (facultatif)</span><textarea name="message" rows="3" placeholder="Tes objectifs, tes disponibilités..."></textarea></label>
+
+        <p class="rappel-medical"><b>On parlera de tes besoins ensemble</b>, pendant notre échange. Mes conseils viennent de mon expérience et ne remplacent pas l'avis d'un médecin, d'une sage-femme ou d'un pharmacien, surtout pendant la grossesse, après un accouchement ou si tu suis un traitement.</p>
 
         <button class="btn plein envoyer" type="submit">Préparer mon message</button>
 
@@ -909,7 +910,6 @@
           var choix = [].slice.call(g.querySelectorAll('input:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
           if (choix.length) lignes.push(g.dataset.msg + ' : ' + choix.join(', '));
         });
-        if (!form.querySelector('[data-champ=precision]').hidden && form.precision.value.trim()) lignes.push(libelle(form.precision) + ' : ' + form.precision.value.trim());
         if (form.message.value.trim()) lignes.push('', form.message.value.trim());
         var texte = lignes.join('\n');
         zone.value = texte;

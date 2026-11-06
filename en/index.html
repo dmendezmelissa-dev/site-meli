@@ -281,7 +281,7 @@
         <fieldset class="champ pilules" data-msg="I'm interested in">
           <legend>What brings you here? <small>(you can pick several)</small></legend>
           <label><input type="checkbox" name="amene" value="sport"><span>Getting back into exercise</span></label>
-          <label><input type="checkbox" name="amene" value="complements" data-montre="precision"><span>Supplements and specific needs</span></label>
+          <label><input type="checkbox" name="amene" value="complements"><span>Supplements and specific needs</span></label>
           <label><input type="checkbox" name="amene" value="beaute"><span>Beauty and make-up</span></label>
           <label><input type="checkbox" name="amene" value="activite"><span>The Farmasi business</span></label>
         </fieldset>
@@ -291,9 +291,10 @@
           <label><input type="checkbox" name="situation" value="travail"><span>I work</span></label>
           <label><input type="checkbox" name="situation" value="postpartum"><span>Pregnant or new mum</span></label>
         </fieldset>
-        <label class="champ" data-champ="precision" hidden><span>Your needs, if you'd like to say more</span><input name="precision" type="text" data-msg="Details"><small class="aide">Only share what you want. I don't replace medical advice.</small></label>
 
         <label class="champ"><span>A short note (optional)</span><textarea name="message" rows="3" placeholder="Your goals, when you're available..."></textarea></label>
+
+        <p class="rappel-medical"><b>We'll talk about your needs together</b>, during our chat. My advice comes from my own experience and doesn't replace the opinion of a doctor, midwife or pharmacist, especially during pregnancy, after giving birth or if you're on medication.</p>
 
         <button class="btn plein envoyer" type="submit">Prepare my message</button>
 
@@ -909,7 +910,6 @@
           var choix = [].slice.call(g.querySelectorAll('input:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
           if (choix.length) lignes.push(g.dataset.msg + ' : ' + choix.join(', '));
         });
-        if (!form.querySelector('[data-champ=precision]').hidden && form.precision.value.trim()) lignes.push(libelle(form.precision) + ' : ' + form.precision.value.trim());
         if (form.message.value.trim()) lignes.push('', form.message.value.trim());
         var texte = lignes.join('\n');
         zone.value = texte;

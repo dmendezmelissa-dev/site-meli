@@ -281,7 +281,7 @@
         <fieldset class="champ pilules" data-msg="Me interesa">
           <legend>¿Qué te trae por aquí? <small>(puedes elegir varias)</small></legend>
           <label><input type="checkbox" name="amene" value="sport"><span>Retomar el deporte</span></label>
-          <label><input type="checkbox" name="amene" value="complements" data-montre="precision"><span>Suplementos y necesidades específicas</span></label>
+          <label><input type="checkbox" name="amene" value="complements"><span>Suplementos y necesidades específicas</span></label>
           <label><input type="checkbox" name="amene" value="beaute"><span>Belleza y maquillaje</span></label>
           <label><input type="checkbox" name="amene" value="activite"><span>El negocio Farmasi</span></label>
         </fieldset>
@@ -291,9 +291,10 @@
           <label><input type="checkbox" name="situation" value="travail"><span>Trabajo</span></label>
           <label><input type="checkbox" name="situation" value="postpartum"><span>Embarazada o mamá reciente</span></label>
         </fieldset>
-        <label class="champ" data-champ="precision" hidden><span>Tus necesidades, si quieres precisarlas</span><input name="precision" type="text" data-msg="Detalles"><small class="aide">Comparte solo lo que quieras. No reemplazo una opinión médica.</small></label>
 
         <label class="champ"><span>Unas palabras (opcional)</span><textarea name="message" rows="3" placeholder="Tus objetivos, tu disponibilidad..."></textarea></label>
+
+        <p class="rappel-medical"><b>Hablaremos de tus necesidades juntas</b>, durante nuestra conversación. Mis consejos vienen de mi experiencia y no reemplazan la opinión de un médico, una partera o un farmacéutico, sobre todo durante el embarazo, después del parto o si sigues un tratamiento.</p>
 
         <button class="btn plein envoyer" type="submit">Preparar mi mensaje</button>
 
@@ -909,7 +910,6 @@
           var choix = [].slice.call(g.querySelectorAll('input:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
           if (choix.length) lignes.push(g.dataset.msg + ' : ' + choix.join(', '));
         });
-        if (!form.querySelector('[data-champ=precision]').hidden && form.precision.value.trim()) lignes.push(libelle(form.precision) + ' : ' + form.precision.value.trim());
         if (form.message.value.trim()) lignes.push('', form.message.value.trim());
         var texte = lignes.join('\n');
         zone.value = texte;
