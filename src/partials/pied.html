@@ -139,7 +139,7 @@
       if (parcours.length >= 2) { history.back(); return; }
       var nom = location.hash.replace('#', '');
       remplace = true;
-      location.replace('#' + (nom.indexOf('offres-') === 0 ? 'offres' : (nom.indexOf('pack') === 0 && nom !== 'packs' ? 'packs' : 'accueil')));
+      location.replace('#' + (nom.indexOf('offres-') === 0 ? 'offres' : (nom.indexOf('equipe-') === 0 ? 'equipe' : (nom.indexOf('pack') === 0 && nom !== 'packs' ? 'packs' : 'accueil'))));
     });
 
     function afficher() {
@@ -160,7 +160,12 @@
         if (ok && p.dataset.titre) titre = p.dataset.titre;
       });
       document.body.dataset.page = nom;
-      var rubrique = nom.indexOf('offres-') === 0 ? 'offres' : nom;
+      var rubrique = nom.indexOf('offres-') === 0 ? 'offres' : (nom.indexOf('equipe') === 0 ? 'equipe' : nom);
+      document.querySelectorAll('.onglets-equipe a').forEach(function (a) {
+        var ok = a.getAttribute('href') === '#' + nom;
+        a.classList.toggle('actif', ok);
+        if (ok) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+      });
       liens.forEach(function (a) { a.classList.toggle('actif', a.getAttribute('href') === '#' + rubrique); });
       if (titre) document.title = titre;
       if (cat) categorie(cat);

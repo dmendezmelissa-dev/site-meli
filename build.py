@@ -38,9 +38,12 @@ LANGUE_PAR_DEFAUT = {"meli": "fr", "sophie": "en"}
 LANGUES = {"fr": "", "en": "en/", "es": "es/"}   # le français est la langue source
 
 
-def assembler(nom):
+def assembler(nom, personne):
     texte = (SRC / nom).read_text(encoding="utf-8")
-    return INCLURE.sub(lambda m: (SRC / "partials" / m.group(1)).read_text(encoding="utf-8").rstrip("\n"), texte)
+    texte = INCLURE.sub(lambda m: (SRC / "partials" / m.group(1)).read_text(encoding="utf-8").rstrip("\n"), texte)
+    # onglets de la rubrique L'équipe (let's bloom. / Nous rejoindre / Questions) : seulement chez Meli
+    onglets = (SRC / "partials" / "onglets-equipe.html").read_text(encoding="utf-8").rstrip("\n") if personne == "meli" else ""
+    return texte.replace("{{onglets_equipe}}", onglets)
 
 
 def segments(gabarits):
@@ -66,7 +69,7 @@ def chemin(lang, personne):
 
 
 def main():
-    gabarits = {p: assembler(conf[0]) for p, conf in PERSONNES.items()}
+    gabarits = {p: assembler(conf[0], p) for p, conf in PERSONNES.items()}
     fr = segments(gabarits.values())
     trad = {}
     for lang in LANGUES:

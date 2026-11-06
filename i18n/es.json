@@ -1390,5 +1390,29 @@
   "atouts.4.texte": {
     "fr": "Des bonus, plein de promotions toute l'année et des voyages à gagner.",
     "es": "Bonos, muchas promociones todo el año y viajes para ganar."
+  },
+  "equipe.onglet.rejoindre": {
+    "fr": "Nous rejoindre",
+    "es": "Únete"
+  },
+  "equipe.onglet.questions": {
+    "fr": "Questions",
+    "es": "Preguntas"
+  },
+  "titre.bloom": {
+    "fr": "L'équipe let's bloom.",
+    "es": "El equipo let's bloom."
+  },
+  "equipe.onglets": {
+    "fr": "Les parties de L'équipe",
+    "es": "Las partes de la página del equipo"
+  },
+  "equipe.voir_questions": {
+    "fr": "Tes questions avant de te lancer",
+    "es": "Tus preguntas antes de empezar"
+  },
+  "titre.questions": {
+    "fr": "Questions avant de te lancer · Meli",
+    "es": "Preguntas antes de empezar · Meli"
   }
 }
