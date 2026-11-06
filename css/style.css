@@ -354,17 +354,17 @@ html:not(.js) .onglets { display: none; }
   }
   .menu.ouvert nav { opacity: 1; visibility: visible; transform: none; }
   .menu nav > a, .menu .lien-packs { font-family: "Lora", serif; font-size: 27px; color: var(--encre); padding: 9px 0; display: block; text-align: center; }
-  .menu nav > a.actif, .menu .lien-packs.actif { color: var(--terra); }
+  .menu nav > a.actif, .menu .lien-packs.actif { color: var(--encre); text-decoration: none; }
   .lien-packs::after { display: none; }
   .deroulant { display: flex; flex-direction: column; align-items: center; }
   .menu .sous-menu, .menu .deroulant:hover .sous-menu, .menu .deroulant:focus-within .sous-menu {
     position: static; opacity: 1; visibility: inherit; transform: none; padding: 2px 0 10px;
   }
-  .menu .sm-boite { background: none; border: 0; box-shadow: none; padding: 0; min-width: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: min(320px, 100%); }
+  .menu .sm-boite { background: none; border: 0; box-shadow: none; padding: 0; min-width: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; width: min(250px, 100%); }
   .menu .sous-menu a { text-align: center; }
   .menu .sous-menu a {
-    padding: 9px 16px; border: 1px solid var(--terra); border-radius: 999px; background: none;
-    color: var(--terra); font-size: 14px; font-weight: 700;
+    padding: 5px 10px; border: 1px solid var(--terra); border-radius: 999px; background: none;
+    color: var(--terra); font-size: 12.5px; font-weight: 700; line-height: 1.3;
   }
   body.menu-ouvert { overflow: hidden; }
 }
@@ -811,5 +811,5 @@ section.page:has(> .wrap > .onglets-equipe) { padding-top: 52px; }
 }
 /* menu du téléphone : 3 liens sous L'équipe */
 @media (max-width: 1100px) {
-  .menu .deroulant-equipe .sm-boite a:last-child { grid-column: 1 / -1; justify-self: center; width: calc(50% - 4px); }
+  .menu .deroulant-equipe .sm-boite a:last-child { grid-column: 1 / -1; justify-self: center; width: calc(50% - 3px); }
 }
