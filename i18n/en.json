@@ -692,8 +692,8 @@
     "en": "Who we are"
   },
   "bloom.qui.texte": {
-    "fr": "Let's Bloom est une communauté lifestyle et bien-être chaleureuse, pensée pour des personnes réelles aux vies bien remplies, qui souhaitent se sentir mieux, instaurer des habitudes durables, prendre soin d'elles, concilier maternité, vie professionnelle et vie personnelle, et continuer à grandir avec intention.",
-    "en": "Let's Bloom is a warm lifestyle and wellbeing community, designed for real people with full lives who want to feel better, build lasting habits, take care of themselves, balance motherhood, work and personal life, and keep growing with intention."
+    "fr": "Let's Bloom est une communauté lifestyle et de bien-être chaleureuse, pensée pour des personnes réelles aux vies bien remplies, qui souhaitent se sentir mieux, instaurer des habitudes durables, prendre soin d'elles, concilier parentalité, vie professionnelle et vie personnelle, et continuer à grandir avec intention.",
+    "en": "Let's Bloom is a warm lifestyle and wellbeing community, designed for real people with full lives who want to feel better, build lasting habits, take care of themselves, balance parenthood, work and personal life, and keep growing with intention."
   },
   "bloom.histoire.titre": {
     "fr": "Notre histoire",
@@ -732,12 +732,12 @@
     "en": "Building simple, lasting routines that make a real difference."
   },
   "bloom.pilier.maternite.titre": {
-    "fr": "Maternité",
-    "en": "Motherhood"
+    "fr": "Parentalité",
+    "en": "Parenthood"
   },
   "bloom.pilier.maternite.texte": {
-    "fr": "Vivre la maternité de façon plus équilibrée, sereine et épanouie.",
-    "en": "Living motherhood in a more balanced, calm and fulfilling way."
+    "fr": "Vivre la parentalité de façon plus équilibrée, sereine et épanouie.",
+    "en": "Living parenthood in a more balanced, calm and fulfilling way."
   },
   "bloom.pilier.connexion.titre": {
     "fr": "Connexion &amp; authenticité",

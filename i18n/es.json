@@ -536,8 +536,8 @@
     "es": "Quiénes somos"
   },
   "bloom.qui.texte": {
-    "fr": "Let's Bloom est une communauté lifestyle et bien-être chaleureuse, pensée pour des personnes réelles aux vies bien remplies, qui souhaitent se sentir mieux, instaurer des habitudes durables, prendre soin d'elles, concilier maternité, vie professionnelle et vie personnelle, et continuer à grandir avec intention.",
-    "es": "Let's Bloom es una comunidad cálida de estilo de vida y bienestar, pensada para personas reales con vidas plenas que quieren sentirse mejor, crear hábitos duraderos, cuidarse, equilibrar la maternidad, la vida profesional y la vida personal, y seguir creciendo con intención."
+    "fr": "Let's Bloom est une communauté lifestyle et de bien-être chaleureuse, pensée pour des personnes réelles aux vies bien remplies, qui souhaitent se sentir mieux, instaurer des habitudes durables, prendre soin d'elles, concilier parentalité, vie professionnelle et vie personnelle, et continuer à grandir avec intention.",
+    "es": "Let's Bloom es una comunidad cálida de estilo de vida y bienestar, pensada para personas reales con vidas plenas que quieren sentirse mejor, crear hábitos duraderos, cuidarse, equilibrar la crianza, la vida profesional y la vida personal, y seguir creciendo con intención."
   },
   "bloom.histoire.titre": {
     "fr": "Notre histoire",
@@ -576,12 +576,12 @@
     "es": "Crear rutinas sencillas y duraderas que marcan una verdadera diferencia."
   },
   "bloom.pilier.maternite.titre": {
-    "fr": "Maternité",
-    "es": "Maternidad"
+    "fr": "Parentalité",
+    "es": "Crianza"
   },
   "bloom.pilier.maternite.texte": {
-    "fr": "Vivre la maternité de façon plus équilibrée, sereine et épanouie.",
-    "es": "Vivir la maternidad de forma más equilibrada, serena y plena."
+    "fr": "Vivre la parentalité de façon plus équilibrée, sereine et épanouie.",
+    "es": "Vivir la crianza de forma más equilibrada, serena y plena."
   },
   "bloom.pilier.connexion.titre": {
     "fr": "Connexion &amp; authenticité",
