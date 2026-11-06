@@ -364,7 +364,10 @@
           <i>[[choix.voir|Découvrir]]</i>
         </a>
         <a class="choix-offre reveal" href="#offres-calendrier" data-fin="2026-11-30">
-          <div class="arche photo">[[todo.photo_calendrier|PHOTO DU CALENDRIER]]</div>
+          <div class="arche photo"><picture>
+            <source type="image/webp" srcset="{{root}}images/avent-produit-480.webp 480w, {{root}}images/avent-produit-900.webp 900w" sizes="(max-width: 760px) 90vw, 340px">
+            <img src="{{root}}images/avent-produit-900.jpg" width="900" height="882" alt="[[avent.alt|Le calendrier de l'Avent Farmasi 2026, ouvert sur ses 24 portes]]" loading="lazy">
+          </picture></div>
           <span class="offre-badge offre-badge-s">[[avent.badge|Édition limitée]]</span>
           <b>[[choix.avent.titre|Le calendrier de l'Avent]]</b>
           <span>[[choix.avent.texte|Une surprise par jour en attendant Noël.]]</span>
@@ -508,13 +511,25 @@
     <div class="wrap">
         <a class="retour" href="#offres">[[offres.retour|Toutes les offres]]</a>
       <div class="offre-bloc" data-fin="2026-11-30">
+        <picture class="offre-banniere reveal">
+          <source type="image/webp" srcset="{{root}}images/avent-bandeau.webp">
+          <img src="{{root}}images/avent-bandeau.jpg" width="1159" height="395" alt="[[avent.alt_bandeau|Les portes du calendrier de l'Avent Farmasi, nouées d'un ruban de velours]]">
+        </picture>
         <article class="vedette reveal" data-offre="calendrier">
-          <div class="arche photo">[[todo.photo_calendrier|PHOTO DU CALENDRIER]]</div>
+          <div class="arche photo"><picture>
+            <source type="image/webp" srcset="{{root}}images/avent-produit-480.webp 480w, {{root}}images/avent-produit-900.webp 900w" sizes="(max-width: 760px) 90vw, 340px">
+            <img src="{{root}}images/avent-produit-900.jpg" width="900" height="882" alt="[[avent.alt|Le calendrier de l'Avent Farmasi 2026, ouvert sur ses 24 portes]]" loading="lazy">
+          </picture></div>
           <div class="vedette-texte">
             <p class="offre-badge offre-badge-s">[[avent.badge|Édition limitée]]</p>
             <h3>[[avent.titre|Le calendrier <span class="kw">de l'Avent</span>]]</h3>
+            <p class="avent-accroche">[[avent.accroche|À chaque porte, une nouvelle émotion.]]</p>
             <p>[[avent.texte|Une surprise à ouvrir chaque jour en attendant Noël. Pour te faire plaisir, ou pour l'offrir à quelqu'un qui compte.]]</p>
-            <p><span class="todo">[[todo.avent_contenu|nombre de surprises et contenu 2026]]</span></p>
+            <ul class="contenu-liste avent-liste">
+              <li>[[avent.l1|24 portes, 24 surprises]]</li>
+              <li>[[avent.l2|24 jours de beauté, de bien-être et de soins]]</li>
+              <li>[[avent.l3|Des produits exclusifs à l'intérieur]]</li>
+            </ul>
             <p class="prix"><span class="todo">[[todo.prix|prix]]</span></p>
             <a class="btn plein" href="#">[[avent.commander|Commander le calendrier]]</a>
             <p class="petit">[[avent.quand|À commander avant le 1<sup>er</sup> décembre pour l'ouvrir dès le premier jour.]]</p>

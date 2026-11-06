@@ -1011,10 +1011,6 @@
     "fr": "<b>Noël :</b> le calendrier de l'Avent et 5 coffrets prêts à offrir",
     "en": "<b>Christmas:</b> the Advent calendar and 5 gift sets ready to give"
   },
-  "todo.photo_calendrier": {
-    "fr": "PHOTO DU CALENDRIER",
-    "en": "ADVENT CALENDAR PHOTO"
-  },
   "avent.badge": {
     "fr": "Édition limitée",
     "en": "Limited edition"
@@ -1026,10 +1022,6 @@
   "avent.texte": {
     "fr": "Une surprise à ouvrir chaque jour en attendant Noël. Pour te faire plaisir, ou pour l'offrir à quelqu'un qui compte.",
     "en": "A surprise to open every day while you wait for Christmas. To treat yourself, or to give to someone who matters."
-  },
-  "todo.avent_contenu": {
-    "fr": "nombre de surprises et contenu 2026",
-    "en": "number of surprises and 2026 contents"
   },
   "avent.commander": {
     "fr": "Commander le calendrier",
@@ -1210,5 +1202,29 @@
   "noel.accueil.avent": {
     "fr": "Le calendrier de l'Avent",
     "en": "The Advent calendar"
+  },
+  "avent.alt": {
+    "fr": "Le calendrier de l'Avent Farmasi 2026, ouvert sur ses 24 portes",
+    "en": "The 2026 Farmasi Advent calendar, open on its 24 doors"
+  },
+  "avent.alt_bandeau": {
+    "fr": "Les portes du calendrier de l'Avent Farmasi, nouées d'un ruban de velours",
+    "en": "The doors of the Farmasi Advent calendar, tied with a velvet ribbon"
+  },
+  "avent.accroche": {
+    "fr": "À chaque porte, une nouvelle émotion.",
+    "en": "Behind every door, a new emotion."
+  },
+  "avent.l1": {
+    "fr": "24 portes, 24 surprises",
+    "en": "24 doors, 24 surprises"
+  },
+  "avent.l2": {
+    "fr": "24 jours de beauté, de bien-être et de soins",
+    "en": "24 days of beauty, wellbeing and self-care"
+  },
+  "avent.l3": {
+    "fr": "Des produits exclusifs à l'intérieur",
+    "en": "Exclusive products inside"
   }
 }

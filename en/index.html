@@ -379,7 +379,10 @@
           <i>Discover</i>
         </a>
         <a class="choix-offre reveal" href="#offres-calendrier" data-fin="2026-11-30">
-          <div class="arche photo">ADVENT CALENDAR PHOTO</div>
+          <div class="arche photo"><picture>
+            <source type="image/webp" srcset="../images/avent-produit-480.webp 480w, ../images/avent-produit-900.webp 900w" sizes="(max-width: 760px) 90vw, 340px">
+            <img src="../images/avent-produit-900.jpg" width="900" height="882" alt="The 2026 Farmasi Advent calendar, open on its 24 doors" loading="lazy">
+          </picture></div>
           <span class="offre-badge offre-badge-s">Limited edition</span>
           <b>The Advent calendar</b>
           <span>A surprise a day while you wait for Christmas.</span>
@@ -523,13 +526,25 @@
     <div class="wrap">
         <a class="retour" href="#offres">All offers</a>
       <div class="offre-bloc" data-fin="2026-11-30">
+        <picture class="offre-banniere reveal">
+          <source type="image/webp" srcset="../images/avent-bandeau.webp">
+          <img src="../images/avent-bandeau.jpg" width="1159" height="395" alt="The doors of the Farmasi Advent calendar, tied with a velvet ribbon">
+        </picture>
         <article class="vedette reveal" data-offre="calendrier">
-          <div class="arche photo">ADVENT CALENDAR PHOTO</div>
+          <div class="arche photo"><picture>
+            <source type="image/webp" srcset="../images/avent-produit-480.webp 480w, ../images/avent-produit-900.webp 900w" sizes="(max-width: 760px) 90vw, 340px">
+            <img src="../images/avent-produit-900.jpg" width="900" height="882" alt="The 2026 Farmasi Advent calendar, open on its 24 doors" loading="lazy">
+          </picture></div>
           <div class="vedette-texte">
             <p class="offre-badge offre-badge-s">Limited edition</p>
             <h3>The <span class="kw">Advent</span> calendar</h3>
+            <p class="avent-accroche">Behind every door, a new emotion.</p>
             <p>A surprise to open every day while you wait for Christmas. To treat yourself, or to give to someone who matters.</p>
-            <p><span class="todo">number of surprises and 2026 contents</span></p>
+            <ul class="contenu-liste avent-liste">
+              <li>24 doors, 24 surprises</li>
+              <li>24 days of beauty, wellbeing and self-care</li>
+              <li>Exclusive products inside</li>
+            </ul>
             <p class="prix"><span class="todo">price</span></p>
             <a class="btn plein" href="#">Order the calendar</a>
             <p class="petit">Order before 1 December to open it from day one.</p>

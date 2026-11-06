@@ -727,3 +727,8 @@ html[lang="en"] .bloom .fr { display: none; }
   .noel-texte { margin-top: -18px; }
 }
 @media (min-width: 761px) and (max-width: 960px) { .noel-fond { aspect-ratio: 2 / 1; } .noel-texte { padding: 0 48px 36px; } }
+.avent-accroche { font-family: "Lora", serif; font-size: 20px; color: var(--terra-b); margin-bottom: 10px !important; }
+.avent-liste { margin: 4px 0 16px; font-size: 15px; }
+.avent-liste li:last-child { color: var(--encre); font-weight: 500; }
+.offre-banniere img[src*="avent-bandeau"] { aspect-ratio: 1159 / 395; object-fit: cover; }
+@media (max-width: 760px) { .vedette .avent-liste { display: inline-block; text-align: left; } }
