@@ -46,7 +46,7 @@
         <div class="rule"></div>
         <p class="intro">[[accueil.texte|Moi, c'est Meli, maman de deux enfants, passionnée de sport et de bien-être. Je t'aide à retrouver la forme avec des exercices simples à faire à la maison et les produits que j'utilise chaque jour.]]</p>
         <div class="btns">
-          <a class="btn plein" href="#contact" data-reserver>[[cta.reserver|Réserver mon bilan gratuit]]</a>
+          <a class="btn plein" href="#bilan" data-reserver>[[cta.reserver|Réserver mon bilan gratuit]]</a>
           <a class="btn vide" href="#packs">[[accueil.voir_packs|Voir mes packs]]</a>
         </div>
       </div>
@@ -186,7 +186,7 @@
       <p class="bientot">[[accomp.bientot|<b>Bientôt :</b> des séances en groupe, en plein air, au parc.]] <span class="todo">[[todo.date|date à venir]]</span></p>
 
       <div class="btns">
-        <a class="btn plein" href="#contact" data-reserver>[[cta.reserver|Réserver mon bilan gratuit]]</a>
+        <a class="btn plein" href="#bilan" data-reserver>[[cta.reserver|Réserver mon bilan gratuit]]</a>
       </div>
       <p class="petit">[[accomp.mention|Mes conseils viennent de mon expérience. Ils ne remplacent pas l'avis d'un médecin ou d'une sage-femme, surtout pendant la grossesse, après un accouchement ou en cas de douleur.]]</p>
     </div>
@@ -226,6 +226,65 @@
         <details><summary>[[faq.b5.q|J'ai accouché récemment, je peux commencer ?]]</summary><p>[[faq.b5.r|Demande d'abord le feu vert de ton médecin ou de ta sage-femme pour reprendre le sport. Ensuite, on avance en douceur, à ton rythme.]]</p></details>
         <details><summary>[[faq.b6.q|Suis-je obligée de prendre des compléments ?]]</summary><p>[[faq.b6.r|Pas du tout. On en parle seulement si tu en as envie.]]</p></details>
       </div>
+    </div>
+  </section>
+
+  <!-- 3 bis. Réserver son bilan : formulaire qui prépare un message WhatsApp (rien n'est envoyé au site) -->
+  <section class="page bilan" data-page="bilan" data-titre="[[titre.bilan|Réserver mon bilan · Meli]]">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">[[bilan.surtitre|Ton bilan gratuit]]</p>
+        <h2>[[bilan.titre|Faisons <span class="kw">connaissance</span>]]</h2>
+        <div class="rule"></div>
+        <p class="intro">[[bilan.intro|Remplis ces quelques lignes : ton message est prêt en un clic, tu me l'envoies sur WhatsApp et je te réponds pour fixer notre rendez-vous.]]</p>
+      </div>
+
+      <form class="form-bilan" novalidate
+            data-whatsapp=""
+            data-bonjour="[[bilan.msg.bonjour|Bonjour Meli ! Je souhaite réserver mon bilan gratuit.]]"
+            data-oui="[[bilan.msg.envoye|Ton message est prêt.]]"
+            data-copie="[[bilan.msg.copie|Message copié ! Colle-le dans WhatsApp ou ailleurs.]]"
+            data-erreur="[[bilan.msg.erreur|Indique au moins ton prénom et ton nom.]]">
+        <div class="champs-2">
+          <label class="champ"><span>[[bilan.prenom|Prénom]] *</span><input name="prenom" type="text" autocomplete="given-name" required></label>
+          <label class="champ"><span>[[bilan.nom|Nom]] *</span><input name="nom" type="text" autocomplete="family-name" required></label>
+        </div>
+        <div class="champs-2">
+          <label class="champ"><span>[[bilan.age|Âge]]</span><input name="age" type="number" inputmode="numeric" min="16" max="99"></label>
+          <label class="champ"><span>[[bilan.sexe|Sexe]]</span>
+            <select name="sexe">
+              <option value="">[[bilan.sexe.choisir|Choisir]]</option>
+              <option>[[bilan.sexe.f|Femme]]</option>
+              <option>[[bilan.sexe.h|Homme]]</option>
+              <option>[[bilan.sexe.n|Je préfère ne pas répondre]]</option>
+            </select>
+          </label>
+        </div>
+
+        <fieldset class="champ cases" data-msg="[[bilan.msg.profil|Profil]]">
+          <legend>[[bilan.qui|Qui es-tu ?]] <small>[[bilan.qui.aide|(plusieurs choix possibles)]]</small></legend>
+          <label><input type="checkbox" name="qui" value="maman"><span>[[bilan.qui.maman|Maman]]</span></label>
+          <label><input type="checkbox" name="qui" value="travail"><span>[[bilan.qui.travail|Je travaille]]</span></label>
+          <label><input type="checkbox" name="qui" value="sport"><span>[[bilan.qui.sport|J'ai envie de reprendre le sport]]</span></label>
+          <label><input type="checkbox" name="qui" value="carences" data-montre="precision"><span>[[bilan.qui.carences|J'ai des besoins spécifiques (carences, fatigue...)]]</span></label>
+        </fieldset>
+        <label class="champ" data-champ="precision" hidden><span>[[bilan.precision|Précise si tu veux]]</span><input name="precision" type="text" data-msg="[[bilan.msg.precisions|Précisions]]"><small class="aide">[[bilan.precision.aide|Partage seulement ce que tu veux. Je ne remplace pas un avis médical.]]</small></label>
+
+        <label class="champ"><span>[[bilan.message|Un petit mot (facultatif)]]</span><textarea name="message" rows="3" placeholder="[[bilan.message.ph|Tes objectifs, tes disponibilités...]]"></textarea></label>
+
+        <button class="btn plein envoyer" type="submit">[[bilan.preparer|Préparer mon message]]</button>
+
+        <div class="apercu" hidden>
+          <p class="apercu-titre">[[bilan.apercu|Ton message]]</p>
+          <textarea class="apercu-texte" rows="9" readonly></textarea>
+          <div class="btns">
+            <a class="btn whatsapp" href="#" target="_blank" rel="noopener">[[bilan.whatsapp|Envoyer sur WhatsApp]]</a>
+            <button class="btn vide copier" type="button">[[bilan.copier|Copier le message]]</button>
+          </div>
+          <p class="etat petit" role="status"></p>
+        </div>
+        <p class="petit confidentialite">[[bilan.confidentialite|Rien n'est enregistré sur ce site : le message reste sur ton appareil jusqu'à ce que tu l'envoies toi-même.]]</p>
+      </form>
     </div>
   </section>
 
@@ -636,7 +695,6 @@
         <a class="btn sauge" href="#">WhatsApp</a>
         <a class="btn vide" href="https://www.instagram.com/still.becoming.me24/" target="_blank" rel="noopener">Instagram</a>
         <a class="btn vide" href="#">TikTok</a>
-        <a class="btn vide" href="#">Facebook</a>
       </div>
       <p class="manuscrit">[[contact.signature|À très vite,<br>Meli]]</p>
     </div>
@@ -660,7 +718,7 @@
         <dt>[[legal.marque|Marque]]</dt>
         <dd>[[legal.marque_texte|Farmasi est une marque déposée. Ce site est celui d'une distributrice indépendante, ce n'est pas le site officiel de la marque.]]</dd>
         <dt>[[legal.donnees|Données personnelles]]</dt>
-        <dd>[[legal.donnees_texte|Ce site ne collecte aucune donnée (pas de formulaire, pas de cookies de statistiques). Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.]]</dd>
+        <dd>[[legal.donnees_texte|Ce site ne collecte et n'enregistre aucune donnée (pas de cookies de statistiques). Le formulaire de bilan ne fait que préparer un message sur ton téléphone ou ton ordinateur : c'est toi qui choisis de l'envoyer par WhatsApp ou de le copier. Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.]]</dd>
         <dt>[[legal.photos|Photos]]</dt>
         <dd>[[legal.photos_texte|Photos personnelles de l'éditrice ; photos produits Farmasi.]]</dd>
       </dl>
@@ -670,6 +728,6 @@
 </main>
 
 <!-- Bouton fixe en bas de l'écran (téléphone) -->
-<a class="cta-fixe" href="#contact" data-reserver>[[cta.reserver|Réserver mon bilan gratuit]]</a>
+<a class="cta-fixe" href="#bilan" data-reserver>[[cta.reserver|Réserver mon bilan gratuit]]</a>
 
 <!-- @inclure pied.html -->

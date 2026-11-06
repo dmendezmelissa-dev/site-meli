@@ -747,3 +747,39 @@ html[lang="en"] .bloom .fr { display: none; }
 .btn-retour:hover { background: var(--blanc); transform: translateX(-2px); }
 .btn-retour[hidden] { display: none; }
 @media (max-width: 960px) { .retour-zone { top: 64px; } .btn-retour { top: 10px; } }
+
+/* ---------- Formulaire du bilan ---------- */
+.form-bilan { max-width: 640px; margin: 40px auto 0; background: var(--blanc); border-radius: var(--rayon); padding: 34px 34px 26px; display: grid; gap: 18px; }
+.champs-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.champ { display: grid; gap: 6px; margin: 0; border: 0; padding: 0; min-width: 0; }
+.champ > span, .champ legend { font-weight: 700; font-size: 14px; color: var(--encre); }
+.champ legend small { font-weight: 500; color: var(--doux); }
+.champ input, .champ select, .champ textarea, .apercu-texte {
+  font: inherit; font-size: 16px; color: var(--encre); background: var(--creme); width: 100%;
+  border: 1px solid var(--ligne); border-radius: 14px; padding: 12px 14px; transition: border-color .2s, background .2s;
+}
+.champ input:focus, .champ select:focus, .champ textarea:focus { outline: none; border-color: var(--terra); background: var(--blanc); }
+.champ textarea, .apercu-texte { resize: vertical; }
+.cases { gap: 10px; }
+.cases legend { margin-bottom: 10px; }
+.cases label { display: flex; align-items: center; gap: 12px; cursor: pointer; padding: 10px 14px; border: 1px solid var(--ligne); border-radius: 14px; background: var(--creme); }
+.cases label:has(input:checked) { border-color: var(--sauge); background: #EEF1E8; }
+.cases input { width: 20px; height: 20px; accent-color: var(--sauge-b); flex: none; margin: 0; }
+.champ .aide { color: var(--doux); font-size: 13px; }
+.envoyer { justify-self: start; }
+.apercu { border-top: 1px solid var(--ligne); padding-top: 18px; display: grid; gap: 10px; }
+.apercu-titre { margin: 0; font-family: "Lora", serif; font-size: 20px; }
+.apercu-texte { font-size: 15px; line-height: 1.5; background: #FBF7F2; }
+.apercu .btns { margin-top: 4px; }
+.btn.whatsapp { background: #2E7D5B; border-color: #2E7D5B; color: var(--blanc); }
+.btn.whatsapp:hover { background: #25684B; border-color: #25684B; }
+.btn.whatsapp[hidden] { display: none; }
+.etat { margin: 0; color: var(--sauge-b); font-weight: 700; }
+.confidentialite { margin: 0; text-align: center; }
+[data-champ][hidden] { display: none; }
+@media (max-width: 760px) {
+  .form-bilan { padding: 24px 18px 20px; }
+  .champs-2 { grid-template-columns: 1fr; }
+  .envoyer { justify-self: stretch; }
+}
+button.btn { font-family: inherit; cursor: pointer; line-height: inherit; }

@@ -756,8 +756,8 @@
     "es": "Datos personales"
   },
   "legal.donnees_texte": {
-    "fr": "Ce site ne collecte aucune donnée (pas de formulaire, pas de cookies de statistiques). Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.",
-    "es": "Este sitio no recopila ningún dato (sin formulario ni cookies de estadísticas). Los pedidos se hacen en el sitio de Farmasi, que tiene su propia política de privacidad."
+    "fr": "Ce site ne collecte et n'enregistre aucune donnée (pas de cookies de statistiques). Le formulaire de bilan ne fait que préparer un message sur ton téléphone ou ton ordinateur : c'est toi qui choisis de l'envoyer par WhatsApp ou de le copier. Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.",
+    "es": "Este sitio no recopila ni guarda ningún dato (sin cookies de estadísticas). El formulario de evaluación solo prepara un mensaje en tu teléfono o computadora: tú eliges enviarlo por WhatsApp o copiarlo. Los pedidos se hacen en el sitio de Farmasi, que tiene su propia política de privacidad."
   },
   "legal.photos": {
     "fr": "Photos",
@@ -1226,5 +1226,137 @@
   "nav.retour": {
     "fr": "Retour",
     "es": "Volver"
+  },
+  "titre.bilan": {
+    "fr": "Réserver mon bilan · Meli",
+    "es": "Reservar mi evaluación · Meli"
+  },
+  "bilan.surtitre": {
+    "fr": "Ton bilan gratuit",
+    "es": "Tu evaluación gratis"
+  },
+  "bilan.titre": {
+    "fr": "Faisons <span class=\"kw\">connaissance</span>",
+    "es": "<span class=\"kw\">Conozcámonos</span>"
+  },
+  "bilan.intro": {
+    "fr": "Remplis ces quelques lignes : ton message est prêt en un clic, tu me l'envoies sur WhatsApp et je te réponds pour fixer notre rendez-vous.",
+    "es": "Completa estas pocas líneas: tu mensaje queda listo en un clic, me lo envías por WhatsApp y te respondo para fijar nuestra cita."
+  },
+  "bilan.msg.bonjour": {
+    "fr": "Bonjour Meli ! Je souhaite réserver mon bilan gratuit.",
+    "es": "¡Hola Meli! Quiero reservar mi evaluación gratis."
+  },
+  "bilan.msg.envoye": {
+    "fr": "Ton message est prêt.",
+    "es": "Tu mensaje está listo."
+  },
+  "bilan.msg.copie": {
+    "fr": "Message copié ! Colle-le dans WhatsApp ou ailleurs.",
+    "es": "¡Mensaje copiado! Pégalo en WhatsApp o donde quieras."
+  },
+  "bilan.msg.erreur": {
+    "fr": "Indique au moins ton prénom et ton nom.",
+    "es": "Indica al menos tu nombre y tu apellido."
+  },
+  "bilan.prenom": {
+    "fr": "Prénom",
+    "es": "Nombre"
+  },
+  "bilan.nom": {
+    "fr": "Nom",
+    "es": "Apellido"
+  },
+  "bilan.age": {
+    "fr": "Âge",
+    "es": "Edad"
+  },
+  "bilan.sexe": {
+    "fr": "Sexe",
+    "es": "Sexo"
+  },
+  "bilan.sexe.choisir": {
+    "fr": "Choisir",
+    "es": "Elegir"
+  },
+  "bilan.sexe.f": {
+    "fr": "Femme",
+    "es": "Mujer"
+  },
+  "bilan.sexe.h": {
+    "fr": "Homme",
+    "es": "Hombre"
+  },
+  "bilan.sexe.n": {
+    "fr": "Je préfère ne pas répondre",
+    "es": "Prefiero no responder"
+  },
+  "bilan.qui": {
+    "fr": "Qui es-tu ?",
+    "es": "¿Quién eres?"
+  },
+  "bilan.qui.aide": {
+    "fr": "(plusieurs choix possibles)",
+    "es": "(puedes elegir varias)"
+  },
+  "bilan.qui.maman": {
+    "fr": "Maman",
+    "es": "Mamá"
+  },
+  "bilan.qui.travail": {
+    "fr": "Je travaille",
+    "es": "Trabajo"
+  },
+  "bilan.qui.sport": {
+    "fr": "J'ai envie de reprendre le sport",
+    "es": "Quiero retomar el deporte"
+  },
+  "bilan.qui.carences": {
+    "fr": "J'ai des besoins spécifiques (carences, fatigue...)",
+    "es": "Tengo necesidades específicas (carencias, cansancio...)"
+  },
+  "bilan.precision": {
+    "fr": "Précise si tu veux",
+    "es": "Cuéntame más si quieres"
+  },
+  "bilan.precision.aide": {
+    "fr": "Partage seulement ce que tu veux. Je ne remplace pas un avis médical.",
+    "es": "Comparte solo lo que quieras. No reemplazo una opinión médica."
+  },
+  "bilan.message": {
+    "fr": "Un petit mot (facultatif)",
+    "es": "Unas palabras (opcional)"
+  },
+  "bilan.message.ph": {
+    "fr": "Tes objectifs, tes disponibilités...",
+    "es": "Tus objetivos, tu disponibilidad..."
+  },
+  "bilan.preparer": {
+    "fr": "Préparer mon message",
+    "es": "Preparar mi mensaje"
+  },
+  "bilan.apercu": {
+    "fr": "Ton message",
+    "es": "Tu mensaje"
+  },
+  "bilan.whatsapp": {
+    "fr": "Envoyer sur WhatsApp",
+    "es": "Enviar por WhatsApp"
+  },
+  "bilan.copier": {
+    "fr": "Copier le message",
+    "es": "Copiar el mensaje"
+  },
+  "bilan.confidentialite": {
+    "fr": "Rien n'est enregistré sur ce site : le message reste sur ton appareil jusqu'à ce que tu l'envoies toi-même.",
+    "es": "No se guarda nada en este sitio: el mensaje se queda en tu dispositivo hasta que lo envíes tú misma."
+  },
+  "bilan.msg.profil": {
+    "fr": "Profil",
+    "es": "Perfil"
+  },
+  "bilan.msg.precisions": {
+    "fr": "Précisions",
+    "es": "Detalles"
   }
 }

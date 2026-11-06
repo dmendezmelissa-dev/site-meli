@@ -64,6 +64,39 @@
     }
 
     /* Affichage d'une page */
+    /* Formulaire du bilan : prépare un message à envoyer sur WhatsApp ou à copier */
+    var form = document.querySelector('.form-bilan');
+    if (form) {
+      var apercu = form.querySelector('.apercu'), zone = form.querySelector('.apercu-texte'), etat = form.querySelector('.etat');
+      var wa = form.querySelector('.whatsapp'), numero = (form.dataset.whatsapp || '').replace(/[^0-9]/g, '');
+      form.querySelectorAll('[data-montre]').forEach(function (c) {
+        c.addEventListener('change', function () { form.querySelector('[data-champ="' + c.dataset.montre + '"]').hidden = !c.checked; });
+      });
+      function libelle(el) { if (el.dataset && el.dataset.msg) return el.dataset.msg; return el.closest('label').querySelector('span').textContent.replace(/\s*\*$/, '').trim(); }
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!form.prenom.value.trim() || !form.nom.value.trim()) { etat.textContent = form.dataset.erreur; apercu.hidden = false; zone.value = ''; form.prenom.focus(); return; }
+        var lignes = [form.dataset.bonjour, ''];
+        ['prenom', 'nom', 'age', 'sexe'].forEach(function (n) { var v = form[n].value.trim(); if (v && !(n === 'sexe' && form[n].selectedIndex === 0)) lignes.push(libelle(form[n]) + ' : ' + v); });
+        var qui = [].slice.call(form.querySelectorAll('input[name=qui]:checked')).map(function (c) { return c.nextElementSibling.textContent.trim(); });
+        if (qui.length) lignes.push(form.querySelector('.cases').dataset.msg + ' : ' + qui.join(', '));
+        if (!form.querySelector('[data-champ=precision]').hidden && form.precision.value.trim()) lignes.push(libelle(form.precision) + ' : ' + form.precision.value.trim());
+        if (form.message.value.trim()) lignes.push('', form.message.value.trim());
+        var texte = lignes.join('\n');
+        zone.value = texte;
+        wa.href = 'https://wa.me/' + numero + '?text=' + encodeURIComponent(texte);
+        wa.hidden = !numero;
+        etat.textContent = form.dataset.oui;
+        apercu.hidden = false;
+        apercu.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+      form.querySelector('.copier').addEventListener('click', function () {
+        function ok() { etat.textContent = form.dataset.copie; }
+        try { navigator.clipboard.writeText(zone.value).then(ok, function () { zone.select(); document.execCommand('copy'); ok(); }); }
+        catch (err) { zone.select(); try { document.execCommand('copy'); ok(); } catch (e2) {} }
+      });
+    }
+
     /* Bouton Retour : revient à la page précédente du site, sinon à la page parente */
     var boutonRetour = document.querySelector('.btn-retour');
     var parcours = [], premier = true, positions = {}, remplace = false;
