@@ -18,6 +18,7 @@
 
 <header class="menu">
   <div class="wrap">
+    <a class="btn-retour" href="#accueil" hidden aria-label="Retour" title="Retour"><span>Retour</span></a>
     <div class="personnes" aria-label="Choisir la personne">
       <a class="logo " href="../index.html">Meli<span>.</span></a>
       <a class="logo actif" href="#accueil">Sophie<span>.</span></a>
@@ -33,7 +34,6 @@
     </nav>
   </div>
 </header>
-<div class="retour-zone"><a class="btn-retour" href="#accueil" hidden>Retour</a></div>
 
 <main>
 
@@ -187,7 +187,7 @@
     burger.addEventListener('click', function () { menuOuvert(!menu.classList.contains('ouvert')); });
     document.querySelectorAll('.menu nav a').forEach(function (a) { a.addEventListener('click', function () { menuOuvert(false); }); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') menuOuvert(false); });
-    window.matchMedia('(min-width: 961px)').addEventListener('change', function (m) { if (m.matches) menuOuvert(false); });
+    window.matchMedia('(min-width: 1101px)').addEventListener('change', function (m) { if (m.matches) menuOuvert(false); });
 
     /* Changer de langue en restant sur la même page */
     document.querySelectorAll('.langues a').forEach(function (a) {
@@ -237,6 +237,9 @@
         apercu.hidden = false;
         apercu.scrollIntoView({ behavior: 'smooth', block: 'center' });
       });
+      function majLien() { wa.href = 'https://wa.me/' + numero + '?text=' + encodeURIComponent(zone.value); }
+      zone.addEventListener('input', majLien);
+      wa.addEventListener('click', majLien);
       form.querySelector('.copier').addEventListener('click', function () {
         function ok() { etat.textContent = form.dataset.copie; }
         try { navigator.clipboard.writeText(zone.value).then(ok, function () { zone.select(); document.execCommand('copy'); ok(); }); }
@@ -255,6 +258,15 @@
       if (c && !c.checked) { c.checked = true; c.dispatchEvent(new Event('change')); }
       sujetDemande = null;
     }
+
+    /* FAQ : une seule question ouverte à la fois */
+    document.querySelectorAll('[data-une-seule]').forEach(function (bloc) {
+      bloc.querySelectorAll('details').forEach(function (d) {
+        d.addEventListener('toggle', function () {
+          if (d.open) bloc.querySelectorAll('details[open]').forEach(function (autre) { if (autre !== d) autre.open = false; });
+        });
+      });
+    });
 
     /* Bouton Retour : revient à la page précédente du site, sinon à la page parente */
     var boutonRetour = document.querySelector('.btn-retour');

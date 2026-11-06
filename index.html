@@ -21,6 +21,7 @@
 <div class="bandeau" data-debut="2026-12-01" data-fin="2026-12-24" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres-coffrets"><b>Noël :</b> 5 coffrets prêts à offrir, sans papier cadeau<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
 <header class="menu">
   <div class="wrap">
+    <a class="btn-retour" href="#accueil" hidden aria-label="Retour" title="Retour"><span>Retour</span></a>
     <div class="personnes" aria-label="Choisir la personne">
       <a class="logo actif" href="#accueil">Meli<span>.</span></a>
       <a class="logo " href="en/sophie/index.html">Sophie<span>.</span></a>
@@ -48,7 +49,6 @@
     </nav>
   </div>
 </header>
-<div class="retour-zone"><a class="btn-retour" href="#accueil" hidden>Retour</a></div>
 
 <main>
 
@@ -234,7 +234,7 @@
         <h2>Avant de <span class="kw">réserver</span></h2>
         <div class="rule"></div>
       </div>
-      <div class="faq">
+      <div class="faq" data-une-seule>
         <details><summary>Le bilan est-il vraiment gratuit ?</summary><p>Oui. C'est un premier échange sans engagement, et sans aucune obligation d'achat à la fin.</p></details>
         <details><summary>Combien de temps dure-t-il ?</summary><p><span class="todo">durée à préciser</span></p></details>
         <details><summary>En visio ou en vrai ?</summary><p><span class="todo">à préciser</span></p></details>
@@ -256,7 +256,7 @@
       </div>
 
       <form class="form-bilan" novalidate
-            data-whatsapp=""
+            data-whatsapp="33698915881"
             data-bonjour="Bonjour Meli ! Je viens de ton site."
             data-bonjour-bilan="Bonjour Meli ! Je souhaite réserver mon bilan gratuit."
             data-oui="Ton message est prêt."
@@ -300,7 +300,7 @@
 
         <div class="apercu" hidden>
           <p class="apercu-titre">Ton message</p>
-          <textarea class="apercu-texte" rows="9" readonly></textarea>
+          <textarea class="apercu-texte" rows="9" aria-label="Ton message"></textarea>
           <div class="btns">
             <a class="btn whatsapp" href="#" target="_blank" rel="noopener">Envoyer sur WhatsApp</a>
             <button class="btn vide copier" type="button">Copier le message</button>
@@ -647,7 +647,7 @@
           <div class="voie reveal">
             <p class="voie-tag">Pour un revenu</p>
             <h3>Je rejoins l'équipe</h3>
-            <p>Tu cherches un projet à toi, à côté de ta vie de famille. Tu partages les produits avec ton lien ou ton code, et tu touches des commissions sur les ventes.</p>
+            <p>Tu cherches un projet à toi, à côté de ta vie de famille. Tu partages les produits, en direct ou avec ton lien, et tu touches des commissions sur les ventes.</p>
             <ul>
               <li>Les mêmes 30 % de remise sur tes commandes</li>
               <li>Des commissions sur chaque vente, sans stock</li>
@@ -662,7 +662,7 @@
         <div class="atout reveal">
           <div class="gros">%</div>
           <h3>Des commissions</h3>
-          <p>Sur chaque vente faite avec ton lien ou ton code, sans stock à gérer.</p>
+          <p>Sur chaque vente, en direct ou avec ton lien, sans stock à gérer.</p>
         </div>
         <div class="atout reveal">
           <div class="gros">30 %</div>
@@ -670,9 +670,14 @@
           <p>Sur tous les produits, en gardant un minimum de points chaque mois.</p>
         </div>
         <div class="atout reveal">
+          <div class="gros">✦</div>
+          <h3>Des bonus et des voyages</h3>
+          <p>Des bonus, plein de promotions toute l'année et des voyages à gagner.</p>
+        </div>
+        <div class="atout reveal">
           <div class="gros">♡</div>
           <h3>Tu n'es jamais seule</h3>
-          <p>Des formations en ligne, des supports prêts à l'emploi et une équipe pour te motiver.</p>
+          <p>Une communauté incroyable de femmes et d'hommes, jeunes et moins jeunes : même des grands-parents de 70 ans s'y sont mis ! Avec des formations en ligne et des supports prêts à l'emploi.</p>
         </div>
       </div>
 
@@ -763,12 +768,12 @@
       <p class="eyebrow">Questions fréquentes</p>
       <h2>Avant de te <span class="kw">lancer</span></h2>
       <div class="rule"></div>
-      <div class="faq">
+      <div class="faq" data-une-seule>
         <details><summary>Faut-il un diplôme ou de l'expérience ?</summary><p>Non. Il faut être majeure et signer un contrat avec la marque. Je t'accompagne pour tout le reste.</p></details>
         <details><summary>Je suis salariée, je peux quand même ?</summary><p>Oui, c'est cumulable avec un emploi salarié, sauf si ton contrat de travail contient une clause d'exclusivité.</p></details>
-        <details><summary>Dois-je acheter du stock ?</summary><p>Non. Tes clientes commandent en ligne avec ton lien ou ton code, tu n'as rien à stocker.</p></details>
+        <details><summary>Dois-je acheter du stock ?</summary><p>Non. Tes clientes commandent en direct avec toi ou avec ton lien, tu n'as rien à stocker.</p></details>
         <details><summary>Combien ça coûte pour commencer ?</summary><p><span class="todo">frais d'inscription à préciser</span></p></details>
-        <details><summary>Combien vais-je gagner ?</summary><p>Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes faites avec ton lien ou ton code.</p></details>
+        <details><summary>Combien vais-je gagner ?</summary><p>Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes que tu fais, en direct ou avec ton lien.</p></details>
         <details><summary>Et si je manque de temps ?</summary><p>C'est justement pensé pour une activité à côté. Tu y consacres le temps que tu as, même quelques minutes par jour.</p></details>
       </div>
 
@@ -788,7 +793,7 @@
       <p class="intro">Un produit, ton bilan gratuit, l'équipe : choisis ce qui te va le mieux, je te réponds avec plaisir.</p>
       <div class="reseaux">
         <a class="btn plein" href="#bilan">Écrire mon message</a>
-        <a class="btn vide" href="#">WhatsApp</a>
+        <a class="btn vide" href="https://wa.me/33698915881" target="_blank" rel="noopener">WhatsApp</a>
         <a class="btn vide" href="https://www.instagram.com/still.becoming.me24/" target="_blank" rel="noopener">Instagram</a>
         <a class="btn vide" href="#">TikTok</a>
       </div>
@@ -869,7 +874,7 @@
     burger.addEventListener('click', function () { menuOuvert(!menu.classList.contains('ouvert')); });
     document.querySelectorAll('.menu nav a').forEach(function (a) { a.addEventListener('click', function () { menuOuvert(false); }); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') menuOuvert(false); });
-    window.matchMedia('(min-width: 961px)').addEventListener('change', function (m) { if (m.matches) menuOuvert(false); });
+    window.matchMedia('(min-width: 1101px)').addEventListener('change', function (m) { if (m.matches) menuOuvert(false); });
 
     /* Changer de langue en restant sur la même page */
     document.querySelectorAll('.langues a').forEach(function (a) {
@@ -919,6 +924,9 @@
         apercu.hidden = false;
         apercu.scrollIntoView({ behavior: 'smooth', block: 'center' });
       });
+      function majLien() { wa.href = 'https://wa.me/' + numero + '?text=' + encodeURIComponent(zone.value); }
+      zone.addEventListener('input', majLien);
+      wa.addEventListener('click', majLien);
       form.querySelector('.copier').addEventListener('click', function () {
         function ok() { etat.textContent = form.dataset.copie; }
         try { navigator.clipboard.writeText(zone.value).then(ok, function () { zone.select(); document.execCommand('copy'); ok(); }); }
@@ -937,6 +945,15 @@
       if (c && !c.checked) { c.checked = true; c.dispatchEvent(new Event('change')); }
       sujetDemande = null;
     }
+
+    /* FAQ : une seule question ouverte à la fois */
+    document.querySelectorAll('[data-une-seule]').forEach(function (bloc) {
+      bloc.querySelectorAll('details').forEach(function (d) {
+        d.addEventListener('toggle', function () {
+          if (d.open) bloc.querySelectorAll('details[open]').forEach(function (autre) { if (autre !== d) autre.open = false; });
+        });
+      });
+    });
 
     /* Bouton Retour : revient à la page précédente du site, sinon à la page parente */
     var boutonRetour = document.querySelector('.btn-retour');

@@ -492,8 +492,8 @@
     "es": "Comisiones"
   },
   "atouts.1.texte": {
-    "fr": "Sur chaque vente faite avec ton lien ou ton code, sans stock à gérer.",
-    "es": "Por cada venta hecha con tu enlace o tu código, sin inventario que manejar."
+    "fr": "Sur chaque vente, en direct ou avec ton lien, sans stock à gérer.",
+    "es": "Por cada venta, en persona o con tu enlace, sin inventario que manejar."
   },
   "atouts.2.titre": {
     "fr": "De remise à vie",
@@ -508,8 +508,8 @@
     "es": "Nunca estás sola"
   },
   "atouts.3.texte": {
-    "fr": "Des formations en ligne, des supports prêts à l'emploi et une équipe pour te motiver.",
-    "es": "Capacitaciones en línea, materiales listos para usar y un equipo para motivarte."
+    "fr": "Une communauté incroyable de femmes et d'hommes, jeunes et moins jeunes : même des grands-parents de 70 ans s'y sont mis ! Avec des formations en ligne et des supports prêts à l'emploi.",
+    "es": "Una comunidad increíble de mujeres y hombres, jóvenes y no tan jóvenes: ¡hasta abuelos de 70 años se han unido! Con capacitaciones en línea y materiales listos para usar."
   },
   "demarrer.1": {
     "fr": "Tu t'inscris avec mon lien, avec un pack de bienvenue pour tester ce que tu vas recommander.",
@@ -636,8 +636,8 @@
     "es": "¿Tengo que comprar inventario?"
   },
   "faq.e3.r": {
-    "fr": "Non. Tes clientes commandent en ligne avec ton lien ou ton code, tu n'as rien à stocker.",
-    "es": "No. Tus clientas piden en línea con tu enlace o tu código, no tienes nada que almacenar."
+    "fr": "Non. Tes clientes commandent en direct avec toi ou avec ton lien, tu n'as rien à stocker.",
+    "es": "No. Tus clientas piden directamente contigo o con tu enlace, no tienes nada que almacenar."
   },
   "faq.e4.q": {
     "fr": "Combien ça coûte pour commencer ?",
@@ -652,8 +652,8 @@
     "es": "¿Cuánto voy a ganar?"
   },
   "faq.e5.r": {
-    "fr": "Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes faites avec ton lien ou ton code.",
-    "es": "Depende totalmente de tu actividad: nada está garantizado y cada una avanza a su ritmo. Recibes una comisión por las ventas hechas con tu enlace o tu código."
+    "fr": "Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes que tu fais, en direct ou avec ton lien.",
+    "es": "Depende totalmente de tu actividad: nada está garantizado y cada una avanza a su ritmo. Recibes una comisión por las ventas que haces, en persona o con tu enlace."
   },
   "faq.e6.q": {
     "fr": "Et si je manque de temps ?",
@@ -1156,8 +1156,8 @@
     "es": "Me uno al equipo"
   },
   "voies.revenu.texte": {
-    "fr": "Tu cherches un projet à toi, à côté de ta vie de famille. Tu partages les produits avec ton lien ou ton code, et tu touches des commissions sur les ventes.",
-    "es": "Buscas un proyecto propio, junto a tu vida familiar. Compartes los productos con tu enlace o tu código y recibes comisiones por las ventas."
+    "fr": "Tu cherches un projet à toi, à côté de ta vie de famille. Tu partages les produits, en direct ou avec ton lien, et tu touches des commissions sur les ventes.",
+    "es": "Buscas un proyecto propio, junto a tu vida familiar. Compartes los productos, en persona o con tu enlace, y recibes comisiones por las ventas."
   },
   "voies.revenu.l1": {
     "fr": "Les mêmes 30 % de remise sur tes commandes",
@@ -1382,5 +1382,13 @@
   "bilan.medical": {
     "fr": "<b>On parlera de tes besoins ensemble</b>, pendant notre échange. Mes conseils viennent de mon expérience et ne remplacent pas l'avis d'un médecin ou d'une sage-femme, surtout pendant la grossesse, après un accouchement ou si tu suis un traitement.",
     "es": "<b>Hablaremos de tus necesidades juntas</b>, durante nuestra conversación. Mis consejos vienen de mi experiencia y no reemplazan la opinión de un médico o una partera, sobre todo durante el embarazo, después del parto o si sigues un tratamiento."
+  },
+  "atouts.4.titre": {
+    "fr": "Des bonus et des voyages",
+    "es": "Bonos y viajes"
+  },
+  "atouts.4.texte": {
+    "fr": "Des bonus, plein de promotions toute l'année et des voyages à gagner.",
+    "es": "Bonos, muchas promociones todo el año y viajes para ganar."
   }
 }

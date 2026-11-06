@@ -21,6 +21,7 @@
 <div class="bandeau" data-debut="2026-12-01" data-fin="2026-12-24" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres-coffrets"><b>Christmas:</b> 5 gift sets ready to give, no wrapping needed<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
 <header class="menu">
   <div class="wrap">
+    <a class="btn-retour" href="#accueil" hidden aria-label="Back" title="Back"><span>Back</span></a>
     <div class="personnes" aria-label="Choose the person">
       <a class="logo actif" href="#accueil">Meli<span>.</span></a>
       <a class="logo " href="../en/sophie/index.html">Sophie<span>.</span></a>
@@ -48,7 +49,6 @@
     </nav>
   </div>
 </header>
-<div class="retour-zone"><a class="btn-retour" href="#accueil" hidden>Back</a></div>
 
 <main>
 
@@ -234,7 +234,7 @@
         <h2>Before you <span class="kw">book</span></h2>
         <div class="rule"></div>
       </div>
-      <div class="faq">
+      <div class="faq" data-une-seule>
         <details><summary>Is the check-in really free?</summary><p>Yes. It's a first chat with no commitment, and no obligation to buy anything at the end.</p></details>
         <details><summary>How long does it last?</summary><p><span class="todo">length to be confirmed</span></p></details>
         <details><summary>Online or in person?</summary><p><span class="todo">to be confirmed</span></p></details>
@@ -256,7 +256,7 @@
       </div>
 
       <form class="form-bilan" novalidate
-            data-whatsapp=""
+            data-whatsapp="33698915881"
             data-bonjour="Hi Meli! I found you through your website."
             data-bonjour-bilan="Hi Meli! I'd like to book my free check-in."
             data-oui="Your message is ready."
@@ -300,7 +300,7 @@
 
         <div class="apercu" hidden>
           <p class="apercu-titre">Your message</p>
-          <textarea class="apercu-texte" rows="9" readonly></textarea>
+          <textarea class="apercu-texte" rows="9" aria-label="Your message"></textarea>
           <div class="btns">
             <a class="btn whatsapp" href="#" target="_blank" rel="noopener">Send on WhatsApp</a>
             <button class="btn vide copier" type="button">Copy the message</button>
@@ -647,7 +647,7 @@
           <div class="voie reveal">
             <p class="voie-tag">For an income</p>
             <h3>I join the team</h3>
-            <p>You're looking for a project of your own, alongside family life. You share the products with your link or code, and you earn commissions on sales.</p>
+            <p>You're looking for a project of your own, alongside family life. You share the products, in person or with your link, and you earn commissions on sales.</p>
             <ul>
               <li>The same 30% discount on your orders</li>
               <li>Commissions on every sale, no stock</li>
@@ -662,7 +662,7 @@
         <div class="atout reveal">
           <div class="gros">%</div>
           <h3>Commissions</h3>
-          <p>On every sale made with your link or code, with no stock to manage.</p>
+          <p>On every sale, in person or with your link, with no stock to manage.</p>
         </div>
         <div class="atout reveal">
           <div class="gros">30 %</div>
@@ -670,9 +670,14 @@
           <p>On all products, as long as you keep a minimum of points each month.</p>
         </div>
         <div class="atout reveal">
+          <div class="gros">✦</div>
+          <h3>Bonuses and trips</h3>
+          <p>Bonuses, lots of promotions all year round and trips to win.</p>
+        </div>
+        <div class="atout reveal">
           <div class="gros">♡</div>
           <h3>You're never alone</h3>
-          <p>Online training, ready-to-use materials and a team to keep you motivated.</p>
+          <p>An amazing community of women and men, young and not so young: even grandparents aged 70 have joined! Plus online training and ready-to-use materials.</p>
         </div>
       </div>
 
@@ -763,12 +768,12 @@
       <p class="eyebrow">Frequently asked questions</p>
       <h2>Before you <span class="kw">get started</span></h2>
       <div class="rule"></div>
-      <div class="faq">
+      <div class="faq" data-une-seule>
         <details><summary>Do I need a qualification or experience?</summary><p>No. You need to be over 18 and sign a contract with the brand. I'll guide you through the rest.</p></details>
         <details><summary>I have a job, can I still do it?</summary><p>Yes, in France it can be combined with a salaried job, unless your employment contract has an exclusivity clause.</p></details>
-        <details><summary>Do I need to buy stock?</summary><p>No. Your customers order online with your link or code, so there's nothing to store.</p></details>
+        <details><summary>Do I need to buy stock?</summary><p>No. Your customers order directly from you or with your link, so there's nothing to store.</p></details>
         <details><summary>How much does it cost to start?</summary><p><span class="todo">sign-up fee to be confirmed</span></p></details>
-        <details><summary>How much will I earn?</summary><p>It depends entirely on your activity: nothing is guaranteed, and everyone moves at her own pace. You earn a commission on sales made with your link or code.</p></details>
+        <details><summary>How much will I earn?</summary><p>It depends entirely on your activity: nothing is guaranteed, and everyone moves at her own pace. You earn a commission on the sales you make, in person or with your link.</p></details>
         <details><summary>What if I'm short on time?</summary><p>That's exactly what it's designed for: a side activity. You give it the time you have, even a few minutes a day.</p></details>
       </div>
 
@@ -788,7 +793,7 @@
       <p class="intro">A product, your free check-in, the team: pick what suits you best, I'll be happy to reply.</p>
       <div class="reseaux">
         <a class="btn plein" href="#bilan">Write my message</a>
-        <a class="btn vide" href="#">WhatsApp</a>
+        <a class="btn vide" href="https://wa.me/33698915881" target="_blank" rel="noopener">WhatsApp</a>
         <a class="btn vide" href="https://www.instagram.com/still.becoming.me24/" target="_blank" rel="noopener">Instagram</a>
         <a class="btn vide" href="#">TikTok</a>
       </div>
@@ -869,7 +874,7 @@
     burger.addEventListener('click', function () { menuOuvert(!menu.classList.contains('ouvert')); });
     document.querySelectorAll('.menu nav a').forEach(function (a) { a.addEventListener('click', function () { menuOuvert(false); }); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') menuOuvert(false); });
-    window.matchMedia('(min-width: 961px)').addEventListener('change', function (m) { if (m.matches) menuOuvert(false); });
+    window.matchMedia('(min-width: 1101px)').addEventListener('change', function (m) { if (m.matches) menuOuvert(false); });
 
     /* Changer de langue en restant sur la même page */
     document.querySelectorAll('.langues a').forEach(function (a) {
@@ -919,6 +924,9 @@
         apercu.hidden = false;
         apercu.scrollIntoView({ behavior: 'smooth', block: 'center' });
       });
+      function majLien() { wa.href = 'https://wa.me/' + numero + '?text=' + encodeURIComponent(zone.value); }
+      zone.addEventListener('input', majLien);
+      wa.addEventListener('click', majLien);
       form.querySelector('.copier').addEventListener('click', function () {
         function ok() { etat.textContent = form.dataset.copie; }
         try { navigator.clipboard.writeText(zone.value).then(ok, function () { zone.select(); document.execCommand('copy'); ok(); }); }
@@ -937,6 +945,15 @@
       if (c && !c.checked) { c.checked = true; c.dispatchEvent(new Event('change')); }
       sujetDemande = null;
     }
+
+    /* FAQ : une seule question ouverte à la fois */
+    document.querySelectorAll('[data-une-seule]').forEach(function (bloc) {
+      bloc.querySelectorAll('details').forEach(function (d) {
+        d.addEventListener('toggle', function () {
+          if (d.open) bloc.querySelectorAll('details[open]').forEach(function (autre) { if (autre !== d) autre.open = false; });
+        });
+      });
+    });
 
     /* Bouton Retour : revient à la page précédente du site, sinon à la page parente */
     var boutonRetour = document.querySelector('.btn-retour');

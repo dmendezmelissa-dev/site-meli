@@ -191,7 +191,7 @@ h3 { font-size: 22px; }
 .equipe .rule, .equipe .rule::before, .equipe .rule::after { background: #F3D9CC; }
 .equipe .intro { color: #EEF0E8; }
 .equipe .arche-ligne { border-color: var(--creme); opacity: .18; }
-.atouts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 56px; }
+.atouts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 56px; }
 .atout { border: 1px solid rgba(248, 241, 234, .35); border-radius: 999px 999px var(--rayon) var(--rayon); padding: 40px 28px 30px; text-align: center; }
 .atout .gros { font-family: "Lora", serif; font-size: 40px; line-height: 1; margin-bottom: 14px; color: #F3D9CC; }
 .atout h3 { font-size: 21px; margin-bottom: 10px; }
@@ -330,7 +330,7 @@ html:not(.js) .onglets { display: none; }
 
 /* ---------- Menu sur téléphone et tablette ---------- */
 .burger { display: none; }
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
   .menu { backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--creme); }
   .menu .wrap { height: 64px; }
   .burger {
@@ -468,7 +468,7 @@ sup { font-size: .5em; line-height: 0; }
   .temoignages, .faq-zone { margin-top: 72px; }
   .faq summary { font-size: 17px; padding: 18px 2px; }
 }
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
   .langues { border-left: 0; padding-left: 0; margin: 22px 0 0; font-size: 15px; gap: 10px; }
   .langues a { padding: 8px 6px; }
 }
@@ -733,20 +733,18 @@ html[lang="en"] .bloom .fr { display: none; }
 .offre-banniere img[src*="avent-bandeau"] { aspect-ratio: 1159 / 395; object-fit: cover; }
 @media (max-width: 760px) { .vedette .avent-liste { display: inline-block; text-align: left; } }
 
-/* ---------- Bouton Retour (toujours accessible, sauf sur l'accueil) ---------- */
-.retour-zone { position: sticky; top: 68px; height: 0; z-index: 9; }
+/* ---------- Bouton Retour : dans l'en-tête, à gauche des prénoms (ne recouvre jamais le contenu) ---------- */
+.menu .wrap { gap: 16px; }
 .btn-retour {
-  position: absolute; top: 14px; left: max(16px, calc((100vw - 1100px) / 2 - 8px));
-  display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
-  background: rgba(255, 255, 255, .92); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
-  border: 1px solid var(--ligne); border-radius: 999px; padding: 8px 16px 8px 12px; min-height: 40px;
-  font-weight: 700; font-size: 14px; color: var(--terra-b); box-shadow: 0 6px 18px rgba(80, 50, 30, .10);
-  transition: background .2s, transform .2s;
+  flex: none; display: inline-flex; align-items: center; justify-content: center; gap: 6px; text-decoration: none;
+  height: 40px; padding: 0 14px 0 10px; border: 1px solid var(--ligne); border-radius: 999px; background: var(--blanc);
+  font-weight: 700; font-size: 14px; color: var(--terra-b); margin-right: -4px; transition: background .2s, border-color .2s;
 }
-.btn-retour::before { content: "\2190"; font-size: 17px; line-height: 1; }
-.btn-retour:hover { background: var(--blanc); transform: translateX(-2px); }
+.btn-retour::before { content: "\2190"; font-size: 18px; line-height: 1; }
+.btn-retour:hover { border-color: var(--terra); }
 .btn-retour[hidden] { display: none; }
-@media (max-width: 960px) { .retour-zone { top: 64px; } .btn-retour { top: 10px; } }
+.personnes { margin-right: auto; }
+@media (max-width: 1280px) { .btn-retour { width: 40px; padding: 0; } .btn-retour span { display: none; } }
 
 /* ---------- Formulaire du bilan ---------- */
 .form-bilan { max-width: 640px; margin: 40px auto 0; background: var(--blanc); border-radius: var(--rayon); padding: 34px 34px 26px; display: grid; gap: 18px; }
@@ -796,3 +794,4 @@ button.btn.vide { background: transparent; } button.btn.vide:hover { background:
 .rappel-medical { margin: 0; padding: 14px 16px 14px 46px; position: relative; background: #EEF1E8; border-radius: 14px; font-size: 14px; line-height: 1.55; color: var(--encre); }
 .rappel-medical::before { content: "\2661"; position: absolute; left: 16px; top: 12px; font-size: 20px; color: var(--sauge-b); }
 .rappel-medical b { color: var(--sauge-b); }
+@media (min-width: 761px) and (max-width: 1060px) { .atouts { grid-template-columns: repeat(2, 1fr); } }

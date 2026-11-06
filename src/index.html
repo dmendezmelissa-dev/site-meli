@@ -218,7 +218,7 @@
         <h2>[[faq.bilan.titre|Avant de <span class="kw">réserver</span>]]</h2>
         <div class="rule"></div>
       </div>
-      <div class="faq">
+      <div class="faq" data-une-seule>
         <details><summary>[[faq.b1.q|Le bilan est-il vraiment gratuit ?]]</summary><p>[[faq.b1.r|Oui. C'est un premier échange sans engagement, et sans aucune obligation d'achat à la fin.]]</p></details>
         <details><summary>[[faq.b2.q|Combien de temps dure-t-il ?]]</summary><p><span class="todo">[[todo.duree|durée à préciser]]</span></p></details>
         <details><summary>[[faq.b3.q|En visio ou en vrai ?]]</summary><p><span class="todo">[[todo.format|à préciser]]</span></p></details>
@@ -240,7 +240,7 @@
       </div>
 
       <form class="form-bilan" novalidate
-            data-whatsapp=""
+            data-whatsapp="33698915881"
             data-bonjour="[[bilan.msg.bonjour_site|Bonjour Meli ! Je viens de ton site.]]"
             data-bonjour-bilan="[[bilan.msg.bonjour|Bonjour Meli ! Je souhaite réserver mon bilan gratuit.]]"
             data-oui="[[bilan.msg.envoye|Ton message est prêt.]]"
@@ -284,7 +284,7 @@
 
         <div class="apercu" hidden>
           <p class="apercu-titre">[[bilan.apercu|Ton message]]</p>
-          <textarea class="apercu-texte" rows="9" readonly></textarea>
+          <textarea class="apercu-texte" rows="9" aria-label="[[bilan.apercu|Ton message]]"></textarea>
           <div class="btns">
             <a class="btn whatsapp" href="#" target="_blank" rel="noopener">[[bilan.whatsapp|Envoyer sur WhatsApp]]</a>
             <button class="btn vide copier" type="button">[[bilan.copier|Copier le message]]</button>
@@ -631,7 +631,7 @@
           <div class="voie reveal">
             <p class="voie-tag">[[voies.revenu.tag|Pour un revenu]]</p>
             <h3>[[voies.revenu.titre|Je rejoins l'équipe]]</h3>
-            <p>[[voies.revenu.texte|Tu cherches un projet à toi, à côté de ta vie de famille. Tu partages les produits avec ton lien ou ton code, et tu touches des commissions sur les ventes.]]</p>
+            <p>[[voies.revenu.texte|Tu cherches un projet à toi, à côté de ta vie de famille. Tu partages les produits, en direct ou avec ton lien, et tu touches des commissions sur les ventes.]]</p>
             <ul>
               <li>[[voies.revenu.l1|Les mêmes 30 % de remise sur tes commandes]]</li>
               <li>[[voies.revenu.l2|Des commissions sur chaque vente, sans stock]]</li>
@@ -646,7 +646,7 @@
         <div class="atout reveal">
           <div class="gros">%</div>
           <h3>[[atouts.1.titre|Des commissions]]</h3>
-          <p>[[atouts.1.texte|Sur chaque vente faite avec ton lien ou ton code, sans stock à gérer.]]</p>
+          <p>[[atouts.1.texte|Sur chaque vente, en direct ou avec ton lien, sans stock à gérer.]]</p>
         </div>
         <div class="atout reveal">
           <div class="gros">30 %</div>
@@ -654,9 +654,14 @@
           <p>[[atouts.2.texte|Sur tous les produits, en gardant un minimum de points chaque mois.]]</p>
         </div>
         <div class="atout reveal">
+          <div class="gros">✦</div>
+          <h3>[[atouts.4.titre|Des bonus et des voyages]]</h3>
+          <p>[[atouts.4.texte|Des bonus, plein de promotions toute l'année et des voyages à gagner.]]</p>
+        </div>
+        <div class="atout reveal">
           <div class="gros">♡</div>
           <h3>[[atouts.3.titre|Tu n'es jamais seule]]</h3>
-          <p>[[atouts.3.texte|Des formations en ligne, des supports prêts à l'emploi et une équipe pour te motiver.]]</p>
+          <p>[[atouts.3.texte|Une communauté incroyable de femmes et d'hommes, jeunes et moins jeunes : même des grands-parents de 70 ans s'y sont mis ! Avec des formations en ligne et des supports prêts à l'emploi.]]</p>
         </div>
       </div>
 
@@ -676,12 +681,12 @@
       <p class="eyebrow">[[faq.surtitre|Questions fréquentes]]</p>
       <h2>[[faq.equipe.titre|Avant de te <span class="kw">lancer</span>]]</h2>
       <div class="rule"></div>
-      <div class="faq">
+      <div class="faq" data-une-seule>
         <details><summary>[[faq.e1.q|Faut-il un diplôme ou de l'expérience ?]]</summary><p>[[faq.e1.r|Non. Il faut être majeure et signer un contrat avec la marque. Je t'accompagne pour tout le reste.]]</p></details>
         <details><summary>[[faq.e2.q|Je suis salariée, je peux quand même ?]]</summary><p>[[faq.e2.r|Oui, c'est cumulable avec un emploi salarié, sauf si ton contrat de travail contient une clause d'exclusivité.]]</p></details>
-        <details><summary>[[faq.e3.q|Dois-je acheter du stock ?]]</summary><p>[[faq.e3.r|Non. Tes clientes commandent en ligne avec ton lien ou ton code, tu n'as rien à stocker.]]</p></details>
+        <details><summary>[[faq.e3.q|Dois-je acheter du stock ?]]</summary><p>[[faq.e3.r|Non. Tes clientes commandent en direct avec toi ou avec ton lien, tu n'as rien à stocker.]]</p></details>
         <details><summary>[[faq.e4.q|Combien ça coûte pour commencer ?]]</summary><p><span class="todo">[[todo.frais|frais d'inscription à préciser]]</span></p></details>
-        <details><summary>[[faq.e5.q|Combien vais-je gagner ?]]</summary><p>[[faq.e5.r|Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes faites avec ton lien ou ton code.]]</p></details>
+        <details><summary>[[faq.e5.q|Combien vais-je gagner ?]]</summary><p>[[faq.e5.r|Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes que tu fais, en direct ou avec ton lien.]]</p></details>
         <details><summary>[[faq.e6.q|Et si je manque de temps ?]]</summary><p>[[faq.e6.r|C'est justement pensé pour une activité à côté. Tu y consacres le temps que tu as, même quelques minutes par jour.]]</p></details>
       </div>
 
@@ -701,7 +706,7 @@
       <p class="intro">[[contact.texte|Un produit, ton bilan gratuit, l'équipe : choisis ce qui te va le mieux, je te réponds avec plaisir.]]</p>
       <div class="reseaux">
         <a class="btn plein" href="#bilan">[[contact.ecrire|Écrire mon message]]</a>
-        <a class="btn vide" href="#">WhatsApp</a>
+        <a class="btn vide" href="https://wa.me/33698915881" target="_blank" rel="noopener">WhatsApp</a>
         <a class="btn vide" href="https://www.instagram.com/still.becoming.me24/" target="_blank" rel="noopener">Instagram</a>
         <a class="btn vide" href="#">TikTok</a>
       </div>

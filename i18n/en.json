@@ -488,8 +488,8 @@
     "en": "Commissions"
   },
   "atouts.1.texte": {
-    "fr": "Sur chaque vente faite avec ton lien ou ton code, sans stock à gérer.",
-    "en": "On every sale made with your link or code, with no stock to manage."
+    "fr": "Sur chaque vente, en direct ou avec ton lien, sans stock à gérer.",
+    "en": "On every sale, in person or with your link, with no stock to manage."
   },
   "atouts.2.titre": {
     "fr": "De remise à vie",
@@ -504,8 +504,8 @@
     "en": "You're never alone"
   },
   "atouts.3.texte": {
-    "fr": "Des formations en ligne, des supports prêts à l'emploi et une équipe pour te motiver.",
-    "en": "Online training, ready-to-use materials and a team to keep you motivated."
+    "fr": "Une communauté incroyable de femmes et d'hommes, jeunes et moins jeunes : même des grands-parents de 70 ans s'y sont mis ! Avec des formations en ligne et des supports prêts à l'emploi.",
+    "en": "An amazing community of women and men, young and not so young: even grandparents aged 70 have joined! Plus online training and ready-to-use materials."
   },
   "demarrer.1": {
     "fr": "Tu t'inscris avec mon lien, avec un pack de bienvenue pour tester ce que tu vas recommander.",
@@ -544,8 +544,8 @@
     "en": "Do I need to buy stock?"
   },
   "faq.e3.r": {
-    "fr": "Non. Tes clientes commandent en ligne avec ton lien ou ton code, tu n'as rien à stocker.",
-    "en": "No. Your customers order online with your link or code, so there's nothing to store."
+    "fr": "Non. Tes clientes commandent en direct avec toi ou avec ton lien, tu n'as rien à stocker.",
+    "en": "No. Your customers order directly from you or with your link, so there's nothing to store."
   },
   "faq.e4.q": {
     "fr": "Combien ça coûte pour commencer ?",
@@ -560,8 +560,8 @@
     "en": "How much will I earn?"
   },
   "faq.e5.r": {
-    "fr": "Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes faites avec ton lien ou ton code.",
-    "en": "It depends entirely on your activity: nothing is guaranteed, and everyone moves at her own pace. You earn a commission on sales made with your link or code."
+    "fr": "Ça dépend entièrement de ton activité : rien n'est garanti, et chacune avance à son rythme. Tu touches une commission sur les ventes que tu fais, en direct ou avec ton lien.",
+    "en": "It depends entirely on your activity: nothing is guaranteed, and everyone moves at her own pace. You earn a commission on the sales you make, in person or with your link."
   },
   "faq.e6.q": {
     "fr": "Et si je manque de temps ?",
@@ -1156,8 +1156,8 @@
     "en": "I join the team"
   },
   "voies.revenu.texte": {
-    "fr": "Tu cherches un projet à toi, à côté de ta vie de famille. Tu partages les produits avec ton lien ou ton code, et tu touches des commissions sur les ventes.",
-    "en": "You're looking for a project of your own, alongside family life. You share the products with your link or code, and you earn commissions on sales."
+    "fr": "Tu cherches un projet à toi, à côté de ta vie de famille. Tu partages les produits, en direct ou avec ton lien, et tu touches des commissions sur les ventes.",
+    "en": "You're looking for a project of your own, alongside family life. You share the products, in person or with your link, and you earn commissions on sales."
   },
   "voies.revenu.l1": {
     "fr": "Les mêmes 30 % de remise sur tes commandes",
@@ -1382,5 +1382,13 @@
   "bilan.medical": {
     "fr": "<b>On parlera de tes besoins ensemble</b>, pendant notre échange. Mes conseils viennent de mon expérience et ne remplacent pas l'avis d'un médecin ou d'une sage-femme, surtout pendant la grossesse, après un accouchement ou si tu suis un traitement.",
     "en": "<b>We'll talk about your needs together</b>, during our chat. My advice comes from my own experience and doesn't replace the opinion of a doctor or midwife, especially during pregnancy, after giving birth or if you're on medication."
+  },
+  "atouts.4.titre": {
+    "fr": "Des bonus et des voyages",
+    "en": "Bonuses and trips"
+  },
+  "atouts.4.texte": {
+    "fr": "Des bonus, plein de promotions toute l'année et des voyages à gagner.",
+    "en": "Bonuses, lots of promotions all year round and trips to win."
   }
 }
