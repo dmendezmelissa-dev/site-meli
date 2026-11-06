@@ -733,18 +733,17 @@ html[lang="en"] .bloom .fr { display: none; }
 .offre-banniere img[src*="avent-bandeau"] { aspect-ratio: 1159 / 395; object-fit: cover; }
 @media (max-width: 760px) { .vedette .avent-liste { display: inline-block; text-align: left; } }
 
-/* ---------- Bouton Retour : dans l'en-tête, à gauche des prénoms (ne recouvre jamais le contenu) ---------- */
-.menu .wrap { gap: 16px; }
+/* ---------- Bouton Retour : petit, sous les prénoms, dans l'en-tête (ne recouvre jamais le contenu) ---------- */
+.gauche { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; margin-right: auto; }
+.gauche .personnes { line-height: 1.1; }
 .btn-retour {
-  flex: none; display: inline-flex; align-items: center; justify-content: center; gap: 6px; text-decoration: none;
-  height: 40px; padding: 0 14px 0 10px; border: 1px solid var(--ligne); border-radius: 999px; background: var(--blanc);
-  font-weight: 700; font-size: 14px; color: var(--terra-b); margin-right: -4px; transition: background .2s, border-color .2s;
+  display: inline-flex; align-items: center; gap: 4px; text-decoration: none;
+  height: 22px; padding: 0 9px 0 7px; border: 1px solid var(--ligne); border-radius: 999px; background: var(--blanc);
+  font-weight: 700; font-size: 12px; line-height: 1; color: var(--terra-b); transition: border-color .2s;
 }
-.btn-retour::before { content: "\2190"; font-size: 18px; line-height: 1; }
+.btn-retour::before { content: "\2190"; font-size: 13px; line-height: 1; }
 .btn-retour:hover { border-color: var(--terra); }
-.btn-retour[hidden] { display: none; }
-.personnes { margin-right: auto; }
-@media (max-width: 1280px) { .btn-retour { width: 40px; padding: 0; } .btn-retour span { display: none; } }
+.btn-retour[hidden] { display: inline-flex; visibility: hidden; }
 
 /* ---------- Formulaire du bilan ---------- */
 .form-bilan { max-width: 640px; margin: 40px auto 0; background: var(--blanc); border-radius: var(--rayon); padding: 34px 34px 26px; display: grid; gap: 18px; }
