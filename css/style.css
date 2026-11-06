@@ -358,7 +358,7 @@ html:not(.js) .onglets { display: none; }
   .lien-packs::after { display: none; }
   .deroulant { display: flex; flex-direction: column; align-items: center; }
   .menu .sous-menu, .menu .deroulant:hover .sous-menu, .menu .deroulant:focus-within .sous-menu {
-    position: static; opacity: 1; visibility: visible; transform: none; padding: 2px 0 10px;
+    position: static; opacity: 1; visibility: inherit; transform: none; padding: 2px 0 10px;
   }
   .menu .sm-boite { background: none; border: 0; box-shadow: none; padding: 0; min-width: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: min(320px, 100%); }
   .menu .sous-menu a { text-align: center; }
