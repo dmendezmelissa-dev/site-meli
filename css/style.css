@@ -783,3 +783,4 @@ html[lang="en"] .bloom .fr { display: none; }
   .envoyer { justify-self: stretch; }
 }
 button.btn { font-family: inherit; cursor: pointer; line-height: inherit; }
+button.btn.vide { background: transparent; } button.btn.vide:hover { background: var(--terra); }
