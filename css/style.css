@@ -830,23 +830,3 @@ section.page:has(> .wrap > .onglets-equipe) { padding-top: 52px; }
 .vedette .prix-duo { max-width: 340px; margin: 6px 0 16px; }
 .vedette-texte .prix-duo p.pd-eco { margin: 0; }
 @media (max-width: 760px) { .vedette .prix-duo { margin-left: auto; margin-right: auto; } }
-
-/* ---------- Par où commencer : une photo (Unsplash, licence libre) fondue dans le bas de chaque arche ---------- */
-.raccourci { position: relative; overflow: hidden; padding-bottom: 156px; }
-.raccourci i { margin-top: auto; }
-.raccourci::after {
-  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 150px; pointer-events: none;
-  background: var(--sable) center / cover no-repeat;
-  -webkit-mask-image: linear-gradient(to top, #000 35%, rgba(0,0,0,.6) 65%, transparent 100%); mask-image: linear-gradient(to top, #000 35%, rgba(0,0,0,.6) 65%, transparent 100%);
-  transition: transform .4s;
-}
-.raccourci:hover::after { transform: scale(1.04); }
-.raccourci > * { position: relative; z-index: 1; }
-.raccourci:nth-child(1)::after { background-image: url("https://images.unsplash.com/photo-1728931710262-af50e649e350?fm=jpg&q=70&w=700&fit=crop"); }
-.raccourci:nth-child(2)::after { background-image: url("https://images.unsplash.com/photo-1683758507025-6e74ad3ca1e5?fm=jpg&q=70&w=700&fit=crop"); }
-.raccourci:nth-child(3)::after { background-image: url("https://images.unsplash.com/photo-1748543668676-ea8241cb3886?fm=jpg&q=70&w=700&fit=crop"); }
-.raccourci:nth-child(4)::after { background-image: url("https://images.unsplash.com/photo-1569948936239-908a7bc95edc?fm=jpg&q=70&w=700&fit=crop"); }
-@media (max-width: 760px) {
-  .raccourci { padding-bottom: 116px; }
-  .raccourci::after { height: 110px; }
-}
