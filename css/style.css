@@ -23,7 +23,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+html { scroll-behavior: smooth; scroll-padding-top: 96px; }
 body {
   margin: 0;
   background: var(--creme);
@@ -47,7 +47,7 @@ p { margin: 0 0 1em; }
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--ligne);
 }
-.menu .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 68px; }
+.menu .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 84px; }
 .logo { font-family: "Lora", serif; font-size: 26px; text-decoration: none; letter-spacing: .01em; }
 .logo span { color: var(--terra); }
 .menu nav { display: flex; align-items: center; gap: 26px; }
@@ -280,7 +280,7 @@ html:not(.js) .onglets { display: none; }
 .js .page.entree { animation: entree .45s ease both; }
 @keyframes entree { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 .menu nav a.actif { color: var(--terra); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; }
-.js main { min-height: calc(100vh - 68px - 120px); }
+.js main { min-height: calc(100vh - 84px - 120px); }
 .js .accueil { padding-bottom: 40px; }
 
 /* Accueil : par où commencer */
@@ -332,7 +332,7 @@ html:not(.js) .onglets { display: none; }
 .burger { display: none; }
 @media (max-width: 1100px) {
   .menu { backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--creme); }
-  .menu .wrap { height: 64px; }
+  .menu .wrap { height: 78px; }
   .burger {
     display: grid; place-items: center; width: 46px; height: 46px; margin-right: -10px;
     background: none; border: 0; cursor: pointer; border-radius: 50%;
@@ -345,7 +345,7 @@ html:not(.js) .onglets { display: none; }
   .menu.ouvert .burger span:nth-child(3) { transform: rotate(-45deg); }
 
   .menu nav {
-    position: fixed; left: 0; right: 0; top: 64px; bottom: 0; z-index: 30;
+    position: fixed; left: 0; right: 0; top: 78px; bottom: 0; z-index: 30;
     background: var(--creme); border-top: 1px solid var(--ligne);
     flex-direction: column; justify-content: flex-start; align-items: center; gap: 4px;
     padding: 36px 24px 48px; overflow-y: auto;
@@ -734,7 +734,7 @@ html[lang="en"] .bloom .fr { display: none; }
 @media (max-width: 760px) { .vedette .avent-liste { display: inline-block; text-align: left; } }
 
 /* ---------- Bouton Retour : petit, sous les prénoms, dans l'en-tête (ne recouvre jamais le contenu) ---------- */
-.gauche { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; margin-right: auto; }
+.gauche { display: flex; flex-direction: column; align-items: flex-start; gap: 9px; margin-right: auto; }
 .gauche .personnes { line-height: 1.1; }
 .btn-retour {
   display: inline-flex; align-items: center; gap: 4px; text-decoration: none;
