@@ -827,25 +827,6 @@ section.page:has(> .wrap > .onglets-equipe) { padding-top: 52px; }
 .pd-inscrite b { font-size: 25px; }
 .pd-eco { grid-column: 1 / -1; margin: 0; padding: 8px 6px; background: rgba(104, 116, 90, .12); color: var(--sauge-b); font-weight: 700; font-size: 14px; }
 
-/* ---------- Bas des arches : un socle (trait à points, ou trait avec la petite fleur let's bloom.) ---------- */
-.socle { position: absolute; left: -10px; right: -10px; bottom: -1px; height: 2px; background: var(--terra); pointer-events: none; }
-.socle::before, .socle::after { content: ""; position: absolute; top: -4px; width: 10px; height: 10px; border-radius: 50%; background: var(--terra); }
-.socle::before { left: -5px; } .socle::after { right: -5px; }
-.socle i { display: none; }
-.raccourci { position: relative; }
-.raccourci .socle { left: 0; right: 0; }
-.raccourci .socle::before, .raccourci .socle::after { width: 8px; height: 8px; top: -3px; }
-.raccourci .socle::before { left: -4px; } .raccourci .socle::after { right: -4px; }
-.accueil .cadre .socle { left: -36px; right: -36px; bottom: -18px; }
-.accueil .visuel .arche-ligne { inset: -22px -22px -18px -22px; opacity: .6; }
-.accueil .visuel .manuscrit { margin-top: 34px; }
-/* variante : petite fleur au centre */
-html.socle-fleur .socle { background: linear-gradient(90deg, var(--terra) calc(50% - 24px), transparent calc(50% - 24px), transparent calc(50% + 24px), var(--terra) calc(50% + 24px)); }
-html.socle-fleur .socle i {
-  display: block; position: absolute; left: 50%; top: 50%; width: 34px; height: 26px; transform: translate(-50%, -62%);
-  background: var(--terra); -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 30'%3E%3Cg fill='none' stroke='%23000' stroke-width='1.8' stroke-linejoin='round'%3E%3Cpath d='M20 28C14.5 22 14.5 15 20 10.5C25.5 15 25.5 22 20 28Z'/%3E%3Cpath d='M19 28C11 27.5 5 21.5 3.5 13.5C11 14 17 19.5 19 28Z'/%3E%3Cpath d='M21 28C29 27.5 35 21.5 36.5 13.5C29 14 23 19.5 21 28Z'/%3E%3C/g%3E%3Cg fill='%23000'%3E%3Ccircle cx='20' cy='4.2' r='3.2'/%3E%3Ccircle cx='10.5' cy='8.3' r='2.4'/%3E%3Ccircle cx='29.5' cy='8.3' r='2.4'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 30'%3E%3Cg fill='none' stroke='%23000' stroke-width='1.8' stroke-linejoin='round'%3E%3Cpath d='M20 28C14.5 22 14.5 15 20 10.5C25.5 15 25.5 22 20 28Z'/%3E%3Cpath d='M19 28C11 27.5 5 21.5 3.5 13.5C11 14 17 19.5 19 28Z'/%3E%3Cpath d='M21 28C29 27.5 35 21.5 36.5 13.5C29 14 23 19.5 21 28Z'/%3E%3C/g%3E%3Cg fill='%23000'%3E%3Ccircle cx='20' cy='4.2' r='3.2'/%3E%3Ccircle cx='10.5' cy='8.3' r='2.4'/%3E%3Ccircle cx='29.5' cy='8.3' r='2.4'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat;
-}
-html.socle-fleur .raccourci .socle i { width: 30px; height: 22px; }
 .vedette .prix-duo { max-width: 340px; margin: 6px 0 16px; }
 .vedette-texte .prix-duo p.pd-eco { margin: 0; }
 @media (max-width: 760px) { .vedette .prix-duo { margin-left: auto; margin-right: auto; } }
