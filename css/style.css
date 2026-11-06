@@ -831,16 +831,22 @@ section.page:has(> .wrap > .onglets-equipe) { padding-top: 52px; }
 .vedette-texte .prix-duo p.pd-eco { margin: 0; }
 @media (max-width: 760px) { .vedette .prix-duo { margin-left: auto; margin-right: auto; } }
 
-/* ---------- Par où commencer : un dessin au trait en fond de chaque arche ---------- */
-.raccourci { position: relative; overflow: hidden; background: linear-gradient(180deg, rgba(243, 217, 204, .55) 0%, rgba(255, 255, 255, .6) 70%); }
-.raccourci::before {
-  content: ""; position: absolute; left: 50%; top: 22px; width: 150px; height: 150px; transform: translateX(-50%);
-  background: center / contain no-repeat; opacity: .16; pointer-events: none; transition: opacity .3s, transform .3s;
+/* ---------- Par où commencer : une photo (Unsplash, licence libre) fondue dans le bas de chaque arche ---------- */
+.raccourci { position: relative; overflow: hidden; padding-bottom: 156px; }
+.raccourci i { margin-top: auto; }
+.raccourci::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 150px; pointer-events: none;
+  background: var(--sable) center / cover no-repeat;
+  -webkit-mask-image: linear-gradient(to top, #000 35%, rgba(0,0,0,.6) 65%, transparent 100%); mask-image: linear-gradient(to top, #000 35%, rgba(0,0,0,.6) 65%, transparent 100%);
+  transition: transform .4s;
 }
-.raccourci:hover::before { opacity: .24; transform: translateX(-50%) scale(1.04); }
-.raccourci > * { position: relative; }
-.raccourci:nth-child(1)::before { background-image: url(../images/illus-histoire.svg); }
-.raccourci:nth-child(2)::before { background-image: url(../images/illus-bilan.svg); }
-.raccourci:nth-child(3)::before { background-image: url(../images/illus-packs.svg); }
-.raccourci:nth-child(4)::before { background-image: url(../images/illus-equipe.svg); }
-@media (max-width: 760px) { .raccourci::before { width: 112px; height: 112px; top: 16px; } }
+.raccourci:hover::after { transform: scale(1.04); }
+.raccourci > * { position: relative; z-index: 1; }
+.raccourci:nth-child(1)::after { background-image: url("https://images.unsplash.com/photo-1728931710262-af50e649e350?fm=jpg&q=70&w=700&fit=crop"); }
+.raccourci:nth-child(2)::after { background-image: url("https://images.unsplash.com/photo-1683758507025-6e74ad3ca1e5?fm=jpg&q=70&w=700&fit=crop"); }
+.raccourci:nth-child(3)::after { background-image: url("https://images.unsplash.com/photo-1748543668676-ea8241cb3886?fm=jpg&q=70&w=700&fit=crop"); }
+.raccourci:nth-child(4)::after { background-image: url("https://images.unsplash.com/photo-1569948936239-908a7bc95edc?fm=jpg&q=70&w=700&fit=crop"); }
+@media (max-width: 760px) {
+  .raccourci { padding-bottom: 116px; }
+  .raccourci::after { height: 110px; }
+}
