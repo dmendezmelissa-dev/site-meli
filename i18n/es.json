@@ -1291,10 +1291,6 @@
     "fr": "Je préfère ne pas répondre",
     "es": "Prefiero no responder"
   },
-  "bilan.qui.maman": {
-    "fr": "Maman",
-    "es": "Mamá"
-  },
   "bilan.qui.travail": {
     "fr": "Je travaille",
     "es": "Trabajo"
@@ -1375,10 +1371,6 @@
     "fr": "Ta situation",
     "es": "Tu situación"
   },
-  "bilan.facultatif": {
-    "fr": "(facultatif)",
-    "es": "(opcional)"
-  },
   "bilan.msg.bonjour_site": {
     "fr": "Bonjour Meli ! Je viens de ton site.",
     "es": "¡Hola Meli! Te encontré en tu sitio web."
@@ -1386,5 +1378,17 @@
   "contact.ecrire": {
     "fr": "Écrire mon message",
     "es": "Escribir mi mensaje"
+  },
+  "bilan.situation.aide": {
+    "fr": "(facultatif, plusieurs choix possibles)",
+    "es": "(opcional, puedes elegir varias)"
+  },
+  "bilan.sit.enfants": {
+    "fr": "J'ai des enfants",
+    "es": "Tengo hijos"
+  },
+  "bilan.sit.postpartum": {
+    "fr": "Enceinte ou jeune maman",
+    "es": "Embarazada o mamá reciente"
   }
 }

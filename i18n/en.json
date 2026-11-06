@@ -1291,10 +1291,6 @@
     "fr": "Je préfère ne pas répondre",
     "en": "I'd rather not say"
   },
-  "bilan.qui.maman": {
-    "fr": "Maman",
-    "en": "Mum"
-  },
   "bilan.qui.travail": {
     "fr": "Je travaille",
     "en": "I work"
@@ -1375,10 +1371,6 @@
     "fr": "Ta situation",
     "en": "Your situation"
   },
-  "bilan.facultatif": {
-    "fr": "(facultatif)",
-    "en": "(optional)"
-  },
   "bilan.msg.bonjour_site": {
     "fr": "Bonjour Meli ! Je viens de ton site.",
     "en": "Hi Meli! I found you through your website."
@@ -1386,5 +1378,17 @@
   "contact.ecrire": {
     "fr": "Écrire mon message",
     "en": "Write my message"
+  },
+  "bilan.situation.aide": {
+    "fr": "(facultatif, plusieurs choix possibles)",
+    "en": "(optional, you can pick several)"
+  },
+  "bilan.sit.enfants": {
+    "fr": "J'ai des enfants",
+    "en": "I have children"
+  },
+  "bilan.sit.postpartum": {
+    "fr": "Enceinte ou jeune maman",
+    "en": "Pregnant or new mum"
   }
 }
