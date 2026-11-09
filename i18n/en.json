@@ -172,28 +172,20 @@
     "en": "Still <span class=\"kw\">a work in progress</span>"
   },
   "histoire.p1": {
-    "fr": "Moi, c'est Meli. Maman d'un petit garçon et d'une petite fille, je travaille aujourd'hui depuis chez moi, après des années dans l'hôtellerie avec des horaires décalés.",
-    "en": "Hi, I'm Meli. Mum of a little boy and a little girl, I now work from home, after years in the hotel industry with irregular hours."
-  },
-  "todo.salvador": {
-    "fr": "Salvador : oui ou non ?",
-    "en": "El Salvador: yes or no?"
+    "fr": "Moi, c'est Meli. Je suis née dans le plus petit pays d'Amérique latine, le Salvador, et je vis en France depuis 2009. Aujourd'hui, je suis maman d'un petit garçon et d'une petite fille, et je travaille depuis chez moi, après des années dans l'hôtellerie avec des horaires décalés.",
+    "en": "I'm Meli. I was born in the smallest country in Latin America, El Salvador, and I've been living in France since 2009. Today I'm the mum of a little boy and a little girl, and I work from home after years in hospitality with irregular hours."
   },
   "histoire.p2": {
     "fr": "En 2019, j'ai décidé de changer ma façon de vivre. Je me suis donnée à fond dans le sport, et pas seulement pour en faire : j'ai voulu apprendre. Comment respirer, comment placer mon corps, quelles postures prendre pour que chaque exercice fasse du bien au lieu de faire mal.",
     "en": "In 2019, I decided to change the way I lived. I threw myself into exercise, and not just doing it: I wanted to learn. How to breathe, how to position my body, which postures to use so every exercise does good instead of harm."
   },
-  "todo.envie": {
-    "fr": "ce qui t'a donné envie de changer",
-    "en": "what made you want to change"
-  },
   "histoire.p3": {
-    "fr": "Puis sont arrivées mes deux grossesses. Après mon post-partum, j'ai dû me reconstruire, doucement. C'est à ce moment-là que les compléments sont entrés dans ma routine, et ils y sont restés.",
-    "en": "Then came my two pregnancies. After my postpartum, I had to rebuild myself, gently. That's when supplements became part of my routine, and they've stayed there."
+    "fr": "Après ma première grossesse, j'ai eu beaucoup de soucis physiques : des infiltrations aux poignets, des douleurs aux articulations. J'ai appris à faire attention à mon corps pendant le sport. Ma deuxième grossesse, il y a tout juste un an, a été une autre histoire : un merveilleux allaitement, mais beaucoup de fatigue, et une césarienne d'urgence qui a bouleversé mes habitudes. J'ai dû réhabituer mon corps et apprendre autrement, et c'est là que les compléments sont entrés dans ma routine.",
+    "en": "After my first pregnancy I had a lot of physical problems: injections in my wrists, joint pain. I learned to take care of my body while exercising. My second pregnancy, just a year ago, was a different story: wonderful breastfeeding, but a lot of tiredness, and an emergency C-section that turned my habits upside down. I had to get my body used to things again and learn a new way, and that's when supplements became part of my routine."
   },
   "histoire.p4": {
-    "fr": "Je n'ai pas de photo avant/après à te montrer, et c'est voulu. Je ne suis pas « arrivée » : j'avance, un jour après l'autre, et je montre mon ventre tel qu'il est aujourd'hui.",
-    "en": "I don't have a before and after photo to show you, and that's on purpose. I haven't \"arrived\": I keep going, one day at a time, and I show my tummy as it is today."
+    "fr": "Je n'ai pas de photo avant/après à te montrer, et c'est voulu. Je ne suis pas « arrivée » : j'avance, un jour après l'autre.",
+    "en": "I don't have a before/after photo to show you, and that's on purpose. I haven't \"arrived\": I'm moving forward, one day at a time."
   },
   "histoire.citation": {
     "fr": "Ce que je veux, c'est aider celles et ceux qui se sont un peu perdus en route à se retrouver. Sans promesse miracle, en avançant avec eux.",
@@ -1442,5 +1434,17 @@
   "video.insta": {
     "fr": "Suis mon quotidien sur Instagram",
     "en": "Follow my everyday life on Instagram"
+  },
+  "histoire.p2b": {
+    "fr": "Ce changement, je l'ai aussi fait dans mon quotidien. Les régimes, je les ai essayés, et j'ai compris que ça ne marchait pas : il faut plutôt apprendre à manger autrement. Parce qu'une vie sans se faire plaisir n'est pas une vie pleinement vécue.",
+    "en": "I made that change in my everyday life too. I tried diets, and I realised they don't work: what you need is to learn to eat differently. Because a life without little pleasures isn't a life fully lived."
+  },
+  "histoire.p3b": {
+    "fr": "Je ne fais pas autant de sport qu'avant d'être maman, mais 30 minutes me suffisent : pour bouger, pour avoir un moment à moi, et pour voir mon corps devenir plus fort.",
+    "en": "I don't exercise as much as I did before becoming a mum, but 30 minutes is enough for me: to move, to have a moment to myself, and to watch my body grow stronger."
+  },
+  "histoire.p5": {
+    "fr": "Chaque corps est différent, chaque métabolisme et chaque quotidien aussi. Ne te compare pas aux autres, apprends à aimer qui tu es. Prends soin de ton corps, et de toi.",
+    "en": "Every body is different, every metabolism and every daily life too. Don't compare yourself to others, learn to love who you are. Take care of your body, and of yourself."
   }
 }

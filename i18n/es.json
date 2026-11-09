@@ -176,28 +176,20 @@
     "es": "Siempre <span class=\"kw\">en construcción</span>"
   },
   "histoire.p1": {
-    "fr": "Moi, c'est Meli. Maman d'un petit garçon et d'une petite fille, je travaille aujourd'hui depuis chez moi, après des années dans l'hôtellerie avec des horaires décalés.",
-    "es": "Soy Meli. Mamá de un niño y una niña, hoy trabajo desde casa, después de años en la hotelería con horarios cambiantes."
-  },
-  "todo.salvador": {
-    "fr": "Salvador : oui ou non ?",
-    "es": "El Salvador: ¿sí o no?"
+    "fr": "Moi, c'est Meli. Je suis née dans le plus petit pays d'Amérique latine, le Salvador, et je vis en France depuis 2009. Aujourd'hui, je suis maman d'un petit garçon et d'une petite fille, et je travaille depuis chez moi, après des années dans l'hôtellerie avec des horaires décalés.",
+    "es": "Soy Meli. Nací en el país más pequeño de América Latina, El Salvador, y vivo en Francia desde 2009. Hoy soy mamá de un niño y una niña, y trabajo desde casa después de años en hostelería con horarios irregulares."
   },
   "histoire.p2": {
     "fr": "En 2019, j'ai décidé de changer ma façon de vivre. Je me suis donnée à fond dans le sport, et pas seulement pour en faire : j'ai voulu apprendre. Comment respirer, comment placer mon corps, quelles postures prendre pour que chaque exercice fasse du bien au lieu de faire mal.",
     "es": "En 2019 decidí cambiar mi forma de vivir. Me entregué por completo al deporte, y no solo para practicarlo: quise aprender. Cómo respirar, cómo colocar mi cuerpo, qué posturas adoptar para que cada ejercicio haga bien en lugar de hacer daño."
   },
-  "todo.envie": {
-    "fr": "ce qui t'a donné envie de changer",
-    "es": "qué te dio ganas de cambiar"
-  },
   "histoire.p3": {
-    "fr": "Puis sont arrivées mes deux grossesses. Après mon post-partum, j'ai dû me reconstruire, doucement. C'est à ce moment-là que les compléments sont entrés dans ma routine, et ils y sont restés.",
-    "es": "Luego llegaron mis dos embarazos. Después del posparto tuve que reconstruirme, poco a poco. Fue entonces cuando los suplementos entraron en mi rutina, y ahí se quedaron."
+    "fr": "Après ma première grossesse, j'ai eu beaucoup de soucis physiques : des infiltrations aux poignets, des douleurs aux articulations. J'ai appris à faire attention à mon corps pendant le sport. Ma deuxième grossesse, il y a tout juste un an, a été une autre histoire : un merveilleux allaitement, mais beaucoup de fatigue, et une césarienne d'urgence qui a bouleversé mes habitudes. J'ai dû réhabituer mon corps et apprendre autrement, et c'est là que les compléments sont entrés dans ma routine.",
+    "es": "Después de mi primer embarazo tuve muchos problemas físicos: infiltraciones en las muñecas y dolores en las articulaciones. Aprendí a cuidar mi cuerpo al hacer deporte. Mi segundo embarazo, hace apenas un año, fue otra historia: una lactancia maravillosa, pero mucho cansancio, y una cesárea de urgencia que cambió mis hábitos. Tuve que volver a acostumbrar mi cuerpo y aprender de otra forma, y fue entonces cuando los suplementos entraron en mi rutina."
   },
   "histoire.p4": {
-    "fr": "Je n'ai pas de photo avant/après à te montrer, et c'est voulu. Je ne suis pas « arrivée » : j'avance, un jour après l'autre, et je montre mon ventre tel qu'il est aujourd'hui.",
-    "es": "No tengo una foto de antes y después para mostrarte, y es a propósito. No he \"llegado\": sigo avanzando, un día a la vez, y muestro mi abdomen tal como es hoy."
+    "fr": "Je n'ai pas de photo avant/après à te montrer, et c'est voulu. Je ne suis pas « arrivée » : j'avance, un jour après l'autre.",
+    "es": "No tengo fotos de antes y después para mostrarte, y es a propósito. No he \"llegado\": avanzo, un día a la vez."
   },
   "histoire.citation": {
     "fr": "Ce que je veux, c'est aider celles et ceux qui se sont un peu perdus en route à se retrouver. Sans promesse miracle, en avançant avec eux.",
@@ -1442,5 +1434,17 @@
   "video.insta": {
     "fr": "Suis mon quotidien sur Instagram",
     "es": "Sigue mi día a día en Instagram"
+  },
+  "histoire.p2b": {
+    "fr": "Ce changement, je l'ai aussi fait dans mon quotidien. Les régimes, je les ai essayés, et j'ai compris que ça ne marchait pas : il faut plutôt apprendre à manger autrement. Parce qu'une vie sans se faire plaisir n'est pas une vie pleinement vécue.",
+    "es": "Ese cambio también lo hice en mi día a día. Probé las dietas y me di cuenta de que no funcionaban: hay que aprender a comer de otra manera. Porque una vida sin darse gustos no es una vida plenamente vivida."
+  },
+  "histoire.p3b": {
+    "fr": "Je ne fais pas autant de sport qu'avant d'être maman, mais 30 minutes me suffisent : pour bouger, pour avoir un moment à moi, et pour voir mon corps devenir plus fort.",
+    "es": "No hago tanto deporte como antes de ser mamá, pero 30 minutos me bastan: para moverme, para tener un momento para mí y ver cómo mi cuerpo se vuelve más fuerte."
+  },
+  "histoire.p5": {
+    "fr": "Chaque corps est différent, chaque métabolisme et chaque quotidien aussi. Ne te compare pas aux autres, apprends à aimer qui tu es. Prends soin de ton corps, et de toi.",
+    "es": "Cada cuerpo es diferente, cada metabolismo y cada día a día también. No te compares con los demás, aprende a quererte tal como eres. Cuida tu cuerpo, y cuídate a ti."
   }
 }
