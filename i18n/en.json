@@ -464,8 +464,8 @@
     "en": "Lifetime discount"
   },
   "atouts.2.texte": {
-    "fr": "Sur tous les produits, en gardant un minimum de points chaque mois.",
-    "en": "On all products, as long as you keep a minimum of points each month."
+    "fr": "Sur tous les produits.",
+    "en": "On all products."
   },
   "atouts.3.titre": {
     "fr": "Tu n'es jamais seule",
@@ -476,12 +476,8 @@
     "en": "An amazing community of women and men, young and not so young: even grandparents aged 70 have joined! Plus online training and ready-to-use materials."
   },
   "demarrer.1": {
-    "fr": "Tu t'inscris avec mon lien, avec un pack de bienvenue pour tester ce que tu vas recommander.",
-    "en": "You sign up with my link, with a welcome pack to try what you'll be recommending."
-  },
-  "todo.lien": {
-    "fr": "lien",
-    "en": "link"
+    "fr": "Je t'aide à t'inscrire, avec un pack de bienvenue pour tester ce que tu vas recommander.",
+    "en": "I help you sign up, with a welcome pack to try what you'll be recommending."
   },
   "demarrer.2": {
     "fr": "Si tu veux toucher des commissions, tu prends le statut VDI : je t'explique tout avec ma fiche de bienvenue.",
@@ -1104,12 +1100,8 @@
     "en": "30% lifetime discount on the whole catalogue"
   },
   "voies.perso.l2": {
-    "fr": "Un minimum de points à valider chaque mois",
-    "en": "A minimum of points to reach each month"
-  },
-  "todo.points": {
-    "fr": "combien ?",
-    "en": "how many?"
+    "fr": "Plus tu commandes, plus tu as de cadeaux",
+    "en": "The more you order, the more gifts you get"
   },
   "voies.perso.l3": {
     "fr": "Tu commandes pour toi, c'est tout",
@@ -1352,12 +1344,12 @@
     "en": "<b>We'll talk about your needs together</b>, during our chat. My advice comes from my own experience and doesn't replace the opinion of a doctor or midwife, especially during pregnancy, after giving birth or if you're on medication."
   },
   "atouts.4.titre": {
-    "fr": "Des bonus et des voyages",
-    "en": "Bonuses and trips"
+    "fr": "Bonus, cadeaux et voyages",
+    "en": "Bonuses, gifts and trips"
   },
   "atouts.4.texte": {
-    "fr": "Des bonus, plein de promotions toute l'année et des voyages à gagner.",
-    "en": "Bonuses, lots of promotions all year round and trips to win."
+    "fr": "Des bonus, des cadeaux, plein de promotions toute l'année et des voyages à gagner.",
+    "en": "Bonuses, gifts, lots of promotions all year round and trips to win."
   },
   "equipe.onglet.rejoindre": {
     "fr": "Nous rejoindre",
@@ -1438,5 +1430,9 @@
   "faq.b3.r": {
     "fr": "Les deux sont possibles. La visio, c'est très bien, mais c'est toujours mieux de se rencontrer en personne.",
     "en": "Both are possible. A video call works well, but meeting in person is always better."
+  },
+  "voies.revenu.l4": {
+    "fr": "Ensuite, tu peux créer ta propre équipe",
+    "en": "Later on, you can build your own team"
   }
 }

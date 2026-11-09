@@ -468,8 +468,8 @@
     "es": "Descuento de por vida"
   },
   "atouts.2.texte": {
-    "fr": "Sur tous les produits, en gardant un minimum de points chaque mois.",
-    "es": "En todos los productos, manteniendo un mínimo de puntos cada mes."
+    "fr": "Sur tous les produits.",
+    "es": "En todos los productos."
   },
   "atouts.3.titre": {
     "fr": "Tu n'es jamais seule",
@@ -480,12 +480,8 @@
     "es": "Una comunidad increíble de mujeres y hombres, jóvenes y no tan jóvenes: ¡hasta abuelos de 70 años se han unido! Con capacitaciones en línea y materiales listos para usar."
   },
   "demarrer.1": {
-    "fr": "Tu t'inscris avec mon lien, avec un pack de bienvenue pour tester ce que tu vas recommander.",
-    "es": "Te registras con mi enlace, con un pack de bienvenida para probar lo que vas a recomendar."
-  },
-  "todo.lien": {
-    "fr": "lien",
-    "es": "enlace"
+    "fr": "Je t'aide à t'inscrire, avec un pack de bienvenue pour tester ce que tu vas recommander.",
+    "es": "Te ayudo a inscribirte, con un pack de bienvenida para probar lo que vas a recomendar."
   },
   "demarrer.2": {
     "fr": "Si tu veux toucher des commissions, tu prends le statut VDI : je t'explique tout avec ma fiche de bienvenue.",
@@ -1104,12 +1100,8 @@
     "es": "30 % de descuento de por vida en todo el catálogo"
   },
   "voies.perso.l2": {
-    "fr": "Un minimum de points à valider chaque mois",
-    "es": "Un mínimo de puntos que validar cada mes"
-  },
-  "todo.points": {
-    "fr": "combien ?",
-    "es": "¿cuántos?"
+    "fr": "Plus tu commandes, plus tu as de cadeaux",
+    "es": "Cuanto más pides, más regalos recibes"
   },
   "voies.perso.l3": {
     "fr": "Tu commandes pour toi, c'est tout",
@@ -1352,12 +1344,12 @@
     "es": "<b>Hablaremos de tus necesidades juntas</b>, durante nuestra conversación. Mis consejos vienen de mi experiencia y no reemplazan la opinión de un médico o una partera, sobre todo durante el embarazo, después del parto o si sigues un tratamiento."
   },
   "atouts.4.titre": {
-    "fr": "Des bonus et des voyages",
-    "es": "Bonos y viajes"
+    "fr": "Bonus, cadeaux et voyages",
+    "es": "Bonos, regalos y viajes"
   },
   "atouts.4.texte": {
-    "fr": "Des bonus, plein de promotions toute l'année et des voyages à gagner.",
-    "es": "Bonos, muchas promociones todo el año y viajes para ganar."
+    "fr": "Des bonus, des cadeaux, plein de promotions toute l'année et des voyages à gagner.",
+    "es": "Bonos, regalos, muchas promociones todo el año y viajes para ganar."
   },
   "equipe.onglet.rejoindre": {
     "fr": "Nous rejoindre",
@@ -1438,5 +1430,9 @@
   "faq.b3.r": {
     "fr": "Les deux sont possibles. La visio, c'est très bien, mais c'est toujours mieux de se rencontrer en personne.",
     "es": "Las dos opciones son posibles. Por videollamada está muy bien, pero siempre es mejor conocernos en persona."
+  },
+  "voies.revenu.l4": {
+    "fr": "Ensuite, tu peux créer ta propre équipe",
+    "es": "Después, puedes crear tu propio equipo"
   }
 }
