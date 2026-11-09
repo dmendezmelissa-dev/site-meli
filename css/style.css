@@ -849,3 +849,30 @@ footer .sig .insta:hover, footer .sig .insta:hover svg { color: var(--terra-b); 
 .lien-insta b { font-weight: 700; color: var(--terra); }
 .lien-insta:hover b { color: var(--terra-b); text-decoration: underline; text-underline-offset: 3px; }
 @media (max-width: 760px) { .lien-insta { justify-content: center; width: 100%; } }
+
+/* ---------- Par où commencer : liste élégante (numéro, titre, phrase, flèche) ---------- */
+.raccourcis { display: block; max-width: 920px; margin: 18px auto 0; border-top: 1px solid var(--ligne); text-align: left; }
+.raccourci {
+  display: grid; grid-template-columns: 84px minmax(0, 1fr) minmax(0, 1.25fr) 46px; align-items: center; gap: 0 20px;
+  padding: 22px 14px; border: 0; border-bottom: 1px solid var(--ligne); border-radius: 0; background: none; min-height: 0;
+  transition: background .25s;
+}
+.raccourci:hover { background: rgba(255, 255, 255, .6); transform: none; border-color: var(--ligne); }
+.raccourci .num { font-size: 40px; margin: 0; color: var(--terra); opacity: .55; }
+.raccourci b { font-size: 23px; }
+.raccourci span:not(.num) { font-size: 15.5px; }
+.raccourci i {
+  margin: 0; justify-self: end; width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--terra);
+  font-size: 0; display: grid; place-items: center; transition: background .25s, transform .25s;
+}
+.raccourci i::after { content: "\2192"; font-size: 18px; color: var(--terra); }
+.raccourci:hover i { background: var(--terra); transform: translateX(4px); }
+.raccourci:hover i::after { color: var(--blanc); }
+@media (max-width: 760px) {
+  .raccourci { grid-template-columns: 52px minmax(0, 1fr) 36px; grid-template-rows: auto auto; gap: 2px 14px; padding: 18px 6px; }
+  .raccourci .num { grid-row: 1 / 3; font-size: 30px; }
+  .raccourci b { grid-column: 2; font-size: 19px; }
+  .raccourci span:not(.num) { grid-column: 2; font-size: 14px; }
+  .raccourci i { grid-column: 3; grid-row: 1 / 3; width: 36px; height: 36px; }
+  .raccourci i::after { font-size: 16px; }
+}
