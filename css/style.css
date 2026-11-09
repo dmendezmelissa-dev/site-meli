@@ -830,3 +830,10 @@ section.page:has(> .wrap > .onglets-equipe) { padding-top: 52px; }
 .vedette .prix-duo { max-width: 340px; margin: 6px 0 16px; }
 .vedette-texte .prix-duo p.pd-eco { margin: 0; }
 @media (max-width: 760px) { .vedette .prix-duo { margin-left: auto; margin-right: auto; } }
+
+/* Accueil : sur téléphone et tablette, les deux boutons passent sous la photo */
+.btns-sous-photo { display: none; }
+@media (max-width: 900px) {
+  .accueil .texte .btns { display: none; }
+  .accueil .btns-sous-photo { display: flex; justify-content: center; margin-top: -16px; width: 100%; max-width: 640px; }
+}
