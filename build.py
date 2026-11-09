@@ -28,6 +28,13 @@ SRC = ICI / "src"
 SEG = re.compile(r"\[\[([a-z0-9_.\-]+)\|(.*?)\]\]", re.S)
 INCLURE = re.compile(r"<!-- @inclure ([\w.\-]+) -->")
 
+# signature du pied de page en lien (icône Instagram) quand la personne a un compte
+SIGNATURE_HTML = {
+    "meli": '<a class="insta" href="https://www.instagram.com/still.becoming.me24/" target="_blank" rel="noopener">'
+            '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8">'
+            '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>'
+            '@still.becoming.me24</a>',
+}
 # personne -> (gabarit, dossier, nom affiché, signature du pied de page)
 PERSONNES = {
     "meli": ("index.html", "", "Meli", "@still.becoming.me24"),
@@ -111,7 +118,7 @@ def main():
                 [f'<link rel="alternate" hreflang="{l}" href="{root + chemin(l, personne)}">' for l in LANGUES]
                 + [f'<link rel="alternate" hreflang="x-default" href="{root + chemin(LANGUE_PAR_DEFAUT[personne], personne)}">'])
             vars = {
-                "lang": lang, "root": root, "nom": nom, "signature": signature,
+                "lang": lang, "root": root, "nom": nom, "signature": SIGNATURE_HTML.get(personne, signature),
                 "liens_langues": liens, "alternates": alternates,
                 "actif_meli": "actif" if personne == "meli" else "",
                 "actif_sophie": "actif" if personne == "sophie" else "",
