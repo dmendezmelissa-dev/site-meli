@@ -232,12 +232,8 @@
     "es": "Tu primera evaluación, <span class=\"kw-s\">gratis</span>"
   },
   "accomp.texte": {
-    "fr": "On commence par se rencontrer. Tu me parles de toi, de tes journées, de ce que tu aimerais changer, et on regarde ensemble par où commencer.",
-    "es": "Empezamos por conocernos. Me cuentas de ti, de tus días, de lo que te gustaría cambiar, y vemos juntas por dónde empezar."
-  },
-  "todo.bilan": {
-    "fr": "en visio, en vrai ? durée ?",
-    "es": "¿en línea o en persona? ¿cuánto dura?"
+    "fr": "On commence par se rencontrer. Tu me parles de toi, de tes journées, de ce que tu aimerais changer, et on regarde ensemble par où commencer. Compte au moins 2 heures, de préférence en personne, sinon en visio.",
+    "es": "Empezamos por conocernos. Me cuentas de ti, de tus días, de lo que te gustaría cambiar, y vemos juntas por dónde empezar. Cuenta con al menos 2 horas, preferiblemente en persona, si no por videollamada."
   },
   "etapes.1.titre": {
     "fr": "On fait connaissance",
@@ -319,41 +315,25 @@
     "fr": "Combien de temps dure-t-il ?",
     "es": "¿Cuánto dura?"
   },
-  "todo.duree": {
-    "fr": "durée à préciser",
-    "es": "duración por confirmar"
-  },
   "faq.b3.q": {
     "fr": "En visio ou en vrai ?",
     "es": "¿En línea o en persona?"
-  },
-  "todo.format": {
-    "fr": "à préciser",
-    "es": "por confirmar"
   },
   "faq.b4.q": {
     "fr": "Faut-il du matériel ?",
     "es": "¿Necesito material?"
   },
   "faq.b4.r": {
-    "fr": "Non. Les exercices se font à la maison, sans matériel. Une bouteille d'eau suffit.",
-    "es": "No. Los ejercicios se hacen en casa, sin material. Una botella de agua es suficiente."
+    "fr": "Non, on peut tout faire sans matériel. Ensuite, c'est au choix : si tu en as envie, tu peux acheter du petit matériel, comme des bandes élastiques, qui sont un très bon outil.",
+    "es": "No, podemos hacerlo todo sin material. Después, tú eliges: si te apetece, puedes comprar algo de material pequeño, como bandas elásticas, que son una herramienta muy buena."
   },
   "faq.b5.q": {
     "fr": "J'ai accouché récemment, je peux commencer ?",
     "es": "Di a luz hace poco, ¿puedo empezar?"
   },
   "faq.b5.r": {
-    "fr": "Demande d'abord le feu vert de ton médecin ou de ta sage-femme pour reprendre le sport. Ensuite, on avance en douceur, à ton rythme.",
-    "es": "Primero pide el visto bueno de tu médico o de tu partera para retomar el deporte. Después avanzamos con suavidad, a tu ritmo."
-  },
-  "faq.b6.q": {
-    "fr": "Suis-je obligée de prendre des compléments ?",
-    "es": "¿Estoy obligada a tomar suplementos?"
-  },
-  "faq.b6.r": {
-    "fr": "Pas du tout. On en parle seulement si tu en as envie.",
-    "es": "Para nada. Solo hablamos de ellos si tú quieres."
+    "fr": "Demande d'abord le feu vert de ton médecin ou de ta sage-femme pour reprendre le sport, et vois avec eux si tu as besoin d'une rééducation du périnée ou abdominale. Ensuite, on avance en douceur, à ton rythme.",
+    "es": "Primero pide el visto bueno de tu médico o tu matrona para retomar el deporte, y consulta con ellos si necesitas reeducación del suelo pélvico o abdominal. Después, avanzamos con suavidad, a tu ritmo."
   },
   "titre.packs": {
     "fr": "Mes packs · Meli",
@@ -1450,5 +1430,13 @@
   "histoire.photo_alt": {
     "fr": "Meli en tenue de sport, un haltère à la main, sur son tapis à la maison",
     "es": "Meli en ropa deportiva, con una mancuerna en la mano, sobre su esterilla en casa"
+  },
+  "faq.b2.r": {
+    "fr": "Compte au moins 2 heures, pour qu'on ait le temps de discuter et de faire connaissance. Le matin ou l'après-midi, comme tu préfères : je travaille de chez moi, je suis flexible ;)",
+    "es": "Cuenta con al menos 2 horas, para que tengamos tiempo de hablar y conocernos. Por la mañana o por la tarde, como prefieras: trabajo desde casa, así que soy flexible ;)"
+  },
+  "faq.b3.r": {
+    "fr": "Les deux sont possibles. La visio, c'est très bien, mais c'est toujours mieux de se rencontrer en personne.",
+    "es": "Las dos opciones son posibles. Por videollamada está muy bien, pero siempre es mejor conocernos en persona."
   }
 }

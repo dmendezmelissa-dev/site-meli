@@ -228,12 +228,8 @@
     "en": "Your first check-in, <span class=\"kw-s\">on me</span>"
   },
   "accomp.texte": {
-    "fr": "On commence par se rencontrer. Tu me parles de toi, de tes journées, de ce que tu aimerais changer, et on regarde ensemble par où commencer.",
-    "en": "We start by getting to know each other. You tell me about yourself, your days, what you'd like to change, and we figure out together where to begin."
-  },
-  "todo.bilan": {
-    "fr": "en visio, en vrai ? durée ?",
-    "en": "online, in person? how long?"
+    "fr": "On commence par se rencontrer. Tu me parles de toi, de tes journées, de ce que tu aimerais changer, et on regarde ensemble par où commencer. Compte au moins 2 heures, de préférence en personne, sinon en visio.",
+    "en": "We start by getting to know each other. You tell me about yourself, your days, what you'd like to change, and we figure out together where to begin. Allow at least 2 hours, ideally in person, otherwise by video call."
   },
   "etapes.1.titre": {
     "fr": "On fait connaissance",
@@ -315,41 +311,25 @@
     "fr": "Combien de temps dure-t-il ?",
     "en": "How long does it last?"
   },
-  "todo.duree": {
-    "fr": "durée à préciser",
-    "en": "length to be confirmed"
-  },
   "faq.b3.q": {
     "fr": "En visio ou en vrai ?",
     "en": "Online or in person?"
-  },
-  "todo.format": {
-    "fr": "à préciser",
-    "en": "to be confirmed"
   },
   "faq.b4.q": {
     "fr": "Faut-il du matériel ?",
     "en": "Do I need any equipment?"
   },
   "faq.b4.r": {
-    "fr": "Non. Les exercices se font à la maison, sans matériel. Une bouteille d'eau suffit.",
-    "en": "No. The exercises are done at home, with no equipment. A bottle of water is enough."
+    "fr": "Non, on peut tout faire sans matériel. Ensuite, c'est au choix : si tu en as envie, tu peux acheter du petit matériel, comme des bandes élastiques, qui sont un très bon outil.",
+    "en": "No, we can do everything without equipment. After that it's up to you: if you'd like, you can buy a few small items, like resistance bands, which are a great tool."
   },
   "faq.b5.q": {
     "fr": "J'ai accouché récemment, je peux commencer ?",
     "en": "I gave birth recently, can I start?"
   },
   "faq.b5.r": {
-    "fr": "Demande d'abord le feu vert de ton médecin ou de ta sage-femme pour reprendre le sport. Ensuite, on avance en douceur, à ton rythme.",
-    "en": "First, get the green light from your doctor or midwife to start exercising again. Then we take it gently, at your pace."
-  },
-  "faq.b6.q": {
-    "fr": "Suis-je obligée de prendre des compléments ?",
-    "en": "Do I have to take supplements?"
-  },
-  "faq.b6.r": {
-    "fr": "Pas du tout. On en parle seulement si tu en as envie.",
-    "en": "Not at all. We only talk about them if you want to."
+    "fr": "Demande d'abord le feu vert de ton médecin ou de ta sage-femme pour reprendre le sport, et vois avec eux si tu as besoin d'une rééducation du périnée ou abdominale. Ensuite, on avance en douceur, à ton rythme.",
+    "en": "First get the green light from your doctor or midwife to start exercising again, and check with them whether you need pelvic floor or abdominal rehabilitation. Then we'll go gently, at your own pace."
   },
   "titre.packs": {
     "fr": "Mes packs · Meli",
@@ -1450,5 +1430,13 @@
   "histoire.photo_alt": {
     "fr": "Meli en tenue de sport, un haltère à la main, sur son tapis à la maison",
     "en": "Meli in workout clothes, holding a dumbbell, on her mat at home"
+  },
+  "faq.b2.r": {
+    "fr": "Compte au moins 2 heures, pour qu'on ait le temps de discuter et de faire connaissance. Le matin ou l'après-midi, comme tu préfères : je travaille de chez moi, je suis flexible ;)",
+    "en": "Allow at least 2 hours, so we have time to talk and get to know each other. Morning or afternoon, whatever suits you: I work from home, so I'm flexible ;)"
+  },
+  "faq.b3.r": {
+    "fr": "Les deux sont possibles. La visio, c'est très bien, mais c'est toujours mieux de se rencontrer en personne.",
+    "en": "Both are possible. A video call works well, but meeting in person is always better."
   }
 }
