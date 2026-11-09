@@ -243,7 +243,7 @@ footer .sep { margin: 0 10px; color: var(--sable); }
   .accueil .visuel { width: min(290px, 74%); }
   .pastille { width: 104px; height: 104px; font-size: 15.5px; left: -22px; top: 70px; }
   .pastille b { font-size: 25px; }
-  .histoire .arche.photo { position: static; width: min(300px, 80%); margin: 0 auto; }
+  .histoire .arche.photo { position: relative; top: auto; width: min(300px, 80%); margin: 0 auto; }
   .valeurs, .etapes, .atouts { grid-template-columns: 1fr; gap: 16px; }
   .cartes { grid-template-columns: 1fr; }
   .carte .arche.photo { aspect-ratio: 16 / 11; }

@@ -153,7 +153,12 @@
   <section class="page histoire" data-page="histoire" data-titre="My story · Meli">
     <div class="wrap">
       <div class="grille">
-        <div class="arche photo">YOUR PHOTO HERE</div>
+        <div class="arche photo">
+          <picture>
+            <source type="image/webp" srcset="../images/meli-histoire-480.webp 480w, ../images/meli-histoire-800.webp 800w, ../images/meli-histoire-1100.webp 1100w" sizes="(max-width: 760px) 80vw, 420px">
+            <img src="../images/meli-histoire-800.jpg" srcset="../images/meli-histoire-480.jpg 480w, ../images/meli-histoire-800.jpg 800w" sizes="(max-width: 760px) 80vw, 420px" width="800" height="1067" alt="Meli in workout clothes, holding a dumbbell, on her mat at home" loading="lazy">
+          </picture>
+        </div>
         <div class="recit">
           <p class="eyebrow">My story</p>
           <h2>Still <span class="kw">a work in progress</span></h2>

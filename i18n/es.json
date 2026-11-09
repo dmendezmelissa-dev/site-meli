@@ -1446,5 +1446,9 @@
   "histoire.p5": {
     "fr": "Chaque corps est différent, chaque métabolisme et chaque quotidien aussi. Ne te compare pas aux autres, apprends à aimer qui tu es. Prends soin de ton corps, et de toi.",
     "es": "Cada cuerpo es diferente, cada metabolismo y cada día a día también. No te compares con los demás, aprende a quererte tal como eres. Cuida tu cuerpo, y cuídate a ti."
+  },
+  "histoire.photo_alt": {
+    "fr": "Meli en tenue de sport, un haltère à la main, sur son tapis à la maison",
+    "es": "Meli en ropa deportiva, con una mancuerna en la mano, sobre su esterilla en casa"
   }
 }

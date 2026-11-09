@@ -153,7 +153,12 @@
   <section class="page histoire" data-page="histoire" data-titre="Mon histoire · Meli">
     <div class="wrap">
       <div class="grille">
-        <div class="arche photo">TA PHOTO ICI</div>
+        <div class="arche photo">
+          <picture>
+            <source type="image/webp" srcset="images/meli-histoire-480.webp 480w, images/meli-histoire-800.webp 800w, images/meli-histoire-1100.webp 1100w" sizes="(max-width: 760px) 80vw, 420px">
+            <img src="images/meli-histoire-800.jpg" srcset="images/meli-histoire-480.jpg 480w, images/meli-histoire-800.jpg 800w" sizes="(max-width: 760px) 80vw, 420px" width="800" height="1067" alt="Meli en tenue de sport, un haltère à la main, sur son tapis à la maison" loading="lazy">
+          </picture>
+        </div>
         <div class="recit">
           <p class="eyebrow">Mon histoire</p>
           <h2>Toujours <span class="kw">en construction</span></h2>

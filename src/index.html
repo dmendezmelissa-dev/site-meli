@@ -135,7 +135,12 @@
   <section class="page histoire" data-page="histoire" data-titre="[[titre.histoire|Mon histoire · Meli]]">
     <div class="wrap">
       <div class="grille">
-        <div class="arche photo">[[todo.photo|TA PHOTO ICI]]</div>
+        <div class="arche photo">
+          <picture>
+            <source type="image/webp" srcset="{{root}}images/meli-histoire-480.webp 480w, {{root}}images/meli-histoire-800.webp 800w, {{root}}images/meli-histoire-1100.webp 1100w" sizes="(max-width: 760px) 80vw, 420px">
+            <img src="{{root}}images/meli-histoire-800.jpg" srcset="{{root}}images/meli-histoire-480.jpg 480w, {{root}}images/meli-histoire-800.jpg 800w" sizes="(max-width: 760px) 80vw, 420px" width="800" height="1067" alt="[[histoire.photo_alt|Meli en tenue de sport, un haltère à la main, sur son tapis à la maison]]" loading="lazy">
+          </picture>
+        </div>
         <div class="recit">
           <p class="eyebrow">[[histoire.surtitre|Mon histoire]]</p>
           <h2>[[histoire.titre|Toujours <span class="kw">en construction</span>]]</h2>
