@@ -841,11 +841,10 @@ section.page:has(> .wrap > .onglets-equipe) { padding-top: 52px; }
 
 /* Pied de page : lien Instagram */
 footer .sig .insta { display: inline-flex; align-items: center; gap: 7px; color: var(--encre); }
-footer .sig .insta svg { color: var(--terra); }
-footer .sig .insta:hover, footer .sig .insta:hover svg { color: var(--terra-b); }
+footer .sig .insta:hover { color: var(--terra-b); }
 /* Accueil : lien Instagram sous « Je me présente » */
 .lien-insta { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin-top: 22px; text-decoration: none; color: var(--encre); font-weight: 700; }
-.lien-insta svg { color: var(--terra); flex: none; }
+.lien-insta svg { flex: none; }
 .lien-insta b { font-weight: 700; color: var(--terra); }
 .lien-insta:hover b { color: var(--terra-b); text-decoration: underline; text-underline-offset: 3px; }
 @media (max-width: 760px) { .lien-insta { justify-content: center; width: 100%; } }

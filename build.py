@@ -31,8 +31,7 @@ INCLURE = re.compile(r"<!-- @inclure ([\w.\-]+) -->")
 # signature du pied de page en lien (icône Instagram) quand la personne a un compte
 SIGNATURE_HTML = {
     "meli": '<a class="insta" href="https://www.instagram.com/still.becoming.me24/" target="_blank" rel="noopener">'
-            '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8">'
-            '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>'
+            '<svg class="ig" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><defs><radialGradient id="ig-pied" cx="30%" cy="107%" r="150%"><stop offset="0" stop-color="#FDF497"/><stop offset=".05" stop-color="#FDF497"/><stop offset=".45" stop-color="#FD5949"/><stop offset=".6" stop-color="#D6249F"/><stop offset=".9" stop-color="#285AEB"/></radialGradient></defs><rect width="24" height="24" rx="6" fill="url(#ig-pied)"/><g fill="none" stroke="#fff" stroke-width="1.7"><rect x="5" y="5" width="14" height="14" rx="4"/><circle cx="12" cy="12" r="3.4"/></g><circle cx="16.3" cy="7.7" r=".95" fill="#fff"/></svg>'
             '@still.becoming.me24</a>',
 }
 # personne -> (gabarit, dossier, nom affiché, signature du pied de page)
