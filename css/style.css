@@ -839,36 +839,13 @@ section.page:has(> .wrap > .onglets-equipe) { padding-top: 52px; }
 }
 .accueil .btns-sous-photo { justify-self: center; }
 
-/* ---------- Par où commencer : cartes colorées (rosé / sauge), numéro en filigrane ---------- */
-.raccourci {
-  position: relative; overflow: hidden; align-items: flex-start; text-align: left; gap: 6px;
-  min-height: 220px; padding: 24px 22px 22px; border: 0; border-radius: 22px; background: #F4E1D7;
-}
-.raccourci:nth-child(even) { background: #E2E6D9; }
-.raccourci:hover { background: #EFD3C6; border-color: transparent; }
-.raccourci:nth-child(even):hover { background: #D6DCCB; }
-.raccourci .num { font-size: 76px; line-height: .9; margin: 0 0 4px -2px; color: rgba(163, 95, 71, .32); }
-.raccourci:nth-child(even) .num { color: rgba(87, 98, 75, .32); }
-.raccourci b { font-size: 21px; }
-.raccourci span:not(.num) { color: var(--encre); opacity: .78; }
-.raccourci i { margin-top: auto; padding-top: 12px; color: var(--terra-b); }
-.raccourci:nth-child(even) i { color: var(--sauge-b); }
-@media (max-width: 760px) {
-  .raccourci { min-height: 0; padding: 18px 16px 16px; border-radius: 18px; }
-  .raccourci .num { font-size: 56px; }
-  .raccourci b { font-size: 17.5px; }
-}
-
 /* Pied de page : lien Instagram */
 footer .sig .insta { display: inline-flex; align-items: center; gap: 7px; color: var(--encre); }
 footer .sig .insta svg { color: var(--terra); }
 footer .sig .insta:hover, footer .sig .insta:hover svg { color: var(--terra-b); }
-/* Par où commencer : en 2 colonnes, couleurs en damier */
-@media (max-width: 900px) {
-  .raccourci:nth-child(3) { background: #E2E6D9; }
-  .raccourci:nth-child(3) .num { color: rgba(87, 98, 75, .32); }
-  .raccourci:nth-child(3) i { color: var(--sauge-b); }
-  .raccourci:nth-child(4) { background: #F4E1D7; }
-  .raccourci:nth-child(4) .num { color: rgba(163, 95, 71, .32); }
-  .raccourci:nth-child(4) i { color: var(--terra-b); }
-}
+/* Accueil : lien Instagram sous « Je me présente » */
+.lien-insta { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin-top: 22px; text-decoration: none; color: var(--encre); font-weight: 700; }
+.lien-insta svg { color: var(--terra); flex: none; }
+.lien-insta b { font-weight: 700; color: var(--terra); }
+.lien-insta:hover b { color: var(--terra-b); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 760px) { .lien-insta { justify-content: center; width: 100%; } }
