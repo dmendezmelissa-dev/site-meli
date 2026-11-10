@@ -1478,5 +1478,9 @@
   "kits.l2": {
     "fr": "Livrés en main propre, autour de Toulouse",
     "en": "Hand-delivered around Toulouse"
+  },
+  "kits.l3": {
+    "fr": "Tu préfères les recevoir chez toi ? Je t'envoie le lien direct de ma boutique en ligne (sans pochette)",
+    "en": "Would you rather have them delivered to your home? I'll send you the direct link to my online shop (without the pouch)"
   }
 }
