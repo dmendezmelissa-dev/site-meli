@@ -1426,5 +1426,49 @@
   "voies.revenu.l4": {
     "fr": "Ensuite, tu peux créer ta propre équipe",
     "es": "Después, puedes crear tu propio equipo"
+  },
+  "kits.arche": {
+    "fr": "Petits kits",
+    "es": "Pequeños kits"
+  },
+  "kits.arche_sous": {
+    "fr": "petits prix",
+    "es": "pequeños precios"
+  },
+  "choix.kits.titre": {
+    "fr": "Mes petits kits de Noël",
+    "es": "Mis pequeños kits de Navidad"
+  },
+  "choix.kits.texte": {
+    "fr": "Des petits kits à petits prix, composés par moi.",
+    "es": "Pequeños kits a pequeños precios, preparados por mí."
+  },
+  "titre.kits": {
+    "fr": "Mes petits kits de Noël · Meli",
+    "es": "Mis pequeños kits de Navidad · Meli"
+  },
+  "kits.titre": {
+    "fr": "Mes petits kits <span class=\"kw\">de Noël</span>",
+    "es": "Mis pequeños kits <span class=\"kw\">de Navidad</span>"
+  },
+  "kits.texte": {
+    "fr": "Des petits kits à petits prix, que je compose moi-même avec mes produits préférés. Parfaits pour un petit cadeau, une attention pour quelqu'un qui compte, ou pour te faire plaisir.",
+    "es": "Pequeños kits a pequeños precios, que preparo yo misma con mis productos favoritos. Perfectos para un pequeño regalo, un detalle para alguien importante o para darte un gusto."
+  },
+  "kits.bientot": {
+    "fr": "<b>Ils arrivent très bientôt ici.</b> Écris-moi pour être prévenue dès qu'ils sont prêts.",
+    "es": "<b>Llegan aquí muy pronto.</b> Escríbeme para que te avise en cuanto estén listos."
+  },
+  "kits.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20suis%20int%C3%A9ress%C3%A9e%20par%20tes%20petits%20kits%20de%20No%C3%ABl.",
+    "es": "%C2%A1Hola%20Meli!%20Me%20interesan%20tus%20peque%C3%B1os%20kits%20de%20Navidad."
+  },
+  "kits.cta": {
+    "fr": "Préviens-moi sur WhatsApp",
+    "es": "Avísame por WhatsApp"
+  },
+  "noel.accueil.kits": {
+    "fr": "Mes petits kits",
+    "es": "Mis pequeños kits"
   }
 }

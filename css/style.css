@@ -876,3 +876,11 @@ footer .sig .insta:hover { color: var(--terra-b); }
   .raccourci i::after { font-size: 16px; }
 }
 .recit p.message { font-weight: 700; color: var(--sauge-b); }
+
+/* Offres : petits kits de Noël */
+.choix-offre .arche.photo.arche-kits { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; background: radial-gradient(circle at 50% 35%, #7A1730 0%, var(--noel) 70%); color: #F6E7DA; text-align: center; }
+.choix-offre .arche-kits .kits-etoiles { letter-spacing: .4em; font-size: 14px !important; color: #E9C9B6 !important; }
+.choix-offre .arche-kits .kits-mot { font-family: "Dancing Script", cursive; font-size: 44px; line-height: 1; color: #F6E7DA !important; }
+.choix-offre .arche-kits .kits-sous { font-size: 13px !important; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #E9C9B6 !important; }
+.kits-page { max-width: 720px; margin: 0 auto; }
+.kits-page .bientot { margin: 22px auto 26px; }

@@ -1426,5 +1426,49 @@
   "voies.revenu.l4": {
     "fr": "Ensuite, tu peux créer ta propre équipe",
     "en": "Later on, you can build your own team"
+  },
+  "kits.arche": {
+    "fr": "Petits kits",
+    "en": "Little kits"
+  },
+  "kits.arche_sous": {
+    "fr": "petits prix",
+    "en": "little prices"
+  },
+  "choix.kits.titre": {
+    "fr": "Mes petits kits de Noël",
+    "en": "My little Christmas kits"
+  },
+  "choix.kits.texte": {
+    "fr": "Des petits kits à petits prix, composés par moi.",
+    "en": "Little kits at little prices, put together by me."
+  },
+  "titre.kits": {
+    "fr": "Mes petits kits de Noël · Meli",
+    "en": "My little Christmas kits · Meli"
+  },
+  "kits.titre": {
+    "fr": "Mes petits kits <span class=\"kw\">de Noël</span>",
+    "en": "My little <span class=\"kw\">Christmas kits</span>"
+  },
+  "kits.texte": {
+    "fr": "Des petits kits à petits prix, que je compose moi-même avec mes produits préférés. Parfaits pour un petit cadeau, une attention pour quelqu'un qui compte, ou pour te faire plaisir.",
+    "en": "Little kits at little prices, that I put together myself with my favourite products. Perfect for a small gift, a kind thought for someone who matters, or a treat for yourself."
+  },
+  "kits.bientot": {
+    "fr": "<b>Ils arrivent très bientôt ici.</b> Écris-moi pour être prévenue dès qu'ils sont prêts.",
+    "en": "<b>They're coming here very soon.</b> Message me to be told as soon as they're ready."
+  },
+  "kits.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20suis%20int%C3%A9ress%C3%A9e%20par%20tes%20petits%20kits%20de%20No%C3%ABl.",
+    "en": "Hi%20Meli!%20I'm%20interested%20in%20your%20little%20Christmas%20kits."
+  },
+  "kits.cta": {
+    "fr": "Préviens-moi sur WhatsApp",
+    "en": "Let me know on WhatsApp"
+  },
+  "noel.accueil.kits": {
+    "fr": "Mes petits kits",
+    "en": "My little kits"
   }
 }
