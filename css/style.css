@@ -884,3 +884,6 @@ footer .sig .insta:hover { color: var(--terra-b); }
 .choix-offre .arche-kits .kits-sous { font-size: 13px !important; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #E9C9B6 !important; }
 .kits-page { max-width: 720px; margin: 0 auto; }
 .kits-page .bientot { margin: 22px auto 26px; }
+/* Offres : les liens « Découvrir » alignés en bas de chaque carte */
+.choix-offre { display: flex; flex-direction: column; }
+.choix-offre i { margin-top: auto; padding-top: 8px; }
