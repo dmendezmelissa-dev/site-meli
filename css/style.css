@@ -887,3 +887,5 @@ footer .sig .insta:hover { color: var(--terra-b); }
 /* Offres : les liens « Découvrir » alignés en bas de chaque carte */
 .choix-offre { display: flex; flex-direction: column; }
 .choix-offre i { margin-top: auto; padding-top: 8px; }
+.kits-liste { display: inline-block; text-align: left; margin: 18px auto 0; }
+.kits-liste li, .kits-liste li:last-child { font-weight: 400; color: var(--encre); font-size: 15px; }

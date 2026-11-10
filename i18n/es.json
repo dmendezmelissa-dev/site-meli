@@ -1470,5 +1470,13 @@
   "noel.accueil.kits": {
     "fr": "Mes petits kits",
     "es": "Mis pequeños kits"
+  },
+  "kits.l1": {
+    "fr": "Déjà emballés dans leur pochette, prêts à offrir",
+    "es": "Ya envueltos en su bolsita, listos para regalar"
+  },
+  "kits.l2": {
+    "fr": "Livrés en main propre, autour de Toulouse",
+    "es": "Entregados en mano, en los alrededores de Toulouse"
   }
 }
