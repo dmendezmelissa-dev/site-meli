@@ -1570,5 +1570,113 @@
   "kit.maison": {
     "fr": "Le recevoir chez moi",
     "en": "Have it delivered to me"
+  },
+  "kit.rc.pour": {
+    "fr": "Pour celle qui aime <span class='kw'>les parfums gourmands</span>",
+    "en": "For lovers of <span class='kw'>sweet, fruity scents</span>"
+  },
+  "kit.rc.nom": {
+    "fr": "Kit Royal Cherry",
+    "en": "Royal Cherry kit"
+  },
+  "kit.rc.prix": {
+    "fr": "33,50 €",
+    "en": "€33.50"
+  },
+  "kit.rc.desc": {
+    "fr": "Toute la gamme Royal Cherry pour le corps : on se lave, on nourrit sa peau, et on garde un parfum gourmand de cerise jusqu'au bout des doigts.",
+    "en": "The whole Royal Cherry body range: cleanse, nourish your skin, and keep a sweet cherry scent right to your fingertips."
+  },
+  "kit.rc.commun": {
+    "fr": "Au beurre de karité et aux huiles végétales, au parfum fruité de cerise. Vegan, non testés sur les animaux.",
+    "en": "With shea butter and plant oils, and a fruity cherry scent. Vegan, cruelty-free."
+  },
+  "kit.rc.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Royal%20Cherry%20en%20pochette%20cadeau.",
+    "en": "Hi%20Meli!%20I'd%20like%20the%20Royal%20Cherry%20kit%20in%20a%20gift%20pouch."
+  },
+  "titre.kit_rc": {
+    "fr": "Kit Royal Cherry · Meli",
+    "en": "Royal Cherry kit · Meli"
+  },
+  "kit.completer": {
+    "fr": "Pour compléter ce kit",
+    "en": "To complete this kit"
+  },
+  "kit.completer_texte": {
+    "fr": "Le maquillage Royal Cherry, en édition limitée. Dis-le-moi sur WhatsApp pour l'ajouter à ta pochette, ou ajoute-le à ton panier dans ma boutique.",
+    "en": "The limited-edition Royal Cherry make-up. Tell me on WhatsApp to add it to your pouch, or add it to your basket in my shop."
+  },
+  "kit.rc.corps.alt": {
+    "fr": "Crème corporelle Royal Cherry",
+    "en": "Body cream Royal Cherry"
+  },
+  "kit.rc.corps.nom": {
+    "fr": "Crème corporelle",
+    "en": "Body cream"
+  },
+  "kit.rc.corps.desc": {
+    "fr": "Riche et soyeuse, elle fond sur la peau et la nourrit intensément. Parfaite après la douche, avec son parfum fruité aux notes de cerise.",
+    "en": "Rich and silky, it melts into the skin and deeply nourishes it. Perfect after a shower, with its fruity cherry scent."
+  },
+  "kit.rc.douche.alt": {
+    "fr": "Gel douche Royal Cherry",
+    "en": "Shower gel Royal Cherry"
+  },
+  "kit.rc.douche.nom": {
+    "fr": "Gel douche",
+    "en": "Shower gel"
+  },
+  "kit.rc.douche.desc": {
+    "fr": "Il lave en douceur sans dessécher, avec une mousse légère et un parfum vibrant de cerise et de fleurs.",
+    "en": "It cleanses gently without drying, with a light foam and a vibrant cherry and floral scent."
+  },
+  "kit.rc.mains.alt": {
+    "fr": "Crème pour les mains Royal Cherry",
+    "en": "Hand cream Royal Cherry"
+  },
+  "kit.rc.mains.nom": {
+    "fr": "Crème pour les mains",
+    "en": "Hand cream"
+  },
+  "kit.rc.mains.desc": {
+    "fr": "Légère, elle hydrate et protège les mains, et les parfume délicatement toute la journée.",
+    "en": "Light, it moisturises and protects hands, leaving a delicate scent all day long."
+  },
+  "kit.rc.mascara.alt": {
+    "fr": "Mascara Royal Cherry",
+    "en": "Mascara Royal Cherry"
+  },
+  "kit.rc.mascara.nom": {
+    "fr": "Mascara",
+    "en": "Mascara"
+  },
+  "kit.rc.mascara.desc": {
+    "fr": "Volume, longueur et courbe dès la première couche. Noir intense, il tient plus de 12 heures sans couler ni s'effriter.",
+    "en": "Volume, length and curl from the first coat. Intense black, it lasts over 12 hours without smudging or flaking."
+  },
+  "kit.rc.gloss.alt": {
+    "fr": "Gloss Cherry After Dark Royal Cherry",
+    "en": "Cherry After Dark lip gloss Royal Cherry"
+  },
+  "kit.rc.gloss.nom": {
+    "fr": "Gloss Cherry After Dark",
+    "en": "Cherry After Dark lip gloss"
+  },
+  "kit.rc.gloss.desc": {
+    "fr": "Un rouge cerise profond et très brillant, au fini glamour. Sa formule crémeuse aux huiles naturelles garde les lèvres douces et hydratées.",
+    "en": "A deep, high-shine cherry red with a glamorous finish. Its creamy formula with natural oils keeps lips soft and hydrated."
+  },
+  "kit.rc.palette.alt": {
+    "fr": "Palette de fards à paupières Royal Cherry",
+    "en": "Eyeshadow palette Royal Cherry"
+  },
+  "kit.rc.palette.nom": {
+    "fr": "Palette de fards à paupières",
+    "en": "Eyeshadow palette"
+  },
+  "kit.rc.palette.desc": {
+    "fr": "9 teintes cerise, vin, bordeaux et nude, en fini mat, satiné et pailleté. Une texture soyeuse, facile à estomper.",
+    "en": "9 cherry, wine, burgundy and nude shades in matte, satin and shimmer finishes. A silky, easy-to-blend texture."
   }
 }

@@ -982,3 +982,6 @@ footer .sig .insta:hover { color: var(--terra-b); }
 }
 .v-liste .kit-carte { grid-template-columns: 150px minmax(0, 1fr) auto 36px; }
 @media (max-width: 560px) { .v-liste .kit-carte { grid-template-columns: 90px minmax(0, 1fr) 30px; } }
+.kit-completer { margin-top: 46px; padding-top: 30px; border-top: 1px solid var(--ligne); }
+.kit-completer-titre { font-size: 24px; margin: 0 0 6px; }
+.kit-completer .kit-produits { margin-top: 18px; }
