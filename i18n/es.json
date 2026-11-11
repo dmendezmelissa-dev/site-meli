@@ -1678,5 +1678,53 @@
   "kit.rc.palette.desc": {
     "fr": "9 teintes cerise, vin, bordeaux et nude, en fini mat, satiné et pailleté. Une texture soyeuse, facile à estomper.",
     "es": "9 tonos cereza, vino, burdeos y nude, en acabado mate, satinado y brillante. Una textura sedosa, fácil de difuminar."
+  },
+  "kit.m4.pour": {
+    "fr": "Pour une attention <span class='kw'>toute douce</span>",
+    "es": "Para un detalle <span class='kw'>muy dulce</span>"
+  },
+  "kit.m4.nom": {
+    "fr": "Set de crèmes pour les mains",
+    "es": "Set de cremas de manos"
+  },
+  "kit.m4.prix": {
+    "fr": "23,40 €",
+    "es": "23,40 €"
+  },
+  "titre.kit_m4": {
+    "fr": "Set de crèmes pour les mains · Meli",
+    "es": "Set de cremas de manos · Meli"
+  },
+  "kit.m4.desc": {
+    "fr": "Quatre petites crèmes pour les mains aux parfums gourmands et fleuris : une pour chaque humeur, ou à partager. Le format idéal à glisser dans un sac.",
+    "es": "Cuatro pequeñas cremas de manos con aromas golosos y florales: una para cada momento, o para compartir. El formato ideal para llevar en el bolso."
+  },
+  "kit.m4.contenu": {
+    "fr": "Ce qu'il y a dedans",
+    "es": "Qué incluye"
+  },
+  "kit.m4.l1": {
+    "fr": "Figue veloutée, 30&nbsp;ml",
+    "es": "Higo aterciopelado, 30 ml"
+  },
+  "kit.m4.l2": {
+    "fr": "Verveine pétillante, 30&nbsp;ml",
+    "es": "Verbena vibrante, 30 ml"
+  },
+  "kit.m4.l3": {
+    "fr": "Vanille chaleureuse, 30&nbsp;ml",
+    "es": "Vainilla cálida, 30 ml"
+  },
+  "kit.m4.l4": {
+    "fr": "Brise méditerranéenne, 30&nbsp;ml",
+    "es": "Brisa mediterránea, 30 ml"
+  },
+  "kit.m4.alt": {
+    "fr": "Les quatre crèmes pour les mains Farmasi",
+    "es": "Las cuatro cremas de manos Farmasi"
+  },
+  "kit.m4.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20set%20de%20cr%C3%A8mes%20pour%20les%20mains%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20set%20de%20cremas%20de%20manos%20en%20bolsita%20de%20regalo."
   }
 }

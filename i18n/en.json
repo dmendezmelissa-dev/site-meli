@@ -1678,5 +1678,53 @@
   "kit.rc.palette.desc": {
     "fr": "9 teintes cerise, vin, bordeaux et nude, en fini mat, satiné et pailleté. Une texture soyeuse, facile à estomper.",
     "en": "9 cherry, wine, burgundy and nude shades in matte, satin and shimmer finishes. A silky, easy-to-blend texture."
+  },
+  "kit.m4.pour": {
+    "fr": "Pour une attention <span class='kw'>toute douce</span>",
+    "en": "For a <span class='kw'>sweet little</span> gift"
+  },
+  "kit.m4.nom": {
+    "fr": "Set de crèmes pour les mains",
+    "en": "Hand cream set"
+  },
+  "kit.m4.prix": {
+    "fr": "23,40 €",
+    "en": "€23.40"
+  },
+  "titre.kit_m4": {
+    "fr": "Set de crèmes pour les mains · Meli",
+    "en": "Hand cream set · Meli"
+  },
+  "kit.m4.desc": {
+    "fr": "Quatre petites crèmes pour les mains aux parfums gourmands et fleuris : une pour chaque humeur, ou à partager. Le format idéal à glisser dans un sac.",
+    "en": "Four little hand creams with sweet, floral scents: one for every mood, or to share. The perfect size to slip into a bag."
+  },
+  "kit.m4.contenu": {
+    "fr": "Ce qu'il y a dedans",
+    "en": "What's inside"
+  },
+  "kit.m4.l1": {
+    "fr": "Figue veloutée, 30&nbsp;ml",
+    "en": "Velvet Fig, 30 ml"
+  },
+  "kit.m4.l2": {
+    "fr": "Verveine pétillante, 30&nbsp;ml",
+    "en": "Verbena Burst, 30 ml"
+  },
+  "kit.m4.l3": {
+    "fr": "Vanille chaleureuse, 30&nbsp;ml",
+    "en": "Warm Vanilla, 30 ml"
+  },
+  "kit.m4.l4": {
+    "fr": "Brise méditerranéenne, 30&nbsp;ml",
+    "en": "Mediterranean Breeze, 30 ml"
+  },
+  "kit.m4.alt": {
+    "fr": "Les quatre crèmes pour les mains Farmasi",
+    "en": "The four Farmasi hand creams"
+  },
+  "kit.m4.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20set%20de%20cr%C3%A8mes%20pour%20les%20mains%20en%20pochette%20cadeau.",
+    "en": "Hi%20Meli!%20I'd%20like%20the%20hand%20cream%20set%20in%20a%20gift%20pouch."
   }
 }

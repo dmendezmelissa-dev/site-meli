@@ -993,3 +993,7 @@ footer .sig .insta:hover { color: var(--terra-b); }
 .kit-fiche .kit-achat .btn { display: block; padding: 9px 18px; font-size: 14.5px; }
 .kit-fiche .kit-achat .btn + .btn { margin-top: 16px; }
 .kit-fiche .kit-achat .petit { margin-top: 12px; }
+.kit-produit .contenu-liste { margin: 4px 0 8px; }
+.kit-produit .contenu-liste li, .kit-produit .contenu-liste li:last-child { font-weight: 400; color: var(--encre); }
+.v-liste .kit-photos img:only-child { width: 72px; height: 72px; }
+@media (max-width: 560px) { .v-liste .kit-photos img:only-child { width: 56px; height: 56px; } }
