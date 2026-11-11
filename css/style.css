@@ -889,3 +889,8 @@ footer .sig .insta:hover { color: var(--terra-b); }
 .choix-offre i { margin-top: auto; padding-top: 8px; }
 .kits-liste { display: inline-block; text-align: left; margin: 18px auto 0; }
 .kits-liste li, .kits-liste li:last-child { font-weight: 400; color: var(--encre); font-size: 15px; }
+.kits-cartes { margin: 28px 0 8px; }
+.kits-cartes .carte { text-align: left; }
+.kits-cartes .kit-desc { font-size: 14px; color: var(--doux); margin: 6px 0 8px; }
+.kits-cartes .kit-prix { font-family: "Lora", serif; font-size: 26px; color: var(--terra-b); margin: 6px 0 12px; }
+.kits-cartes .btn { width: 100%; margin-top: 8px; }

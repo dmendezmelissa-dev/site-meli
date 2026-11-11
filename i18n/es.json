@@ -1456,8 +1456,8 @@
     "es": "Pequeños kits a pequeños precios, que preparo yo misma con mis productos favoritos. Perfectos para un pequeño regalo, un detalle para alguien importante o para darte un gusto."
   },
   "kits.bientot": {
-    "fr": "<b>Ils arrivent très bientôt ici.</b> Écris-moi pour être prévenue dès qu'ils sont prêts.",
-    "es": "<b>Llegan aquí muy pronto.</b> Escríbeme para que te avise en cuanto estén listos."
+    "fr": "<b>D'autres kits arrivent très bientôt.</b> Écris-moi pour être prévenue dès qu'ils sont prêts.",
+    "es": "<b>Pronto llegarán más kits.</b> Escríbeme para que te avise en cuanto estén listos."
   },
   "kits.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20suis%20int%C3%A9ress%C3%A9e%20par%20tes%20petits%20kits%20de%20No%C3%ABl.",
@@ -1482,5 +1482,45 @@
   "kits.l3": {
     "fr": "Tu préfères les recevoir chez toi ? Je t'envoie le lien direct de ma boutique en ligne (sans pochette)",
     "es": "¿Prefieres recibirlos en casa? Te envío el enlace directo a mi tienda en línea (sin bolsita)"
+  },
+  "kit.mains.alt": {
+    "fr": "La crème pour les mains Shea & Almond de Farmasi",
+    "es": "La crema de manos Shea & Almond de Farmasi"
+  },
+  "kit.mains.pour": {
+    "fr": "Pour des mains <span class='kw'>toutes douces</span>",
+    "es": "Para unas manos <span class='kw'>suaves</span>"
+  },
+  "kit.mains.nom": {
+    "fr": "Crème pour les mains Shea & Almond",
+    "es": "Crema de manos Shea & Almond"
+  },
+  "kit.mains.desc": {
+    "fr": "Une crème légère qui pénètre vite, au beurre de karité et aux huiles d'amande douce et de macadamia. Elle hydrate en profondeur les mains très sèches, et convient aux peaux sèches, sensibles ou matures.",
+    "es": "Una crema ligera de absorción rápida, con manteca de karité y aceites de almendra dulce y macadamia. Hidrata en profundidad las manos muy secas y es apta para pieles secas, sensibles o maduras."
+  },
+  "kit.mains.l1": {
+    "fr": "Tube de 30 ml, facile à glisser dans un sac",
+    "es": "Tubo de 30 ml, fácil de llevar en el bolso"
+  },
+  "kit.mains.l2": {
+    "fr": "Vegan, non testée sur les animaux",
+    "es": "Vegana, no testada en animales"
+  },
+  "kit.mains.prix": {
+    "fr": "6,00 €",
+    "es": "6,00 €"
+  },
+  "kit.mains.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20la%20cr%C3%A8me%20pour%20les%20mains%20Shea%20%26%20Almond%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quiero%20la%20crema%20de%20manos%20Shea%20%26%20Almond%20en%20bolsita%20de%20regalo."
+  },
+  "kit.pochette": {
+    "fr": "En pochette cadeau, avec moi",
+    "es": "En bolsita de regalo, conmigo"
+  },
+  "kit.maison": {
+    "fr": "Le recevoir chez moi",
+    "es": "Recibirlo en casa"
   }
 }
