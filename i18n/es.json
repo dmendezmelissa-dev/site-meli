@@ -1488,32 +1488,32 @@
     "es": "En bolsita de regalo, conmigo"
   },
   "kit.sa.douche.alt": {
-    "fr": "Crème de douche Shea & Almond",
-    "es": "Crema de ducha Shea & Almond"
+    "fr": "Crème de douche Karité & Amande",
+    "es": "Crema de ducha Karité y Almendra"
   },
   "kit.sa.gommage.alt": {
-    "fr": "Gommage corporel Shea & Almond",
-    "es": "Exfoliante corporal Shea & Almond"
+    "fr": "Gommage corporel Karité & Amande",
+    "es": "Exfoliante corporal Karité y Almendra"
   },
   "kit.sa.mains.alt": {
-    "fr": "Crème pour les mains Shea & Almond",
-    "es": "Crema de manos Shea & Almond"
+    "fr": "Crème pour les mains Karité & Amande",
+    "es": "Crema de manos Karité y Almendra"
   },
   "kit.sa.pour": {
     "fr": "Pour une peau <span class='kw'>toute douce</span>",
     "es": "Para una piel <span class='kw'>muy suave</span>"
   },
   "kit.sa.nom": {
-    "fr": "Kit Shea & Almond",
-    "es": "Kit Shea & Almond"
+    "fr": "Kit Karité & Amande",
+    "es": "Kit Karité y Almendra"
   },
   "kit.sa.desc": {
     "fr": "Toute la gamme au karité et à l'amande douce : on lave en douceur, on exfolie, puis on hydrate jusqu'au bout des doigts. Idéal pour les peaux sèches.",
     "es": "Toda la gama de karité y almendra dulce: limpias con suavidad, exfolias y luego hidratas hasta la punta de los dedos. Ideal para pieles secas."
   },
   "kit.sa.wa": {
-    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Shea%20%26%20Almond%20en%20pochette%20cadeau.",
-    "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20kit%20Shea%20%26%20Almond%20en%20bolsita%20de%20regalo."
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Karit%C3%A9%20%26%20Amande%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20kit%20Karit%C3%A9%20y%20Almendra%20en%20bolsita%20de%20regalo."
   },
   "kit.maison_texte": {
     "fr": "Ton panier s'ouvre déjà rempli dans ma boutique en ligne : tu valides, et tu le reçois chez toi.",
@@ -1532,8 +1532,8 @@
     "es": "Ver el kit"
   },
   "titre.kit_sa": {
-    "fr": "Kit Shea & Almond · Meli",
-    "es": "Kit Shea & Almond · Meli"
+    "fr": "Kit Karité & Amande · Meli",
+    "es": "Kit Karité y Almendra · Meli"
   },
   "kit.sa.commun": {
     "fr": "Au beurre de karité, aux huiles d'amande douce et de macadamia. Vegan, non testés sur les animaux.",

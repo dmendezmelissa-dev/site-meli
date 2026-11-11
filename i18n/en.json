@@ -1488,15 +1488,15 @@
     "en": "In a gift pouch, from me"
   },
   "kit.sa.douche.alt": {
-    "fr": "Crème de douche Shea & Almond",
+    "fr": "Crème de douche Karité & Amande",
     "en": "Shea & Almond shower cream"
   },
   "kit.sa.gommage.alt": {
-    "fr": "Gommage corporel Shea & Almond",
+    "fr": "Gommage corporel Karité & Amande",
     "en": "Shea & Almond body scrub"
   },
   "kit.sa.mains.alt": {
-    "fr": "Crème pour les mains Shea & Almond",
+    "fr": "Crème pour les mains Karité & Amande",
     "en": "Shea & Almond hand cream"
   },
   "kit.sa.pour": {
@@ -1504,7 +1504,7 @@
     "en": "For <span class='kw'>soft, smooth</span> skin"
   },
   "kit.sa.nom": {
-    "fr": "Kit Shea & Almond",
+    "fr": "Kit Karité & Amande",
     "en": "Shea & Almond kit"
   },
   "kit.sa.desc": {
@@ -1512,7 +1512,7 @@
     "en": "The whole shea and sweet almond range: cleanse gently, exfoliate, then moisturise right to your fingertips. Ideal for dry skin."
   },
   "kit.sa.wa": {
-    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Shea%20%26%20Almond%20en%20pochette%20cadeau.",
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Karit%C3%A9%20%26%20Amande%20en%20pochette%20cadeau.",
     "en": "Hi%20Meli!%20I'd%20like%20the%20Shea%20%26%20Almond%20kit%20in%20a%20gift%20pouch."
   },
   "kit.maison_texte": {
@@ -1532,7 +1532,7 @@
     "en": "See the kit"
   },
   "titre.kit_sa": {
-    "fr": "Kit Shea & Almond · Meli",
+    "fr": "Kit Karité & Amande · Meli",
     "en": "Shea & Almond kit · Meli"
   },
   "kit.sa.commun": {
