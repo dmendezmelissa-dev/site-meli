@@ -908,3 +908,30 @@ footer .sig .insta:hover { color: var(--terra-b); }
 .kit-maison a::after { content: " \2192"; }
 .kit-photos { background: #F3E6DB; }
 .kits-cartes .contenu-liste li, .kits-cartes .contenu-liste li:last-child { font-weight: 400; color: var(--encre); }
+
+/* ---------- Petits kits : carte courte + page du kit ---------- */
+.kit-carte { display: flex; flex-direction: column; text-decoration: none; color: inherit; transition: transform .3s ease, box-shadow .3s ease; }
+@media (hover: hover) { .kit-carte:hover { transform: translateY(-4px); box-shadow: 0 16px 34px rgba(80, 50, 30, .10); } }
+.kit-carte .corps { text-align: center; }
+.kit-carte i { font-style: normal; font-weight: 700; font-size: 14px; color: var(--terra); }
+.kit-carte i::after { content: " \2192"; }
+.kit-prix { font-family: "Lora", serif; font-size: 26px; color: var(--terra-b); margin: 6px 0 10px; }
+.kit-prix small { display: block; font-family: "Quicksand", sans-serif; font-size: 13px; font-weight: 700; color: var(--doux); }
+.kit-fiche .pour { margin: 10px 0 0; }
+.kit-commun { font-size: 14px; color: var(--sauge-b); font-weight: 700; }
+.kit-produits { display: grid; gap: 16px; max-width: 760px; margin: 30px auto; }
+.kit-produit { display: grid; grid-template-columns: 130px 1fr; gap: 18px; align-items: center; background: var(--blanc); border-radius: 18px; padding: 14px; }
+.kit-produit img { width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #fff; border-radius: 12px; }
+.kit-produit h3 { font-size: 20px; margin: 0 0 4px; }
+.kit-produit h3 small { font-family: "Quicksand", sans-serif; font-size: 13px; color: var(--doux); font-weight: 700; margin-left: 6px; }
+.kit-produit p { font-size: 14px; margin: 0 0 6px; color: var(--encre); }
+.kit-produit-prix { font-weight: 700; }
+.kit-produit-prix a { margin-left: 10px; color: var(--terra-b); font-weight: 700; }
+.kit-produit-prix a::after { content: " \2192"; }
+.kit-achat { max-width: 420px; margin: 0 auto; }
+.kit-achat .btn { width: 100%; }
+@media (max-width: 560px) {
+  .kit-produit { grid-template-columns: 92px 1fr; gap: 12px; padding: 12px; }
+  .kit-produit h3 { font-size: 17px; }
+  .kit-produit-prix a { display: block; margin: 4px 0 0; }
+}

@@ -1487,10 +1487,6 @@
     "fr": "En pochette cadeau, avec moi",
     "es": "En bolsita de regalo, conmigo"
   },
-  "kit.maison": {
-    "fr": "Le recevoir chez moi",
-    "es": "Recibirlo en casa"
-  },
   "kit.sa.douche.alt": {
     "fr": "Crème de douche Shea & Almond",
     "es": "Crema de ducha Shea & Almond"
@@ -1515,48 +1511,60 @@
     "fr": "Toute la gamme au karité et à l'amande douce : on lave en douceur, on exfolie, puis on hydrate jusqu'au bout des doigts. Idéal pour les peaux sèches.",
     "es": "Toda la gama de karité y almendra dulce: limpias con suavidad, exfolias y luego hidratas hasta la punta de los dedos. Ideal para pieles secas."
   },
-  "kit.sa.l1": {
-    "fr": "Crème de douche 225 ml : lave en douceur et hydrate",
-    "es": "Crema de ducha 225 ml: limpia con suavidad e hidrata"
-  },
-  "kit.sa.l2": {
-    "fr": "Gommage corporel 110 ml : élimine les peaux mortes et nourrit",
-    "es": "Exfoliante corporal 110 ml: elimina las células muertas y nutre"
-  },
-  "kit.sa.l3": {
-    "fr": "Crème pour les mains 30 ml : légère, pénètre vite",
-    "es": "Crema de manos 30 ml: ligera, de absorción rápida"
-  },
-  "kit.sa.l4": {
-    "fr": "Vegan, non testés sur les animaux",
-    "es": "Veganos, no testados en animales"
-  },
-  "kit.sa.valeur": {
-    "fr": "Valeur en boutique : 36,00 €",
-    "es": "Valor en tienda: 36,00 €"
-  },
-  "todo.prix_kit": {
-    "fr": "prix du kit à venir",
-    "es": "precio del kit próximamente"
-  },
   "kit.sa.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Shea%20%26%20Almond%20en%20pochette%20cadeau.",
     "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20kit%20Shea%20%26%20Almond%20en%20bolsita%20de%20regalo."
   },
   "kit.maison_texte": {
-    "fr": "Ajoute chaque produit à ton panier sur ma boutique en ligne :",
-    "es": "Añade cada producto a tu cesta en mi tienda en línea:"
+    "fr": "Tu préfères le recevoir chez toi ? Ajoute chaque produit à ton panier dans ma boutique, avec les liens « Voir dans ma boutique » ci-dessus.",
+    "es": "¿Prefieres recibirlo en casa? Añade cada producto a tu cesta en mi tienda, con los enlaces \"Verlo en mi tienda\" de arriba."
   },
-  "kit.sa.douche.lien": {
-    "fr": "La crème de douche",
-    "es": "La crema de ducha"
+  "kit.sa.prix": {
+    "fr": "36,00 €",
+    "es": "36,00 €"
   },
-  "kit.sa.gommage.lien": {
-    "fr": "Le gommage corporel",
-    "es": "El exfoliante corporal"
+  "kit.livraison": {
+    "fr": "+ 7,50 € de livraison",
+    "es": "+ 7,50 € de envío"
   },
-  "kit.sa.mains.lien": {
-    "fr": "La crème pour les mains",
-    "es": "La crema de manos"
+  "kit.voir": {
+    "fr": "Voir le kit",
+    "es": "Ver el kit"
+  },
+  "titre.kit_sa": {
+    "fr": "Kit Shea & Almond · Meli",
+    "es": "Kit Shea & Almond · Meli"
+  },
+  "kit.sa.commun": {
+    "fr": "Au beurre de karité, aux huiles d'amande douce et de macadamia. Vegan, non testés sur les animaux.",
+    "es": "Con manteca de karité y aceites de almendra dulce y macadamia. Veganos, no testados en animales."
+  },
+  "kit.sa.douche.nom": {
+    "fr": "Crème de douche",
+    "es": "Crema de ducha"
+  },
+  "kit.sa.gommage.nom": {
+    "fr": "Gommage corporel",
+    "es": "Exfoliante corporal"
+  },
+  "kit.sa.mains.nom": {
+    "fr": "Crème pour les mains",
+    "es": "Crema de manos"
+  },
+  "kit.sa.douche.desc": {
+    "fr": "Elle lave en douceur tout en hydratant, avec un parfum doux et réconfortant. Pensée pour les peaux sèches.",
+    "es": "Limpia con suavidad mientras hidrata, con un aroma suave y reconfortante. Pensada para pieles secas."
+  },
+  "kit.sa.gommage.desc": {
+    "fr": "Il élimine en douceur les peaux mortes tout en nourrissant : la peau devient plus douce et lumineuse. À masser sur peau humide, une à deux fois par semaine, surtout sur les coudes, les genoux et les talons.",
+    "es": "Elimina con suavidad las células muertas mientras nutre: la piel queda más suave y luminosa. Masajear sobre la piel húmeda, una o dos veces por semana, sobre todo en codos, rodillas y talones."
+  },
+  "kit.sa.mains.desc": {
+    "fr": "Légère, elle pénètre vite et hydrate en profondeur les mains très sèches. Pour les peaux sèches, sensibles ou matures.",
+    "es": "Ligera, se absorbe rápido e hidrata en profundidad las manos muy secas. Para pieles secas, sensibles o maduras."
+  },
+  "kit.voir_boutique": {
+    "fr": "Voir dans ma boutique",
+    "es": "Verlo en mi tienda"
   }
 }

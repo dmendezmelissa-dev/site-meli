@@ -1487,10 +1487,6 @@
     "fr": "En pochette cadeau, avec moi",
     "en": "In a gift pouch, from me"
   },
-  "kit.maison": {
-    "fr": "Le recevoir chez moi",
-    "en": "Have it delivered to me"
-  },
   "kit.sa.douche.alt": {
     "fr": "Crème de douche Shea & Almond",
     "en": "Shea & Almond shower cream"
@@ -1515,48 +1511,60 @@
     "fr": "Toute la gamme au karité et à l'amande douce : on lave en douceur, on exfolie, puis on hydrate jusqu'au bout des doigts. Idéal pour les peaux sèches.",
     "en": "The whole shea and sweet almond range: cleanse gently, exfoliate, then moisturise right to your fingertips. Ideal for dry skin."
   },
-  "kit.sa.l1": {
-    "fr": "Crème de douche 225 ml : lave en douceur et hydrate",
-    "en": "Shower cream 225 ml: cleanses gently and moisturises"
-  },
-  "kit.sa.l2": {
-    "fr": "Gommage corporel 110 ml : élimine les peaux mortes et nourrit",
-    "en": "Body scrub 110 ml: removes dead skin and nourishes"
-  },
-  "kit.sa.l3": {
-    "fr": "Crème pour les mains 30 ml : légère, pénètre vite",
-    "en": "Hand cream 30 ml: light and fast-absorbing"
-  },
-  "kit.sa.l4": {
-    "fr": "Vegan, non testés sur les animaux",
-    "en": "Vegan, cruelty-free"
-  },
-  "kit.sa.valeur": {
-    "fr": "Valeur en boutique : 36,00 €",
-    "en": "Shop value: €36.00"
-  },
-  "todo.prix_kit": {
-    "fr": "prix du kit à venir",
-    "en": "kit price coming soon"
-  },
   "kit.sa.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Shea%20%26%20Almond%20en%20pochette%20cadeau.",
     "en": "Hi%20Meli!%20I'd%20like%20the%20Shea%20%26%20Almond%20kit%20in%20a%20gift%20pouch."
   },
   "kit.maison_texte": {
-    "fr": "Ajoute chaque produit à ton panier sur ma boutique en ligne :",
-    "en": "Add each product to your basket in my online shop:"
+    "fr": "Tu préfères le recevoir chez toi ? Ajoute chaque produit à ton panier dans ma boutique, avec les liens « Voir dans ma boutique » ci-dessus.",
+    "en": "Would you rather have it delivered to your home? Add each product to your basket in my shop, using the \"See it in my shop\" links above."
   },
-  "kit.sa.douche.lien": {
-    "fr": "La crème de douche",
-    "en": "The shower cream"
+  "kit.sa.prix": {
+    "fr": "36,00 €",
+    "en": "€36.00"
   },
-  "kit.sa.gommage.lien": {
-    "fr": "Le gommage corporel",
-    "en": "The body scrub"
+  "kit.livraison": {
+    "fr": "+ 7,50 € de livraison",
+    "en": "+ €7.50 delivery"
   },
-  "kit.sa.mains.lien": {
-    "fr": "La crème pour les mains",
-    "en": "The hand cream"
+  "kit.voir": {
+    "fr": "Voir le kit",
+    "en": "See the kit"
+  },
+  "titre.kit_sa": {
+    "fr": "Kit Shea & Almond · Meli",
+    "en": "Shea & Almond kit · Meli"
+  },
+  "kit.sa.commun": {
+    "fr": "Au beurre de karité, aux huiles d'amande douce et de macadamia. Vegan, non testés sur les animaux.",
+    "en": "With shea butter, sweet almond and macadamia oils. Vegan, cruelty-free."
+  },
+  "kit.sa.douche.nom": {
+    "fr": "Crème de douche",
+    "en": "Shower cream"
+  },
+  "kit.sa.gommage.nom": {
+    "fr": "Gommage corporel",
+    "en": "Body scrub"
+  },
+  "kit.sa.mains.nom": {
+    "fr": "Crème pour les mains",
+    "en": "Hand cream"
+  },
+  "kit.sa.douche.desc": {
+    "fr": "Elle lave en douceur tout en hydratant, avec un parfum doux et réconfortant. Pensée pour les peaux sèches.",
+    "en": "It cleanses gently while moisturising, with a soft, comforting scent. Made for dry skin."
+  },
+  "kit.sa.gommage.desc": {
+    "fr": "Il élimine en douceur les peaux mortes tout en nourrissant : la peau devient plus douce et lumineuse. À masser sur peau humide, une à deux fois par semaine, surtout sur les coudes, les genoux et les talons.",
+    "en": "It gently removes dead skin while nourishing, leaving skin softer and more radiant. Massage onto damp skin once or twice a week, especially on elbows, knees and heels."
+  },
+  "kit.sa.mains.desc": {
+    "fr": "Légère, elle pénètre vite et hydrate en profondeur les mains très sèches. Pour les peaux sèches, sensibles ou matures.",
+    "en": "Light and fast-absorbing, it deeply moisturises very dry hands. For dry, sensitive or mature skin."
+  },
+  "kit.voir_boutique": {
+    "fr": "Voir dans ma boutique",
+    "en": "See it in my shop"
   }
 }
