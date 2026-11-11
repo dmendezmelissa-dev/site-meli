@@ -1483,38 +1483,6 @@
     "fr": "Tu préfères les recevoir chez toi ? Je t'envoie le lien direct de ma boutique en ligne (sans pochette)",
     "en": "Would you rather have them delivered to your home? I'll send you the direct link to my online shop (without the pouch)"
   },
-  "kit.mains.alt": {
-    "fr": "La crème pour les mains Shea & Almond de Farmasi",
-    "en": "Farmasi Shea & Almond hand cream"
-  },
-  "kit.mains.pour": {
-    "fr": "Pour des mains <span class='kw'>toutes douces</span>",
-    "en": "For <span class='kw'>soft, smooth</span> hands"
-  },
-  "kit.mains.nom": {
-    "fr": "Crème pour les mains Shea & Almond",
-    "en": "Shea & Almond hand cream"
-  },
-  "kit.mains.desc": {
-    "fr": "Une crème légère qui pénètre vite, au beurre de karité et aux huiles d'amande douce et de macadamia. Elle hydrate en profondeur les mains très sèches, et convient aux peaux sèches, sensibles ou matures.",
-    "en": "A light, fast-absorbing cream with shea butter, sweet almond and macadamia oils. It deeply moisturises very dry hands and suits dry, sensitive or mature skin."
-  },
-  "kit.mains.l1": {
-    "fr": "Tube de 30 ml, facile à glisser dans un sac",
-    "en": "30 ml tube, easy to slip into a bag"
-  },
-  "kit.mains.l2": {
-    "fr": "Vegan, non testée sur les animaux",
-    "en": "Vegan, cruelty-free"
-  },
-  "kit.mains.prix": {
-    "fr": "6,00 €",
-    "en": "€6.00"
-  },
-  "kit.mains.wa": {
-    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20la%20cr%C3%A8me%20pour%20les%20mains%20Shea%20%26%20Almond%20en%20pochette%20cadeau.",
-    "en": "Hi%20Meli!%20I'd%20like%20the%20Shea%20%26%20Almond%20hand%20cream%20in%20a%20gift%20pouch."
-  },
   "kit.pochette": {
     "fr": "En pochette cadeau, avec moi",
     "en": "In a gift pouch, from me"
@@ -1522,5 +1490,73 @@
   "kit.maison": {
     "fr": "Le recevoir chez moi",
     "en": "Have it delivered to me"
+  },
+  "kit.sa.douche.alt": {
+    "fr": "Crème de douche Shea & Almond",
+    "en": "Shea & Almond shower cream"
+  },
+  "kit.sa.gommage.alt": {
+    "fr": "Gommage corporel Shea & Almond",
+    "en": "Shea & Almond body scrub"
+  },
+  "kit.sa.mains.alt": {
+    "fr": "Crème pour les mains Shea & Almond",
+    "en": "Shea & Almond hand cream"
+  },
+  "kit.sa.pour": {
+    "fr": "Pour une peau <span class='kw'>toute douce</span>",
+    "en": "For <span class='kw'>soft, smooth</span> skin"
+  },
+  "kit.sa.nom": {
+    "fr": "Kit Shea & Almond",
+    "en": "Shea & Almond kit"
+  },
+  "kit.sa.desc": {
+    "fr": "Toute la gamme au karité et à l'amande douce : on lave en douceur, on exfolie, puis on hydrate jusqu'au bout des doigts. Idéal pour les peaux sèches.",
+    "en": "The whole shea and sweet almond range: cleanse gently, exfoliate, then moisturise right to your fingertips. Ideal for dry skin."
+  },
+  "kit.sa.l1": {
+    "fr": "Crème de douche 225 ml : lave en douceur et hydrate",
+    "en": "Shower cream 225 ml: cleanses gently and moisturises"
+  },
+  "kit.sa.l2": {
+    "fr": "Gommage corporel 110 ml : élimine les peaux mortes et nourrit",
+    "en": "Body scrub 110 ml: removes dead skin and nourishes"
+  },
+  "kit.sa.l3": {
+    "fr": "Crème pour les mains 30 ml : légère, pénètre vite",
+    "en": "Hand cream 30 ml: light and fast-absorbing"
+  },
+  "kit.sa.l4": {
+    "fr": "Vegan, non testés sur les animaux",
+    "en": "Vegan, cruelty-free"
+  },
+  "kit.sa.valeur": {
+    "fr": "Valeur en boutique : 36,00 €",
+    "en": "Shop value: €36.00"
+  },
+  "todo.prix_kit": {
+    "fr": "prix du kit à venir",
+    "en": "kit price coming soon"
+  },
+  "kit.sa.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Shea%20%26%20Almond%20en%20pochette%20cadeau.",
+    "en": "Hi%20Meli!%20I'd%20like%20the%20Shea%20%26%20Almond%20kit%20in%20a%20gift%20pouch."
+  },
+  "kit.maison_texte": {
+    "fr": "Ajoute chaque produit à ton panier sur ma boutique en ligne :",
+    "en": "Add each product to your basket in my online shop:"
+  },
+  "kit.sa.douche.lien": {
+    "fr": "La crème de douche",
+    "en": "The shower cream"
+  },
+  "kit.sa.gommage.lien": {
+    "fr": "Le gommage corporel",
+    "en": "The body scrub"
+  },
+  "kit.sa.mains.lien": {
+    "fr": "La crème pour les mains",
+    "en": "The hand cream"
   }
 }

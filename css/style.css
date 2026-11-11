@@ -894,3 +894,17 @@ footer .sig .insta:hover { color: var(--terra-b); }
 .kits-cartes .kit-desc { font-size: 14px; color: var(--doux); margin: 6px 0 8px; }
 .kits-cartes .kit-prix { font-family: "Lora", serif; font-size: 26px; color: var(--terra-b); margin: 6px 0 12px; }
 .kits-cartes .btn { width: 100%; margin-top: 8px; }
+.kits-cartes .carte { width: min(420px, 100%); }
+.kit-photos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 10px; background: var(--sable); border-radius: 160px 160px 14px 14px; }
+.kit-photos img { width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #fff; border-radius: 12px; }
+.kits-cartes .kit-valeur { font-size: 13px; color: var(--doux); margin: 4px 0 0; }
+.kit-maison { margin-top: 8px; }
+.kit-maison summary { list-style: none; cursor: pointer; width: 100%; }
+.kit-maison summary::-webkit-details-marker { display: none; }
+.kit-maison p { font-size: 14px; margin: 12px 0 4px; }
+.kit-maison ul { margin: 0; padding-left: 18px; font-size: 14px; }
+.kit-maison li { margin: 4px 0; }
+.kit-maison a { color: var(--terra-b); font-weight: 700; }
+.kit-maison a::after { content: " \2192"; }
+.kit-photos { background: #F3E6DB; }
+.kits-cartes .contenu-liste li, .kits-cartes .contenu-liste li:last-child { font-weight: 400; color: var(--encre); }

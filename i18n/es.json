@@ -1483,38 +1483,6 @@
     "fr": "Tu préfères les recevoir chez toi ? Je t'envoie le lien direct de ma boutique en ligne (sans pochette)",
     "es": "¿Prefieres recibirlos en casa? Te envío el enlace directo a mi tienda en línea (sin bolsita)"
   },
-  "kit.mains.alt": {
-    "fr": "La crème pour les mains Shea & Almond de Farmasi",
-    "es": "La crema de manos Shea & Almond de Farmasi"
-  },
-  "kit.mains.pour": {
-    "fr": "Pour des mains <span class='kw'>toutes douces</span>",
-    "es": "Para unas manos <span class='kw'>suaves</span>"
-  },
-  "kit.mains.nom": {
-    "fr": "Crème pour les mains Shea & Almond",
-    "es": "Crema de manos Shea & Almond"
-  },
-  "kit.mains.desc": {
-    "fr": "Une crème légère qui pénètre vite, au beurre de karité et aux huiles d'amande douce et de macadamia. Elle hydrate en profondeur les mains très sèches, et convient aux peaux sèches, sensibles ou matures.",
-    "es": "Una crema ligera de absorción rápida, con manteca de karité y aceites de almendra dulce y macadamia. Hidrata en profundidad las manos muy secas y es apta para pieles secas, sensibles o maduras."
-  },
-  "kit.mains.l1": {
-    "fr": "Tube de 30 ml, facile à glisser dans un sac",
-    "es": "Tubo de 30 ml, fácil de llevar en el bolso"
-  },
-  "kit.mains.l2": {
-    "fr": "Vegan, non testée sur les animaux",
-    "es": "Vegana, no testada en animales"
-  },
-  "kit.mains.prix": {
-    "fr": "6,00 €",
-    "es": "6,00 €"
-  },
-  "kit.mains.wa": {
-    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20la%20cr%C3%A8me%20pour%20les%20mains%20Shea%20%26%20Almond%20en%20pochette%20cadeau.",
-    "es": "%C2%A1Hola%20Meli!%20Quiero%20la%20crema%20de%20manos%20Shea%20%26%20Almond%20en%20bolsita%20de%20regalo."
-  },
   "kit.pochette": {
     "fr": "En pochette cadeau, avec moi",
     "es": "En bolsita de regalo, conmigo"
@@ -1522,5 +1490,73 @@
   "kit.maison": {
     "fr": "Le recevoir chez moi",
     "es": "Recibirlo en casa"
+  },
+  "kit.sa.douche.alt": {
+    "fr": "Crème de douche Shea & Almond",
+    "es": "Crema de ducha Shea & Almond"
+  },
+  "kit.sa.gommage.alt": {
+    "fr": "Gommage corporel Shea & Almond",
+    "es": "Exfoliante corporal Shea & Almond"
+  },
+  "kit.sa.mains.alt": {
+    "fr": "Crème pour les mains Shea & Almond",
+    "es": "Crema de manos Shea & Almond"
+  },
+  "kit.sa.pour": {
+    "fr": "Pour une peau <span class='kw'>toute douce</span>",
+    "es": "Para una piel <span class='kw'>muy suave</span>"
+  },
+  "kit.sa.nom": {
+    "fr": "Kit Shea & Almond",
+    "es": "Kit Shea & Almond"
+  },
+  "kit.sa.desc": {
+    "fr": "Toute la gamme au karité et à l'amande douce : on lave en douceur, on exfolie, puis on hydrate jusqu'au bout des doigts. Idéal pour les peaux sèches.",
+    "es": "Toda la gama de karité y almendra dulce: limpias con suavidad, exfolias y luego hidratas hasta la punta de los dedos. Ideal para pieles secas."
+  },
+  "kit.sa.l1": {
+    "fr": "Crème de douche 225 ml : lave en douceur et hydrate",
+    "es": "Crema de ducha 225 ml: limpia con suavidad e hidrata"
+  },
+  "kit.sa.l2": {
+    "fr": "Gommage corporel 110 ml : élimine les peaux mortes et nourrit",
+    "es": "Exfoliante corporal 110 ml: elimina las células muertas y nutre"
+  },
+  "kit.sa.l3": {
+    "fr": "Crème pour les mains 30 ml : légère, pénètre vite",
+    "es": "Crema de manos 30 ml: ligera, de absorción rápida"
+  },
+  "kit.sa.l4": {
+    "fr": "Vegan, non testés sur les animaux",
+    "es": "Veganos, no testados en animales"
+  },
+  "kit.sa.valeur": {
+    "fr": "Valeur en boutique : 36,00 €",
+    "es": "Valor en tienda: 36,00 €"
+  },
+  "todo.prix_kit": {
+    "fr": "prix du kit à venir",
+    "es": "precio del kit próximamente"
+  },
+  "kit.sa.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Shea%20%26%20Almond%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20kit%20Shea%20%26%20Almond%20en%20bolsita%20de%20regalo."
+  },
+  "kit.maison_texte": {
+    "fr": "Ajoute chaque produit à ton panier sur ma boutique en ligne :",
+    "es": "Añade cada producto a tu cesta en mi tienda en línea:"
+  },
+  "kit.sa.douche.lien": {
+    "fr": "La crème de douche",
+    "es": "La crema de ducha"
+  },
+  "kit.sa.gommage.lien": {
+    "fr": "Le gommage corporel",
+    "es": "El exfoliante corporal"
+  },
+  "kit.sa.mains.lien": {
+    "fr": "La crème pour les mains",
+    "es": "La crema de manos"
   }
 }
