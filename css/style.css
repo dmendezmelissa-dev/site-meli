@@ -1004,3 +1004,14 @@ footer .sig .insta:hover { color: var(--terra-b); }
 .encart-routine .btns { justify-content: center; margin-top: 14px; gap: 10px; }
 .encart-routine .btn { padding: 10px 22px; font-size: 15px; }
 @media (max-width: 560px) { .encart-routine { padding: 18px 16px; } .encart-routine .encart-titre { font-size: 19px; } }
+/* Encart inscription des packs : boutons verts, différents des onglets de catégories */
+.encart-routine .btns { flex-direction: row; flex-wrap: wrap; }
+.encart-routine .btn { width: auto; padding: 9px 20px; font-size: 14.5px; border-color: var(--sauge-b); }
+.encart-routine .btn.plein { background: var(--sauge-b); color: var(--blanc); }
+.encart-routine .btn.plein:hover { background: var(--sauge); border-color: var(--sauge); }
+.encart-routine .btn.vide { background: transparent; color: var(--sauge-b); }
+.encart-routine .btn.vide:hover { background: rgba(87, 98, 75, .1); }
+.encart-routine .btn.plein::before { content: ""; display: inline-block; width: 15px; height: 15px; margin: 0 7px -2px 0; background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z'/%3E%3C/svg%3E") center / contain no-repeat; }
+.encart-routine .btn.vide::after { content: " \2192"; }
