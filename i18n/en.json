@@ -351,18 +351,6 @@
     "fr": "PHOTO DU PACK",
     "en": "PACK PHOTO"
   },
-  "pack.routine.nom": {
-    "fr": "Ma routine de Meli",
-    "en": "Meli's routine"
-  },
-  "pack.delish": {
-    "fr": "Café Delish",
-    "en": "Delish coffee"
-  },
-  "pack.routine.phrase": {
-    "fr": "Mon matin, mon après-midi, mon soir : les 3 produits de ma journée.",
-    "en": "My morning, my afternoon, my evening: the 3 products of my day."
-  },
   "todo.prix": {
     "fr": "prix",
     "en": "price"
@@ -370,30 +358,6 @@
   "cta.commander": {
     "fr": "Commander ce pack",
     "en": "Order this pack"
-  },
-  "pack.beaute.nom": {
-    "fr": "Beauté de l'intérieur",
-    "en": "Beauty from within"
-  },
-  "pack.beaute.contenu": {
-    "fr": "Collagène chocolat",
-    "en": "Chocolate collagen"
-  },
-  "pack.beaute.phrase": {
-    "fr": "Ma pause gourmande : 10 g de collagène et de la vitamine C, qui contribue à la formation normale du collagène.",
-    "en": "My sweet break: 10 g of collagen and vitamin C, which contributes to normal collagen formation."
-  },
-  "pack.decouverte.nom": {
-    "fr": "Découverte",
-    "en": "Discovery"
-  },
-  "pack.decouverte.contenu": {
-    "fr": "Collagène comprimés · Café Delish",
-    "en": "Collagen tablets · Delish coffee"
-  },
-  "pack.decouverte.phrase": {
-    "fr": "Pour tester sans se ruiner.",
-    "en": "To try without breaking the bank."
   },
   "pack.makeup.nom": {
     "fr": "Mes favoris make-up",
@@ -422,10 +386,6 @@
   "packs.pays": {
     "fr": "Hors de France, pense à changer le pays en haut de la page.",
     "en": "Outside France? Remember to change the country at the top of the page."
-  },
-  "packs.remise": {
-    "fr": "La remise de 30 % est réservée aux personnes inscrites comme Farmasi Influencer. Envie d'en profiter ?",
-    "en": "The 30% discount is for people registered as Farmasi Influencers. Want to enjoy it?"
   },
   "packs.remise_lien": {
     "fr": "Tout est expliqué dans la page L'équipe.",
@@ -1774,5 +1734,29 @@
   "kit.pi.mains.desc": {
     "fr": "Au beurre de karité, elle hydrate en profondeur et laisse les mains douces et nourries, avec un parfum gourmand de macaron à la pistache.",
     "en": "With shea butter, it deeply moisturises and leaves hands soft and nourished, with a sweet pistachio macaron scent."
+  },
+  "packs.nutrition_bientot": {
+    "fr": "<b>Mes packs nutrition arrivent très bientôt.</b> Le premier : Morning Glow, pour bien démarrer la journée.",
+    "en": "<b>My nutrition packs are coming very soon.</b> The first one: Morning Glow, to start the day right."
+  },
+  "packs.routine.titre": {
+    "fr": "Une routine qui dure ? <span class=\"kw\">Inscris-toi</span>",
+    "en": "A routine that lasts? <span class=\"kw\">Sign up</span>"
+  },
+  "packs.routine.texte": {
+    "fr": "Si tu veux faire de tes compléments une vraie habitude, au quotidien, t'inscrire devient vite intéressant : tu profites de 30 % de réduction sur tous les produits, à chaque commande. Écris-moi, je t'explique tout simplement.",
+    "en": "If you want your supplements to become a real daily habit, signing up quickly pays off: you get 30% off all products, on every order. Message me and I'll explain everything simply."
+  },
+  "packs.routine.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'aimerais%20en%20savoir%20plus%20sur%20l'inscription%20pour%20avoir%2030%20%25%20de%20r%C3%A9duction.",
+    "en": "Hi%20Meli!%20I'd%20like%20to%20know%20more%20about%20signing%20up%20to%20get%2030%25%20off."
+  },
+  "packs.routine.cta": {
+    "fr": "Écris-moi",
+    "en": "Message me"
+  },
+  "packs.routine.lien": {
+    "fr": "Comment ça marche",
+    "en": "How it works"
   }
 }

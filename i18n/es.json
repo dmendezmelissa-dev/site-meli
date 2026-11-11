@@ -355,18 +355,6 @@
     "fr": "PHOTO DU PACK",
     "es": "FOTO DEL PACK"
   },
-  "pack.routine.nom": {
-    "fr": "Ma routine de Meli",
-    "es": "La rutina de Meli"
-  },
-  "pack.delish": {
-    "fr": "Café Delish",
-    "es": "Café Delish"
-  },
-  "pack.routine.phrase": {
-    "fr": "Mon matin, mon après-midi, mon soir : les 3 produits de ma journée.",
-    "es": "Mi mañana, mi tarde, mi noche: los 3 productos de mi día."
-  },
   "todo.prix": {
     "fr": "prix",
     "es": "precio"
@@ -374,30 +362,6 @@
   "cta.commander": {
     "fr": "Commander ce pack",
     "es": "Pedir este pack"
-  },
-  "pack.beaute.nom": {
-    "fr": "Beauté de l'intérieur",
-    "es": "Belleza desde adentro"
-  },
-  "pack.beaute.contenu": {
-    "fr": "Collagène chocolat",
-    "es": "Colágeno de chocolate"
-  },
-  "pack.beaute.phrase": {
-    "fr": "Ma pause gourmande : 10 g de collagène et de la vitamine C, qui contribue à la formation normale du collagène.",
-    "es": "Mi pausa golosa: 10 g de colágeno y vitamina C, que contribuye a la formación normal del colágeno."
-  },
-  "pack.decouverte.nom": {
-    "fr": "Découverte",
-    "es": "Descubrimiento"
-  },
-  "pack.decouverte.contenu": {
-    "fr": "Collagène comprimés · Café Delish",
-    "es": "Colágeno en tabletas · Café Delish"
-  },
-  "pack.decouverte.phrase": {
-    "fr": "Pour tester sans se ruiner.",
-    "es": "Para probar sin gastar de más."
   },
   "pack.makeup.nom": {
     "fr": "Mes favoris make-up",
@@ -426,10 +390,6 @@
   "packs.pays": {
     "fr": "Hors de France, pense à changer le pays en haut de la page.",
     "es": "Si no estás en Francia, recuerda cambiar el país en la parte superior de la página."
-  },
-  "packs.remise": {
-    "fr": "La remise de 30 % est réservée aux personnes inscrites comme Farmasi Influencer. Envie d'en profiter ?",
-    "es": "El descuento del 30 % es para las personas registradas como Farmasi Influencer. ¿Quieres aprovecharlo?"
   },
   "packs.remise_lien": {
     "fr": "Tout est expliqué dans la page L'équipe.",
@@ -1774,5 +1734,29 @@
   "kit.pi.mains.desc": {
     "fr": "Au beurre de karité, elle hydrate en profondeur et laisse les mains douces et nourries, avec un parfum gourmand de macaron à la pistache.",
     "es": "Con manteca de karité, hidrata en profundidad y deja las manos suaves y nutridas, con un aroma goloso a macaron de pistacho."
+  },
+  "packs.nutrition_bientot": {
+    "fr": "<b>Mes packs nutrition arrivent très bientôt.</b> Le premier : Morning Glow, pour bien démarrer la journée.",
+    "es": "<b>Mis packs de nutrición llegan muy pronto.</b> El primero: Morning Glow, para empezar bien el día."
+  },
+  "packs.routine.titre": {
+    "fr": "Une routine qui dure ? <span class=\"kw\">Inscris-toi</span>",
+    "es": "¿Una rutina que dure? <span class=\"kw\">Inscríbete</span>"
+  },
+  "packs.routine.texte": {
+    "fr": "Si tu veux faire de tes compléments une vraie habitude, au quotidien, t'inscrire devient vite intéressant : tu profites de 30 % de réduction sur tous les produits, à chaque commande. Écris-moi, je t'explique tout simplement.",
+    "es": "Si quieres que tus suplementos sean un verdadero hábito diario, inscribirte sale a cuenta enseguida: tienes un 30 % de descuento en todos los productos, en cada pedido. Escríbeme y te lo explico todo de forma sencilla."
+  },
+  "packs.routine.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'aimerais%20en%20savoir%20plus%20sur%20l'inscription%20pour%20avoir%2030%20%25%20de%20r%C3%A9duction.",
+    "es": "%C2%A1Hola%20Meli!%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20la%20inscripci%C3%B3n%20para%20tener%20un%2030%20%25%20de%20descuento."
+  },
+  "packs.routine.cta": {
+    "fr": "Écris-moi",
+    "es": "Escríbeme"
+  },
+  "packs.routine.lien": {
+    "fr": "Comment ça marche",
+    "es": "Cómo funciona"
   }
 }

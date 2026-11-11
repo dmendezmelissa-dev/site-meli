@@ -997,3 +997,10 @@ footer .sig .insta:hover { color: var(--terra-b); }
 .kit-produit .contenu-liste li, .kit-produit .contenu-liste li:last-child { font-weight: 400; color: var(--encre); }
 .v-liste .kit-photos img:only-child { width: 72px; height: 72px; }
 @media (max-width: 560px) { .v-liste .kit-photos img:only-child { width: 56px; height: 56px; } }
+/* Packs : encart « Une routine qui dure ? Inscris-toi » */
+.encart-routine { max-width: 720px; margin: 26px auto 34px; padding: 22px 24px; border-radius: 22px; background: #E9EDE2; text-align: center; }
+.encart-routine .encart-titre { font-family: "Lora", serif; font-size: 22px; margin: 0 0 8px; color: var(--encre); }
+.encart-routine p { margin: 0 0 6px; }
+.encart-routine .btns { justify-content: center; margin-top: 14px; gap: 10px; }
+.encart-routine .btn { padding: 10px 22px; font-size: 15px; }
+@media (max-width: 560px) { .encart-routine { padding: 18px 16px; } .encart-routine .encart-titre { font-size: 19px; } }
