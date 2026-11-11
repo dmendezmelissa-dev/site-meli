@@ -1726,5 +1726,53 @@
   "kit.m4.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20set%20de%20cr%C3%A8mes%20pour%20les%20mains%20en%20pochette%20cadeau.",
     "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20set%20de%20cremas%20de%20manos%20en%20bolsita%20de%20regalo."
+  },
+  "kit.pi.pour": {
+    "fr": "Pour les <span class='kw'>gourmandes</span>",
+    "es": "Para las más <span class='kw'>golosas</span>"
+  },
+  "kit.pi.nom": {
+    "fr": "Kit Pistache",
+    "es": "Kit Pistacho"
+  },
+  "kit.pi.prix": {
+    "fr": "16,00 €",
+    "es": "16,00 €"
+  },
+  "titre.kit_pi": {
+    "fr": "Kit Pistache · Meli",
+    "es": "Kit Pistacho · Meli"
+  },
+  "kit.pi.desc": {
+    "fr": "Un duo gourmand au parfum de macaron à la pistache : on se lave en douceur, puis on garde des mains toutes douces et délicieusement parfumées.",
+    "es": "Un dúo goloso con aroma a macaron de pistacho: te lavas con suavidad y luego mantienes las manos suaves y deliciosamente perfumadas."
+  },
+  "kit.pi.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Pistache%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20kit%20Pistacho%20en%20bolsita%20de%20regalo."
+  },
+  "kit.pi.douche.alt": {
+    "fr": "Gel douche Pistache",
+    "es": "Gel de ducha Pistacho"
+  },
+  "kit.pi.douche.nom": {
+    "fr": "Gel douche",
+    "es": "Gel de ducha"
+  },
+  "kit.pi.douche.desc": {
+    "fr": "Il lave en douceur et laisse la peau fraîche et hydratée, avec un parfum riche et sucré de pistache et de vanille.",
+    "es": "Limpia con suavidad y deja la piel fresca e hidratada, con un aroma rico y dulce a pistacho y vainilla."
+  },
+  "kit.pi.mains.alt": {
+    "fr": "Crème pour les mains Pistache",
+    "es": "Crema de manos Pistacho"
+  },
+  "kit.pi.mains.nom": {
+    "fr": "Crème pour les mains",
+    "es": "Crema de manos"
+  },
+  "kit.pi.mains.desc": {
+    "fr": "Au beurre de karité, elle hydrate en profondeur et laisse les mains douces et nourries, avec un parfum gourmand de macaron à la pistache.",
+    "es": "Con manteca de karité, hidrata en profundidad y deja las manos suaves y nutridas, con un aroma goloso a macaron de pistacho."
   }
 }

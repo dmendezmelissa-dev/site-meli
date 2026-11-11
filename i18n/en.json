@@ -1726,5 +1726,53 @@
   "kit.m4.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20set%20de%20cr%C3%A8mes%20pour%20les%20mains%20en%20pochette%20cadeau.",
     "en": "Hi%20Meli!%20I'd%20like%20the%20hand%20cream%20set%20in%20a%20gift%20pouch."
+  },
+  "kit.pi.pour": {
+    "fr": "Pour les <span class='kw'>gourmandes</span>",
+    "en": "For those with a <span class='kw'>sweet tooth</span>"
+  },
+  "kit.pi.nom": {
+    "fr": "Kit Pistache",
+    "en": "Pistachio kit"
+  },
+  "kit.pi.prix": {
+    "fr": "16,00 €",
+    "en": "€16.00"
+  },
+  "titre.kit_pi": {
+    "fr": "Kit Pistache · Meli",
+    "en": "Pistachio kit · Meli"
+  },
+  "kit.pi.desc": {
+    "fr": "Un duo gourmand au parfum de macaron à la pistache : on se lave en douceur, puis on garde des mains toutes douces et délicieusement parfumées.",
+    "en": "A sweet duo with a pistachio macaron scent: cleanse gently, then keep your hands soft and deliciously scented."
+  },
+  "kit.pi.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Pistache%20en%20pochette%20cadeau.",
+    "en": "Hi%20Meli!%20I'd%20like%20the%20Pistachio%20kit%20in%20a%20gift%20pouch."
+  },
+  "kit.pi.douche.alt": {
+    "fr": "Gel douche Pistache",
+    "en": "Shower gel Pistachio"
+  },
+  "kit.pi.douche.nom": {
+    "fr": "Gel douche",
+    "en": "Shower gel"
+  },
+  "kit.pi.douche.desc": {
+    "fr": "Il lave en douceur et laisse la peau fraîche et hydratée, avec un parfum riche et sucré de pistache et de vanille.",
+    "en": "It cleanses gently and leaves skin fresh and moisturised, with a rich, sweet pistachio and vanilla scent."
+  },
+  "kit.pi.mains.alt": {
+    "fr": "Crème pour les mains Pistache",
+    "en": "Hand cream Pistachio"
+  },
+  "kit.pi.mains.nom": {
+    "fr": "Crème pour les mains",
+    "en": "Hand cream"
+  },
+  "kit.pi.mains.desc": {
+    "fr": "Au beurre de karité, elle hydrate en profondeur et laisse les mains douces et nourries, avec un parfum gourmand de macaron à la pistache.",
+    "en": "With shea butter, it deeply moisturises and leaves hands soft and nourished, with a sweet pistachio macaron scent."
   }
 }
