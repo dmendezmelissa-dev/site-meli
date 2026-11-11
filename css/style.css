@@ -985,3 +985,11 @@ footer .sig .insta:hover { color: var(--terra-b); }
 .kit-completer { margin-top: 46px; padding-top: 30px; border-top: 1px solid var(--ligne); }
 .kit-completer-titre { font-size: 24px; margin: 0 0 6px; }
 .kit-completer .kit-produits { margin-top: 18px; }
+/* Page d'un kit : boutons d'achat plus petits et plus espacés */
+.kit-achat { max-width: 340px; }
+.kit-achat .btn { width: 100%; padding: 12px 20px; font-size: 15px; }
+.kit-achat .btn + .btn { margin-top: 14px; }
+.kit-fiche .kit-achat { max-width: 300px; }
+.kit-fiche .kit-achat .btn { display: block; padding: 9px 18px; font-size: 14.5px; }
+.kit-fiche .kit-achat .btn + .btn { margin-top: 16px; }
+.kit-fiche .kit-achat .petit { margin-top: 12px; }
