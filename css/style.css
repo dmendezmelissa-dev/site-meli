@@ -935,3 +935,4 @@ footer .sig .insta:hover { color: var(--terra-b); }
   .kit-produit h3 { font-size: 17px; }
   .kit-produit-prix a { display: block; margin: 4px 0 0; }
 }
+.kit-photos img, .kit-produit img { object-fit: cover; }
