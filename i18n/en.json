@@ -1576,7 +1576,7 @@
     "en": "For lovers of <span class='kw'>sweet, fruity scents</span>"
   },
   "kit.rc.nom": {
-    "fr": "Kit Royal Cherry",
+    "fr": "Kit Cerise Royale",
     "en": "Royal Cherry kit"
   },
   "kit.rc.prix": {
@@ -1584,7 +1584,7 @@
     "en": "€33.50"
   },
   "kit.rc.desc": {
-    "fr": "Toute la gamme Royal Cherry pour le corps : on se lave, on nourrit sa peau, et on garde un parfum gourmand de cerise jusqu'au bout des doigts.",
+    "fr": "Toute la gamme Cerise Royale pour le corps : on se lave, on nourrit sa peau, et on garde un parfum gourmand de cerise jusqu'au bout des doigts.",
     "en": "The whole Royal Cherry body range: cleanse, nourish your skin, and keep a sweet cherry scent right to your fingertips."
   },
   "kit.rc.commun": {
@@ -1592,11 +1592,11 @@
     "en": "With shea butter and plant oils, and a fruity cherry scent. Vegan, cruelty-free."
   },
   "kit.rc.wa": {
-    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Royal%20Cherry%20en%20pochette%20cadeau.",
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Cerise%20Royale%20en%20pochette%20cadeau.",
     "en": "Hi%20Meli!%20I'd%20like%20the%20Royal%20Cherry%20kit%20in%20a%20gift%20pouch."
   },
   "titre.kit_rc": {
-    "fr": "Kit Royal Cherry · Meli",
+    "fr": "Kit Cerise Royale · Meli",
     "en": "Royal Cherry kit · Meli"
   },
   "kit.completer": {
@@ -1604,11 +1604,11 @@
     "en": "To complete this kit"
   },
   "kit.completer_texte": {
-    "fr": "Le maquillage Royal Cherry, en édition limitée. Dis-le-moi sur WhatsApp pour l'ajouter à ta pochette, ou ajoute-le à ton panier dans ma boutique.",
+    "fr": "Le maquillage Cerise Royale, en édition limitée. Dis-le-moi sur WhatsApp pour l'ajouter à ta pochette, ou ajoute-le à ton panier dans ma boutique.",
     "en": "The limited-edition Royal Cherry make-up. Tell me on WhatsApp to add it to your pouch, or add it to your basket in my shop."
   },
   "kit.rc.corps.alt": {
-    "fr": "Crème corporelle Royal Cherry",
+    "fr": "Crème corporelle Cerise Royale",
     "en": "Body cream Royal Cherry"
   },
   "kit.rc.corps.nom": {
@@ -1620,7 +1620,7 @@
     "en": "Rich and silky, it melts into the skin and deeply nourishes it. Perfect after a shower, with its fruity cherry scent."
   },
   "kit.rc.douche.alt": {
-    "fr": "Gel douche Royal Cherry",
+    "fr": "Gel douche Cerise Royale",
     "en": "Shower gel Royal Cherry"
   },
   "kit.rc.douche.nom": {
@@ -1632,7 +1632,7 @@
     "en": "It cleanses gently without drying, with a light foam and a vibrant cherry and floral scent."
   },
   "kit.rc.mains.alt": {
-    "fr": "Crème pour les mains Royal Cherry",
+    "fr": "Crème pour les mains Cerise Royale",
     "en": "Hand cream Royal Cherry"
   },
   "kit.rc.mains.nom": {
@@ -1644,7 +1644,7 @@
     "en": "Light, it moisturises and protects hands, leaving a delicate scent all day long."
   },
   "kit.rc.mascara.alt": {
-    "fr": "Mascara Royal Cherry",
+    "fr": "Mascara Cerise Royale",
     "en": "Mascara Royal Cherry"
   },
   "kit.rc.mascara.nom": {
@@ -1656,7 +1656,7 @@
     "en": "Volume, length and curl from the first coat. Intense black, it lasts over 12 hours without smudging or flaking."
   },
   "kit.rc.gloss.alt": {
-    "fr": "Gloss Cherry After Dark Royal Cherry",
+    "fr": "Gloss Cherry After Dark Cerise Royale",
     "en": "Cherry After Dark lip gloss Royal Cherry"
   },
   "kit.rc.gloss.nom": {
@@ -1668,7 +1668,7 @@
     "en": "A deep, high-shine cherry red with a glamorous finish. Its creamy formula with natural oils keeps lips soft and hydrated."
   },
   "kit.rc.palette.alt": {
-    "fr": "Palette de fards à paupières Royal Cherry",
+    "fr": "Palette de fards à paupières Cerise Royale",
     "en": "Eyeshadow palette Royal Cherry"
   },
   "kit.rc.palette.nom": {

@@ -1576,40 +1576,40 @@
     "es": "Para quien ama <span class='kw'>los aromas golosos</span>"
   },
   "kit.rc.nom": {
-    "fr": "Kit Royal Cherry",
-    "es": "Kit Royal Cherry"
+    "fr": "Kit Cerise Royale",
+    "es": "Kit Cereza Real"
   },
   "kit.rc.prix": {
     "fr": "33,50 €",
     "es": "33,50 €"
   },
   "kit.rc.desc": {
-    "fr": "Toute la gamme Royal Cherry pour le corps : on se lave, on nourrit sa peau, et on garde un parfum gourmand de cerise jusqu'au bout des doigts.",
-    "es": "Toda la gama Royal Cherry para el cuerpo: te lavas, nutres tu piel y conservas un aroma goloso a cereza hasta la punta de los dedos."
+    "fr": "Toute la gamme Cerise Royale pour le corps : on se lave, on nourrit sa peau, et on garde un parfum gourmand de cerise jusqu'au bout des doigts.",
+    "es": "Toda la gama Cereza Real para el cuerpo: te lavas, nutres tu piel y conservas un aroma goloso a cereza hasta la punta de los dedos."
   },
   "kit.rc.commun": {
     "fr": "Au beurre de karité et aux huiles végétales, au parfum fruité de cerise. Vegan, non testés sur les animaux.",
     "es": "Con manteca de karité y aceites vegetales, con aroma afrutado a cereza. Veganos, no testados en animales."
   },
   "kit.rc.wa": {
-    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Royal%20Cherry%20en%20pochette%20cadeau.",
-    "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20kit%20Royal%20Cherry%20en%20bolsita%20de%20regalo."
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Cerise%20Royale%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20kit%20Cereza%20Real%20en%20bolsita%20de%20regalo."
   },
   "titre.kit_rc": {
-    "fr": "Kit Royal Cherry · Meli",
-    "es": "Kit Royal Cherry · Meli"
+    "fr": "Kit Cerise Royale · Meli",
+    "es": "Kit Cereza Real · Meli"
   },
   "kit.completer": {
     "fr": "Pour compléter ce kit",
     "es": "Para completar este kit"
   },
   "kit.completer_texte": {
-    "fr": "Le maquillage Royal Cherry, en édition limitée. Dis-le-moi sur WhatsApp pour l'ajouter à ta pochette, ou ajoute-le à ton panier dans ma boutique.",
-    "es": "El maquillaje Royal Cherry, en edición limitada. Dímelo por WhatsApp para añadirlo a tu bolsita, o añádelo a tu cesta en mi tienda."
+    "fr": "Le maquillage Cerise Royale, en édition limitée. Dis-le-moi sur WhatsApp pour l'ajouter à ta pochette, ou ajoute-le à ton panier dans ma boutique.",
+    "es": "El maquillaje Cereza Real, en edición limitada. Dímelo por WhatsApp para añadirlo a tu bolsita, o añádelo a tu cesta en mi tienda."
   },
   "kit.rc.corps.alt": {
-    "fr": "Crème corporelle Royal Cherry",
-    "es": "Crema corporal Royal Cherry"
+    "fr": "Crème corporelle Cerise Royale",
+    "es": "Crema corporal Cereza Real"
   },
   "kit.rc.corps.nom": {
     "fr": "Crème corporelle",
@@ -1620,8 +1620,8 @@
     "es": "Rica y sedosa, se funde en la piel y la nutre intensamente. Perfecta después de la ducha, con su aroma afrutado a cereza."
   },
   "kit.rc.douche.alt": {
-    "fr": "Gel douche Royal Cherry",
-    "es": "Gel de ducha Royal Cherry"
+    "fr": "Gel douche Cerise Royale",
+    "es": "Gel de ducha Cereza Real"
   },
   "kit.rc.douche.nom": {
     "fr": "Gel douche",
@@ -1632,8 +1632,8 @@
     "es": "Limpia con suavidad sin resecar, con una espuma ligera y un aroma vibrante a cereza y flores."
   },
   "kit.rc.mains.alt": {
-    "fr": "Crème pour les mains Royal Cherry",
-    "es": "Crema de manos Royal Cherry"
+    "fr": "Crème pour les mains Cerise Royale",
+    "es": "Crema de manos Cereza Real"
   },
   "kit.rc.mains.nom": {
     "fr": "Crème pour les mains",
@@ -1644,8 +1644,8 @@
     "es": "Ligera, hidrata y protege las manos, y las perfuma delicadamente todo el día."
   },
   "kit.rc.mascara.alt": {
-    "fr": "Mascara Royal Cherry",
-    "es": "Máscara de pestañas Royal Cherry"
+    "fr": "Mascara Cerise Royale",
+    "es": "Máscara de pestañas Cereza Real"
   },
   "kit.rc.mascara.nom": {
     "fr": "Mascara",
@@ -1656,8 +1656,8 @@
     "es": "Volumen, longitud y curvatura desde la primera capa. Negro intenso, dura más de 12 horas sin correrse ni descascarillarse."
   },
   "kit.rc.gloss.alt": {
-    "fr": "Gloss Cherry After Dark Royal Cherry",
-    "es": "Gloss Cherry After Dark Royal Cherry"
+    "fr": "Gloss Cherry After Dark Cerise Royale",
+    "es": "Gloss Cherry After Dark Cereza Real"
   },
   "kit.rc.gloss.nom": {
     "fr": "Gloss Cherry After Dark",
@@ -1668,8 +1668,8 @@
     "es": "Un rojo cereza profundo y muy brillante, con acabado glamuroso. Su fórmula cremosa con aceites naturales mantiene los labios suaves e hidratados."
   },
   "kit.rc.palette.alt": {
-    "fr": "Palette de fards à paupières Royal Cherry",
-    "es": "Paleta de sombras Royal Cherry"
+    "fr": "Palette de fards à paupières Cerise Royale",
+    "es": "Paleta de sombras Cereza Real"
   },
   "kit.rc.palette.nom": {
     "fr": "Palette de fards à paupières",
