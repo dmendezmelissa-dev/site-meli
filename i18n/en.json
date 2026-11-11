@@ -1516,8 +1516,8 @@
     "en": "Hi%20Meli!%20I'd%20like%20the%20Shea%20%26%20Almond%20kit%20in%20a%20gift%20pouch."
   },
   "kit.maison_texte": {
-    "fr": "Tu préfères le recevoir chez toi ? Ajoute chaque produit à ton panier dans ma boutique, avec les liens « Voir dans ma boutique » ci-dessus.",
-    "en": "Would you rather have it delivered to your home? Add each product to your basket in my shop, using the \"See it in my shop\" links above."
+    "fr": "Ton panier s'ouvre déjà rempli dans ma boutique en ligne : tu valides, et tu le reçois chez toi.",
+    "en": "Your basket opens already filled in my online shop: just confirm, and it's delivered to your home."
   },
   "kit.sa.prix": {
     "fr": "36,00 €",
@@ -1566,5 +1566,9 @@
   "kit.voir_boutique": {
     "fr": "Voir dans ma boutique",
     "en": "See it in my shop"
+  },
+  "kit.maison": {
+    "fr": "Le recevoir chez moi",
+    "en": "Have it delivered to me"
   }
 }

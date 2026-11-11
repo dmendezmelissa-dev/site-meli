@@ -1516,8 +1516,8 @@
     "es": "%C2%A1Hola%20Meli!%20Quiero%20el%20kit%20Shea%20%26%20Almond%20en%20bolsita%20de%20regalo."
   },
   "kit.maison_texte": {
-    "fr": "Tu préfères le recevoir chez toi ? Ajoute chaque produit à ton panier dans ma boutique, avec les liens « Voir dans ma boutique » ci-dessus.",
-    "es": "¿Prefieres recibirlo en casa? Añade cada producto a tu cesta en mi tienda, con los enlaces \"Verlo en mi tienda\" de arriba."
+    "fr": "Ton panier s'ouvre déjà rempli dans ma boutique en ligne : tu valides, et tu le reçois chez toi.",
+    "es": "Tu cesta se abre ya llena en mi tienda en línea: confirmas y lo recibes en casa."
   },
   "kit.sa.prix": {
     "fr": "36,00 €",
@@ -1566,5 +1566,9 @@
   "kit.voir_boutique": {
     "fr": "Voir dans ma boutique",
     "es": "Verlo en mi tienda"
+  },
+  "kit.maison": {
+    "fr": "Le recevoir chez moi",
+    "es": "Recibirlo en casa"
   }
 }
