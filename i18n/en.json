@@ -1890,5 +1890,9 @@
   "kit.rc.gamme_alt": {
     "fr": "La gamme Cerise Royale : gel douche, crème pour les mains et crème corporelle",
     "en": "The Royal Cherry range: shower gel, hand cream and body cream"
+  },
+  "kit.sa.gamme_alt": {
+    "fr": "La gamme Karité & Amande : crème de douche, crème pour les mains et gommage",
+    "en": "The Shea & Almond range: shower cream, hand cream and body scrub"
   }
 }
