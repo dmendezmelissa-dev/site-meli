@@ -2278,5 +2278,53 @@
   "kit.pa.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Paprika%20en%20pochette%20cadeau.",
     "es": "%C2%A1Hola%20Meli!%20Quisiera%20el%20kit%20Paprika%20en%20bolsita%20de%20regalo."
+  },
+  "titre.kit_ge": {
+    "fr": "Kit Gels de massage · Meli",
+    "es": "Kit Geles de masaje · Meli"
+  },
+  "kit.ge.pour": {
+    "fr": "Pour un corps <span class='kw'>tout léger</span>",
+    "es": "Para un cuerpo <span class='kw'>ligero</span>"
+  },
+  "kit.ge.nom": {
+    "fr": "Kit Gels de massage",
+    "es": "Kit Geles de masaje"
+  },
+  "kit.ge.gamme_alt": {
+    "fr": "Le kit Gels de massage : gel Paprika et piment et gel Marron d'Inde Dr. C. Tuna",
+    "es": "El kit Geles de masaje: gel Pimentón y chile y gel Castaño de Indias Dr. C. Tuna"
+  },
+  "kit.ge.desc": {
+    "fr": "Les deux gels de massage Dr. C. Tuna : le paprika et piment pour détendre et revigorer le corps, et le marron d'Inde pour une sensation de jambes légères. Parfait après le sport ou une journée bien remplie.",
+    "es": "Los dos geles de masaje Dr. C. Tuna: pimentón y chile para relajar y revitalizar el cuerpo, y castaño de Indias para una sensación de piernas ligeras. Perfecto después del deporte o de un día intenso."
+  },
+  "kit.ge.marron.alt": {
+    "fr": "Gel de massage Marron d'Inde Dr. C. Tuna",
+    "es": "Gel de masaje Castaño de Indias Dr. C. Tuna"
+  },
+  "kit.ge.marron.nom": {
+    "fr": "Gel de massage Marron d'Inde",
+    "es": "Gel de masaje Castaño de Indias"
+  },
+  "kit.ge.marron.desc": {
+    "fr": "Au marron d'Inde, à l'arnica, à la menthe et au menthol : un gel frais qui apporte une sensation de légèreté, idéal pour les jambes lourdes après une longue journée debout ou après le sport. Le romarin et l'huile de jojoba hydratent et nourrissent la peau.",
+    "es": "Con castaño de Indias, árnica, menta y mentol: un gel fresco que aporta una sensación de ligereza, ideal para las piernas cansadas después de un largo día de pie o después del deporte. El romero y el aceite de jojoba hidratan y nutren la piel."
+  },
+  "kit.ge.prix": {
+    "fr": "13,20 €",
+    "es": "13,20 €"
+  },
+  "kit.ge.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Gels%20de%20massage%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quisiera%20el%20kit%20Geles%20de%20masaje%20en%20bolsita%20de%20regalo."
+  },
+  "kit.ge.wa_maison": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20recevoir%20le%20kit%20Gels%20de%20massage%20chez%20moi.",
+    "es": "%C2%A1Hola%20Meli!%20Quisiera%20recibir%20el%20kit%20Geles%20de%20masaje%20en%20casa."
+  },
+  "kit.ge.maison_texte": {
+    "fr": "Écris-moi, je t'envoie le lien de ton panier dans ma boutique en ligne : tu valides, et tu le reçois chez toi.",
+    "es": "Escríbeme y te envío el enlace de tu cesta en mi tienda online: lo confirmas y lo recibes en casa."
   }
 }
