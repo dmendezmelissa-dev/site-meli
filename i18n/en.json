@@ -2122,5 +2122,9 @@
   "kit.mo.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Moringa%20en%20pochette%20cadeau.",
     "en": "Hi%20Meli!%20I'd%20like%20the%20Moringa%20kit%20in%20a%20gift%20pouch."
+  },
+  "kit.mo.gamme_alt": {
+    "fr": "Le kit Moringa : crème pour les mains et savon",
+    "en": "The Moringa kit: hand cream and soap"
   }
 }

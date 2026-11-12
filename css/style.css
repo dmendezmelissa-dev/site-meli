@@ -1095,3 +1095,5 @@ h1, h2, .encart-titre { text-wrap: balance; }
 }
 @media (max-width: 560px) { .v-liste .corps h3 .pl-tag { display: table; margin: 4px 0 2px; } }
 .pl-desc a { font-size: inherit; }
+.v-liste .kit-photos img.ens-mo { object-position: 22% center; }
+.kit-visuel-mo { width: min(380px, 92%); border-radius: 190px 190px 18px 18px / 150px 150px 18px 18px; box-shadow: 0 14px 30px rgba(60, 90, 50, .18); }
