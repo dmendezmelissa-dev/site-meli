@@ -1103,7 +1103,7 @@ h1, h2, .encart-titre { text-wrap: balance; }
 .page-noel { position: relative; overflow: hidden; }
 .page-noel > .wrap { position: relative; z-index: 1; }
 .kits-page { position: relative; }
-@media (max-width: 1100px) { .paillettes { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
+.paillettes { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
 .paillette {
   position: absolute; width: var(--t, 10px); height: var(--t, 10px); margin: calc(var(--t, 10px) / -2) 0 0 calc(var(--t, 10px) / -2);
   background: var(--c, #D9B98F);
@@ -1113,7 +1113,14 @@ h1, h2, .encart-titre { text-wrap: balance; }
 .paillette.vole { z-index: 2; animation: jaillit .9s ease-out forwards; }
 @keyframes scintille { 0%, 100% { opacity: 0; transform: scale(.35) rotate(0); } 50% { opacity: .9; transform: scale(1) rotate(45deg); } }
 @keyframes jaillit { from { opacity: 1; transform: translate(0, 0) scale(1) rotate(0); } to { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(.2) rotate(120deg); } }
-@media (max-width: 760px) {
-      }
-@media (max-width: 420px) { @media (prefers-reduced-motion: reduce) { .paillette { animation: none; opacity: .5; } }
+@media (prefers-reduced-motion: reduce) { .paillette { animation: none; opacity: .5; } }
 .kit-visuel-va { width: min(330px, 86%); box-shadow: 0 14px 30px rgba(60, 110, 100, .18); }
+
+/* Petits kits de Noël : vraies décorations (photos détourées) de chaque côté du titre */
+.deco-noel { position: absolute; inset: 0 0 auto 0; height: 0; pointer-events: none; }
+.deco-coin { position: absolute; top: -36px; width: 190px; height: auto; filter: drop-shadow(0 8px 14px rgba(80, 50, 30, .16)); }
+.deco-coin.g { left: -200px; transform: rotate(-8deg); }
+.deco-coin.d { right: -200px; transform: rotate(6deg); }
+@media (max-width: 1180px) { .deco-coin { width: 150px; top: -40px; } .deco-coin.g { left: -60px; } .deco-coin.d { right: -60px; } }
+@media (max-width: 760px) { .deco-coin { width: 100px; top: -34px; } .deco-coin.g { left: -26px; } .deco-coin.d { right: -26px; } }
+@media (max-width: 400px) { .deco-coin { width: 86px; } }
