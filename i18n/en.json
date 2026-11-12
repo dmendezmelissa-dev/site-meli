@@ -2126,5 +2126,65 @@
   "kit.mo.gamme_alt": {
     "fr": "Le kit Moringa : crème pour les mains et savon",
     "en": "The Moringa kit: hand cream and soap"
+  },
+  "titre.kit_va": {
+    "fr": "Kit Vanille · Meli",
+    "en": "Vanilla Kit · Meli"
+  },
+  "kit.va.pour": {
+    "fr": "Pour les amoureuses <span class='kw'>de la vanille</span>",
+    "en": "For <span class='kw'>vanilla</span> lovers"
+  },
+  "kit.va.nom": {
+    "fr": "Kit Vanille",
+    "en": "Vanilla Kit"
+  },
+  "kit.va.desc": {
+    "fr": "Trois petits soins tout doux autour de la vanille : deux crèmes pour les mains, l'une chaude et boisée, l'autre gourmande à la noix de coco, et un baume pour des lèvres douces et brillantes.",
+    "en": "Three gentle little treats all about vanilla: two hand creams, one warm and woody, the other a sweet coconut, and a balm for soft, glossy lips."
+  },
+  "kit.va.mains.alt": {
+    "fr": "Crème pour les mains Warm Vanilla",
+    "en": "Warm Vanilla hand cream"
+  },
+  "kit.va.mains.nom": {
+    "fr": "Crème pour les mains Warm Vanilla",
+    "en": "Warm Vanilla hand cream"
+  },
+  "kit.va.mains.desc": {
+    "fr": "Une crème riche qui pénètre vite et hydrate longtemps, au beurre de karité et à l'huile d'amande douce. Son parfum de vanille crémeuse et de bois doux reste tout près de la peau.",
+    "en": "A rich cream that absorbs quickly and moisturises for a long time, with shea butter and sweet almond oil. Its creamy vanilla and soft wood scent stays close to the skin."
+  },
+  "kit.va.coco.alt": {
+    "fr": "Crème pour les mains Noix de coco et vanille",
+    "en": "Coconut and vanilla hand cream"
+  },
+  "kit.va.coco.nom": {
+    "fr": "Crème pour les mains Noix de coco et vanille",
+    "en": "Coconut and vanilla hand cream"
+  },
+  "kit.va.coco.desc": {
+    "fr": "Légère, elle pénètre vite sans laisser de film gras : les mains sont douces, hydratées et protégées, avec un parfum gourmand de noix de coco et de vanille.",
+    "en": "Light, it absorbs quickly without a greasy film: hands feel soft, moisturised and protected, with a sweet coconut and vanilla scent."
+  },
+  "kit.va.levres.alt": {
+    "fr": "Baume à lèvres Glowy Peptide",
+    "en": "Glowy Peptide lip balm"
+  },
+  "kit.va.levres.nom": {
+    "fr": "Baume à lèvres Glowy Peptide",
+    "en": "Glowy Peptide lip balm"
+  },
+  "kit.va.levres.desc": {
+    "fr": "Un baume crémeux qui fond sur les lèvres : il les hydrate, les adoucit et leur donne un joli brillant naturel, sans effet collant. Au beurre de karité, au squalane et à la vitamine E.",
+    "en": "A creamy balm that melts on the lips: it moisturises, softens and gives a lovely natural shine, without feeling sticky. With shea butter, squalane and vitamin E."
+  },
+  "kit.va.prix": {
+    "fr": "32,90 €",
+    "en": "€32.90"
+  },
+  "kit.va.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Vanille%20en%20pochette%20cadeau.",
+    "en": "Hi%20Meli!%20I'd%20like%20the%20Vanilla%20kit%20in%20a%20gift%20pouch."
   }
 }

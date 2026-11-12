@@ -2126,5 +2126,65 @@
   "kit.mo.gamme_alt": {
     "fr": "Le kit Moringa : crème pour les mains et savon",
     "es": "El kit Moringa: crema de manos y jabón"
+  },
+  "titre.kit_va": {
+    "fr": "Kit Vanille · Meli",
+    "es": "Kit Vainilla · Meli"
+  },
+  "kit.va.pour": {
+    "fr": "Pour les amoureuses <span class='kw'>de la vanille</span>",
+    "es": "Para las enamoradas <span class='kw'>de la vainilla</span>"
+  },
+  "kit.va.nom": {
+    "fr": "Kit Vanille",
+    "es": "Kit Vainilla"
+  },
+  "kit.va.desc": {
+    "fr": "Trois petits soins tout doux autour de la vanille : deux crèmes pour les mains, l'une chaude et boisée, l'autre gourmande à la noix de coco, et un baume pour des lèvres douces et brillantes.",
+    "es": "Tres pequeños cuidados muy suaves alrededor de la vainilla: dos cremas de manos, una cálida y amaderada, la otra golosa con coco, y un bálsamo para unos labios suaves y brillantes."
+  },
+  "kit.va.mains.alt": {
+    "fr": "Crème pour les mains Warm Vanilla",
+    "es": "Crema de manos Warm Vanilla"
+  },
+  "kit.va.mains.nom": {
+    "fr": "Crème pour les mains Warm Vanilla",
+    "es": "Crema de manos Warm Vanilla"
+  },
+  "kit.va.mains.desc": {
+    "fr": "Une crème riche qui pénètre vite et hydrate longtemps, au beurre de karité et à l'huile d'amande douce. Son parfum de vanille crémeuse et de bois doux reste tout près de la peau.",
+    "es": "Una crema rica que se absorbe rápido e hidrata durante mucho tiempo, con manteca de karité y aceite de almendras dulces. Su perfume de vainilla cremosa y maderas suaves se queda cerca de la piel."
+  },
+  "kit.va.coco.alt": {
+    "fr": "Crème pour les mains Noix de coco et vanille",
+    "es": "Crema de manos Coco y vainilla"
+  },
+  "kit.va.coco.nom": {
+    "fr": "Crème pour les mains Noix de coco et vanille",
+    "es": "Crema de manos Coco y vainilla"
+  },
+  "kit.va.coco.desc": {
+    "fr": "Légère, elle pénètre vite sans laisser de film gras : les mains sont douces, hydratées et protégées, avec un parfum gourmand de noix de coco et de vanille.",
+    "es": "Ligera, se absorbe rápido sin dejar sensación grasa: las manos quedan suaves, hidratadas y protegidas, con un perfume goloso de coco y vainilla."
+  },
+  "kit.va.levres.alt": {
+    "fr": "Baume à lèvres Glowy Peptide",
+    "es": "Bálsamo labial Glowy Peptide"
+  },
+  "kit.va.levres.nom": {
+    "fr": "Baume à lèvres Glowy Peptide",
+    "es": "Bálsamo labial Glowy Peptide"
+  },
+  "kit.va.levres.desc": {
+    "fr": "Un baume crémeux qui fond sur les lèvres : il les hydrate, les adoucit et leur donne un joli brillant naturel, sans effet collant. Au beurre de karité, au squalane et à la vitamine E.",
+    "es": "Un bálsamo cremoso que se funde en los labios: los hidrata, los suaviza y les da un bonito brillo natural, sin efecto pegajoso. Con manteca de karité, escualano y vitamina E."
+  },
+  "kit.va.prix": {
+    "fr": "32,90 €",
+    "es": "32,90 €"
+  },
+  "kit.va.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Vanille%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quisiera%20el%20kit%20Vainilla%20en%20bolsita%20de%20regalo."
   }
 }
