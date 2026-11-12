@@ -1910,5 +1910,9 @@
   "pack.mg.ensemble_alt": {
     "fr": "Le pack Morning Glow : Aloe Glow, L-Carnitine et un verre de jus du matin",
     "es": "El pack Morning Glow: Aloe Glow, L-Carnitina y un vaso de zumo de la mañana"
+  },
+  "kit.pi.gamme_alt": {
+    "fr": "La gamme Pistache : gel douche, crème pour les mains et beurre corporel",
+    "es": "La gama Pistacho: gel de ducha, crema de manos y manteca corporal"
   }
 }
