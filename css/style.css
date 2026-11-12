@@ -1116,3 +1116,4 @@ h1, h2, .encart-titre { text-wrap: balance; }
 @media (max-width: 760px) {
       }
 @media (max-width: 420px) { @media (prefers-reduced-motion: reduce) { .paillette { animation: none; opacity: .5; } }
+.kit-visuel-va { width: min(330px, 86%); box-shadow: 0 14px 30px rgba(60, 110, 100, .18); }
