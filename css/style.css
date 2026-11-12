@@ -1062,3 +1062,4 @@ h1, h2, .encart-titre { text-wrap: balance; }
 }
 @media (max-width: 560px) { .v-liste .kit-carte { grid-template-columns: 104px minmax(0, 1fr) 30px; } }
 .pl-liens { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.kit-visuel { display: block; width: min(300px, 80%); height: auto; margin: 22px auto 18px; border-radius: 160px 160px 18px 18px; box-shadow: 0 14px 30px rgba(86, 10, 29, .18); }
