@@ -1094,3 +1094,4 @@ h1, h2, .encart-titre { text-wrap: balance; }
   .v-liste .kit-carte:has(.kit-photos img:only-child) .corps .pour { align-self: start; }
 }
 @media (max-width: 560px) { .v-liste .corps h3 .pl-tag { display: table; margin: 4px 0 2px; } }
+.pl-desc a { font-size: inherit; }

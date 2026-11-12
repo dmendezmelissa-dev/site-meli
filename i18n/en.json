@@ -1872,8 +1872,8 @@
     "en": "Beauty Shot Collagen"
   },
   "pack.mg.collagene.desc": {
-    "fr": "Collagène hydrolysé, acide hyaluronique, coenzyme Q10, vitamines et biotine, en petites fioles prêtes à boire. La biotine contribue au maintien d'une peau et de cheveux normaux. Moi, j'utilise la version en poudre : à toi de voir ce qui te convient.",
-    "en": "Hydrolysed collagen, hyaluronic acid, coenzyme Q10, vitamins and biotin, in small ready-to-drink vials. Biotin contributes to the maintenance of normal skin and hair. I use the powder version myself: see what suits you best."
+    "fr": "Collagène hydrolysé, acide hyaluronique, coenzyme Q10, vitamines et biotine, en petites fioles prêtes à boire. La biotine contribue au maintien d'une peau et de cheveux normaux. Moi, j'utilise <a href='#pack-collagene-chocolat'>la version en poudre au chocolat</a> : à toi de voir ce qui te convient.",
+    "en": "Hydrolysed collagen, hyaluronic acid, coenzyme Q10, vitamins and biotin, in small ready-to-drink vials. Biotin contributes to the maintenance of normal skin and hair. I use <a href='#pack-collagene-chocolat'>the chocolate powder version</a> myself: see what suits you best."
   },
   "pack.voir": {
     "fr": "Voir le pack",
