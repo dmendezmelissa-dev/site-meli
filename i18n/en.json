@@ -2191,94 +2191,6 @@
     "fr": "Le kit Vanille : crème pour les mains Noix de coco et vanille, baume à lèvres et crème pour les mains Warm Vanilla",
     "en": "The Vanilla kit: Coconut and vanilla hand cream, lip balm and Warm Vanilla hand cream"
   },
-  "kit.prix_titre": {
-    "fr": "Le prix du kit",
-    "en": "The kit price"
-  },
-  "pack.eco_pre": {
-    "fr": "Tu économises",
-    "en": "You save"
-  },
-  "kits.l4": {
-    "fr": "Inscrite chez Farmasi ? Chaque kit te revient 30 % moins cher.",
-    "en": "Registered with Farmasi? Every kit costs you 30% less."
-  },
-  "kits.l4_lien": {
-    "fr": "Comment ça marche",
-    "en": "How it works"
-  },
-  "prix.v.2520": {
-    "fr": "25,20 €",
-    "en": "€25.20"
-  },
-  "prix.v.1080": {
-    "fr": "10,80 €",
-    "en": "€10.80"
-  },
-  "prix.v.2345": {
-    "fr": "23,45 €",
-    "en": "€23.45"
-  },
-  "prix.v.1005": {
-    "fr": "10,05 €",
-    "en": "€10.05"
-  },
-  "prix.v.1638": {
-    "fr": "16,38 €",
-    "en": "€16.38"
-  },
-  "prix.v.702": {
-    "fr": "7,02 €",
-    "en": "€7.02"
-  },
-  "prix.v.1120": {
-    "fr": "11,20 €",
-    "en": "€11.20"
-  },
-  "prix.v.480": {
-    "fr": "4,80 €",
-    "en": "€4.80"
-  },
-  "prix.v.700": {
-    "fr": "7,00 €",
-    "en": "€7.00"
-  },
-  "prix.v.300": {
-    "fr": "3,00 €",
-    "en": "€3.00"
-  },
-  "prix.v.2303": {
-    "fr": "23,03 €",
-    "en": "€23.03"
-  },
-  "prix.v.987": {
-    "fr": "9,87 €",
-    "en": "€9.87"
-  },
-  "prix.v.1400": {
-    "fr": "14,00 €",
-    "en": "€14.00"
-  },
-  "prix.v.420": {
-    "fr": "4,20 €",
-    "en": "€4.20"
-  },
-  "prix.v.1225": {
-    "fr": "12,25 €",
-    "en": "€12.25"
-  },
-  "prix.v.245": {
-    "fr": "2,45 €",
-    "en": "€2.45"
-  },
-  "prix.v.455": {
-    "fr": "4,55 €",
-    "en": "€4.55"
-  },
-  "prix.v.1393": {
-    "fr": "13,93 €",
-    "en": "€13.93"
-  },
   "prix.v.2800": {
     "fr": "28,00 €",
     "en": "€28.00"
@@ -2290,6 +2202,10 @@
   "prix.v.1050": {
     "fr": "10,50 €",
     "en": "€10.50"
+  },
+  "prix.v.1225": {
+    "fr": "12,25 €",
+    "en": "€12.25"
   },
   "prix.v.1995": {
     "fr": "19,95 €",
