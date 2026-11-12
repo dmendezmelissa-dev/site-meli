@@ -2218,5 +2218,13 @@
   "prix.v.3850": {
     "fr": "38,50 €",
     "en": "€38.50"
+  },
+  "kits.l4": {
+    "fr": "Inscrite chez Farmasi ? Chaque kit te revient 30 % moins cher.",
+    "en": "Registered with Farmasi? Every kit costs you 30% less."
+  },
+  "kits.l4_lien": {
+    "fr": "Comment ça marche",
+    "en": "How it works"
   }
 }
