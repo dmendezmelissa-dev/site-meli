@@ -1780,8 +1780,8 @@
     "es": "Para completar este pack"
   },
   "pack.panier_note": {
-    "fr": "Dans le panier, tu trouveras les deux goûts d'Aloe Glow et les Beauty Shot Collagen : garde ce qui te plaît, retire le reste en un clic.",
-    "es": "En la cesta encontrarás los dos sabores de Aloe Glow y los Beauty Shot Collagen: quédate con lo que te guste y quita el resto con un clic."
+    "fr": "Dans le panier, tu trouveras les deux goûts d'Aloe Glow et les Beauty Shot Collagen : garde ce qui te plaît, retire le reste en un clic. Le total du panier change alors et retrouve le prix du pack.",
+    "es": "En la cesta encontrarás los dos sabores de Aloe Glow y los Beauty Shot Collagen: quédate con lo que te guste y quita el resto con un clic. El total de la cesta se ajusta entonces al precio del pack."
   },
   "pack.total": {
     "fr": "Total du pack",
@@ -1914,5 +1914,9 @@
   "kit.pi.gamme_alt": {
     "fr": "La gamme Pistache : gel douche, crème pour les mains et beurre corporel",
     "es": "La gama Pistacho: gel de ducha, crema de manos y manteca corporal"
+  },
+  "kit.pi.note_photo": {
+    "fr": "Sur la photo, le beurre corporel Pistache n'est pas encore disponible en France : il ne fait pas partie du kit.",
+    "es": "En la foto, la manteca corporal de Pistacho todavía no está disponible en Francia: no forma parte del kit."
   }
 }
