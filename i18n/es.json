@@ -1906,5 +1906,9 @@
   "pack.mg.gummies.desc": {
     "fr": "Gommes saveur pomme verte au vinaigre de cidre de pomme et à l'inuline, avec de l'acide folique et de la vitamine B12, qui contribuent à réduire la fatigue. Vegan, sans sucres ajoutés.",
     "es": "Gomitas sabor manzana verde con vinagre de sidra de manzana e inulina, con ácido fólico y vitamina B12, que contribuyen a disminuir el cansancio. Veganas, sin azúcares añadidos."
+  },
+  "pack.mg.ensemble_alt": {
+    "fr": "Le pack Morning Glow : Aloe Glow, L-Carnitine et un verre de jus du matin",
+    "es": "El pack Morning Glow: Aloe Glow, L-Carnitina y un vaso de zumo de la mañana"
   }
 }

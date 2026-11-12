@@ -1906,5 +1906,9 @@
   "pack.mg.gummies.desc": {
     "fr": "Gommes saveur pomme verte au vinaigre de cidre de pomme et à l'inuline, avec de l'acide folique et de la vitamine B12, qui contribuent à réduire la fatigue. Vegan, sans sucres ajoutés.",
     "en": "Green apple gummies with apple cider vinegar and inulin, plus folic acid and vitamin B12, which contribute to the reduction of tiredness. Vegan, no added sugar."
+  },
+  "pack.mg.ensemble_alt": {
+    "fr": "Le pack Morning Glow : Aloe Glow, L-Carnitine et un verre de jus du matin",
+    "en": "The Morning Glow pack: Aloe Glow, L-Carnitine and a glass of morning juice"
   }
 }

@@ -1088,3 +1088,8 @@ h1, h2, .encart-titre { text-wrap: balance; }
   .v-liste .kit-photos:has(img:nth-child(5)) img { width: 36px; height: 36px; margin-left: -19px; }
   .v-liste .kit-photos:has(img:nth-child(5)) img:first-child { margin-left: 0; }
 }
+
+/* Une seule photo d'ensemble par kit ou pack dans les listes : petite arche, comme la photo de présentation */
+.v-liste .kit-photos img:only-child { width: 78px; height: 98px; border-radius: 40px 40px 10px 10px; border: 0; margin: 0; object-fit: cover; object-position: center 70%; }
+@media (max-width: 560px) { .v-liste .kit-photos img:only-child { width: 66px; height: 84px; border-radius: 34px 34px 8px 8px; } }
+.kit-visuel-mg { box-shadow: 0 14px 30px rgba(90, 60, 90, .18); }
