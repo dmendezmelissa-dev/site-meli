@@ -1836,16 +1836,16 @@
     "en": "Pineapple and lemon energy drink with guarana, taurine and vitamins. Vitamins C and B12 contribute to the reduction of tiredness and fatigue."
   },
   "pack.tag_choix": {
-    "fr": "2 goûts au choix",
-    "en": "2 flavours to choose from"
+    "fr": "Mangue ou mandarine",
+    "en": "Mango or mandarin"
   },
   "pack.mg.aloe.nom": {
     "fr": "Aloe Glow",
     "en": "Aloe Glow"
   },
   "pack.mg.aloe.desc": {
-    "fr": "Jus d'aloe vera à l'extrait de camomille, à diluer dans un verre d'eau chaque matin. Il existe en deux goûts : les deux sont dans le panier, tu gardes celui que tu préfères.",
-    "en": "Aloe vera juice with chamomile extract, to dilute in a glass of water every morning. It comes in two flavours: both are in the basket, keep the one you prefer."
+    "fr": "Jus d'aloe vera à l'extrait de camomille, à diluer dans un verre d'eau chaque matin. Deux goûts, mangue ou mandarine : les deux sont dans le panier, tu gardes celui que tu préfères.",
+    "en": "Aloe vera juice with chamomile extract, to dilute in a glass of water every morning. Two flavours, mango or mandarin: both are in the basket, keep the one you prefer."
   },
   "pack.mg.hydro.nom": {
     "fr": "Hydro Drops",
@@ -1878,5 +1878,13 @@
   "pack.voir": {
     "fr": "Voir le pack",
     "en": "See the pack"
+  },
+  "pack.aloe_mangue": {
+    "fr": "Goût mangue",
+    "en": "Mango flavour"
+  },
+  "pack.aloe_mandarine": {
+    "fr": "Goût mandarine",
+    "en": "Mandarin flavour"
   }
 }

@@ -1836,16 +1836,16 @@
     "es": "Bebida energética sabor piña y limón, con guaraná, taurina y vitaminas. Las vitaminas C y B12 contribuyen a disminuir el cansancio y la fatiga."
   },
   "pack.tag_choix": {
-    "fr": "2 goûts au choix",
-    "es": "2 sabores a elegir"
+    "fr": "Mangue ou mandarine",
+    "es": "Mango o mandarina"
   },
   "pack.mg.aloe.nom": {
     "fr": "Aloe Glow",
     "es": "Aloe Glow"
   },
   "pack.mg.aloe.desc": {
-    "fr": "Jus d'aloe vera à l'extrait de camomille, à diluer dans un verre d'eau chaque matin. Il existe en deux goûts : les deux sont dans le panier, tu gardes celui que tu préfères.",
-    "es": "Zumo de aloe vera con extracto de manzanilla, para diluir en un vaso de agua cada mañana. Hay dos sabores: los dos están en la cesta, te quedas con el que prefieras."
+    "fr": "Jus d'aloe vera à l'extrait de camomille, à diluer dans un verre d'eau chaque matin. Deux goûts, mangue ou mandarine : les deux sont dans le panier, tu gardes celui que tu préfères.",
+    "es": "Zumo de aloe vera con extracto de manzanilla, para diluir en un vaso de agua cada mañana. Dos sabores, mango o mandarina: los dos están en la cesta, te quedas con el que prefieras."
   },
   "pack.mg.hydro.nom": {
     "fr": "Hydro Drops",
@@ -1878,5 +1878,13 @@
   "pack.voir": {
     "fr": "Voir le pack",
     "es": "Ver el pack"
+  },
+  "pack.aloe_mangue": {
+    "fr": "Goût mangue",
+    "es": "Sabor mango"
+  },
+  "pack.aloe_mandarine": {
+    "fr": "Goût mandarine",
+    "es": "Sabor mandarina"
   }
 }
