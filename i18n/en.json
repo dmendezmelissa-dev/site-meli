@@ -2070,5 +2070,57 @@
   "pack.cg.wa": {
     "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20collag%C3%A8ne%20au%20chocolat.",
     "en": "Hi%20Meli!%20I%20have%20a%20question%20about%20the%20chocolate%20collagen."
+  },
+  "pack.mg.livraison": {
+    "fr": "Livraison offerte : au prix boutique, ce pack dépasse 125 €. Si tu es inscrite (91,70 €), + 7,50 € de livraison.",
+    "en": "Free delivery: at the shop price, this pack is over €125. If you're registered (€91.70), + €7.50 delivery."
+  },
+  "titre.kit_mo": {
+    "fr": "Kit Moringa · Meli",
+    "en": "Moringa Kit · Meli"
+  },
+  "kit.mo.pour": {
+    "fr": "Pour celle qui aime <span class='kw'>les parfums frais</span>",
+    "en": "For those who love <span class='kw'>fresh scents</span>"
+  },
+  "kit.mo.nom": {
+    "fr": "Kit Moringa",
+    "en": "Moringa Kit"
+  },
+  "kit.mo.desc": {
+    "fr": "Un petit duo frais et fleuri à la fleur de moringa : un savon pour se laver les mains en douceur, puis une crème pour les garder douces et hydratées. Une jolie attention à petit prix.",
+    "en": "A fresh, floral little duo with moringa flower: a soap to wash your hands gently, then a cream to keep them soft and moisturised. A lovely little gift at a small price."
+  },
+  "kit.mo.savon.alt": {
+    "fr": "Savon Moringa",
+    "en": "Moringa soap"
+  },
+  "kit.mo.savon.nom": {
+    "fr": "Savon",
+    "en": "Soap"
+  },
+  "kit.mo.savon.desc": {
+    "fr": "Un petit savon solide au parfum frais de fleur de moringa, pour se laver les mains en douceur. Facile à glisser dans un sac ou à offrir.",
+    "en": "A small bar of soap with a fresh moringa flower scent, to wash your hands gently. Easy to slip into a bag or to give."
+  },
+  "kit.mo.mains.alt": {
+    "fr": "Crème pour les mains Moringa et beurre de karité",
+    "en": "Moringa and shea butter hand cream"
+  },
+  "kit.mo.mains.nom": {
+    "fr": "Crème pour les mains",
+    "en": "Hand cream"
+  },
+  "kit.mo.mains.desc": {
+    "fr": "Au beurre de karité et à la glycérine, elle pénètre vite sans laisser de film gras : les mains sont douces, hydratées et protégées, avec un parfum frais de fleur de moringa.",
+    "en": "With shea butter and glycerin, it absorbs quickly without a greasy film: hands feel soft, moisturised and protected, with a fresh moringa flower scent."
+  },
+  "kit.mo.prix": {
+    "fr": "10,00 €",
+    "en": "€10.00"
+  },
+  "kit.mo.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Moringa%20en%20pochette%20cadeau.",
+    "en": "Hi%20Meli!%20I'd%20like%20the%20Moringa%20kit%20in%20a%20gift%20pouch."
   }
 }

@@ -2070,5 +2070,57 @@
   "pack.cg.wa": {
     "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20collag%C3%A8ne%20au%20chocolat.",
     "es": "%C2%A1Hola%20Meli!%20Tengo%20una%20pregunta%20sobre%20el%20col%C3%A1geno%20de%20chocolate."
+  },
+  "pack.mg.livraison": {
+    "fr": "Livraison offerte : au prix boutique, ce pack dépasse 125 €. Si tu es inscrite (91,70 €), + 7,50 € de livraison.",
+    "es": "Envío gratis: al precio de tienda, este pack supera los 125 €. Si estás inscrita (91,70 €), + 7,50 € de envío."
+  },
+  "titre.kit_mo": {
+    "fr": "Kit Moringa · Meli",
+    "es": "Kit Moringa · Meli"
+  },
+  "kit.mo.pour": {
+    "fr": "Pour celle qui aime <span class='kw'>les parfums frais</span>",
+    "es": "Para quien ama <span class='kw'>los perfumes frescos</span>"
+  },
+  "kit.mo.nom": {
+    "fr": "Kit Moringa",
+    "es": "Kit Moringa"
+  },
+  "kit.mo.desc": {
+    "fr": "Un petit duo frais et fleuri à la fleur de moringa : un savon pour se laver les mains en douceur, puis une crème pour les garder douces et hydratées. Une jolie attention à petit prix.",
+    "es": "Un pequeño dúo fresco y floral con flor de moringa: un jabón para lavarse las manos con suavidad y luego una crema para mantenerlas suaves e hidratadas. Un bonito detalle a pequeño precio."
+  },
+  "kit.mo.savon.alt": {
+    "fr": "Savon Moringa",
+    "es": "Jabón Moringa"
+  },
+  "kit.mo.savon.nom": {
+    "fr": "Savon",
+    "es": "Jabón"
+  },
+  "kit.mo.savon.desc": {
+    "fr": "Un petit savon solide au parfum frais de fleur de moringa, pour se laver les mains en douceur. Facile à glisser dans un sac ou à offrir.",
+    "es": "Un pequeño jabón sólido con un perfume fresco de flor de moringa, para lavarse las manos con suavidad. Fácil de llevar en el bolso o de regalar."
+  },
+  "kit.mo.mains.alt": {
+    "fr": "Crème pour les mains Moringa et beurre de karité",
+    "es": "Crema de manos Moringa y manteca de karité"
+  },
+  "kit.mo.mains.nom": {
+    "fr": "Crème pour les mains",
+    "es": "Crema de manos"
+  },
+  "kit.mo.mains.desc": {
+    "fr": "Au beurre de karité et à la glycérine, elle pénètre vite sans laisser de film gras : les mains sont douces, hydratées et protégées, avec un parfum frais de fleur de moringa.",
+    "es": "Con manteca de karité y glicerina, se absorbe rápido sin dejar sensación grasa: las manos quedan suaves, hidratadas y protegidas, con un perfume fresco de flor de moringa."
+  },
+  "kit.mo.prix": {
+    "fr": "10,00 €",
+    "es": "10,00 €"
+  },
+  "kit.mo.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Moringa%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quisiera%20el%20kit%20Moringa%20en%20bolsita%20de%20regalo."
   }
 }
