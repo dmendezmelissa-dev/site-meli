@@ -1099,20 +1099,11 @@ h1, h2, .encart-titre { text-wrap: balance; }
 .v-liste .kit-photos img.ens-mo { object-position: 22% center; }
 .kit-visuel-mo { width: min(380px, 92%); border-radius: 190px 190px 18px 18px / 150px 150px 18px 18px; box-shadow: 0 14px 30px rgba(60, 90, 50, .18); }
 
-/* ---------- Petits kits de Noël : déco (branches de sapin, pommes de pin, petits sapins) et paillettes ---------- */
+/* ---------- Petits kits de Noël : paillettes ---------- */
 .page-noel { position: relative; overflow: hidden; }
 .page-noel > .wrap { position: relative; z-index: 1; }
 .kits-page { position: relative; }
-.deco-noel { position: absolute; inset: 0 0 auto 0; height: 0; pointer-events: none; }
-.deco-branche { position: absolute; top: -40px; width: 180px; height: auto; }
-.deco-branche.g { left: -150px; transform: rotate(-6deg); }
-.deco-branche.d { right: -150px; transform: scaleX(-1) rotate(-6deg); }
-@media (max-width: 1100px) { .deco-branche.g { left: -40px; } .deco-branche.d { right: -40px; } .deco-branche { width: 150px; top: -46px; } }
-.badge-sapins { display: flex; align-items: flex-end; justify-content: center; gap: 12px; }
-.badge-sapins img { width: 30px; height: auto; }
-.badge-sapins img:last-child { width: 24px; }
-.badge-sapins .offre-badge { margin: 0 0 4px; }
-.paillettes { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
+@media (max-width: 1100px) { .paillettes { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
 .paillette {
   position: absolute; width: var(--t, 10px); height: var(--t, 10px); margin: calc(var(--t, 10px) / -2) 0 0 calc(var(--t, 10px) / -2);
   background: var(--c, #D9B98F);
@@ -1123,9 +1114,5 @@ h1, h2, .encart-titre { text-wrap: balance; }
 @keyframes scintille { 0%, 100% { opacity: 0; transform: scale(.35) rotate(0); } 50% { opacity: .9; transform: scale(1) rotate(45deg); } }
 @keyframes jaillit { from { opacity: 1; transform: translate(0, 0) scale(1) rotate(0); } to { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(.2) rotate(120deg); } }
 @media (max-width: 760px) {
-  .deco-branche { width: 120px; top: -30px; }
-  .deco-branche.g { left: -22px; }
-  .deco-branche.d { right: -22px; }
-}
-@media (max-width: 420px) { .deco-branche { width: 96px; top: -26px; } }
-@media (prefers-reduced-motion: reduce) { .paillette { animation: none; opacity: .5; } }
+      }
+@media (max-width: 420px) { @media (prefers-reduced-motion: reduce) { .paillette { animation: none; opacity: .5; } }
