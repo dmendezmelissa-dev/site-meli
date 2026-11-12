@@ -1772,8 +1772,8 @@
     "en": "Morning Glow pack · Meli"
   },
   "pack.mg.desc": {
-    "fr": "Ma routine du matin, en quatre gestes simples : de l'énergie, de l'hydratation et un petit coup d'éclat, avant même que la journée commence.",
-    "en": "My morning routine, in four simple steps: energy, hydration and a little glow, before the day even starts."
+    "fr": "Ma routine du matin, en cinq gestes simples : de l'énergie, de l'hydratation et un petit coup d'éclat, avant même que la journée commence.",
+    "en": "My morning routine, in five simple steps: energy, hydration and a little glow, before the day even starts."
   },
   "pack.completer": {
     "fr": "Pour compléter ce pack",
@@ -1808,16 +1808,16 @@
     "en": "I sometimes have some products in stock: message me to check."
   },
   "pack.mg.prix": {
-    "fr": "102,50 €",
-    "en": "€102.50"
+    "fr": "131,00 €",
+    "en": "€131.00"
   },
   "pack.mg.prix_fi": {
-    "fr": "71,75 €",
-    "en": "€71.75"
+    "fr": "91,70 €",
+    "en": "€91.70"
   },
   "pack.mg.eco": {
-    "fr": "Tu économises 30,75 €",
-    "en": "You save €30.75"
+    "fr": "Tu économises 39,30 €",
+    "en": "You save €39.30"
   },
   "pack.mg.opt_fi": {
     "fr": "38,50 € inscrite",
@@ -1894,5 +1894,17 @@
   "kit.sa.gamme_alt": {
     "fr": "La gamme Karité & Amande : crème de douche, crème pour les mains et gommage",
     "en": "The Shea & Almond range: shower cream, hand cream and body scrub"
+  },
+  "pack.mg.gummies.nom": {
+    "fr": "Apple Cider Gummies",
+    "en": "Apple Cider Gummies"
+  },
+  "pack.mg.gummies.dose": {
+    "fr": "2 par jour",
+    "en": "2 a day"
+  },
+  "pack.mg.gummies.desc": {
+    "fr": "Gommes saveur pomme verte au vinaigre de cidre de pomme et à l'inuline, avec de l'acide folique et de la vitamine B12, qui contribuent à réduire la fatigue. Vegan, sans sucres ajoutés.",
+    "en": "Green apple gummies with apple cider vinegar and inulin, plus folic acid and vitamin B12, which contribute to the reduction of tiredness. Vegan, no added sugar."
   }
 }

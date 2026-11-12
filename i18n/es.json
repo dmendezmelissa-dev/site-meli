@@ -1772,8 +1772,8 @@
     "es": "Pack Morning Glow · Meli"
   },
   "pack.mg.desc": {
-    "fr": "Ma routine du matin, en quatre gestes simples : de l'énergie, de l'hydratation et un petit coup d'éclat, avant même que la journée commence.",
-    "es": "Mi rutina de la mañana, en cuatro gestos sencillos: energía, hidratación y un toque de luminosidad, antes de que empiece el día."
+    "fr": "Ma routine du matin, en cinq gestes simples : de l'énergie, de l'hydratation et un petit coup d'éclat, avant même que la journée commence.",
+    "es": "Mi rutina de la mañana, en cinco gestos sencillos: energía, hidratación y un toque de luminosidad, antes de que empiece el día."
   },
   "pack.completer": {
     "fr": "Pour compléter ce pack",
@@ -1808,16 +1808,16 @@
     "es": "A veces tengo algunos productos en stock: escríbeme para comprobarlo."
   },
   "pack.mg.prix": {
-    "fr": "102,50 €",
-    "es": "102,50 €"
+    "fr": "131,00 €",
+    "es": "131,00 €"
   },
   "pack.mg.prix_fi": {
-    "fr": "71,75 €",
-    "es": "71,75 €"
+    "fr": "91,70 €",
+    "es": "91,70 €"
   },
   "pack.mg.eco": {
-    "fr": "Tu économises 30,75 €",
-    "es": "Ahorras 30,75 €"
+    "fr": "Tu économises 39,30 €",
+    "es": "Ahorras 39,30 €"
   },
   "pack.mg.opt_fi": {
     "fr": "38,50 € inscrite",
@@ -1894,5 +1894,17 @@
   "kit.sa.gamme_alt": {
     "fr": "La gamme Karité & Amande : crème de douche, crème pour les mains et gommage",
     "es": "La gama Karité y Almendra: crema de ducha, crema de manos y exfoliante"
+  },
+  "pack.mg.gummies.nom": {
+    "fr": "Apple Cider Gummies",
+    "es": "Apple Cider Gummies"
+  },
+  "pack.mg.gummies.dose": {
+    "fr": "2 par jour",
+    "es": "2 al día"
+  },
+  "pack.mg.gummies.desc": {
+    "fr": "Gommes saveur pomme verte au vinaigre de cidre de pomme et à l'inuline, avec de l'acide folique et de la vitamine B12, qui contribuent à réduire la fatigue. Vegan, sans sucres ajoutés.",
+    "es": "Gomitas sabor manzana verde con vinagre de sidra de manzana e inulina, con ácido fólico y vitamina B12, que contribuyen a disminuir el cansancio. Veganas, sin azúcares añadidos."
   }
 }
