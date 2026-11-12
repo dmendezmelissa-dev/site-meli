@@ -2226,5 +2226,57 @@
   "kits.l4_lien": {
     "fr": "Comment ça marche",
     "en": "How it works"
+  },
+  "titre.kit_pa": {
+    "fr": "Kit Paprika · Meli",
+    "en": "Paprika Kit · Meli"
+  },
+  "kit.pa.pour": {
+    "fr": "Pour offrir <span class='kw'>un vrai moment de détente</span>",
+    "en": "To give <span class='kw'>a real moment of relaxation</span>"
+  },
+  "kit.pa.nom": {
+    "fr": "Kit Paprika",
+    "en": "Paprika Kit"
+  },
+  "kit.pa.gamme_alt": {
+    "fr": "Le kit Paprika : gel de massage et savon de massage Dr. C. Tuna",
+    "en": "The Paprika kit: Dr. C. Tuna massage gel and massage soap"
+  },
+  "kit.pa.desc": {
+    "fr": "Le duo massage de Dr. C. Tuna : un savon à picots pour se masser sous la douche, puis un gel au paprika et au piment pour un massage frais et revigorant. Une jolie idée de cadeau, pour elle comme pour lui.",
+    "en": "The Dr. C. Tuna massage duo: a soap with massaging nodules to use in the shower, then a paprika and chilli gel for a fresh, invigorating massage. A lovely gift idea, for her or for him."
+  },
+  "kit.pa.gel.alt": {
+    "fr": "Gel de massage Paprika et piment Dr. C. Tuna",
+    "en": "Dr. C. Tuna Paprika and chilli massage gel"
+  },
+  "kit.pa.gel.nom": {
+    "fr": "Gel de massage Paprika et piment",
+    "en": "Paprika and chilli massage gel"
+  },
+  "kit.pa.gel.desc": {
+    "fr": "Au poivron rouge, au gingembre, à l'ortie, au menthol et aux huiles essentielles, il apporte une sensation de fraîcheur pour détendre et revigorer le corps après une longue journée. Convient à tous les types de massage.",
+    "en": "With red pepper, ginger, nettle, menthol and essential oils, it brings a cooling sensation to relax and refresh the body after a long day. Suitable for all types of massage."
+  },
+  "kit.pa.savon.alt": {
+    "fr": "Savon de massage Paprika Dr. C. Tuna",
+    "en": "Dr. C. Tuna Paprika massage soap"
+  },
+  "kit.pa.savon.nom": {
+    "fr": "Savon de massage Paprika",
+    "en": "Paprika massage soap"
+  },
+  "kit.pa.savon.desc": {
+    "fr": "Un savon à picots pour masser sous la douche, avec de fines particules de noyau d'abricot qui exfolient en douceur. Menthe, camphre et menthol pour un effet frais et énergisant, et une note de paprika légèrement épicée.",
+    "en": "A soap with massaging nodules for the shower, with fine apricot kernel particles that gently exfoliate. Mint, camphor and menthol for a fresh, energising feel, and a lightly spicy note of paprika."
+  },
+  "kit.pa.prix": {
+    "fr": "14,50 €",
+    "en": "€14.50"
+  },
+  "kit.pa.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Paprika%20en%20pochette%20cadeau.",
+    "en": "Hi%20Meli!%20I'd%20like%20the%20Paprika%20kit%20in%20a%20gift%20pouch."
   }
 }

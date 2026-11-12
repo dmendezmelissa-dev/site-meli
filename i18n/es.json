@@ -2226,5 +2226,57 @@
   "kits.l4_lien": {
     "fr": "Comment ça marche",
     "es": "Cómo funciona"
+  },
+  "titre.kit_pa": {
+    "fr": "Kit Paprika · Meli",
+    "es": "Kit Paprika · Meli"
+  },
+  "kit.pa.pour": {
+    "fr": "Pour offrir <span class='kw'>un vrai moment de détente</span>",
+    "es": "Para regalar <span class='kw'>un verdadero momento de relax</span>"
+  },
+  "kit.pa.nom": {
+    "fr": "Kit Paprika",
+    "es": "Kit Paprika"
+  },
+  "kit.pa.gamme_alt": {
+    "fr": "Le kit Paprika : gel de massage et savon de massage Dr. C. Tuna",
+    "es": "El kit Paprika: gel de masaje y jabón de masaje Dr. C. Tuna"
+  },
+  "kit.pa.desc": {
+    "fr": "Le duo massage de Dr. C. Tuna : un savon à picots pour se masser sous la douche, puis un gel au paprika et au piment pour un massage frais et revigorant. Une jolie idée de cadeau, pour elle comme pour lui.",
+    "es": "El dúo de masaje de Dr. C. Tuna: un jabón con relieves para masajearse en la ducha y luego un gel de pimentón y chile para un masaje fresco y revitalizante. Una bonita idea de regalo, para ella o para él."
+  },
+  "kit.pa.gel.alt": {
+    "fr": "Gel de massage Paprika et piment Dr. C. Tuna",
+    "es": "Gel de masaje Pimentón y chile Dr. C. Tuna"
+  },
+  "kit.pa.gel.nom": {
+    "fr": "Gel de massage Paprika et piment",
+    "es": "Gel de masaje Pimentón y chile"
+  },
+  "kit.pa.gel.desc": {
+    "fr": "Au poivron rouge, au gingembre, à l'ortie, au menthol et aux huiles essentielles, il apporte une sensation de fraîcheur pour détendre et revigorer le corps après une longue journée. Convient à tous les types de massage.",
+    "es": "Con pimiento rojo, jengibre, ortiga, mentol y aceites esenciales, aporta una sensación de frescor para relajar y revitalizar el cuerpo después de un largo día. Apto para todo tipo de masaje."
+  },
+  "kit.pa.savon.alt": {
+    "fr": "Savon de massage Paprika Dr. C. Tuna",
+    "es": "Jabón de masaje Paprika Dr. C. Tuna"
+  },
+  "kit.pa.savon.nom": {
+    "fr": "Savon de massage Paprika",
+    "es": "Jabón de masaje Paprika"
+  },
+  "kit.pa.savon.desc": {
+    "fr": "Un savon à picots pour masser sous la douche, avec de fines particules de noyau d'abricot qui exfolient en douceur. Menthe, camphre et menthol pour un effet frais et énergisant, et une note de paprika légèrement épicée.",
+    "es": "Un jabón con relieves para masajear en la ducha, con finas partículas de hueso de albaricoque que exfolian con suavidad. Menta, alcanfor y mentol para un efecto fresco y energizante, y una nota de pimentón ligeramente especiada."
+  },
+  "kit.pa.prix": {
+    "fr": "14,50 €",
+    "es": "14,50 €"
+  },
+  "kit.pa.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Paprika%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quisiera%20el%20kit%20Paprika%20en%20bolsita%20de%20regalo."
   }
 }

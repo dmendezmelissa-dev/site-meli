@@ -1124,3 +1124,4 @@ h1, h2, .encart-titre { text-wrap: balance; }
 @media (max-width: 1180px) { .deco-coin { width: 150px; top: -40px; } .deco-coin.g { left: -60px; } .deco-coin.d { right: -60px; } }
 @media (max-width: 760px) { .deco-coin { width: 100px; top: -34px; } .deco-coin.g { left: -26px; } .deco-coin.d { right: -26px; } }
 @media (max-width: 400px) { .deco-coin { width: 86px; } }
+.kit-visuel-pa { box-shadow: 0 14px 30px rgba(120, 60, 40, .18); }
