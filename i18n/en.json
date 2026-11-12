@@ -1735,10 +1735,6 @@
     "fr": "Au beurre de karité, elle hydrate en profondeur et laisse les mains douces et nourries, avec un parfum gourmand de macaron à la pistache.",
     "en": "With shea butter, it deeply moisturises and leaves hands soft and nourished, with a sweet pistachio macaron scent."
   },
-  "packs.nutrition_bientot": {
-    "fr": "<b>Mes packs nutrition arrivent très bientôt.</b> Le premier : Morning Glow, pour bien démarrer la journée.",
-    "en": "<b>My nutrition packs are coming very soon.</b> The first one: Morning Glow, to start the day right."
-  },
   "packs.routine.titre": {
     "fr": "Une routine qui dure ? <span class=\"kw\">Inscris-toi</span>",
     "en": "A routine that lasts? <span class=\"kw\">Sign up</span>"
@@ -1762,5 +1758,125 @@
   "packs.texte2": {
     "fr": "On peut aussi parler ensemble de tes besoins et de tes envies pour créer ton propre pack. Et bien sûr, chaque produit peut aussi s'acheter séparément.",
     "en": "We can also talk about your needs and wishes to create your own pack. And of course, each product can also be bought separately."
+  },
+  "pack.mg.pour": {
+    "fr": "Pour bien <span class='kw'>démarrer la journée</span>",
+    "en": "To <span class='kw'>start the day</span> right"
+  },
+  "pack.mg.nom": {
+    "fr": "Morning Glow",
+    "en": "Morning Glow"
+  },
+  "titre.pack_mg": {
+    "fr": "Pack Morning Glow · Meli",
+    "en": "Morning Glow pack · Meli"
+  },
+  "pack.mg.desc": {
+    "fr": "Ma routine du matin, en quatre gestes simples : de l'énergie, de l'hydratation et un petit coup d'éclat, avant même que la journée commence.",
+    "en": "My morning routine, in four simple steps: energy, hydration and a little glow, before the day even starts."
+  },
+  "pack.completer": {
+    "fr": "Pour compléter ce pack",
+    "en": "To complete this pack"
+  },
+  "pack.panier_note": {
+    "fr": "Dans le panier, tu trouveras les deux goûts d'Aloe Glow et les Beauty Shot Collagen : garde ce qui te plaît, retire le reste en un clic.",
+    "en": "In the basket you'll find both Aloe Glow flavours and the Beauty Shot Collagen: keep what you like and remove the rest in one click."
+  },
+  "pack.total": {
+    "fr": "Total du pack",
+    "en": "Pack total"
+  },
+  "pack.livraison": {
+    "fr": "+ 7,50 € de livraison, offerte dès 125 €",
+    "en": "+ €7.50 delivery, free from €125"
+  },
+  "pack.ouvrir": {
+    "fr": "Ouvrir mon panier",
+    "en": "Open my basket"
+  },
+  "pack.question": {
+    "fr": "Une question ? Écris-moi",
+    "en": "A question? Message me"
+  },
+  "pack.mg.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20pack%20Morning%20Glow.",
+    "en": "Hi%20Meli!%20I%20have%20a%20question%20about%20the%20Morning%20Glow%20pack."
+  },
+  "pack.stock": {
+    "fr": "Certains produits sont parfois en stock chez moi : écris-moi pour vérifier.",
+    "en": "I sometimes have some products in stock: message me to check."
+  },
+  "pack.mg.prix": {
+    "fr": "102,50 €",
+    "en": "€102.50"
+  },
+  "pack.mg.prix_fi": {
+    "fr": "71,75 €",
+    "en": "€71.75"
+  },
+  "pack.mg.eco": {
+    "fr": "Tu économises 30,75 €",
+    "en": "You save €30.75"
+  },
+  "pack.mg.opt_fi": {
+    "fr": "38,50 € inscrite",
+    "en": "€38.50 as a member"
+  },
+  "prix.inscrite_court": {
+    "fr": "inscrite",
+    "en": "as a member"
+  },
+  "pack.mg.recharge.nom": {
+    "fr": "Recharge",
+    "en": "Recharge"
+  },
+  "pack.mg.recharge.desc": {
+    "fr": "Boisson énergie saveur ananas et citron, au guarana, à la taurine et aux vitamines. Les vitamines C et B12 contribuent à réduire la fatigue.",
+    "en": "Pineapple and lemon energy drink with guarana, taurine and vitamins. Vitamins C and B12 contribute to the reduction of tiredness and fatigue."
+  },
+  "pack.tag_choix": {
+    "fr": "2 goûts au choix",
+    "en": "2 flavours to choose from"
+  },
+  "pack.mg.aloe.nom": {
+    "fr": "Aloe Glow",
+    "en": "Aloe Glow"
+  },
+  "pack.mg.aloe.desc": {
+    "fr": "Jus d'aloe vera à l'extrait de camomille, à diluer dans un verre d'eau chaque matin. Il existe en deux goûts : les deux sont dans le panier, tu gardes celui que tu préfères.",
+    "en": "Aloe vera juice with chamomile extract, to dilute in a glass of water every morning. It comes in two flavours: both are in the basket, keep the one you prefer."
+  },
+  "pack.mg.hydro.nom": {
+    "fr": "Hydro Drops",
+    "en": "Hydro Drops"
+  },
+  "pack.mg.hydro.desc": {
+    "fr": "Gouttes à l'acide hyaluronique et à la vitamine C, avec un extrait d'orange amère. La vitamine C contribue à la formation normale du collagène pour assurer la fonction normale de la peau.",
+    "en": "Drops with hyaluronic acid and vitamin C, plus bitter orange extract. Vitamin C contributes to normal collagen formation for the normal function of the skin."
+  },
+  "pack.mg.carnitine.nom": {
+    "fr": "L-Carnitine pomme pêche",
+    "en": "L-Carnitine apple & peach"
+  },
+  "pack.mg.carnitine.desc": {
+    "fr": "Boisson à la L-carnitine et à l'extrait de thé vert, avec de la vitamine B6, qui contribue à un métabolisme énergétique normal. 30 ml par jour.",
+    "en": "Drink with L-carnitine and green tea extract, plus vitamin B6, which contributes to normal energy-yielding metabolism. 30 ml a day."
+  },
+  "pack.tag_option": {
+    "fr": "En option",
+    "en": "Optional"
+  },
+  "pack.mg.collagene.nom": {
+    "fr": "Beauty Shot Collagen",
+    "en": "Beauty Shot Collagen"
+  },
+  "pack.mg.collagene.desc": {
+    "fr": "Collagène hydrolysé, acide hyaluronique, coenzyme Q10, vitamines et biotine, en petites fioles prêtes à boire. La biotine contribue au maintien d'une peau et de cheveux normaux. Moi, j'utilise la version en poudre : à toi de voir ce qui te convient.",
+    "en": "Hydrolysed collagen, hyaluronic acid, coenzyme Q10, vitamins and biotin, in small ready-to-drink vials. Biotin contributes to the maintenance of normal skin and hair. I use the powder version myself: see what suits you best."
+  },
+  "pack.voir": {
+    "fr": "Voir le pack",
+    "en": "See the pack"
   }
 }

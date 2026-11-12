@@ -1735,10 +1735,6 @@
     "fr": "Au beurre de karité, elle hydrate en profondeur et laisse les mains douces et nourries, avec un parfum gourmand de macaron à la pistache.",
     "es": "Con manteca de karité, hidrata en profundidad y deja las manos suaves y nutridas, con un aroma goloso a macaron de pistacho."
   },
-  "packs.nutrition_bientot": {
-    "fr": "<b>Mes packs nutrition arrivent très bientôt.</b> Le premier : Morning Glow, pour bien démarrer la journée.",
-    "es": "<b>Mis packs de nutrición llegan muy pronto.</b> El primero: Morning Glow, para empezar bien el día."
-  },
   "packs.routine.titre": {
     "fr": "Une routine qui dure ? <span class=\"kw\">Inscris-toi</span>",
     "es": "¿Una rutina que dure? <span class=\"kw\">Inscríbete</span>"
@@ -1762,5 +1758,125 @@
   "packs.texte2": {
     "fr": "On peut aussi parler ensemble de tes besoins et de tes envies pour créer ton propre pack. Et bien sûr, chaque produit peut aussi s'acheter séparément.",
     "es": "También podemos hablar de tus necesidades y tus gustos para crear tu propio pack. Y, por supuesto, cada producto también se puede comprar por separado."
+  },
+  "pack.mg.pour": {
+    "fr": "Pour bien <span class='kw'>démarrer la journée</span>",
+    "es": "Para <span class='kw'>empezar bien el día</span>"
+  },
+  "pack.mg.nom": {
+    "fr": "Morning Glow",
+    "es": "Morning Glow"
+  },
+  "titre.pack_mg": {
+    "fr": "Pack Morning Glow · Meli",
+    "es": "Pack Morning Glow · Meli"
+  },
+  "pack.mg.desc": {
+    "fr": "Ma routine du matin, en quatre gestes simples : de l'énergie, de l'hydratation et un petit coup d'éclat, avant même que la journée commence.",
+    "es": "Mi rutina de la mañana, en cuatro gestos sencillos: energía, hidratación y un toque de luminosidad, antes de que empiece el día."
+  },
+  "pack.completer": {
+    "fr": "Pour compléter ce pack",
+    "es": "Para completar este pack"
+  },
+  "pack.panier_note": {
+    "fr": "Dans le panier, tu trouveras les deux goûts d'Aloe Glow et les Beauty Shot Collagen : garde ce qui te plaît, retire le reste en un clic.",
+    "es": "En la cesta encontrarás los dos sabores de Aloe Glow y los Beauty Shot Collagen: quédate con lo que te guste y quita el resto con un clic."
+  },
+  "pack.total": {
+    "fr": "Total du pack",
+    "es": "Total del pack"
+  },
+  "pack.livraison": {
+    "fr": "+ 7,50 € de livraison, offerte dès 125 €",
+    "es": "+ 7,50 € de envío, gratis a partir de 125 €"
+  },
+  "pack.ouvrir": {
+    "fr": "Ouvrir mon panier",
+    "es": "Abrir mi cesta"
+  },
+  "pack.question": {
+    "fr": "Une question ? Écris-moi",
+    "es": "¿Una pregunta? Escríbeme"
+  },
+  "pack.mg.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20pack%20Morning%20Glow.",
+    "es": "%C2%A1Hola%20Meli!%20Tengo%20una%20pregunta%20sobre%20el%20pack%20Morning%20Glow."
+  },
+  "pack.stock": {
+    "fr": "Certains produits sont parfois en stock chez moi : écris-moi pour vérifier.",
+    "es": "A veces tengo algunos productos en stock: escríbeme para comprobarlo."
+  },
+  "pack.mg.prix": {
+    "fr": "102,50 €",
+    "es": "102,50 €"
+  },
+  "pack.mg.prix_fi": {
+    "fr": "71,75 €",
+    "es": "71,75 €"
+  },
+  "pack.mg.eco": {
+    "fr": "Tu économises 30,75 €",
+    "es": "Ahorras 30,75 €"
+  },
+  "pack.mg.opt_fi": {
+    "fr": "38,50 € inscrite",
+    "es": "38,50 € inscrita"
+  },
+  "prix.inscrite_court": {
+    "fr": "inscrite",
+    "es": "inscrita"
+  },
+  "pack.mg.recharge.nom": {
+    "fr": "Recharge",
+    "es": "Recharge"
+  },
+  "pack.mg.recharge.desc": {
+    "fr": "Boisson énergie saveur ananas et citron, au guarana, à la taurine et aux vitamines. Les vitamines C et B12 contribuent à réduire la fatigue.",
+    "es": "Bebida energética sabor piña y limón, con guaraná, taurina y vitaminas. Las vitaminas C y B12 contribuyen a disminuir el cansancio y la fatiga."
+  },
+  "pack.tag_choix": {
+    "fr": "2 goûts au choix",
+    "es": "2 sabores a elegir"
+  },
+  "pack.mg.aloe.nom": {
+    "fr": "Aloe Glow",
+    "es": "Aloe Glow"
+  },
+  "pack.mg.aloe.desc": {
+    "fr": "Jus d'aloe vera à l'extrait de camomille, à diluer dans un verre d'eau chaque matin. Il existe en deux goûts : les deux sont dans le panier, tu gardes celui que tu préfères.",
+    "es": "Zumo de aloe vera con extracto de manzanilla, para diluir en un vaso de agua cada mañana. Hay dos sabores: los dos están en la cesta, te quedas con el que prefieras."
+  },
+  "pack.mg.hydro.nom": {
+    "fr": "Hydro Drops",
+    "es": "Hydro Drops"
+  },
+  "pack.mg.hydro.desc": {
+    "fr": "Gouttes à l'acide hyaluronique et à la vitamine C, avec un extrait d'orange amère. La vitamine C contribue à la formation normale du collagène pour assurer la fonction normale de la peau.",
+    "es": "Gotas con ácido hialurónico y vitamina C, con extracto de naranja amarga. La vitamina C contribuye a la formación normal de colágeno para el funcionamiento normal de la piel."
+  },
+  "pack.mg.carnitine.nom": {
+    "fr": "L-Carnitine pomme pêche",
+    "es": "L-Carnitina manzana y melocotón"
+  },
+  "pack.mg.carnitine.desc": {
+    "fr": "Boisson à la L-carnitine et à l'extrait de thé vert, avec de la vitamine B6, qui contribue à un métabolisme énergétique normal. 30 ml par jour.",
+    "es": "Bebida con L-carnitina y extracto de té verde, con vitamina B6, que contribuye al metabolismo energético normal. 30 ml al día."
+  },
+  "pack.tag_option": {
+    "fr": "En option",
+    "es": "Opcional"
+  },
+  "pack.mg.collagene.nom": {
+    "fr": "Beauty Shot Collagen",
+    "es": "Beauty Shot Collagen"
+  },
+  "pack.mg.collagene.desc": {
+    "fr": "Collagène hydrolysé, acide hyaluronique, coenzyme Q10, vitamines et biotine, en petites fioles prêtes à boire. La biotine contribue au maintien d'une peau et de cheveux normaux. Moi, j'utilise la version en poudre : à toi de voir ce qui te convient.",
+    "es": "Colágeno hidrolizado, ácido hialurónico, coenzima Q10, vitaminas y biotina, en pequeños viales listos para beber. La biotina contribuye al mantenimiento de la piel y el cabello normales. Yo uso la versión en polvo: tú decides lo que más te conviene."
+  },
+  "pack.voir": {
+    "fr": "Voir le pack",
+    "es": "Ver el pack"
   }
 }
