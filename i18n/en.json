@@ -1740,8 +1740,8 @@
     "en": "A routine that lasts? <span class=\"kw\">Sign up</span>"
   },
   "packs.routine.texte": {
-    "fr": "Si tu veux faire de tes compléments une vraie habitude, au quotidien, t'inscrire devient vite intéressant : tu profites de 30 % de réduction sur tous les produits, à chaque commande. Écris-moi, je t'explique tout simplement.",
-    "en": "If you want your supplements to become a real daily habit, signing up quickly pays off: you get 30% off all products, on every order. Message me and I'll explain everything simply."
+    "fr": "Si tu veux faire de tes compléments une vraie habitude, au quotidien, t'inscrire devient vite intéressant : tu profites de 30 % de réduction sur tous les produits, à chaque commande. Écris-moi, je t'explique tout simplement. Et tu peux t'inscrire depuis n'importe quel pays.",
+    "en": "If you want your supplements to become a real daily habit, signing up quickly pays off: you get 30% off all products, on every order. Message me and I'll explain everything simply. And you can sign up from any country."
   },
   "packs.routine.wa": {
     "fr": "Bonjour%20Meli%20!%20J'aimerais%20en%20savoir%20plus%20sur%20l'inscription%20pour%20avoir%2030%20%25%20de%20r%C3%A9duction.",
@@ -2326,5 +2326,17 @@
   "kit.ge.maison_texte": {
     "fr": "Écris-moi, je t'envoie le lien de ton panier dans ma boutique en ligne : tu valides, et tu le reçois chez toi.",
     "en": "Message me and I'll send you your basket link for my online shop: you confirm, and it's delivered to your home."
+  },
+  "pays.prix": {
+    "fr": "Tu n'habites pas en France ? Les prix affichés ici sont les prix français. Une fois sur ma boutique en ligne, change le pays pour voir les prix et la livraison de chez toi.",
+    "en": "Not living in France? The prices shown here are French prices. Once you're in my online shop, change the country to see the prices and delivery for where you live."
+  },
+  "faq.e7.q": {
+    "fr": "Je n'habite pas en France, je peux m'inscrire ?",
+    "en": "I don't live in France, can I sign up?"
+  },
+  "faq.e7.r": {
+    "fr": "Oui ! Tu peux t'inscrire depuis n'importe quel pays, et je t'accompagne à distance. Pour voir les prix de ton pays, il suffit de le changer une fois sur ma boutique en ligne.",
+    "en": "Yes! You can sign up from any country, and I'll support you remotely. To see the prices in your country, just change it once you're in my online shop."
   }
 }
