@@ -4,8 +4,8 @@
     "en": "Meli · Fitness, wellbeing and beauty"
   },
   "meta.description": {
-    "fr": "Maman de deux enfants, passionnée de sport et de bien-être, je t'aide à retrouver la forme à ton rythme. 1er bilan gratuit, mes packs favoris et une équipe pour avancer ensemble.",
-    "en": "Mum of two with a passion for fitness and wellbeing, I help you get back in shape at your own pace. Free first check-in, my favourite packs and a team to grow with."
+    "fr": "Maman de deux enfants, passionnée de sport et de bien-être, je t'aide à retrouver la forme à ton rythme. 1er bilan gratuit, mes produits favoris et une équipe pour avancer ensemble.",
+    "en": "Mum of two with a passion for fitness and wellbeing, I help you get back in shape at your own pace. Free first check-in, my favourite products and a team to grow with."
   },
   "menu.ouvrir": {
     "fr": "Ouvrir le menu",
@@ -28,8 +28,8 @@
     "en": "Coaching"
   },
   "menu.packs": {
-    "fr": "Packs",
-    "en": "Packs"
+    "fr": "Mes produits",
+    "en": "My products"
   },
   "cat.nutrition": {
     "fr": "Nutrition",
@@ -76,8 +76,8 @@
     "en": "Book my free check-in"
   },
   "accueil.voir_packs": {
-    "fr": "Voir mes packs",
-    "en": "See my packs"
+    "fr": "Voir mes produits",
+    "en": "See my products"
   },
   "todo.photo": {
     "fr": "TA PHOTO ICI",
@@ -136,8 +136,8 @@
     "en": "Discover"
   },
   "raccourcis.3.titre": {
-    "fr": "Mes packs",
-    "en": "My packs"
+    "fr": "Mes produits",
+    "en": "My products"
   },
   "raccourcis.3.texte": {
     "fr": "Nutrition, maquillage, cheveux, visage.",
@@ -332,20 +332,20 @@
     "en": "First get the green light from your doctor or midwife to start exercising again, and check with them whether you need pelvic floor or abdominal rehabilitation. Then we'll go gently, at your own pace."
   },
   "titre.packs": {
-    "fr": "Mes packs · Meli",
-    "en": "My packs · Meli"
+    "fr": "Mes produits · Meli",
+    "en": "My products · Meli"
   },
   "packs.surtitre": {
-    "fr": "Mes packs",
-    "en": "My packs"
+    "fr": "Mes produits",
+    "en": "My products"
   },
   "packs.titre": {
-    "fr": "Des packs <span class=\"kw\">pensés pour toi</span>",
-    "en": "Packs <span class=\"kw\">designed for you</span>"
+    "fr": "Packs et produits <span class=\"kw\">pensés pour toi</span>",
+    "en": "Packs and products <span class=\"kw\">designed for you</span>"
   },
   "packs.texte": {
-    "fr": "Il y a ceux de ma propre routine, et ceux que je compose selon les envies et les besoins. Chaque pack réunit des produits qui vont bien ensemble : tu vois le détail de chacun, et en un clic ton panier s'ouvre déjà rempli dans ma boutique.",
-    "en": "Some come from my own routine, others I put together for different wishes and needs. Each pack brings together products that work well together: you can see the details of each one, and in one click your basket opens already filled in my shop."
+    "fr": "Il y a les packs de ma propre routine, ceux que je compose selon les envies et les besoins, et les produits que je prends au quotidien. Chaque pack réunit des produits qui vont bien ensemble : tu vois le détail de chacun, et en un clic ton panier s'ouvre déjà rempli dans ma boutique.",
+    "en": "There are the packs from my own routine, the ones I put together for different wishes and needs, and the products I take every day. Each pack brings together products that work well together: you can see the details of each one, and in one click your basket opens already filled in my shop."
   },
   "todo.photo_pack": {
     "fr": "PHOTO DU PACK",
@@ -916,12 +916,12 @@
     "en": "Who would you give it to?"
   },
   "offres.vide": {
-    "fr": "Pas d'offre spéciale en ce moment. Reviens bientôt, ou découvre mes packs en attendant.",
-    "en": "No special offer right now. Come back soon, or browse my packs in the meantime."
+    "fr": "Pas d'offre spéciale en ce moment. Reviens bientôt, ou découvre mes produits en attendant.",
+    "en": "No special offer right now. Come back soon, or browse my products in the meantime."
   },
   "offres.vide_lien": {
-    "fr": "Voir mes packs",
-    "en": "See my packs"
+    "fr": "Voir mes produits",
+    "en": "See my products"
   },
   "bandeau.avent": {
     "fr": "<b>Noël :</b> le calendrier de l'Avent et 5 coffrets prêts à offrir",
@@ -972,8 +972,8 @@
     "en": "Christmas gift sets · Meli"
   },
   "offres.terminee": {
-    "fr": "Cette offre est terminée. Découvre les offres en cours, ou mes packs.",
-    "en": "This offer has ended. Take a look at the current offers, or my packs."
+    "fr": "Cette offre est terminée. Découvre les offres en cours, ou mes produits.",
+    "en": "This offer has ended. Take a look at the current offers, or my products."
   },
   "offres.voir": {
     "fr": "Voir les offres",
@@ -1918,5 +1918,113 @@
   "kit.pi.note_photo": {
     "fr": "Sur la photo, le beurre corporel Pistache n'est pas encore disponible en France : il ne fait pas partie du kit.",
     "en": "In the photo, the Pistachio body butter isn't available in France yet: it isn't part of the kit."
+  },
+  "pack.cr.alt": {
+    "fr": "La Créatine Nutriplus et un shaker dans un casier rose",
+    "en": "Nutriplus Creatine and a shaker in a pink locker"
+  },
+  "pack.cr.desc": {
+    "fr": "Un produit que je prends moi aussi, après mes séances de sport : une dose sans goût, dans un verre d'eau ou dans ta boisson préférée.",
+    "en": "A product I take myself, after my workouts: one unflavoured scoop, in a glass of water or your favourite drink."
+  },
+  "pack.cr.eco": {
+    "fr": "Tu économises 6,30 €",
+    "en": "You save €6.30"
+  },
+  "pack.cr.nom": {
+    "fr": "Créatine",
+    "en": "Creatine"
+  },
+  "pack.cr.pdesc": {
+    "fr": "Créatine monohydrate sans goût, avec de la vitamine B6. La créatine augmente la performance physique lors d'exercices brefs, intenses et répétés (avec 3 g par jour). La vitamine B6 contribue à réduire la fatigue. Une dose de 3 g dans 100 ml d'eau, après l'entraînement.",
+    "en": "Unflavoured creatine monohydrate with vitamin B6. Creatine increases physical performance in successive bursts of short-term, high-intensity exercise (with 3 g a day). Vitamin B6 contributes to the reduction of tiredness. One 3 g scoop in 100 ml of water, after training."
+  },
+  "pack.cr.pour": {
+    "fr": "Pour accompagner <span class='kw'>mes séances de sport</span>",
+    "en": "To support <span class='kw'>my workouts</span>"
+  },
+  "pack.cr.prix": {
+    "fr": "21,00 €",
+    "en": "€21.00"
+  },
+  "pack.cr.prix_fi": {
+    "fr": "14,70 €",
+    "en": "€14.70"
+  },
+  "pack.cr.taille": {
+    "fr": "150&nbsp;g · 50 doses",
+    "en": "150&nbsp;g · 50 servings"
+  },
+  "pack.cr.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20la%20cr%C3%A9atine.",
+    "en": "Hi%20Meli!%20I%20have%20a%20question%20about%20the%20creatine."
+  },
+  "pack.rs.alt": {
+    "fr": "Le Restore Nutriplus et son shaker",
+    "en": "Nutriplus Restore and its shaker"
+  },
+  "pack.rs.desc": {
+    "fr": "Mon rituel de tous les soirs, en fin de journée : un grand verre au goût citron et mangue, pour souffler un peu avant la nuit.",
+    "en": "My evening ritual, every day at the end of the day: a big glass with a lemon and mango taste, to unwind a little before the night."
+  },
+  "pack.rs.eco": {
+    "fr": "Tu économises 12,00 €",
+    "en": "You save €12.00"
+  },
+  "pack.rs.nom": {
+    "fr": "Restore",
+    "en": "Restore"
+  },
+  "pack.rs.pdesc": {
+    "fr": "Boisson saveur citron et mangue, au magnésium, calcium, zinc, sélénium et à la vitamine D. Le magnésium contribue à réduire la fatigue et au fonctionnement normal du système nerveux, le zinc au maintien d'une peau normale. 2 doses (8 g) dans 250 ml d'eau. Vegan, sans sucres ajoutés.",
+    "en": "Lemon and mango flavoured drink with magnesium, calcium, zinc, selenium and vitamin D. Magnesium contributes to the reduction of tiredness and to the normal functioning of the nervous system, zinc to the maintenance of normal skin. 2 scoops (8 g) in 250 ml of water. Vegan, no added sugar."
+  },
+  "pack.rs.pour": {
+    "fr": "Pour <span class='kw'>finir la journée</span> en douceur",
+    "en": "To <span class='kw'>end the day</span> gently"
+  },
+  "pack.rs.prix": {
+    "fr": "40,00 €",
+    "en": "€40.00"
+  },
+  "pack.rs.prix_fi": {
+    "fr": "28,00 €",
+    "en": "€28.00"
+  },
+  "pack.rs.taille": {
+    "fr": "8&nbsp;g par jour",
+    "en": "8&nbsp;g a day"
+  },
+  "pack.rs.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20Restore.",
+    "en": "Hi%20Meli!%20I%20have%20a%20question%20about%20Restore."
+  },
+  "produit.commander": {
+    "fr": "Commander dans ma boutique",
+    "en": "Order in my shop"
+  },
+  "produit.livraison": {
+    "fr": "+ 7,50 € de livraison, offerte dès 125 € de commande",
+    "en": "+ €7.50 delivery, free from €125 per order"
+  },
+  "produit.prix": {
+    "fr": "Le prix",
+    "en": "The price"
+  },
+  "produit.seul": {
+    "fr": "Produit seul",
+    "en": "Single product"
+  },
+  "produit.voir": {
+    "fr": "Voir le produit",
+    "en": "See the product"
+  },
+  "titre.pack_cr": {
+    "fr": "Créatine · Meli",
+    "en": "Creatine · Meli"
+  },
+  "titre.pack_rs": {
+    "fr": "Restore · Meli",
+    "en": "Restore · Meli"
   }
 }

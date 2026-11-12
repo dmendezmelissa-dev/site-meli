@@ -1085,3 +1085,11 @@ h1, h2, .encart-titre { text-wrap: balance; }
 .kit-visuel-mg { box-shadow: 0 14px 30px rgba(90, 60, 90, .18); }
 .kit-visuel-pi { box-shadow: 0 14px 30px rgba(70, 90, 60, .18); }
 .kit-photo-note { max-width: 420px; margin: -6px auto 14px; font-style: italic; }
+
+/* Lignes avec une seule photo d'ensemble : la colonne photo prend juste la largeur de l'arche, le titre se rapproche */
+.v-liste .kit-carte:has(.kit-photos img:only-child) { grid-template-columns: 78px minmax(0, 1fr) auto 36px; gap: 4px 22px; }
+@media (max-width: 560px) { .v-liste .kit-carte:has(.kit-photos img:only-child) { grid-template-columns: 66px minmax(0, 1fr) 30px; gap: 2px 16px; } }
+@media (min-width: 561px) {
+  .v-liste .kit-carte:has(.kit-photos img:only-child) .corps h3 { align-self: end; }
+  .v-liste .kit-carte:has(.kit-photos img:only-child) .corps .pour { align-self: start; }
+}

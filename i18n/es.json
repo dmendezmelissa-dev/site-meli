@@ -4,8 +4,8 @@
     "es": "Meli · Deporte, bienestar y belleza"
   },
   "meta.description": {
-    "fr": "Maman de deux enfants, passionnée de sport et de bien-être, je t'aide à retrouver la forme à ton rythme. 1er bilan gratuit, mes packs favoris et une équipe pour avancer ensemble.",
-    "es": "Mamá de dos hijos, apasionada por el deporte y el bienestar, te ayudo a recuperar tu forma a tu ritmo. Primera evaluación gratis, mis packs favoritos y un equipo para avanzar juntos."
+    "fr": "Maman de deux enfants, passionnée de sport et de bien-être, je t'aide à retrouver la forme à ton rythme. 1er bilan gratuit, mes produits favoris et une équipe pour avancer ensemble.",
+    "es": "Mamá de dos hijos, apasionada por el deporte y el bienestar, te ayudo a recuperar tu forma a tu ritmo. Primera evaluación gratis, mis productos favoritos y un equipo para avanzar juntos."
   },
   "menu.personnes": {
     "fr": "Choisir la personne",
@@ -32,8 +32,8 @@
     "es": "Acompañamiento"
   },
   "menu.packs": {
-    "fr": "Packs",
-    "es": "Packs"
+    "fr": "Mes produits",
+    "es": "Mis productos"
   },
   "cat.nutrition": {
     "fr": "Nutrition",
@@ -80,8 +80,8 @@
     "es": "Reservar mi evaluación gratis"
   },
   "accueil.voir_packs": {
-    "fr": "Voir mes packs",
-    "es": "Ver mis packs"
+    "fr": "Voir mes produits",
+    "es": "Ver mis productos"
   },
   "todo.photo": {
     "fr": "TA PHOTO ICI",
@@ -140,8 +140,8 @@
     "es": "Descubrir"
   },
   "raccourcis.3.titre": {
-    "fr": "Mes packs",
-    "es": "Mis packs"
+    "fr": "Mes produits",
+    "es": "Mis productos"
   },
   "raccourcis.3.texte": {
     "fr": "Nutrition, maquillage, cheveux, visage.",
@@ -336,20 +336,20 @@
     "es": "Primero pide el visto bueno de tu médico o tu matrona para retomar el deporte, y consulta con ellos si necesitas reeducación del suelo pélvico o abdominal. Después, avanzamos con suavidad, a tu ritmo."
   },
   "titre.packs": {
-    "fr": "Mes packs · Meli",
-    "es": "Mis packs · Meli"
+    "fr": "Mes produits · Meli",
+    "es": "Mis productos · Meli"
   },
   "packs.surtitre": {
-    "fr": "Mes packs",
-    "es": "Mis packs"
+    "fr": "Mes produits",
+    "es": "Mis productos"
   },
   "packs.titre": {
-    "fr": "Des packs <span class=\"kw\">pensés pour toi</span>",
-    "es": "Packs <span class=\"kw\">pensados para ti</span>"
+    "fr": "Packs et produits <span class=\"kw\">pensés pour toi</span>",
+    "es": "Packs y productos <span class=\"kw\">pensados para ti</span>"
   },
   "packs.texte": {
-    "fr": "Il y a ceux de ma propre routine, et ceux que je compose selon les envies et les besoins. Chaque pack réunit des produits qui vont bien ensemble : tu vois le détail de chacun, et en un clic ton panier s'ouvre déjà rempli dans ma boutique.",
-    "es": "Están los de mi propia rutina y los que preparo según los gustos y las necesidades. Cada pack reúne productos que combinan bien: ves el detalle de cada uno y, con un clic, tu cesta se abre ya llena en mi tienda."
+    "fr": "Il y a les packs de ma propre routine, ceux que je compose selon les envies et les besoins, et les produits que je prends au quotidien. Chaque pack réunit des produits qui vont bien ensemble : tu vois le détail de chacun, et en un clic ton panier s'ouvre déjà rempli dans ma boutique.",
+    "es": "Están los packs de mi propia rutina, los que preparo según los gustos y las necesidades, y los productos que tomo a diario. Cada pack reúne productos que combinan bien: ves el detalle de cada uno y, con un clic, tu cesta se abre ya llena en mi tienda."
   },
   "todo.photo_pack": {
     "fr": "PHOTO DU PACK",
@@ -916,12 +916,12 @@
     "es": "¿A quién se lo regalarías?"
   },
   "offres.vide": {
-    "fr": "Pas d'offre spéciale en ce moment. Reviens bientôt, ou découvre mes packs en attendant.",
-    "es": "No hay ofertas especiales en este momento. Vuelve pronto o descubre mis packs mientras tanto."
+    "fr": "Pas d'offre spéciale en ce moment. Reviens bientôt, ou découvre mes produits en attendant.",
+    "es": "No hay ofertas especiales en este momento. Vuelve pronto o descubre mis productos mientras tanto."
   },
   "offres.vide_lien": {
-    "fr": "Voir mes packs",
-    "es": "Ver mis packs"
+    "fr": "Voir mes produits",
+    "es": "Ver mis productos"
   },
   "bandeau.avent": {
     "fr": "<b>Noël :</b> le calendrier de l'Avent et 5 coffrets prêts à offrir",
@@ -972,8 +972,8 @@
     "es": "Sets de Navidad · Meli"
   },
   "offres.terminee": {
-    "fr": "Cette offre est terminée. Découvre les offres en cours, ou mes packs.",
-    "es": "Esta oferta terminó. Descubre las ofertas actuales o mis packs."
+    "fr": "Cette offre est terminée. Découvre les offres en cours, ou mes produits.",
+    "es": "Esta oferta terminó. Descubre las ofertas actuales o mis productos."
   },
   "offres.voir": {
     "fr": "Voir les offres",
@@ -1918,5 +1918,113 @@
   "kit.pi.note_photo": {
     "fr": "Sur la photo, le beurre corporel Pistache n'est pas encore disponible en France : il ne fait pas partie du kit.",
     "es": "En la foto, la manteca corporal de Pistacho todavía no está disponible en Francia: no forma parte del kit."
+  },
+  "pack.cr.alt": {
+    "fr": "La Créatine Nutriplus et un shaker dans un casier rose",
+    "es": "La Creatina Nutriplus y un shaker en una taquilla rosa"
+  },
+  "pack.cr.desc": {
+    "fr": "Un produit que je prends moi aussi, après mes séances de sport : une dose sans goût, dans un verre d'eau ou dans ta boisson préférée.",
+    "es": "Un producto que tomo yo también, después de mis entrenamientos: una dosis sin sabor, en un vaso de agua o en tu bebida favorita."
+  },
+  "pack.cr.eco": {
+    "fr": "Tu économises 6,30 €",
+    "es": "Ahorras 6,30 €"
+  },
+  "pack.cr.nom": {
+    "fr": "Créatine",
+    "es": "Creatina"
+  },
+  "pack.cr.pdesc": {
+    "fr": "Créatine monohydrate sans goût, avec de la vitamine B6. La créatine augmente la performance physique lors d'exercices brefs, intenses et répétés (avec 3 g par jour). La vitamine B6 contribue à réduire la fatigue. Une dose de 3 g dans 100 ml d'eau, après l'entraînement.",
+    "es": "Creatina monohidrato sin sabor, con vitamina B6. La creatina aumenta el rendimiento físico en series sucesivas de ejercicios breves de alta intensidad (con 3 g al día). La vitamina B6 contribuye a disminuir el cansancio. Una dosis de 3 g en 100 ml de agua, después del entrenamiento."
+  },
+  "pack.cr.pour": {
+    "fr": "Pour accompagner <span class='kw'>mes séances de sport</span>",
+    "es": "Para acompañar <span class='kw'>mis entrenamientos</span>"
+  },
+  "pack.cr.prix": {
+    "fr": "21,00 €",
+    "es": "21,00 €"
+  },
+  "pack.cr.prix_fi": {
+    "fr": "14,70 €",
+    "es": "14,70 €"
+  },
+  "pack.cr.taille": {
+    "fr": "150&nbsp;g · 50 doses",
+    "es": "150&nbsp;g · 50 dosis"
+  },
+  "pack.cr.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20la%20cr%C3%A9atine.",
+    "es": "%C2%A1Hola%20Meli!%20Tengo%20una%20pregunta%20sobre%20la%20creatina."
+  },
+  "pack.rs.alt": {
+    "fr": "Le Restore Nutriplus et son shaker",
+    "es": "El Restore Nutriplus y su shaker"
+  },
+  "pack.rs.desc": {
+    "fr": "Mon rituel de tous les soirs, en fin de journée : un grand verre au goût citron et mangue, pour souffler un peu avant la nuit.",
+    "es": "Mi ritual de todas las noches, al final del día: un vaso grande con sabor a limón y mango, para relajarme un poco antes de dormir."
+  },
+  "pack.rs.eco": {
+    "fr": "Tu économises 12,00 €",
+    "es": "Ahorras 12,00 €"
+  },
+  "pack.rs.nom": {
+    "fr": "Restore",
+    "es": "Restore"
+  },
+  "pack.rs.pdesc": {
+    "fr": "Boisson saveur citron et mangue, au magnésium, calcium, zinc, sélénium et à la vitamine D. Le magnésium contribue à réduire la fatigue et au fonctionnement normal du système nerveux, le zinc au maintien d'une peau normale. 2 doses (8 g) dans 250 ml d'eau. Vegan, sans sucres ajoutés.",
+    "es": "Bebida sabor limón y mango, con magnesio, calcio, zinc, selenio y vitamina D. El magnesio contribuye a disminuir el cansancio y al funcionamiento normal del sistema nervioso, el zinc al mantenimiento de la piel en condiciones normales. 2 dosis (8 g) en 250 ml de agua. Vegano, sin azúcares añadidos."
+  },
+  "pack.rs.pour": {
+    "fr": "Pour <span class='kw'>finir la journée</span> en douceur",
+    "es": "Para <span class='kw'>terminar el día</span> con calma"
+  },
+  "pack.rs.prix": {
+    "fr": "40,00 €",
+    "es": "40,00 €"
+  },
+  "pack.rs.prix_fi": {
+    "fr": "28,00 €",
+    "es": "28,00 €"
+  },
+  "pack.rs.taille": {
+    "fr": "8&nbsp;g par jour",
+    "es": "8&nbsp;g al día"
+  },
+  "pack.rs.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20Restore.",
+    "es": "%C2%A1Hola%20Meli!%20Tengo%20una%20pregunta%20sobre%20el%20Restore."
+  },
+  "produit.commander": {
+    "fr": "Commander dans ma boutique",
+    "es": "Pedir en mi tienda"
+  },
+  "produit.livraison": {
+    "fr": "+ 7,50 € de livraison, offerte dès 125 € de commande",
+    "es": "+ 7,50 € de envío, gratis a partir de 125 € de pedido"
+  },
+  "produit.prix": {
+    "fr": "Le prix",
+    "es": "El precio"
+  },
+  "produit.seul": {
+    "fr": "Produit seul",
+    "es": "Producto individual"
+  },
+  "produit.voir": {
+    "fr": "Voir le produit",
+    "es": "Ver el producto"
+  },
+  "titre.pack_cr": {
+    "fr": "Créatine · Meli",
+    "es": "Creatina · Meli"
+  },
+  "titre.pack_rs": {
+    "fr": "Restore · Meli",
+    "es": "Restore · Meli"
   }
 }
