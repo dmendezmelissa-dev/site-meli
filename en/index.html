@@ -1098,10 +1098,12 @@
   </section>
 
   <!-- Offres : petits kits de Noël (en préparation) -->
-  <section class="page offres offre-page" data-page="offres-kits" data-titre="My little Christmas kits · Meli">
+  <section class="page offres offre-page page-noel" data-page="offres-kits" data-titre="My little Christmas kits · Meli">
+    <div class="paillettes" aria-hidden="true"></div>
     <div class="wrap center">
       <div class="offre-bloc kits-page" data-fin="2026-12-24">
-        <p class="offre-badge">Christmas 2026</p>
+        <div class="deco-noel" aria-hidden="true"><img class="deco-branche g" src="../images/deco-branche.svg" alt=""><img class="deco-branche d" src="../images/deco-branche.svg" alt=""></div>
+        <div class="badge-sapins"><img src="../images/deco-sapin.svg" alt="" aria-hidden="true"><p class="offre-badge">Christmas 2026</p><img src="../images/deco-sapin.svg" alt="" aria-hidden="true"></div>
         <h2>My little <span class="kw">Christmas kits</span></h2>
         <div class="rule"></div>
         <p class="intro">Little kits at little prices, that I put together myself with my favourite products. Perfect for a small gift, a kind thought for someone who matters, or a treat for yourself.</p>
@@ -1640,6 +1642,49 @@
     window.addEventListener('hashchange', function () { afficher(); defile(); });
     afficher();
     defile();
+  })();
+  /* Petits kits de Noël : paillettes qui scintillent, et qui jaillissent sous la souris ou au toucher */
+  (function () {
+    var sec = document.querySelector('section[data-page="offres-kits"]');
+    var couche = sec && sec.querySelector('.paillettes');
+    if (!couche) return;
+    var couleurs = ['#D9B98F', '#E7B9A3', '#C9A27A'];
+    for (var i = 0; i < 30; i++) {
+      var p = document.createElement('span');
+      p.className = 'paillette';
+      p.style.left = (Math.random() * 100) + '%';
+      p.style.top = (Math.random() * 100) + '%';
+      p.style.setProperty('--t', (8 + Math.random() * 10) + 'px');
+      p.style.setProperty('--d', (-Math.random() * 3) + 's');
+      p.style.setProperty('--c', couleurs[i % 3]);
+      couche.appendChild(p);
+    }
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var dernier = 0;
+    function jet(x, y, n, force) {
+      var r = sec.getBoundingClientRect();
+      for (var k = 0; k < n; k++) {
+        var s = document.createElement('span');
+        var a = Math.random() * 6.283, d = force * (0.4 + Math.random() * 0.6);
+        s.className = 'paillette vole';
+        s.style.left = (x - r.left) + 'px';
+        s.style.top = (y - r.top) + 'px';
+        s.style.setProperty('--dx', (Math.cos(a) * d) + 'px');
+        s.style.setProperty('--dy', (Math.sin(a) * d) + 'px');
+        s.style.setProperty('--t', (8 + Math.random() * 9) + 'px');
+        s.style.setProperty('--c', couleurs[k % 3]);
+        s.addEventListener('animationend', function () { this.remove(); });
+        couche.appendChild(s);
+      }
+    }
+    sec.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse') return;
+      var t = Date.now();
+      if (t - dernier < 70) return;
+      dernier = t;
+      jet(e.clientX, e.clientY, 2, 34);
+    });
+    sec.addEventListener('pointerdown', function (e) { jet(e.clientX, e.clientY, 9, 60); });
   })();
 </script>
 </body>
