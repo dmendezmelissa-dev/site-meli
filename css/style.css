@@ -1133,3 +1133,5 @@ h1, h2, .encart-titre { text-wrap: balance; }
 .bientot { max-width: 520px; margin: 18px auto 8px; padding: 26px 24px; text-align: center; border: 1px dashed var(--ligne); border-radius: 22px; }
 .bientot-titre { font-family: "Dancing Script", cursive; font-size: 30px; color: var(--terra); margin: 0 0 6px; }
 .bientot p { margin: 0 0 10px; }
+.bientot-btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.bientot-btns .btn-mini { margin-top: 4px; }
