@@ -1128,3 +1128,8 @@ h1, h2, .encart-titre { text-wrap: balance; }
 .pays-note { max-width: 560px; margin: 4px auto 0; font-style: italic; }
 .btn.btn-mini, .kits-liste .btn.btn-mini { width: auto; max-width: max-content; display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; padding: 7px 16px; font-size: 13.5px; min-height: 0; }
 .btns-video { margin: 18px 0 14px; }
+
+/* Catégories pas encore remplies : encadré « À venir » */
+.bientot { max-width: 520px; margin: 18px auto 8px; padding: 26px 24px; text-align: center; border: 1px dashed var(--ligne); border-radius: 22px; }
+.bientot-titre { font-family: "Dancing Script", cursive; font-size: 30px; color: var(--terra); margin: 0 0 6px; }
+.bientot p { margin: 0 0 10px; }

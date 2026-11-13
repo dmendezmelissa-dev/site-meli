@@ -2354,5 +2354,41 @@
   "video.histoire": {
     "fr": "Découvrir mon histoire",
     "en": "Read my story"
+  },
+  "bientot.maquillage": {
+    "fr": "Mes packs et produits maquillage arrivent très bientôt.",
+    "en": "My make-up packs and products are coming very soon."
+  },
+  "bientot.maquillage.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20cherche%20un%20produit%20maquillage.",
+    "en": "Hi%20Meli!%20I'm%20looking%20for%20a%20make-up%20product."
+  },
+  "bientot.cheveux": {
+    "fr": "Mes packs et produits pour les cheveux arrivent très bientôt.",
+    "en": "My hair packs and products are coming very soon."
+  },
+  "bientot.cheveux.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20cherche%20un%20produit%20cheveux.",
+    "en": "Hi%20Meli!%20I'm%20looking%20for%20a%20hair%20product."
+  },
+  "bientot.visage": {
+    "fr": "Mes packs et produits de soins visage arrivent très bientôt.",
+    "en": "My skincare packs and products are coming very soon."
+  },
+  "bientot.visage.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20cherche%20un%20produit%20soins%20visage.",
+    "en": "Hi%20Meli!%20I'm%20looking%20for%20a%20skincare%20product."
+  },
+  "bientot.titre": {
+    "fr": "À venir",
+    "en": "Coming soon"
+  },
+  "bientot.texte": {
+    "fr": "En attendant, si tu cherches quelque chose en particulier, écris-moi : je te conseille avec plaisir.",
+    "en": "In the meantime, if you're looking for something in particular, message me: I'll be happy to advise you."
+  },
+  "bientot.btn": {
+    "fr": "Écris-moi",
+    "en": "Message me"
   }
 }

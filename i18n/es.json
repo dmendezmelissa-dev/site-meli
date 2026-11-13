@@ -2354,5 +2354,41 @@
   "video.histoire": {
     "fr": "Découvrir mon histoire",
     "es": "Descubrir mi historia"
+  },
+  "bientot.maquillage": {
+    "fr": "Mes packs et produits maquillage arrivent très bientôt.",
+    "es": "Mis packs y productos de maquillaje llegan muy pronto."
+  },
+  "bientot.maquillage.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20cherche%20un%20produit%20maquillage.",
+    "es": "%C2%A1Hola%20Meli!%20Busco%20un%20producto%20de%20maquillaje."
+  },
+  "bientot.cheveux": {
+    "fr": "Mes packs et produits pour les cheveux arrivent très bientôt.",
+    "es": "Mis packs y productos para el cabello llegan muy pronto."
+  },
+  "bientot.cheveux.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20cherche%20un%20produit%20cheveux.",
+    "es": "%C2%A1Hola%20Meli!%20Busco%20un%20producto%20de%20cabello."
+  },
+  "bientot.visage": {
+    "fr": "Mes packs et produits de soins visage arrivent très bientôt.",
+    "es": "Mis packs y productos de cuidado facial llegan muy pronto."
+  },
+  "bientot.visage.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20cherche%20un%20produit%20soins%20visage.",
+    "es": "%C2%A1Hola%20Meli!%20Busco%20un%20producto%20de%20cuidado%20facial."
+  },
+  "bientot.titre": {
+    "fr": "À venir",
+    "es": "Próximamente"
+  },
+  "bientot.texte": {
+    "fr": "En attendant, si tu cherches quelque chose en particulier, écris-moi : je te conseille avec plaisir.",
+    "es": "Mientras tanto, si buscas algo en concreto, escríbeme: te aconsejo con mucho gusto."
+  },
+  "bientot.btn": {
+    "fr": "Écris-moi",
+    "es": "Escríbeme"
   }
 }
