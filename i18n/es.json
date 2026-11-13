@@ -95,10 +95,6 @@
     "fr": "Toujours en construction,<br>et c'est très bien comme ça.",
     "es": "Siempre en construcción,<br>y está muy bien así."
   },
-  "todo.video": {
-    "fr": "TA VIDÉO ICI",
-    "es": "TU VIDEO AQUÍ"
-  },
   "video.surtitre": {
     "fr": "En une minute",
     "es": "En un minuto"
@@ -2350,5 +2346,13 @@
   "kits.l5_btn": {
     "fr": "J'ai besoin d'aide",
     "es": "Necesito ayuda"
+  },
+  "video.bientot": {
+    "fr": "Vidéo à venir",
+    "es": "Vídeo próximamente"
+  },
+  "video.histoire": {
+    "fr": "Découvrir mon histoire",
+    "es": "Descubrir mi historia"
   }
 }

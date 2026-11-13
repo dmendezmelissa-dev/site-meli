@@ -91,10 +91,6 @@
     "fr": "Toujours en construction,<br>et c'est très bien comme ça.",
     "en": "Still a work in progress,<br>and that's perfectly fine."
   },
-  "todo.video": {
-    "fr": "TA VIDÉO ICI",
-    "en": "YOUR VIDEO HERE"
-  },
   "video.surtitre": {
     "fr": "En une minute",
     "en": "In one minute"
@@ -2350,5 +2346,13 @@
   "kits.l5_btn": {
     "fr": "J'ai besoin d'aide",
     "en": "I need help"
+  },
+  "video.bientot": {
+    "fr": "Vidéo à venir",
+    "en": "Video coming soon"
+  },
+  "video.histoire": {
+    "fr": "Découvrir mon histoire",
+    "en": "Read my story"
   }
 }
