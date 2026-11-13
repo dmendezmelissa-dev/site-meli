@@ -2634,5 +2634,9 @@
   "tp.fin": {
     "fr": "Tu hésites entre deux numéros ? On trouve ta routine ensemble.",
     "es": "¿Dudas entre dos números? Encontramos tu rutina juntas."
+  },
+  "tp.panier": {
+    "fr": "Le panier tout prêt de cette routine est en cours de préparation. En attendant, écris-moi ton numéro : je te prépare ta routine.",
+    "es": "La cesta lista para esta rutina se está preparando. Mientras tanto, escríbeme tu número: te preparo tu rutina."
   }
 }

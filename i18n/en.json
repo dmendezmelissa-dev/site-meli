@@ -2634,5 +2634,9 @@
   "tp.fin": {
     "fr": "Tu hésites entre deux numéros ? On trouve ta routine ensemble.",
     "en": "Torn between two numbers? We'll find your routine together."
+  },
+  "tp.panier": {
+    "fr": "Le panier tout prêt de cette routine est en cours de préparation. En attendant, écris-moi ton numéro : je te prépare ta routine.",
+    "en": "The ready-made basket for this routine is being prepared. In the meantime, message me your number: I'll put your routine together for you."
   }
 }

@@ -1168,3 +1168,4 @@ h1, h2, .encart-titre { text-wrap: balance; }
 .tp-fin { margin: 18px 0 0; font-style: italic; }
 @keyframes tpEntree { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 @media (max-width: 640px) { .tp-choix { grid-template-columns: 1fr; } .test-peau { padding: 24px 14px; } }
+.tp-panier { font-size: 14px; color: var(--doux); font-style: italic; margin: 4px 4px 10px; }
