@@ -253,6 +253,21 @@
     });
     sec.addEventListener('pointerdown', function (e) { jet(e.clientX, e.clientY, 9, 60); });
   })();
+  /* Test peau (Soins visage) : un numéro choisi affiche sa gamme */
+  (function () {
+    document.querySelectorAll('.test-peau').forEach(function (t) {
+      var btns = t.querySelectorAll('.tp-choix-btn');
+      btns.forEach(function (b) {
+        b.addEventListener('click', function () {
+          var n = b.getAttribute('data-n');
+          btns.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+          t.querySelectorAll('.tp-res').forEach(function (r) { r.hidden = r.getAttribute('data-n') !== n; });
+          var r = t.querySelector('.tp-res[data-n="' + n + '"]');
+          if (r && window.innerWidth < 900) r.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+    });
+  })();
 </script>
 </body>
 </html>

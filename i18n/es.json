@@ -2390,5 +2390,249 @@
   "bientot.btn": {
     "fr": "Écris-moi",
     "es": "Escríbeme"
+  },
+  "tp.1.rep": {
+    "fr": "brille, surtout sur la zone T",
+    "es": "brilla, sobre todo en la zona T"
+  },
+  "tp.1.c0": {
+    "fr": "Moins de brillance",
+    "es": "Menos brillo"
+  },
+  "tp.1.c1": {
+    "fr": "Pores resserrés",
+    "es": "Poros más cerrados"
+  },
+  "tp.1.c2": {
+    "fr": "Peau plus nette",
+    "es": "Piel más limpia"
+  },
+  "tp.1.alt": {
+    "fr": "La gamme Tea Tree Dr. C. Tuna",
+    "es": "La gama Tea Tree de Dr. C. Tuna"
+  },
+  "tp.1.type": {
+    "fr": "Peau grasse ou mixte",
+    "es": "Piel grasa o mixta"
+  },
+  "tp.1.desc": {
+    "fr": "Brillances, pores visibles, petits boutons qui reviennent.",
+    "es": "Brillos, poros visibles, granitos que vuelven una y otra vez."
+  },
+  "tp.actif": {
+    "fr": "L'actif star",
+    "es": "El activo estrella"
+  },
+  "tp.1.actif": {
+    "fr": "l'arbre à thé",
+    "es": "el árbol del té"
+  },
+  "tp.1.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20fait%20le%20test%20peau%20:%20je%20suis%20le%20num%C3%A9ro%2001%20(Tea%20Tree).%20Tu%20peux%20m'aider%20%C3%A0%20trouver%20ma%20routine%20?",
+    "es": "%C2%A1Hola%20Meli!%20Hice%20el%20test%20de%20piel:%20soy%20el%20n%C3%BAmero%2001%20(Tea%20Tree).%20%C2%BFMe%20ayudas%20a%20encontrar%20mi%20rutina?"
+  },
+  "tp.routine": {
+    "fr": "Je veux ma routine",
+    "es": "Quiero mi rutina"
+  },
+  "tp.2.rep": {
+    "fr": "rougit, picote, réagit à tout",
+    "es": "se enrojece, pica, reacciona a todo"
+  },
+  "tp.2.c0": {
+    "fr": "Apaise les irritations",
+    "es": "Calma las irritaciones"
+  },
+  "tp.2.c1": {
+    "fr": "Hydrate en douceur",
+    "es": "Hidrata con suavidad"
+  },
+  "tp.2.c2": {
+    "fr": "Renforce la barrière",
+    "es": "Refuerza la barrera"
+  },
+  "tp.2.alt": {
+    "fr": "La gamme Calendula Dr. C. Tuna",
+    "es": "La gama Calendula de Dr. C. Tuna"
+  },
+  "tp.2.type": {
+    "fr": "Peau sensible",
+    "es": "Piel sensible"
+  },
+  "tp.2.desc": {
+    "fr": "Rougeurs, picotements, elle réagit au moindre changement.",
+    "es": "Rojeces, picores, reacciona al mínimo cambio."
+  },
+  "tp.2.actif": {
+    "fr": "le calendula",
+    "es": "la caléndula"
+  },
+  "tp.2.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20fait%20le%20test%20peau%20:%20je%20suis%20le%20num%C3%A9ro%2002%20(Calendula).%20Tu%20peux%20m'aider%20%C3%A0%20trouver%20ma%20routine%20?",
+    "es": "%C2%A1Hola%20Meli!%20Hice%20el%20test%20de%20piel:%20soy%20el%20n%C3%BAmero%2002%20(Calendula).%20%C2%BFMe%20ayudas%20a%20encontrar%20mi%20rutina?"
+  },
+  "tp.3.rep": {
+    "fr": "tiraille et manque d'éclat",
+    "es": "tira y le falta luminosidad"
+  },
+  "tp.3.c0": {
+    "fr": "Hydratation intense",
+    "es": "Hidratación intensa"
+  },
+  "tp.3.c1": {
+    "fr": "Peau repulpée",
+    "es": "Piel más jugosa"
+  },
+  "tp.3.c2": {
+    "fr": "Effet fraîcheur",
+    "es": "Efecto frescor"
+  },
+  "tp.3.alt": {
+    "fr": "La gamme Aqua Dr. C. Tuna",
+    "es": "La gama Aqua de Dr. C. Tuna"
+  },
+  "tp.3.type": {
+    "fr": "Peau sèche ou déshydratée",
+    "es": "Piel seca o deshidratada"
+  },
+  "tp.3.desc": {
+    "fr": "Elle tiraille, manque d'éclat et réclame de l'eau toute la journée.",
+    "es": "Tira, le falta luminosidad y pide agua todo el día."
+  },
+  "tp.3.actif": {
+    "fr": "l'acide hyaluronique",
+    "es": "el ácido hialurónico"
+  },
+  "tp.3.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20fait%20le%20test%20peau%20:%20je%20suis%20le%20num%C3%A9ro%2003%20(Aqua).%20Tu%20peux%20m'aider%20%C3%A0%20trouver%20ma%20routine%20?",
+    "es": "%C2%A1Hola%20Meli!%20Hice%20el%20test%20de%20piel:%20soy%20el%20n%C3%BAmero%2003%20(Aqua).%20%C2%BFMe%20ayudas%20a%20encontrar%20mi%20rutina?"
+  },
+  "tp.4.rep": {
+    "fr": "va bien, mais je veux prévenir",
+    "es": "está bien, pero quiero prevenir"
+  },
+  "tp.4.c0": {
+    "fr": "Prévient les ridules",
+    "es": "Previene las líneas finas"
+  },
+  "tp.4.c1": {
+    "fr": "Plus d'élasticité",
+    "es": "Más elasticidad"
+  },
+  "tp.4.c2": {
+    "fr": "Peau plus ferme",
+    "es": "Piel más firme"
+  },
+  "tp.4.alt": {
+    "fr": "La gamme Age Reversist Dr. C. Tuna",
+    "es": "La gama Age Reversist de Dr. C. Tuna"
+  },
+  "tp.4.type": {
+    "fr": "Dès 25 ans, je préviens",
+    "es": "Desde los 25, prevengo"
+  },
+  "tp.4.desc": {
+    "fr": "Les premières ridules pointent leur nez, la peau perd un peu de rebond.",
+    "es": "Asoman las primeras líneas finas y la piel pierde un poco de firmeza."
+  },
+  "tp.4.actif": {
+    "fr": "les peptides",
+    "es": "los péptidos"
+  },
+  "tp.4.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20fait%20le%20test%20peau%20:%20je%20suis%20le%20num%C3%A9ro%2004%20(Age%20Reversist).%20Tu%20peux%20m'aider%20%C3%A0%20trouver%20ma%20routine%20?",
+    "es": "%C2%A1Hola%20Meli!%20Hice%20el%20test%20de%20piel:%20soy%20el%20n%C3%BAmero%2004%20(Age%20Reversist).%20%C2%BFMe%20ayudas%20a%20encontrar%20mi%20rutina?"
+  },
+  "tp.5.rep": {
+    "fr": "se relâche, les rides s'installent",
+    "es": "se afloja, las arrugas se instalan"
+  },
+  "tp.5.c0": {
+    "fr": "Renouvelle la peau",
+    "es": "Renueva la piel"
+  },
+  "tp.5.c1": {
+    "fr": "Raffermit",
+    "es": "Reafirma"
+  },
+  "tp.5.c2": {
+    "fr": "Lisse le grain",
+    "es": "Alisa la textura"
+  },
+  "tp.alerte": {
+    "fr": "Enceinte ou allaitante ? Demande d'abord conseil à ton médecin.",
+    "es": "¿Embarazada o en periodo de lactancia? Consulta antes a tu médico."
+  },
+  "tp.5.alt": {
+    "fr": "La gamme Resurface Dr. C. Tuna",
+    "es": "La gama Resurface de Dr. C. Tuna"
+  },
+  "tp.5.type": {
+    "fr": "Dès 35 ans, je corrige",
+    "es": "Desde los 35, corrijo"
+  },
+  "tp.5.desc": {
+    "fr": "Les rides s'installent, la peau se relâche et le grain s'épaissit.",
+    "es": "Las arrugas se instalan, la piel se afloja y la textura se vuelve más gruesa."
+  },
+  "tp.5.actif": {
+    "fr": "le rétinol",
+    "es": "el retinol"
+  },
+  "tp.5.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20fait%20le%20test%20peau%20:%20je%20suis%20le%20num%C3%A9ro%2005%20(Resurface).%20Tu%20peux%20m'aider%20%C3%A0%20trouver%20ma%20routine%20?",
+    "es": "%C2%A1Hola%20Meli!%20Hice%20el%20test%20de%20piel:%20soy%20el%20n%C3%BAmero%2005%20(Resurface).%20%C2%BFMe%20ayudas%20a%20encontrar%20mi%20rutina?"
+  },
+  "tp.6.rep": {
+    "fr": "a des taches, le teint est terne",
+    "es": "tiene manchas, el tono está apagado"
+  },
+  "tp.6.c0": {
+    "fr": "Illumine",
+    "es": "Ilumina"
+  },
+  "tp.6.c1": {
+    "fr": "Unifie le teint",
+    "es": "Unifica el tono"
+  },
+  "tp.6.c2": {
+    "fr": "Éclat naturel",
+    "es": "Luminosidad natural"
+  },
+  "tp.6.alt": {
+    "fr": "La gamme Lumi Radiance Dr. C. Tuna",
+    "es": "La gama Lumi Radiance de Dr. C. Tuna"
+  },
+  "tp.6.type": {
+    "fr": "Taches et teint terne",
+    "es": "Manchas y tez apagada"
+  },
+  "tp.6.desc": {
+    "fr": "Petites taches, teint inégal, mine fatiguée après les nuits courtes.",
+    "es": "Pequeñas manchas, tono desigual, cara cansada después de noches cortas."
+  },
+  "tp.6.actif": {
+    "fr": "le lys blanc des sables",
+    "es": "el lirio blanco de las arenas"
+  },
+  "tp.6.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20fait%20le%20test%20peau%20:%20je%20suis%20le%20num%C3%A9ro%2006%20(Lumi%20Radiance).%20Tu%20peux%20m'aider%20%C3%A0%20trouver%20ma%20routine%20?",
+    "es": "%C2%A1Hola%20Meli!%20Hice%20el%20test%20de%20piel:%20soy%20el%20n%C3%BAmero%2006%20(Lumi%20Radiance).%20%C2%BFMe%20ayudas%20a%20encontrar%20mi%20rutina?"
+  },
+  "tp.sur": {
+    "fr": "Le petit test de Meli",
+    "es": "El pequeño test de Meli"
+  },
+  "tp.titre": {
+    "fr": "Ta peau te parle. <span class='kw'>Tu l'écoutes ?</span>",
+    "es": "Tu piel te habla. <span class='kw'>¿La escuchas?</span>"
+  },
+  "tp.question": {
+    "fr": "6 peaux, 6 routines. Trouve ton numéro en 1 question : 2 heures après ton nettoyage, ta peau…",
+    "es": "6 pieles, 6 rutinas. Encuentra tu número en 1 pregunta: 2 horas después de limpiarla, tu piel…"
+  },
+  "tp.fin": {
+    "fr": "Tu hésites entre deux numéros ? On trouve ta routine ensemble.",
+    "es": "¿Dudas entre dos números? Encontramos tu rutina juntas."
   }
 }
