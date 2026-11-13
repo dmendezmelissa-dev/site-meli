@@ -2338,5 +2338,17 @@
   "faq.e7.r": {
     "fr": "Oui ! Tu peux t'inscrire depuis n'importe quel pays, et je t'accompagne à distance. Pour voir les prix de ton pays, il suffit de le changer une fois sur ma boutique en ligne.",
     "en": "Yes! You can sign up from any country, and I'll support you remotely. To see the prices in your country, just change it once you're in my online shop."
+  },
+  "kits.l5": {
+    "fr": "Tu ne trouves pas le cadeau que tu cherches ? Je t'aide à composer ton kit selon tes envies et tes besoins.",
+    "en": "Can't find the gift you're looking for? I'll help you put together your kit based on your wishes and needs."
+  },
+  "kits.l5_wa": {
+    "fr": "Bonjour%20Meli%20!%20J'aimerais%20ton%20aide%20pour%20composer%20un%20kit%20cadeau.",
+    "en": "Hi%20Meli!%20I'd%20like%20your%20help%20putting%20together%20a%20gift%20kit."
+  },
+  "kits.l5_btn": {
+    "fr": "J'ai besoin d'aide",
+    "en": "I need help"
   }
 }

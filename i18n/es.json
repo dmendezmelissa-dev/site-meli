@@ -2338,5 +2338,17 @@
   "faq.e7.r": {
     "fr": "Oui ! Tu peux t'inscrire depuis n'importe quel pays, et je t'accompagne à distance. Pour voir les prix de ton pays, il suffit de le changer une fois sur ma boutique en ligne.",
     "es": "¡Sí! Puedes inscribirte desde cualquier país y te acompaño a distancia. Para ver los precios de tu país, basta con cambiarlo una vez en mi tienda online."
+  },
+  "kits.l5": {
+    "fr": "Tu ne trouves pas le cadeau que tu cherches ? Je t'aide à composer ton kit selon tes envies et tes besoins.",
+    "es": "¿No encuentras el regalo que buscas? Te ayudo a crear tu kit según tus gustos y tus necesidades."
+  },
+  "kits.l5_wa": {
+    "fr": "Bonjour%20Meli%20!%20J'aimerais%20ton%20aide%20pour%20composer%20un%20kit%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Me%20gustar%C3%ADa%20tu%20ayuda%20para%20crear%20un%20kit%20de%20regalo."
+  },
+  "kits.l5_btn": {
+    "fr": "J'ai besoin d'aide",
+    "es": "Necesito ayuda"
   }
 }
