@@ -2646,5 +2646,9 @@
   "maquillage.photo_alt": {
     "fr": "Meli souriante qui se met du mascara",
     "es": "Meli sonriente poniéndose máscara de pestañas"
+  },
+  "produits.photo_alt": {
+    "fr": "Meli à table avec les produits qu'elle utilise : Recharge, Créatine, soins Dr. C. Tuna",
+    "es": "Meli en la mesa con los productos que usa: Recharge, Creatina, cuidados Dr. C. Tuna"
   }
 }
