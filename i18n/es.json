@@ -2690,5 +2690,9 @@
   "univers.surtitre": {
     "fr": "Choisis ton univers",
     "es": "Elige tu universo"
+  },
+  "cheveux.photo_alt": {
+    "fr": "Les cheveux longs et ondulés de Meli, vus de dos",
+    "es": "El pelo largo y ondulado de Meli, visto de espaldas"
   }
 }
