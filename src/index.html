@@ -305,13 +305,13 @@
   <!-- 4. Mes packs -->
   <section class="page packs" data-page="packs" data-titre="[[titre.packs|Mes produits · Meli]]">
     <div class="wrap">
-      <div class="center">
+      <div class="center seul-accueil">
         <p class="eyebrow">[[packs.surtitre|Mes produits]]</p>
         <h2>[[packs.titre|Packs et produits <span class="kw">pensés pour toi</span>]]</h2>
         <div class="rule"></div>
         <p class="intro packs-intro">[[packs.texte|Il y a les packs de ma propre routine, ceux que je compose selon les envies et les besoins, et les produits que je prends au quotidien. Chaque pack réunit des produits qui vont bien ensemble : tu vois le détail de chacun, et en un clic ton panier s'ouvre déjà rempli dans ma boutique.]]</p>
         <p class="intro packs-intro">[[packs.texte2|On peut aussi parler ensemble de tes besoins et de tes envies pour créer ton propre pack. Et bien sûr, chaque produit peut aussi s'acheter séparément.]]</p>
-        <div class="arche photo produits-photo reveal">
+        <div class="arche photo produits-photo seul-accueil reveal">
           <picture>
             <source type="image/webp" srcset="{{root}}images/meli-accueil-480.webp 480w, {{root}}images/meli-accueil-800.webp 800w" sizes="(max-width: 760px) 74vw, 340px">
             <img src="{{root}}images/meli-accueil-800.jpg" srcset="{{root}}images/meli-accueil-480.jpg 480w, {{root}}images/meli-accueil-800.jpg 800w" sizes="(max-width: 760px) 74vw, 340px" width="800" height="1040" alt="[[produits.photo_alt|Meli à table avec les produits qu'elle utilise : Recharge, Créatine, soins Dr. C. Tuna]]" loading="lazy">
@@ -319,7 +319,17 @@
         </div>
       </div>
 
-      <div class="encart-routine reveal">
+      <div class="univers seul-accueil">
+        <p class="eyebrow">[[univers.surtitre|Choisis ton univers]]</p>
+        <div class="raccourcis">
+          <a class="raccourci reveal" href="#packs-nutrition"><span class="num">01</span><b>[[univers.1.titre|Nutrition]]</b><span>[[univers.1.texte|Mes routines et les compléments que je prends chaque jour.]]</span><i>[[univers.lien|Découvrir]]</i></a>
+          <a class="raccourci reveal" href="#packs-maquillage"><span class="num">02</span><b>[[univers.2.titre|Maquillage]]</b><span>[[univers.2.texte|Mes indispensables, très bientôt.]]</span><i>[[univers.lien|Découvrir]]</i></a>
+          <a class="raccourci reveal" href="#packs-cheveux"><span class="num">03</span><b>[[univers.3.titre|Cheveux]]</b><span>[[univers.3.texte|Mes soins pour les cheveux, très bientôt.]]</span><i>[[univers.lien|Découvrir]]</i></a>
+          <a class="raccourci reveal" href="#packs-visage"><span class="num">04</span><b>[[univers.4.titre|Soins visage]]</b><span>[[univers.4.texte|Le petit test pour trouver la routine de ta peau.]]</span><i>[[univers.lien|Découvrir]]</i></a>
+        </div>
+      </div>
+
+      <div class="encart-routine seul-accueil reveal">
         <p class="encart-titre">[[packs.routine.titre|Une routine qui dure ? <span class="kw">Inscris-toi</span>]]</p>
         <p>[[packs.routine.texte|Si tu veux faire de tes compléments une vraie habitude, au quotidien, t'inscrire devient vite intéressant : tu profites de 30 % de réduction sur tous les produits, à chaque commande. Écris-moi, je t'explique tout simplement. Et tu peux t'inscrire depuis n'importe quel pays.]]</p>
         <div class="btns">
@@ -328,7 +338,7 @@
         </div>
       </div>
 
-      <div class="onglets" role="tablist">
+      <div class="onglets seul-cat" role="tablist">
         <button class="onglet actif" type="button" role="tab" data-cat="nutrition" aria-selected="true">[[cat.nutrition|Nutrition]]</button>
         <button class="onglet" type="button" role="tab" data-cat="maquillage" aria-selected="false">[[cat.maquillage|Maquillage]]</button>
         <button class="onglet" type="button" role="tab" data-cat="cheveux" aria-selected="false">[[cat.cheveux|Cheveux]]</button>
@@ -336,6 +346,7 @@
       </div>
 
       <div class="groupe" data-cat="nutrition" role="tabpanel">
+        <p class="eyebrow groupe-sur">[[packs.surtitre|Mes produits]]</p>
         <h3 class="groupe-titre">[[cat.nutrition|Nutrition]]</h3>
         <div class="cartes kits-cartes v-liste">
           <a class="carte kit-carte reveal" href="#pack-morning-glow">
@@ -378,6 +389,7 @@
       </div>
 
       <div class="groupe" data-cat="maquillage" role="tabpanel">
+        <p class="eyebrow groupe-sur">[[packs.surtitre|Mes produits]]</p>
         <h3 class="groupe-titre">[[cat.maquillage|Maquillage]]</h3>
         <div class="arche photo maquillage-photo reveal">
           <picture>
@@ -393,6 +405,7 @@
       </div>
 
       <div class="groupe" data-cat="cheveux" role="tabpanel">
+        <p class="eyebrow groupe-sur">[[packs.surtitre|Mes produits]]</p>
         <h3 class="groupe-titre">[[cat.cheveux|Cheveux]]</h3>
         <div class="bientot reveal">
           <p class="bientot-titre">[[bientot.titre|À venir]]</p>
@@ -402,6 +415,7 @@
       </div>
 
       <div class="groupe" data-cat="visage" role="tabpanel">
+        <p class="eyebrow groupe-sur">[[packs.surtitre|Mes produits]]</p>
         <h3 class="groupe-titre">[[cat.visage|Soins visage]]</h3>
         <div class="test-peau reveal">
           <p class="tp-sur">[[tp.sur|Le petit test de Meli]]</p>

@@ -323,13 +323,13 @@
   <!-- 4. Mes packs -->
   <section class="page packs" data-page="packs" data-titre="My products · Meli">
     <div class="wrap">
-      <div class="center">
+      <div class="center seul-accueil">
         <p class="eyebrow">My products</p>
         <h2>Packs and products <span class="kw">designed for you</span></h2>
         <div class="rule"></div>
         <p class="intro packs-intro">There are the packs from my own routine, the ones I put together for different wishes and needs, and the products I take every day. Each pack brings together products that work well together: you can see the details of each one, and in one click your basket opens already filled in my shop.</p>
         <p class="intro packs-intro">We can also talk about your needs and wishes to create your own pack. And of course, each product can also be bought separately.</p>
-        <div class="arche photo produits-photo reveal">
+        <div class="arche photo produits-photo seul-accueil reveal">
           <picture>
             <source type="image/webp" srcset="../images/meli-accueil-480.webp 480w, ../images/meli-accueil-800.webp 800w" sizes="(max-width: 760px) 74vw, 340px">
             <img src="../images/meli-accueil-800.jpg" srcset="../images/meli-accueil-480.jpg 480w, ../images/meli-accueil-800.jpg 800w" sizes="(max-width: 760px) 74vw, 340px" width="800" height="1040" alt="Meli at the table with the products she uses: Recharge, Creatine, Dr. C. Tuna care" loading="lazy">
@@ -337,7 +337,17 @@
         </div>
       </div>
 
-      <div class="encart-routine reveal">
+      <div class="univers seul-accueil">
+        <p class="eyebrow">Choose your world</p>
+        <div class="raccourcis">
+          <a class="raccourci reveal" href="#packs-nutrition"><span class="num">01</span><b>Nutrition</b><span>My routines and the supplements I take every day.</span><i>Discover</i></a>
+          <a class="raccourci reveal" href="#packs-maquillage"><span class="num">02</span><b>Make-up</b><span>My essentials, coming very soon.</span><i>Discover</i></a>
+          <a class="raccourci reveal" href="#packs-cheveux"><span class="num">03</span><b>Hair</b><span>My hair care, coming very soon.</span><i>Discover</i></a>
+          <a class="raccourci reveal" href="#packs-visage"><span class="num">04</span><b>Skincare</b><span>The little test to find your skin's routine.</span><i>Discover</i></a>
+        </div>
+      </div>
+
+      <div class="encart-routine seul-accueil reveal">
         <p class="encart-titre">A routine that lasts? <span class="kw">Sign up</span></p>
         <p>If you want your supplements to become a real daily habit, signing up quickly pays off: you get 30% off all products, on every order. Message me and I'll explain everything simply. And you can sign up from any country.</p>
         <div class="btns">
@@ -346,7 +356,7 @@
         </div>
       </div>
 
-      <div class="onglets" role="tablist">
+      <div class="onglets seul-cat" role="tablist">
         <button class="onglet actif" type="button" role="tab" data-cat="nutrition" aria-selected="true">Nutrition</button>
         <button class="onglet" type="button" role="tab" data-cat="maquillage" aria-selected="false">Make-up</button>
         <button class="onglet" type="button" role="tab" data-cat="cheveux" aria-selected="false">Hair</button>
@@ -354,6 +364,7 @@
       </div>
 
       <div class="groupe" data-cat="nutrition" role="tabpanel">
+        <p class="eyebrow groupe-sur">My products</p>
         <h3 class="groupe-titre">Nutrition</h3>
         <div class="cartes kits-cartes v-liste">
           <a class="carte kit-carte reveal" href="#pack-morning-glow">
@@ -396,6 +407,7 @@
       </div>
 
       <div class="groupe" data-cat="maquillage" role="tabpanel">
+        <p class="eyebrow groupe-sur">My products</p>
         <h3 class="groupe-titre">Make-up</h3>
         <div class="arche photo maquillage-photo reveal">
           <picture>
@@ -411,6 +423,7 @@
       </div>
 
       <div class="groupe" data-cat="cheveux" role="tabpanel">
+        <p class="eyebrow groupe-sur">My products</p>
         <h3 class="groupe-titre">Hair</h3>
         <div class="bientot reveal">
           <p class="bientot-titre">Coming soon</p>
@@ -420,6 +433,7 @@
       </div>
 
       <div class="groupe" data-cat="visage" role="tabpanel">
+        <p class="eyebrow groupe-sur">My products</p>
         <h3 class="groupe-titre">Skincare</h3>
         <div class="test-peau reveal">
           <p class="tp-sur">Meli's little test</p>
@@ -1654,7 +1668,7 @@
       });
       groupes.forEach(function (g) { g.hidden = g.dataset.cat !== cat; });
     }
-    onglets.forEach(function (b) { b.addEventListener('click', function () { categorie(b.dataset.cat); }); });
+    onglets.forEach(function (b) { b.addEventListener('click', function () { location.hash = 'packs-' + b.dataset.cat; }); });
     categorie('nutrition');
 
     /* Menu du téléphone */
@@ -1798,6 +1812,11 @@
       liens.forEach(function (a) { a.classList.toggle('actif', a.getAttribute('href') === '#' + rubrique); });
       if (titre) document.title = titre;
       if (cat) categorie(cat);
+      var pagePacks = document.querySelector('section[data-page="packs"]');
+      if (pagePacks) {
+        pagePacks.classList.toggle('vue-cat', nom === 'packs' && !!cat);
+        pagePacks.classList.toggle('vue-accueil', nom === 'packs' && !cat);
+      }
       if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
       /* Parcours : si on revient sur la page précédente, on retrouve l'endroit où on était */
       var cle = location.hash || '#accueil', retour = false;

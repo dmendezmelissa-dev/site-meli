@@ -173,7 +173,7 @@
       });
       groupes.forEach(function (g) { g.hidden = g.dataset.cat !== cat; });
     }
-    onglets.forEach(function (b) { b.addEventListener('click', function () { categorie(b.dataset.cat); }); });
+    onglets.forEach(function (b) { b.addEventListener('click', function () { location.hash = 'packs-' + b.dataset.cat; }); });
     categorie('nutrition');
 
     /* Menu du téléphone */
@@ -317,6 +317,11 @@
       liens.forEach(function (a) { a.classList.toggle('actif', a.getAttribute('href') === '#' + rubrique); });
       if (titre) document.title = titre;
       if (cat) categorie(cat);
+      var pagePacks = document.querySelector('section[data-page="packs"]');
+      if (pagePacks) {
+        pagePacks.classList.toggle('vue-cat', nom === 'packs' && !!cat);
+        pagePacks.classList.toggle('vue-accueil', nom === 'packs' && !cat);
+      }
       if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
       /* Parcours : si on revient sur la page précédente, on retrouve l'endroit où on était */
       var cle = location.hash || '#accueil', retour = false;

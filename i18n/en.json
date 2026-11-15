@@ -2650,5 +2650,45 @@
   "produits.photo_alt": {
     "fr": "Meli à table avec les produits qu'elle utilise : Recharge, Créatine, soins Dr. C. Tuna",
     "en": "Meli at the table with the products she uses: Recharge, Creatine, Dr. C. Tuna care"
+  },
+  "univers.1.titre": {
+    "fr": "Nutrition",
+    "en": "Nutrition"
+  },
+  "univers.1.texte": {
+    "fr": "Mes routines et les compléments que je prends chaque jour.",
+    "en": "My routines and the supplements I take every day."
+  },
+  "univers.2.titre": {
+    "fr": "Maquillage",
+    "en": "Make-up"
+  },
+  "univers.2.texte": {
+    "fr": "Mes indispensables, très bientôt.",
+    "en": "My essentials, coming very soon."
+  },
+  "univers.3.titre": {
+    "fr": "Cheveux",
+    "en": "Hair"
+  },
+  "univers.3.texte": {
+    "fr": "Mes soins pour les cheveux, très bientôt.",
+    "en": "My hair care, coming very soon."
+  },
+  "univers.4.titre": {
+    "fr": "Soins visage",
+    "en": "Skincare"
+  },
+  "univers.4.texte": {
+    "fr": "Le petit test pour trouver la routine de ta peau.",
+    "en": "The little test to find your skin's routine."
+  },
+  "univers.lien": {
+    "fr": "Découvrir",
+    "en": "Discover"
+  },
+  "univers.surtitre": {
+    "fr": "Choisis ton univers",
+    "en": "Choose your world"
   }
 }
