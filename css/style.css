@@ -1170,3 +1170,9 @@ h1, h2, .encart-titre { text-wrap: balance; }
 @media (max-width: 640px) { .tp-choix { grid-template-columns: 1fr; } .test-peau { padding: 24px 14px; } }
 .tp-panier { font-size: 14px; color: var(--doux); font-style: italic; margin: 4px 4px 10px; }
 .mention-bas { margin-top: 44px !important; }
+
+/* Photos de Mon histoire (désert dans le texte) et de la catégorie Maquillage */
+.histoire-photo { margin: 22px 0 24px; }
+.histoire-photo img { display: block; width: 100%; height: auto; border-radius: 22px; box-shadow: 0 14px 30px rgba(120, 80, 50, .14); }
+.maquillage-photo { width: min(320px, 72%); aspect-ratio: 3 / 4; margin: 6px auto 22px; }
+.maquillage-photo picture { display: block; width: 100%; height: 100%; }

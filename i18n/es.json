@@ -1367,10 +1367,6 @@
     "fr": "Chaque corps est différent, chaque métabolisme et chaque quotidien aussi. Ne te compare pas aux autres, apprends à aimer qui tu es. Prends soin de ton corps, et de toi.",
     "es": "Cada cuerpo es diferente, cada metabolismo y cada día a día también. No te compares con los demás, aprende a quererte tal como eres. Cuida tu cuerpo, y cuídate a ti."
   },
-  "histoire.photo_alt": {
-    "fr": "Meli en tenue de sport, un haltère à la main, sur son tapis à la maison",
-    "es": "Meli en ropa deportiva, con una mancuerna en la mano, sobre su esterilla en casa"
-  },
   "faq.b2.r": {
     "fr": "Compte au moins 2 heures, pour qu'on ait le temps de discuter et de faire connaissance. Le matin ou l'après-midi, comme tu préfères : je travaille de chez moi, je suis flexible ;)",
     "es": "Cuenta con al menos 2 horas, para que tengamos tiempo de hablar y conocernos. Por la mañana o por la tarde, como prefieras: trabajo desde casa, así que soy flexible ;)"
@@ -2638,5 +2634,17 @@
   "tp.panier": {
     "fr": "Le panier tout prêt de cette routine est en cours de préparation. En attendant, écris-moi ton numéro : je te prépare ta routine.",
     "es": "La cesta lista para esta rutina se está preparando. Mientras tanto, escríbeme tu número: te preparo tu rutina."
+  },
+  "histoire.ponton_alt": {
+    "fr": "Meli de dos, qui marche sur un ponton en bois vers le soleil",
+    "es": "Meli de espaldas, caminando por un muelle de madera hacia el sol"
+  },
+  "histoire.desert_alt": {
+    "fr": "Meli à genoux en haut d'une dune, face au soleil couchant",
+    "es": "Meli de rodillas en lo alto de una duna, frente a la puesta de sol"
+  },
+  "maquillage.photo_alt": {
+    "fr": "Meli souriante qui se met du mascara",
+    "es": "Meli sonriente poniéndose máscara de pestañas"
   }
 }

@@ -1367,10 +1367,6 @@
     "fr": "Chaque corps est différent, chaque métabolisme et chaque quotidien aussi. Ne te compare pas aux autres, apprends à aimer qui tu es. Prends soin de ton corps, et de toi.",
     "en": "Every body is different, every metabolism and every daily life too. Don't compare yourself to others, learn to love who you are. Take care of your body, and of yourself."
   },
-  "histoire.photo_alt": {
-    "fr": "Meli en tenue de sport, un haltère à la main, sur son tapis à la maison",
-    "en": "Meli in workout clothes, holding a dumbbell, on her mat at home"
-  },
   "faq.b2.r": {
     "fr": "Compte au moins 2 heures, pour qu'on ait le temps de discuter et de faire connaissance. Le matin ou l'après-midi, comme tu préfères : je travaille de chez moi, je suis flexible ;)",
     "en": "Allow at least 2 hours, so we have time to talk and get to know each other. Morning or afternoon, whatever suits you: I work from home, so I'm flexible ;)"
@@ -2638,5 +2634,17 @@
   "tp.panier": {
     "fr": "Le panier tout prêt de cette routine est en cours de préparation. En attendant, écris-moi ton numéro : je te prépare ta routine.",
     "en": "The ready-made basket for this routine is being prepared. In the meantime, message me your number: I'll put your routine together for you."
+  },
+  "histoire.ponton_alt": {
+    "fr": "Meli de dos, qui marche sur un ponton en bois vers le soleil",
+    "en": "Meli from behind, walking along a wooden pier towards the sun"
+  },
+  "histoire.desert_alt": {
+    "fr": "Meli à genoux en haut d'une dune, face au soleil couchant",
+    "en": "Meli kneeling at the top of a dune, facing the setting sun"
+  },
+  "maquillage.photo_alt": {
+    "fr": "Meli souriante qui se met du mascara",
+    "en": "Meli smiling while putting on mascara"
   }
 }
