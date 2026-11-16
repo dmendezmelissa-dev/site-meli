@@ -527,25 +527,9 @@
     "fr": "Éditrice du site",
     "en": "Site publisher"
   },
-  "todo.nom": {
-    "fr": "prénom et nom",
-    "en": "first and last name"
-  },
   "legal.statut": {
     "fr": ", entrepreneuse individuelle (micro-entreprise), SIRET",
     "en": ", sole trader (French micro-entreprise), SIRET"
-  },
-  "todo.completer": {
-    "fr": "à compléter",
-    "en": "to be completed"
-  },
-  "legal.adresse": {
-    "fr": "Adresse",
-    "en": "Address"
-  },
-  "todo.domiciliation": {
-    "fr": "domiciliation à définir",
-    "en": "business address to be defined"
   },
   "legal.contact": {
     "fr": "Contact",

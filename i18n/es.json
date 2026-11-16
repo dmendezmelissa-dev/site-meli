@@ -619,25 +619,9 @@
     "fr": "Éditrice du site",
     "es": "Editora del sitio"
   },
-  "todo.nom": {
-    "fr": "prénom et nom",
-    "es": "nombre y apellido"
-  },
   "legal.statut": {
     "fr": ", entrepreneuse individuelle (micro-entreprise), SIRET",
     "es": ", empresaria individual (micro-entreprise en Francia), SIRET"
-  },
-  "todo.completer": {
-    "fr": "à compléter",
-    "es": "por completar"
-  },
-  "legal.adresse": {
-    "fr": "Adresse",
-    "es": "Dirección"
-  },
-  "todo.domiciliation": {
-    "fr": "domiciliation à définir",
-    "es": "domiciliación por definir"
   },
   "legal.contact": {
     "fr": "Contact",
