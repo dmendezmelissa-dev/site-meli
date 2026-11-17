@@ -132,6 +132,10 @@ def main():
                 sys.exit(f"Erreur : un marqueur n'a pas été remplacé dans {sortie}.")
             if re.search("[\u2013\u2014]", page):
                 sys.exit(f"Erreur : tiret cadratin ou demi-cadratin dans {sortie}.")
+            # Version de la feuille de style : force les navigateurs à recharger le CSS après chaque modification
+            import hashlib
+            vcss = hashlib.md5((ICI / "css" / "style.css").read_bytes()).hexdigest()[:8]
+            page = page.replace('css/style.css"', 'css/style.css?v=' + vcss + '"')
             (ICI / sortie).parent.mkdir(parents=True, exist_ok=True)
             (ICI / sortie).write_text(page, encoding="utf-8")
             print(f"{lang} {personne} -> {sortie}")
