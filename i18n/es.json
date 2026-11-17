@@ -1516,8 +1516,8 @@
     "es": "Kit Cereza Real"
   },
   "kit.rc.prix": {
-    "fr": "33,50 €",
-    "es": "33,50 €"
+    "fr": "41,00 €",
+    "es": "41,00 €"
   },
   "kit.rc.desc": {
     "fr": "Toute la gamme Cerise Royale pour le corps : on se lave, on nourrit sa peau, et on garde un parfum gourmand de cerise jusqu'au bout des doigts.",
@@ -1784,16 +1784,16 @@
     "es": "A veces tengo algunos productos en stock: escríbeme para comprobarlo."
   },
   "pack.mg.prix": {
-    "fr": "131,00 €",
-    "es": "131,00 €"
+    "fr": "158,50 €",
+    "es": "158,50 €"
   },
   "pack.mg.prix_fi": {
-    "fr": "91,70 €",
-    "es": "91,70 €"
+    "fr": "110,95 €",
+    "es": "110,95 €"
   },
   "pack.mg.eco": {
-    "fr": "Tu économises 39,30 €",
-    "es": "Ahorras 39,30 €"
+    "fr": "Tu économises 47,55 €",
+    "es": "Ahorras 47,55 €"
   },
   "pack.mg.opt_fi": {
     "fr": "38,50 € inscrite",
@@ -1904,8 +1904,8 @@
     "es": "Un producto que tomo yo también, después de mis entrenamientos: una dosis sin sabor, en un vaso de agua o en tu bebida favorita."
   },
   "pack.cr.eco": {
-    "fr": "Tu économises 6,30 €",
-    "es": "Ahorras 6,30 €"
+    "fr": "Tu économises 9,00 €",
+    "es": "Ahorras 9,00 €"
   },
   "pack.cr.nom": {
     "fr": "Créatine",
@@ -1920,12 +1920,12 @@
     "es": "Para acompañar <span class='kw'>mis entrenamientos</span>"
   },
   "pack.cr.prix": {
-    "fr": "21,00 €",
-    "es": "21,00 €"
+    "fr": "30,00 €",
+    "es": "30,00 €"
   },
   "pack.cr.prix_fi": {
-    "fr": "14,70 €",
-    "es": "14,70 €"
+    "fr": "21,00 €",
+    "es": "21,00 €"
   },
   "pack.cr.taille": {
     "fr": "150&nbsp;g · 50 doses",
@@ -2048,8 +2048,8 @@
     "es": "%C2%A1Hola%20Meli!%20Tengo%20una%20pregunta%20sobre%20el%20col%C3%A1geno%20de%20chocolate."
   },
   "pack.mg.livraison": {
-    "fr": "Livraison offerte : au prix boutique, ce pack dépasse 125 €. Si tu es inscrite (91,70 €), + 7,50 € de livraison.",
-    "es": "Envío gratis: al precio de tienda, este pack supera los 125 €. Si estás inscrita (91,70 €), + 7,50 € de envío."
+    "fr": "Livraison offerte : au prix boutique, ce pack dépasse 125 €. Si tu es inscrite (110,95 €), + 7,50 € de livraison.",
+    "es": "Envío gratis: al precio de tienda, este pack supera los 125 €. Si estás inscrita (110,95 €), + 7,50 € de envío."
   },
   "titre.kit_mo": {
     "fr": "Kit Moringa · Meli",
@@ -2248,8 +2248,8 @@
     "es": "Un jabón con relieves para masajear en la ducha, con finas partículas de hueso de albaricoque que exfolian con suavidad. Menta, alcanfor y mentol para un efecto fresco y energizante, y una nota de pimentón ligeramente especiada."
   },
   "kit.pa.prix": {
-    "fr": "14,50 €",
-    "es": "14,50 €"
+    "fr": "20,00 €",
+    "es": "20,00 €"
   },
   "kit.pa.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Paprika%20en%20pochette%20cadeau.",
@@ -2288,8 +2288,8 @@
     "es": "Con castaño de Indias, árnica, menta y mentol: un gel fresco que aporta una sensación de ligereza, ideal para las piernas cansadas después de un largo día de pie o después del deporte. El romero y el aceite de jojoba hidratan y nutren la piel."
   },
   "kit.ge.prix": {
-    "fr": "13,20 €",
-    "es": "13,20 €"
+    "fr": "22,00 €",
+    "es": "22,00 €"
   },
   "kit.ge.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Gels%20de%20massage%20en%20pochette%20cadeau.",
@@ -2694,5 +2694,21 @@
   "presente.texte": {
     "fr": "Avant de réserver quoi que ce soit, tu as le droit de savoir à qui tu parles : qui je suis, pourquoi je fais ça, et comment je peux t'aider.",
     "es": "Antes de reservar nada, tienes derecho a saber con quién hablas: quién soy, por qué hago esto y cómo puedo ayudarte."
+  },
+  "prix.v.1750": {
+    "fr": "17,50 €",
+    "es": "17,50 €"
+  },
+  "prix.v.2450": {
+    "fr": "24,50 €",
+    "es": "24,50 €"
+  },
+  "kit.promo": {
+    "fr": "Promo",
+    "es": "Promo"
+  },
+  "kits.promo": {
+    "fr": "En ce moment, il y a plein de promos sur ma boutique en ligne ! Les prix affichés ici sont les prix normaux : en commandant en ligne, tu profites des promos du moment.",
+    "es": "¡Ahora mismo hay un montón de promociones en mi tienda online! Los precios que ves aquí son los precios normales: si pides online, aprovechas las promociones del momento."
   }
 }

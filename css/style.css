@@ -1205,3 +1205,9 @@ h1, h2, .encart-titre { text-wrap: balance; }
   .bienvenue .insta-mobile { display: flex; justify-content: center; margin-top: -8px; }
 }
 @media (max-width: 760px) { .page .phrase-cle { font-size: 24px; margin-bottom: 36px; padding: 0; } }
+
+/* Étiquette promo des kits */
+.tag-promo { display: inline-block; vertical-align: middle; margin-left: 6px; padding: 3px 9px 2px; border-radius: 999px; background: #8E1B2E; color: #fff; font-family: "Quicksand", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; line-height: 1.4; }
+.promo-note { max-width: 640px; margin: 26px auto 0; padding: 14px 20px; border-radius: 16px; background: #F6E3E3; color: var(--encre); font-size: 15px; line-height: 1.55; text-align: center; }
+.promo-note .tag-promo { margin: 0 6px 0 0; }
+@media (max-width: 560px) { .tag-promo { font-size: 9.5px; padding: 2px 7px 1px; margin-left: 4px; } .promo-note { font-size: 14px; padding: 12px 14px; } }

@@ -1516,8 +1516,8 @@
     "en": "Royal Cherry kit"
   },
   "kit.rc.prix": {
-    "fr": "33,50 €",
-    "en": "€33.50"
+    "fr": "41,00 €",
+    "en": "€41.00"
   },
   "kit.rc.desc": {
     "fr": "Toute la gamme Cerise Royale pour le corps : on se lave, on nourrit sa peau, et on garde un parfum gourmand de cerise jusqu'au bout des doigts.",
@@ -1784,16 +1784,16 @@
     "en": "I sometimes have some products in stock: message me to check."
   },
   "pack.mg.prix": {
-    "fr": "131,00 €",
-    "en": "€131.00"
+    "fr": "158,50 €",
+    "en": "€158.50"
   },
   "pack.mg.prix_fi": {
-    "fr": "91,70 €",
-    "en": "€91.70"
+    "fr": "110,95 €",
+    "en": "€110.95"
   },
   "pack.mg.eco": {
-    "fr": "Tu économises 39,30 €",
-    "en": "You save €39.30"
+    "fr": "Tu économises 47,55 €",
+    "en": "You save €47.55"
   },
   "pack.mg.opt_fi": {
     "fr": "38,50 € inscrite",
@@ -1904,8 +1904,8 @@
     "en": "A product I take myself, after my workouts: one unflavoured scoop, in a glass of water or your favourite drink."
   },
   "pack.cr.eco": {
-    "fr": "Tu économises 6,30 €",
-    "en": "You save €6.30"
+    "fr": "Tu économises 9,00 €",
+    "en": "You save €9.00"
   },
   "pack.cr.nom": {
     "fr": "Créatine",
@@ -1920,12 +1920,12 @@
     "en": "To support <span class='kw'>my workouts</span>"
   },
   "pack.cr.prix": {
-    "fr": "21,00 €",
-    "en": "€21.00"
+    "fr": "30,00 €",
+    "en": "€30.00"
   },
   "pack.cr.prix_fi": {
-    "fr": "14,70 €",
-    "en": "€14.70"
+    "fr": "21,00 €",
+    "en": "€21.00"
   },
   "pack.cr.taille": {
     "fr": "150&nbsp;g · 50 doses",
@@ -2048,8 +2048,8 @@
     "en": "Hi%20Meli!%20I%20have%20a%20question%20about%20the%20chocolate%20collagen."
   },
   "pack.mg.livraison": {
-    "fr": "Livraison offerte : au prix boutique, ce pack dépasse 125 €. Si tu es inscrite (91,70 €), + 7,50 € de livraison.",
-    "en": "Free delivery: at the shop price, this pack is over €125. If you're registered (€91.70), + €7.50 delivery."
+    "fr": "Livraison offerte : au prix boutique, ce pack dépasse 125 €. Si tu es inscrite (110,95 €), + 7,50 € de livraison.",
+    "en": "Free delivery: at the shop price, this pack is over €125. If you're registered (€110.95), + €7.50 delivery."
   },
   "titre.kit_mo": {
     "fr": "Kit Moringa · Meli",
@@ -2248,8 +2248,8 @@
     "en": "A soap with massaging nodules for the shower, with fine apricot kernel particles that gently exfoliate. Mint, camphor and menthol for a fresh, energising feel, and a lightly spicy note of paprika."
   },
   "kit.pa.prix": {
-    "fr": "14,50 €",
-    "en": "€14.50"
+    "fr": "20,00 €",
+    "en": "€20.00"
   },
   "kit.pa.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Paprika%20en%20pochette%20cadeau.",
@@ -2288,8 +2288,8 @@
     "en": "With horse chestnut, arnica, mint and menthol: a cooling gel that brings a feeling of lightness, ideal for heavy legs after a long day on your feet or after sport. Rosemary and jojoba oil moisturise and nourish the skin."
   },
   "kit.ge.prix": {
-    "fr": "13,20 €",
-    "en": "€13.20"
+    "fr": "22,00 €",
+    "en": "€22.00"
   },
   "kit.ge.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Gels%20de%20massage%20en%20pochette%20cadeau.",
@@ -2694,5 +2694,21 @@
   "presente.texte": {
     "fr": "Avant de réserver quoi que ce soit, tu as le droit de savoir à qui tu parles : qui je suis, pourquoi je fais ça, et comment je peux t'aider.",
     "en": "Before you book anything, you have the right to know who you are talking to: who I am, why I do this, and how I can help you."
+  },
+  "prix.v.1750": {
+    "fr": "17,50 €",
+    "en": "€17.50"
+  },
+  "prix.v.2450": {
+    "fr": "24,50 €",
+    "en": "€24.50"
+  },
+  "kit.promo": {
+    "fr": "Promo",
+    "en": "Sale"
+  },
+  "kits.promo": {
+    "fr": "En ce moment, il y a plein de promos sur ma boutique en ligne ! Les prix affichés ici sont les prix normaux : en commandant en ligne, tu profites des promos du moment.",
+    "en": "Right now, there are lots of deals in my online shop! The prices shown here are the regular prices: order online to enjoy the current deals."
   }
 }
