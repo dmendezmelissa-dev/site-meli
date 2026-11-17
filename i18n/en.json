@@ -2678,5 +2678,21 @@
   "cheveux.photo_alt": {
     "fr": "Les cheveux longs et ondulés de Meli, vus de dos",
     "en": "Meli's long wavy hair, seen from behind"
+  },
+  "citation.texte": {
+    "fr": "Pas besoin de beaucoup de temps.<br>Juste d'un moment pour toi.",
+    "en": "Not much time needed.<br>Just a moment for you."
+  },
+  "presente.photo_alt": {
+    "fr": "Meli de dos, qui tire ses deux enfants dans un chariot",
+    "en": "Meli from behind, pulling her two children in a wagon"
+  },
+  "presente.surtitre": {
+    "fr": "Avant tout",
+    "en": "First things first"
+  },
+  "presente.texte": {
+    "fr": "Avant de réserver quoi que ce soit, tu as le droit de savoir à qui tu parles : qui je suis, pourquoi je fais ça, et comment je peux t'aider.",
+    "en": "Before you book anything, you have the right to know who you are talking to: who I am, why I do this, and how I can help you."
   }
 }

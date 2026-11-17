@@ -1190,3 +1190,18 @@ h1, h2, .encart-titre { text-wrap: balance; }
 .js .packs.vue-cat .groupe-titre { display: block; font-family: "Lora", serif; font-weight: 400; font-size: clamp(32px, 6vw, 46px); margin: 0 0 26px; }
 .js .packs.vue-cat .onglets { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 30px; }
 .packs.vue-cat .onglet { padding: 7px 15px; font-size: 13.5px; min-height: 0; width: auto; border-width: 1px; }
+
+/* Présentation / citation */
+.page .phrase-cle { text-align: center; font-size: 34px; line-height: 1.3; margin: 0 auto 56px; max-width: 760px; }
+.arche.presente { aspect-ratio: 3 / 4; border-radius: 999px 999px 22px 22px; overflow: hidden; position: relative; }
+.arche.presente picture { display: block; height: 100%; }
+.arche.presente img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+.commencer { padding: 24px 0 80px; }
+.commencer .raccourcis { margin-top: 14px; }
+
+.insta-mobile { display: none; }
+@media (max-width: 760px) {
+  .bienvenue .insta-bureau { display: none; }
+  .bienvenue .insta-mobile { display: flex; justify-content: center; margin-top: -8px; }
+}
+@media (max-width: 760px) { .page .phrase-cle { font-size: 24px; margin-bottom: 36px; padding: 0; } }

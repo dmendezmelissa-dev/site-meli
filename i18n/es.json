@@ -2678,5 +2678,21 @@
   "cheveux.photo_alt": {
     "fr": "Les cheveux longs et ondulés de Meli, vus de dos",
     "es": "El pelo largo y ondulado de Meli, visto de espaldas"
+  },
+  "citation.texte": {
+    "fr": "Pas besoin de beaucoup de temps.<br>Juste d'un moment pour toi.",
+    "es": "No necesitas mucho tiempo.<br>Solo un momento para ti."
+  },
+  "presente.photo_alt": {
+    "fr": "Meli de dos, qui tire ses deux enfants dans un chariot",
+    "es": "Meli de espaldas, tirando de sus dos hijos en un carrito"
+  },
+  "presente.surtitre": {
+    "fr": "Avant tout",
+    "es": "Antes que nada"
+  },
+  "presente.texte": {
+    "fr": "Avant de réserver quoi que ce soit, tu as le droit de savoir à qui tu parles : qui je suis, pourquoi je fais ça, et comment je peux t'aider.",
+    "es": "Antes de reservar nada, tienes derecho a saber con quién hablas: quién soy, por qué hago esto y cómo puedo ayudarte."
   }
 }
