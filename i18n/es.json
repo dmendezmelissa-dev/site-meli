@@ -2710,5 +2710,17 @@
   "kits.promo": {
     "fr": "En ce moment, il y a plein de promos sur ma boutique en ligne ! Les prix affichés ici sont les prix normaux : en commandant en ligne, tu profites des promos du moment.",
     "es": "¡Ahora mismo hay un montón de promociones en mi tienda online! Los precios que ves aquí son los precios normales: si pides online, aprovechas las promociones del momento."
+  },
+  "noel.accueil.promo_lien": {
+    "fr": "Voir ma boutique",
+    "es": "Ver mi tienda"
+  },
+  "promo.titre": {
+    "fr": "En ce moment, jusqu'à -50 % sur certains articles !",
+    "es": "¡Ahora mismo, hasta -50 % en algunos artículos!"
+  },
+  "promo.texte": {
+    "fr": "Soins et maquillage : profites-en sur ma boutique en ligne.",
+    "es": "Cuidado y maquillaje: aprovecha en mi tienda online."
   }
 }
