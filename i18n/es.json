@@ -652,8 +652,8 @@
     "es": "Datos personales"
   },
   "legal.donnees_texte": {
-    "fr": "Ce site ne collecte et n'enregistre aucune donnée (pas de cookies de statistiques). Le formulaire de bilan ne fait que préparer un message sur ton téléphone ou ton ordinateur : c'est toi qui choisis de l'envoyer par WhatsApp ou de le copier. Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.",
-    "es": "Este sitio no recopila ni guarda ningún dato (sin cookies de estadísticas). El formulario de evaluación solo prepara un mensaje en tu teléfono o computadora: tú eliges enviarlo por WhatsApp o copiarlo. Los pedidos se hacen en el sitio de Farmasi, que tiene su propia política de privacidad."
+    "fr": "Ce site ne dépose aucun cookie. Pour savoir combien de personnes le visitent, il utilise Umami, un outil de mesure d'audience anonyme et sans cookies : aucune donnée personnelle n'est collectée, ni revendue. Le formulaire de bilan ne fait que préparer un message sur ton téléphone ou ton ordinateur : c'est toi qui choisis de l'envoyer par WhatsApp ou de le copier. Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.",
+    "es": "Este sitio no instala ninguna cookie. Para saber cuántas personas lo visitan, usa Umami, una herramienta de medición de audiencia anónima y sin cookies: no se recopila ni se vende ningún dato personal. El formulario de evaluación solo prepara un mensaje en tu teléfono o computadora: tú eliges enviarlo por WhatsApp o copiarlo. Los pedidos se hacen en el sitio de Farmasi, que tiene su propia política de privacidad."
   },
   "legal.photos": {
     "fr": "Photos",

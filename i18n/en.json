@@ -560,8 +560,8 @@
     "en": "Personal data"
   },
   "legal.donnees_texte": {
-    "fr": "Ce site ne collecte et n'enregistre aucune donnée (pas de cookies de statistiques). Le formulaire de bilan ne fait que préparer un message sur ton téléphone ou ton ordinateur : c'est toi qui choisis de l'envoyer par WhatsApp ou de le copier. Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.",
-    "en": "This site does not collect or store any data (no analytics cookies). The check-in form only prepares a message on your phone or computer: you choose to send it via WhatsApp or to copy it. Orders are placed on the Farmasi website, which has its own privacy policy."
+    "fr": "Ce site ne dépose aucun cookie. Pour savoir combien de personnes le visitent, il utilise Umami, un outil de mesure d'audience anonyme et sans cookies : aucune donnée personnelle n'est collectée, ni revendue. Le formulaire de bilan ne fait que préparer un message sur ton téléphone ou ton ordinateur : c'est toi qui choisis de l'envoyer par WhatsApp ou de le copier. Les commandes se font sur le site Farmasi, qui a sa propre politique de confidentialité.",
+    "en": "This site sets no cookies. To know how many people visit it, it uses Umami, an anonymous, cookie-free audience measurement tool: no personal data is collected or sold. The check-in form only prepares a message on your phone or computer: you choose to send it via WhatsApp or to copy it. Orders are placed on the Farmasi website, which has its own privacy policy."
   },
   "legal.photos": {
     "fr": "Photos",
