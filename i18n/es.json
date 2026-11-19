@@ -2830,5 +2830,77 @@
   "pack.ir.wa": {
     "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20pack%20Intensive%20Repair.",
     "es": "%C2%A1Hola%20Meli!%20Tengo%20una%20pregunta%20sobre%20el%20pack%20Intensive%20Repair."
+  },
+  "univers.3.texte3": {
+    "fr": "Mes routines pour des cheveux réparés et plus forts.",
+    "es": "Mis rutinas para un cabello reparado y más fuerte."
+  },
+  "pack.rv.alt": {
+    "fr": "Le masque, l'huile et le shampoing Reviving",
+    "es": "La mascarilla, el aceite y el champú Reviving"
+  },
+  "pack.rv.pour": {
+    "fr": "Pour des cheveux <span class='kw'>plus forts</span>",
+    "es": "Para un cabello <span class='kw'>más fuerte</span>"
+  },
+  "pack.rv.nom": {
+    "fr": "Reviving",
+    "es": "Reviving"
+  },
+  "pack.rv.prix": {
+    "fr": "50,85 €",
+    "es": "50,85 €"
+  },
+  "pack.rv.prix_fi": {
+    "fr": "35,60 €",
+    "es": "35,60 €"
+  },
+  "titre.pack_rv": {
+    "fr": "Reviving · Meli",
+    "es": "Reviving · Meli"
+  },
+  "pack.rv.desc": {
+    "fr": "Une routine en trois gestes pour les cheveux fragiles qui ont besoin de force : un bain d'huile avant la douche, un shampoing qui revitalise et un masque qui nourrit. En set, les trois produits te reviennent moins cher qu'un par un.",
+    "es": "Una rutina en tres pasos para el cabello frágil que necesita fuerza: un baño de aceite antes de la ducha, un champú revitalizante y una mascarilla nutritiva. En set, los tres productos te salen más baratos que por separado."
+  },
+  "pack.rv.hu.nom": {
+    "fr": "Huile",
+    "es": "Aceite"
+  },
+  "pack.rv.hu.desc": {
+    "fr": "Huile concentrée aux huiles de macadamia, de baobab et d'amande douce, avec de la vitamine E : elle nourrit les cheveux abîmés, les rend plus doux et plus brillants et aide à limiter la casse et les pointes fourchues. Avant la douche, sur cheveux et cuir chevelu : laisse poser 30 minutes, deux fois par semaine.",
+    "es": "Aceite concentrado con aceites de macadamia, baobab y almendra dulce, y vitamina E: nutre el cabello dañado, lo deja más suave y brillante y ayuda a limitar la rotura y las puntas abiertas. Antes de la ducha, sobre el cabello y el cuero cabelludo: deja actuar 30 minutos, dos veces por semana."
+  },
+  "pack.rv.sh.nom": {
+    "fr": "Shampoing",
+    "es": "Champú"
+  },
+  "pack.rv.sh.desc": {
+    "fr": "Shampoing revitalisant à l'ail, au Capixyl et au Trichogen, qui renforce et adoucit les cheveux fragiles et leur redonne de la brillance. Pour cheveux normaux à gras, en usage quotidien. Masse doucement le cuir chevelu, puis rince.",
+    "es": "Champú revitalizante con ajo, Capixyl y Trichogen, que fortalece y suaviza el cabello frágil y le devuelve el brillo. Para cabello normal a graso, de uso diario. Masajea suavemente el cuero cabelludo y aclara."
+  },
+  "pack.rv.ma.nom": {
+    "fr": "Masque",
+    "es": "Mascarilla"
+  },
+  "pack.rv.ma.desc": {
+    "fr": "Masque à l'huile de camélia qui restaure la fibre, réduit la casse et redonne douceur et brillance aux cheveux secs ou abîmés. Après le shampoing, des mi-longueurs aux pointes : laisse poser 2 à 3 minutes, puis rince.",
+    "es": "Mascarilla con aceite de camelia que restaura la fibra, reduce la rotura y devuelve suavidad y brillo al cabello seco o dañado. Después del champú, de medios a puntas: deja actuar 2 o 3 minutos y aclara."
+  },
+  "prix.v.1330": {
+    "fr": "13,30 €",
+    "es": "13,30 €"
+  },
+  "pack.rv.eco": {
+    "fr": "Tu économises 15,25 €",
+    "es": "Ahorras 15,25 €"
+  },
+  "pack.rv.separes": {
+    "fr": "Achetés un par un, les trois produits font 56,50 € : en set, tu gagnes déjà 5,65 €.",
+    "es": "Por separado, los tres productos cuestan 56,50 €: en set, ya ahorras 5,65 €."
+  },
+  "pack.rv.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20pack%20Reviving.",
+    "es": "%C2%A1Hola%20Meli!%20Tengo%20una%20pregunta%20sobre%20el%20pack%20Reviving."
   }
 }

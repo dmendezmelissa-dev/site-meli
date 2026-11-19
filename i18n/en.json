@@ -2830,5 +2830,77 @@
   "pack.ir.wa": {
     "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20pack%20Intensive%20Repair.",
     "en": "Hi%20Meli!%20I%20have%20a%20question%20about%20the%20Intensive%20Repair%20pack."
+  },
+  "univers.3.texte3": {
+    "fr": "Mes routines pour des cheveux réparés et plus forts.",
+    "en": "My routines for repaired, stronger hair."
+  },
+  "pack.rv.alt": {
+    "fr": "Le masque, l'huile et le shampoing Reviving",
+    "en": "Reviving mask, oil and shampoo"
+  },
+  "pack.rv.pour": {
+    "fr": "Pour des cheveux <span class='kw'>plus forts</span>",
+    "en": "For <span class='kw'>stronger</span> hair"
+  },
+  "pack.rv.nom": {
+    "fr": "Reviving",
+    "en": "Reviving"
+  },
+  "pack.rv.prix": {
+    "fr": "50,85 €",
+    "en": "€50.85"
+  },
+  "pack.rv.prix_fi": {
+    "fr": "35,60 €",
+    "en": "€35.60"
+  },
+  "titre.pack_rv": {
+    "fr": "Reviving · Meli",
+    "en": "Reviving · Meli"
+  },
+  "pack.rv.desc": {
+    "fr": "Une routine en trois gestes pour les cheveux fragiles qui ont besoin de force : un bain d'huile avant la douche, un shampoing qui revitalise et un masque qui nourrit. En set, les trois produits te reviennent moins cher qu'un par un.",
+    "en": "A three-step routine for fragile hair that needs strength: an oil treatment before the shower, a revitalising shampoo and a nourishing mask. As a set, the three products cost less than buying them one by one."
+  },
+  "pack.rv.hu.nom": {
+    "fr": "Huile",
+    "en": "Oil"
+  },
+  "pack.rv.hu.desc": {
+    "fr": "Huile concentrée aux huiles de macadamia, de baobab et d'amande douce, avec de la vitamine E : elle nourrit les cheveux abîmés, les rend plus doux et plus brillants et aide à limiter la casse et les pointes fourchues. Avant la douche, sur cheveux et cuir chevelu : laisse poser 30 minutes, deux fois par semaine.",
+    "en": "Concentrated oil with macadamia, baobab and sweet almond oils and vitamin E: it nourishes damaged hair, makes it softer and shinier and helps limit breakage and split ends. Before the shower, on hair and scalp: leave on for 30 minutes, twice a week."
+  },
+  "pack.rv.sh.nom": {
+    "fr": "Shampoing",
+    "en": "Shampoo"
+  },
+  "pack.rv.sh.desc": {
+    "fr": "Shampoing revitalisant à l'ail, au Capixyl et au Trichogen, qui renforce et adoucit les cheveux fragiles et leur redonne de la brillance. Pour cheveux normaux à gras, en usage quotidien. Masse doucement le cuir chevelu, puis rince.",
+    "en": "Revitalising shampoo with garlic, Capixyl and Trichogen, which strengthens and softens fragile hair and brings back shine. For normal to oily hair, for daily use. Gently massage the scalp, then rinse."
+  },
+  "pack.rv.ma.nom": {
+    "fr": "Masque",
+    "en": "Mask"
+  },
+  "pack.rv.ma.desc": {
+    "fr": "Masque à l'huile de camélia qui restaure la fibre, réduit la casse et redonne douceur et brillance aux cheveux secs ou abîmés. Après le shampoing, des mi-longueurs aux pointes : laisse poser 2 à 3 minutes, puis rince.",
+    "en": "Camellia oil mask that restores the fibre, reduces breakage and brings softness and shine back to dry or damaged hair. After shampooing, from mid-lengths to ends: leave on for 2 to 3 minutes, then rinse."
+  },
+  "prix.v.1330": {
+    "fr": "13,30 €",
+    "en": "€13.30"
+  },
+  "pack.rv.eco": {
+    "fr": "Tu économises 15,25 €",
+    "en": "You save €15.25"
+  },
+  "pack.rv.separes": {
+    "fr": "Achetés un par un, les trois produits font 56,50 € : en set, tu gagnes déjà 5,65 €.",
+    "en": "Bought one by one, the three products come to €56.50: as a set, you already save €5.65."
+  },
+  "pack.rv.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20pack%20Reviving.",
+    "en": "Hi%20Meli!%20I%20have%20a%20question%20about%20the%20Reviving%20pack."
   }
 }
