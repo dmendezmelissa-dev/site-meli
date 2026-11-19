@@ -136,6 +136,14 @@ def main():
             import hashlib
             vcss = hashlib.md5((ICI / "css" / "style.css").read_bytes()).hexdigest()[:8]
             page = page.replace('css/style.css"', 'css/style.css?v=' + vcss + '"')
+            # Version sur chaque image : une image modifiée est rechargée par les navigateurs
+            import re as _re
+            def _vimg(m):
+                f = ICI / "images" / m.group(1)
+                if not f.exists():
+                    return m.group(0)
+                return "images/" + m.group(1) + "?v=" + hashlib.md5(f.read_bytes()).hexdigest()[:8]
+            page = _re.sub(r'images/([\w.\-]+\.(?:webp|jpe?g|png|gif|svg))(?![\w?])', _vimg, page)
             (ICI / sortie).parent.mkdir(parents=True, exist_ok=True)
             (ICI / sortie).write_text(page, encoding="utf-8")
             print(f"{lang} {personne} -> {sortie}")
