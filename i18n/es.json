@@ -2902,5 +2902,9 @@
   "pack.rv.wa": {
     "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20pack%20Reviving.",
     "es": "%C2%A1Hola%20Meli!%20Tengo%20una%20pregunta%20sobre%20el%20pack%20Reviving."
+  },
+  "nav.boutique": {
+    "fr": "Ma boutique",
+    "es": "Mi tienda"
   }
 }

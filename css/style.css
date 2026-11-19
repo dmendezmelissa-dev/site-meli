@@ -1248,3 +1248,12 @@ h1, h2, .encart-titre { text-wrap: balance; }
 .promo-txt > span:last-child { color: #5A3D17; }
 .promo-txt .tag-promo { background: #3F2608; color: #F6E2B0; }
 .promo-bande .btn { background: #3F2608; color: #FBF1DC; border-color: #3F2608; }
+
+/* Bouton « Ma boutique » toujours visible dans la barre du haut */
+.btn-boutique { order: 3; display: inline-flex; align-items: center; gap: 7px; padding: 9px 16px 8px; border-radius: 999px; background: #57624B; color: #fff; font-weight: 700; font-size: 14px; line-height: 1.2; text-decoration: none; white-space: nowrap; transition: background .2s; }
+.btn-boutique svg { flex: none; }
+@media (hover: hover) { .btn-boutique:hover { background: #48523D; } }
+@media (max-width: 1100px) {
+  .menu .wrap { gap: 10px; }
+  .btn-boutique { order: 0; margin-left: auto; padding: 8px 13px 7px; font-size: 13px; }
+}
