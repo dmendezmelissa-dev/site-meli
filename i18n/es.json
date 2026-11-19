@@ -2722,5 +2722,113 @@
   "promo.texte": {
     "fr": "Soins et maquillage : profites-en sur ma boutique en ligne.",
     "es": "Cuidado y maquillaje: aprovecha en mi tienda online."
+  },
+  "univers.3.texte2": {
+    "fr": "Ma routine pour réparer les cheveux abîmés.",
+    "es": "Mi rutina para reparar el cabello dañado."
+  },
+  "pack.ir.alt": {
+    "fr": "Le shampoing, le masque et le soin sans rinçage Intensive Repair",
+    "es": "El champú, la mascarilla y el acondicionador sin aclarado Intensive Repair"
+  },
+  "pack.ir.pour": {
+    "fr": "Pour les cheveux <span class='kw'>abîmés</span>",
+    "es": "Para el cabello <span class='kw'>dañado</span>"
+  },
+  "pack.ir.nom": {
+    "fr": "Intensive Repair",
+    "es": "Intensive Repair"
+  },
+  "pack.ir.tag": {
+    "fr": "Set de 3",
+    "es": "Set de 3"
+  },
+  "pack.ir.prix": {
+    "fr": "44,80 €",
+    "es": "44,80 €"
+  },
+  "pack.ir.prix_fi": {
+    "fr": "31,36 €",
+    "es": "31,36 €"
+  },
+  "bientot.cheveux2": {
+    "fr": "D'autres packs pour les cheveux arrivent très bientôt.",
+    "es": "Muy pronto llegarán más packs para el cabello."
+  },
+  "titre.pack_ir": {
+    "fr": "Intensive Repair · Meli",
+    "es": "Intensive Repair · Meli"
+  },
+  "pack.ir.desc": {
+    "fr": "Une routine en trois gestes pour les cheveux fragilisés par les colorations, la chaleur du lisseur ou le soleil : on lave, on répare, on protège. En set, les trois produits te reviennent moins cher qu'un par un.",
+    "es": "Una rutina en tres pasos para el cabello debilitado por los tintes, el calor de la plancha o el sol: lavar, reparar, proteger. En set, los tres productos te salen más baratos que por separado."
+  },
+  "pack.ir.sh.nom": {
+    "fr": "Shampoing",
+    "es": "Champú"
+  },
+  "pack.ir.etape1": {
+    "fr": "Étape 1",
+    "es": "Paso 1"
+  },
+  "pack.ir.sh.desc": {
+    "fr": "Shampoing réparateur à la kératine végétale et aux acides aminés, pour les cheveux cassants et abîmés : il renforce la fibre et redonne de la brillance. Sur cheveux mouillés, puis bien rincer.",
+    "es": "Champú reparador con queratina vegetal y aminoácidos, para el cabello quebradizo y dañado: fortalece la fibra y devuelve el brillo. Sobre el cabello mojado, y aclarar bien."
+  },
+  "prix.v.1575": {
+    "fr": "15,75 €",
+    "es": "15,75 €"
+  },
+  "pack.ir.ma.nom": {
+    "fr": "Masque",
+    "es": "Mascarilla"
+  },
+  "pack.ir.etape2": {
+    "fr": "Étape 2",
+    "es": "Paso 2"
+  },
+  "pack.ir.ma.desc": {
+    "fr": "Masque intensif qui restaure la fibre, aide à réduire la casse et redonne douceur et brillance. Après le shampoing, sur cheveux humides : masse les longueurs, puis rince abondamment.",
+    "es": "Mascarilla intensiva que restaura la fibra, ayuda a reducir la rotura y devuelve suavidad y brillo. Después del champú, sobre el cabello húmedo: masajea las puntas y medios, y aclara bien."
+  },
+  "prix.v.1295": {
+    "fr": "12,95 €",
+    "es": "12,95 €"
+  },
+  "pack.ir.so.nom": {
+    "fr": "Soin sans rinçage",
+    "es": "Acondicionador sin aclarado"
+  },
+  "pack.ir.etape3": {
+    "fr": "Étape 3",
+    "es": "Paso 3"
+  },
+  "pack.ir.so.desc": {
+    "fr": "Soin léger qui reste sur les cheveux toute la journée : hydratation, protection contre la chaleur et moins de frisottis. Sur cheveux propres et humides, des pointes vers les racines, sans rincer.",
+    "es": "Cuidado ligero que se queda en el cabello todo el día: hidratación, protección contra el calor y menos encrespamiento. Sobre el cabello limpio y húmedo, de las puntas a las raíces, sin aclarar."
+  },
+  "pack.ir.total": {
+    "fr": "Prix du set",
+    "es": "Precio del set"
+  },
+  "pack.ir.eco": {
+    "fr": "Tu économises 13,44 €",
+    "es": "Ahorras 13,44 €"
+  },
+  "pack.ir.separes": {
+    "fr": "Achetés un par un, les trois produits font 56,00 € : en set, tu gagnes déjà 11,20 €.",
+    "es": "Por separado, los tres productos cuestan 56,00 €: en set, ya ahorras 11,20 €."
+  },
+  "pack.ir.livraison": {
+    "fr": "Livraison : 7,50 €, offerte dès 125 € d'achat.",
+    "es": "Envío: 7,50 €, gratis a partir de 125 €."
+  },
+  "pack.ir.panier_note": {
+    "fr": "Dans le panier, les trois produits sont réunis en un seul set, au prix du set.",
+    "es": "En la cesta, los tres productos vienen juntos en un solo set, al precio del set."
+  },
+  "pack.ir.wa": {
+    "fr": "Bonjour%20Meli%20!%20J'ai%20une%20question%20sur%20le%20pack%20Intensive%20Repair.",
+    "es": "%C2%A1Hola%20Meli!%20Tengo%20una%20pregunta%20sobre%20el%20pack%20Intensive%20Repair."
   }
 }
