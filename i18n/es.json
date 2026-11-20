@@ -2906,5 +2906,61 @@
   "nav.boutique": {
     "fr": "Ma boutique",
     "es": "Mi tienda"
+  },
+  "kit.gl.gamme_alt": {
+    "fr": "Le kit Glam : mascara Double Lash Extend et rouge à lèvres Creamy Lipstick Hot Cherry",
+    "es": "El kit Glam: máscara Double Lash Extend y labial Creamy Lipstick Hot Cherry"
+  },
+  "kit.gl.pour": {
+    "fr": "Pour un look de fête <span class='kw'>en deux gestes</span>",
+    "es": "Para un look de fiesta <span class='kw'>en dos gestos</span>"
+  },
+  "kit.gl.nom": {
+    "fr": "Kit Glam",
+    "es": "Kit Glam"
+  },
+  "kit.gl.prix": {
+    "fr": "33,50 €",
+    "es": "33,50 €"
+  },
+  "titre.kit_gl": {
+    "fr": "Kit Glam · Meli",
+    "es": "Kit Glam · Meli"
+  },
+  "kit.gl.desc": {
+    "fr": "Le duo maquillage des fêtes : un mascara double effet pour un regard intense, et un rouge à lèvres crémeux pour la touche glamour. À offrir, ou à s'offrir pour les soirées de décembre.",
+    "es": "El dúo de maquillaje de las fiestas: una máscara de doble efecto para una mirada intensa y un labial cremoso para el toque glamuroso. Para regalar, o para darte un capricho en las noches de diciembre."
+  },
+  "kit.gl.mascara.alt": {
+    "fr": "Mascara Double Lash Extend",
+    "es": "Máscara Double Lash Extend"
+  },
+  "kit.gl.mascara.nom": {
+    "fr": "Mascara Double Lash Extend",
+    "es": "Máscara Double Lash Extend"
+  },
+  "kit.gl.mascara.desc": {
+    "fr": "Un mascara double effet, volume et longueur : la brosse fine définit les cils, la brosse volumatrice les intensifie. Testé sous contrôle ophtalmologique et sans parabènes.",
+    "es": "Una máscara de doble efecto, volumen y longitud: el cepillo fino define las pestañas y el cepillo voluminizador las intensifica. Testada bajo control oftalmológico y sin parabenos."
+  },
+  "kit.gl.rouge.alt": {
+    "fr": "Rouge à lèvres Creamy Lipstick Hot Cherry",
+    "es": "Labial Creamy Lipstick Hot Cherry"
+  },
+  "kit.gl.rouge.nom": {
+    "fr": "Rouge à lèvres Creamy Lipstick",
+    "es": "Labial Creamy Lipstick"
+  },
+  "kit.gl.rouge.teinte": {
+    "fr": "teinte Hot Cherry",
+    "es": "tono Hot Cherry"
+  },
+  "kit.gl.rouge.desc": {
+    "fr": "Une texture ultra-crémeuse qui glisse facilement, pour une couleur intense et uniforme, confortable toute la journée. Formule végane, sans parabènes.",
+    "es": "Una textura ultracremosa que se desliza fácilmente, para un color intenso y uniforme, cómodo todo el día. Fórmula vegana, sin parabenos."
+  },
+  "kit.gl.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Glam%20en%20pochette%20cadeau.",
+    "es": "%C2%A1Hola%20Meli!%20Quisiera%20el%20kit%20Glam%20en%20bolsita%20de%20regalo."
   }
 }
