@@ -2962,5 +2962,21 @@
   "kit.gl.wa": {
     "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20le%20kit%20Glam%20en%20pochette%20cadeau.",
     "en": "Hi%20Meli!%20I'd%20like%20the%20Glam%20kit%20in%20a%20gift%20pouch."
+  },
+  "bf.bandeau": {
+    "fr": "<b>Black Friday :</b> -50 % sur 39 produits, tout le weekend",
+    "en": "<b>Black Friday:</b> 50% off 39 products, all weekend long"
+  },
+  "bf.titre": {
+    "fr": "C'est le Black Friday : -50 % sur 39 produits !",
+    "en": "It's Black Friday: 50% off 39 products!"
+  },
+  "bf.texte": {
+    "fr": "Seulement ce weekend, du vendredi au dimanche, sur ma boutique en ligne.",
+    "en": "This weekend only, Friday to Sunday, in my online shop."
+  },
+  "bf.bouton": {
+    "fr": "J'en profite",
+    "en": "Shop the deals"
   }
 }

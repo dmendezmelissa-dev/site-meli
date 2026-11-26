@@ -11,14 +11,18 @@
   <link rel="alternate" hreflang="x-default" href="../index.html">
   <link rel="preload" href="../fonts/lora-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../fonts/quicksand-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../css/style.css?v=e32d6348">
+  <link rel="stylesheet" href="../css/style.css?v=635edb63">
   <script>document.documentElement.classList.add("js");</script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="43b8bd1e-d7c6-4fc1-996d-8f5ff3d25c3b"></script>
 </head>
 <body>
 
 <!-- Bandeau des offres en cours (s'affiche seulement jusqu'à data-fin) -->
-<div class="bandeau" data-fin="2026-11-30" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres"><b>Navidad:</b> el calendario de Adviento y 5 sets listos para regalar<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<!-- BLACK FRIDAY (27 au 29/11/2026) : début. Pendant le weekend, ce bandeau remplace celui du calendrier de l'Avent (coupé en deux autour des dates). -->
+<div class="bandeau" data-fin="2026-11-26" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres"><b>Navidad:</b> el calendario de Adviento y 5 sets listos para regalar<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<div class="bandeau bandeau-bf" data-debut="2026-11-27" data-fin="2026-11-29" hidden><span class="scintille" aria-hidden="true">✦</span><a href="https://www.fr.farmasi.com/melissamendez1/product-list/promotions?cid=ed2a51a1-e9ec-f011-8519-02f716a02c8f" target="_blank" rel="noopener"><b>Black Friday:</b> -50 % en 39 productos, todo el fin de semana<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<div class="bandeau" data-debut="2026-11-30" data-fin="2026-11-30" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres"><b>Navidad:</b> el calendario de Adviento y 5 sets listos para regalar<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<!-- BLACK FRIDAY : fin du bandeau -->
 <div class="bandeau" data-debut="2026-12-01" data-fin="2026-12-24" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres-coffrets"><b>Navidad:</b> 5 sets listos para regalar, sin papel de regalo<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
 <header class="menu">
   <div class="wrap">
@@ -97,6 +101,22 @@
       </div>
     </div>
   </section>
+
+  <!-- BLACK FRIDAY (27 au 29/11/2026) : début du bloc. S'affiche seul pendant le weekend ; pour l'enlever, supprimer jusqu'à « fin du bloc ». -->
+  <section class="page promo-accueil bf-accueil" data-page="accueil">
+    <div class="wrap" data-debut="2026-11-27" data-fin="2026-11-29" hidden>
+      <a class="promo-bande reveal" href="https://www.fr.farmasi.com/melissamendez1/product-list/promotions?cid=ed2a51a1-e9ec-f011-8519-02f716a02c8f" target="_blank" rel="noopener">
+        <span class="promo-chiffre" aria-hidden="true">-50<small>%</small></span>
+        <span class="promo-txt">
+          <span class="tag-promo">Black Friday</span>
+          <b>¡Es Black Friday: -50 % en 39 productos!</b>
+          <span>Solo este fin de semana, de viernes a domingo, en mi tienda online.</span>
+        </span>
+        <span class="btn creme">Lo quiero</span>
+      </a>
+    </div>
+  </section>
+  <!-- BLACK FRIDAY : fin du bloc -->
 
   <!-- Accueil : présentation -->
   <section class="page bienvenue" data-page="accueil">
