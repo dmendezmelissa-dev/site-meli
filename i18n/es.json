@@ -2968,8 +2968,8 @@
     "es": "<b>Black Friday:</b> -50 % en 39 productos, todo el fin de semana"
   },
   "bf.texte": {
-    "fr": "Seulement ce weekend, du vendredi au dimanche, sur ma boutique en ligne.",
-    "es": "Solo este fin de semana, de viernes a domingo, en mi tienda online."
+    "fr": "Jusqu'à dimanche soir seulement, sur ma boutique en ligne.",
+    "es": "Solo hasta el domingo por la noche, en mi tienda online."
   },
   "bf.bouton": {
     "fr": "J'en profite",
@@ -3002,5 +3002,17 @@
   "bf.secondes": {
     "fr": "sec",
     "es": "seg"
+  },
+  "prix.126": {
+    "fr": "126,00 €",
+    "es": "126,00 €"
+  },
+  "prix.126.fi": {
+    "fr": "88,00 €",
+    "es": "88,00 €"
+  },
+  "prix.eco.38": {
+    "fr": "Tu économises 38,00 €",
+    "es": "Ahorras 38,00 €"
   }
 }

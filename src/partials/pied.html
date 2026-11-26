@@ -200,6 +200,9 @@
 
     /* Offres : chaque élément avec data-fin (et éventuellement data-debut) ne s'affiche que pendant sa période */
     var aujourdhui = new Date().toISOString().slice(0, 10);
+    /* Aperçu : ajouter ?apercu=2026-11-28 à l'adresse pour voir le site comme à cette date */
+    var apercu = (location.search.match(/apercu=(\d{4}-\d{2}-\d{2})/) || [])[1];
+    if (apercu) aujourdhui = apercu;
     document.querySelectorAll('[data-fin]').forEach(function (el) {
       var active = el.dataset.fin >= aujourdhui && (!el.dataset.debut || el.dataset.debut <= aujourdhui);
       el.hidden = !active;
