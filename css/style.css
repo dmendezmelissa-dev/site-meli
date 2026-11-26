@@ -1260,6 +1260,11 @@ h1, h2, .encart-titre { text-wrap: balance; }
 
 .kit-visuel-gl { width: min(320px, 84%); box-shadow: 0 14px 30px rgba(140, 60, 80, .18); }
 
+/* BLACK FRIDAY (26 au 29/11/2026) : bandeau noir du haut */
+.bandeau.bandeau-bf { background: #0E0E0E; }
+.bandeau.bandeau-bf a { color: #fff; }
+.bandeau.bandeau-bf .scintille { color: #fff; }
+
 /* BLACK FRIDAY (26 au 29/11/2026) : carte de l'accueil avec compte à rebours. À supprimer avec le bloc. */
 .bf-accueil { padding: 0 0 40px; }
 .bf-accueil:has(> .wrap[hidden]) { display: none; }
