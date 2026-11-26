@@ -1260,5 +1260,33 @@ h1, h2, .encart-titre { text-wrap: balance; }
 
 .kit-visuel-gl { width: min(320px, 84%); box-shadow: 0 14px 30px rgba(140, 60, 80, .18); }
 
-/* BLACK FRIDAY (27 au 29/11/2026) : le bloc de l'accueil ne laisse pas de vide en dehors du weekend. À supprimer avec le bloc. */
+/* BLACK FRIDAY (27 au 29/11/2026) : carte de l'accueil avec compte à rebours. À supprimer avec le bloc. */
+.bf-accueil { padding: 0 0 40px; }
 .bf-accueil:has(> .wrap[hidden]) { display: none; }
+.bf-carte { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 48px; padding: 38px 48px;
+  background: var(--blanc); border: 1px solid var(--ligne); border-radius: var(--rayon); box-shadow: 0 18px 40px rgba(86, 10, 29, .08); }
+.bf-gauche { text-align: center; padding-right: 48px; border-right: 1px solid var(--ligne); }
+.bf-gauche .eyebrow { margin: 0 0 6px; color: var(--noel); }
+.bf-chiffre { margin: 0; font-family: "Lora", serif; font-size: 92px; line-height: 1; color: var(--terra); letter-spacing: -.03em; }
+.bf-chiffre small { font-size: .45em; margin-left: 2px; }
+.bf-chiffre span { display: inline-block; animation: bf-pouls 2.6s ease-in-out infinite; }
+@keyframes bf-pouls { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+.bf-produits { margin: 8px 0 0; font-weight: 600; color: var(--doux); }
+.bf-droite h2 { margin: 0 0 8px; }
+.bf-texte { margin: 0; color: var(--doux); }
+.bf-reste { margin: 18px 0 8px; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--doux); }
+.bf-compte { display: flex; gap: 10px; }
+.bf-compte span { min-width: 66px; padding: 10px 6px 8px; border-radius: 14px; background: var(--creme); text-align: center; }
+.bf-compte b { display: block; font-family: "Lora", serif; font-weight: 500; font-size: 28px; line-height: 1.1; color: var(--noel); font-variant-numeric: tabular-nums; }
+.bf-compte i { font-style: normal; font-size: 12px; color: var(--doux); }
+.bf-btn { margin-top: 22px; }
+@media (prefers-reduced-motion: reduce) { .bf-chiffre span { animation: none; } }
+@media (max-width: 760px) {
+  .bf-accueil { padding: 0 0 28px; }
+  .bf-carte { grid-template-columns: 1fr; gap: 20px; padding: 28px 20px; text-align: center; }
+  .bf-gauche { padding: 0 0 18px; border-right: 0; border-bottom: 1px solid var(--ligne); }
+  .bf-chiffre { font-size: 76px; }
+  .bf-compte { justify-content: center; gap: 8px; }
+  .bf-compte span { min-width: 0; flex: 1; }
+  .bf-btn { width: 100%; justify-content: center; }
+}

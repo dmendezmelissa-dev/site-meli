@@ -2967,10 +2967,6 @@
     "fr": "<b>Black Friday :</b> -50 % sur 39 produits, tout le weekend",
     "es": "<b>Black Friday:</b> -50 % en 39 productos, todo el fin de semana"
   },
-  "bf.titre": {
-    "fr": "C'est le Black Friday : -50 % sur 39 produits !",
-    "es": "¡Es Black Friday: -50 % en 39 productos!"
-  },
   "bf.texte": {
     "fr": "Seulement ce weekend, du vendredi au dimanche, sur ma boutique en ligne.",
     "es": "Solo este fin de semana, de viernes a domingo, en mi tienda online."
@@ -2978,5 +2974,33 @@
   "bf.bouton": {
     "fr": "J'en profite",
     "es": "Lo quiero"
+  },
+  "bf.produits": {
+    "fr": "sur 39 produits",
+    "es": "en 39 productos"
+  },
+  "bf.titre2": {
+    "fr": "C'est le <span class=\"kw\">Black Friday</span> !",
+    "es": "¡Es <span class=\"kw\">Black Friday</span>!"
+  },
+  "bf.reste": {
+    "fr": "Il reste :",
+    "es": "Quedan:"
+  },
+  "bf.jours": {
+    "fr": "jours",
+    "es": "días"
+  },
+  "bf.heures": {
+    "fr": "heures",
+    "es": "horas"
+  },
+  "bf.minutes": {
+    "fr": "min",
+    "es": "min"
+  },
+  "bf.secondes": {
+    "fr": "sec",
+    "es": "seg"
   }
 }

@@ -11,7 +11,7 @@
   <link rel="alternate" hreflang="x-default" href="../index.html">
   <link rel="preload" href="../fonts/lora-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../fonts/quicksand-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../css/style.css?v=635edb63">
+  <link rel="stylesheet" href="../css/style.css?v=f1147211">
   <script>document.documentElement.classList.add("js");</script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="43b8bd1e-d7c6-4fc1-996d-8f5ff3d25c3b"></script>
 </head>
@@ -103,18 +103,43 @@
   </section>
 
   <!-- BLACK FRIDAY (27 au 29/11/2026) : début du bloc. S'affiche seul pendant le weekend ; pour l'enlever, supprimer jusqu'à « fin du bloc ». -->
-  <section class="page promo-accueil bf-accueil" data-page="accueil">
+  <section class="page bf-accueil" data-page="accueil">
     <div class="wrap" data-debut="2026-11-27" data-fin="2026-11-29" hidden>
-      <a class="promo-bande reveal" href="https://www.fr.farmasi.com/melissamendez1/product-list/promotions?cid=ed2a51a1-e9ec-f011-8519-02f716a02c8f" target="_blank" rel="noopener">
-        <span class="promo-chiffre" aria-hidden="true">-50<small>%</small></span>
-        <span class="promo-txt">
-          <span class="tag-promo">Black Friday</span>
-          <b>It's Black Friday: 50% off 39 products!</b>
-          <span>This weekend only, Friday to Sunday, in my online shop.</span>
-        </span>
-        <span class="btn creme">Shop the deals</span>
-      </a>
+      <div class="bf-carte reveal">
+        <div class="bf-gauche">
+          <p class="eyebrow">Black Friday</p>
+          <p class="bf-chiffre"><span>-50</span><small>%</small></p>
+          <p class="bf-produits">on 39 products</p>
+        </div>
+        <div class="bf-droite">
+          <h2>It's <span class="kw">Black Friday</span>!</h2>
+          <p class="bf-texte">This weekend only, Friday to Sunday, in my online shop.</p>
+          <p class="bf-reste">Time left:</p>
+          <div class="bf-compte" data-bf-fin="2026-11-29T23:59:59+01:00" aria-live="off">
+            <span><b data-u="j">0</b><i>days</i></span>
+            <span><b data-u="h">00</b><i>hours</i></span>
+            <span><b data-u="m">00</b><i>min</i></span>
+            <span><b data-u="s">00</b><i>sec</i></span>
+          </div>
+          <a class="btn plein bf-btn" href="https://www.fr.farmasi.com/melissamendez1/product-list/promotions?cid=ed2a51a1-e9ec-f011-8519-02f716a02c8f" target="_blank" rel="noopener">Shop the deals<span aria-hidden="true"> →</span></a>
+        </div>
+      </div>
     </div>
+    <script>
+      (function () {
+        var c = document.querySelector('.bf-compte'); if (!c) return;
+        var fin = new Date(c.dataset.bfFin).getTime();
+        function deux(n) { return (n < 10 ? '0' : '') + n; }
+        function maj() {
+          var r = Math.max(0, Math.floor((fin - Date.now()) / 1000));
+          c.querySelector('[data-u=j]').textContent = Math.floor(r / 86400);
+          c.querySelector('[data-u=h]').textContent = deux(Math.floor(r % 86400 / 3600));
+          c.querySelector('[data-u=m]').textContent = deux(Math.floor(r % 3600 / 60));
+          c.querySelector('[data-u=s]').textContent = deux(r % 60);
+        }
+        maj(); setInterval(maj, 1000);
+      })();
+    </script>
   </section>
   <!-- BLACK FRIDAY : fin du bloc -->
 
