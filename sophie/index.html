@@ -11,7 +11,7 @@
   <link rel="alternate" hreflang="x-default" href="../en/sophie/index.html">
   <link rel="preload" href="../fonts/lora-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../fonts/quicksand-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../css/style.css?v=2a9c676e">
+  <link rel="stylesheet" href="../css/style.css?v=95ae59bb">
   <script>document.documentElement.classList.add("js");</script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="43b8bd1e-d7c6-4fc1-996d-8f5ff3d25c3b"></script>
 </head>
@@ -351,6 +351,9 @@
 
     /* Offres : chaque élément avec data-fin (et éventuellement data-debut) ne s'affiche que pendant sa période */
     var aujourdhui = new Date().toISOString().slice(0, 10);
+    /* Aperçu : ajouter ?apercu=2026-11-28 à l'adresse pour voir le site comme à cette date */
+    var apercu = (location.search.match(/apercu=(\d{4}-\d{2}-\d{2})/) || [])[1];
+    if (apercu) aujourdhui = apercu;
     document.querySelectorAll('[data-fin]').forEach(function (el) {
       var active = el.dataset.fin >= aujourdhui && (!el.dataset.debut || el.dataset.debut <= aujourdhui);
       el.hidden = !active;
