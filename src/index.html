@@ -15,7 +15,11 @@
 <body>
 
 <!-- Bandeau des offres en cours (s'affiche seulement jusqu'à data-fin) -->
-<div class="bandeau" data-fin="2026-11-30" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres">[[bandeau.avent|<b>Noël :</b> le calendrier de l'Avent et 5 coffrets prêts à offrir]]<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<!-- BLACK FRIDAY (27 au 29/11/2026) : début. Pendant le weekend, ce bandeau remplace celui du calendrier de l'Avent (coupé en deux autour des dates). -->
+<div class="bandeau" data-fin="2026-11-26" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres">[[bandeau.avent|<b>Noël :</b> le calendrier de l'Avent et 5 coffrets prêts à offrir]]<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<div class="bandeau bandeau-bf" data-debut="2026-11-27" data-fin="2026-11-29" hidden><span class="scintille" aria-hidden="true">✦</span><a href="https://www.fr.farmasi.com/melissamendez1/product-list/promotions?cid=ed2a51a1-e9ec-f011-8519-02f716a02c8f" target="_blank" rel="noopener">[[bf.bandeau|<b>Black Friday :</b> -50 % sur 39 produits, tout le weekend]]<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<div class="bandeau" data-debut="2026-11-30" data-fin="2026-11-30" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres">[[bandeau.avent|<b>Noël :</b> le calendrier de l'Avent et 5 coffrets prêts à offrir]]<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
+<!-- BLACK FRIDAY : fin du bandeau -->
 <div class="bandeau" data-debut="2026-12-01" data-fin="2026-12-24" hidden><span class="scintille" aria-hidden="true">✦</span><a href="#offres-coffrets">[[bandeau.noel|<b>Noël :</b> 5 coffrets prêts à offrir, sans papier cadeau]]<span aria-hidden="true"> →</span></a><span class="scintille s2" aria-hidden="true">✦</span></div>
 <!-- @inclure entete.html -->
       <a href="#accueil">[[menu.accueil|Accueil]]</a>
@@ -77,6 +81,47 @@
       </div>
     </div>
   </section>
+
+  <!-- BLACK FRIDAY (27 au 29/11/2026) : début du bloc. S'affiche seul pendant le weekend ; pour l'enlever, supprimer jusqu'à « fin du bloc ». -->
+  <section class="page bf-accueil" data-page="accueil">
+    <div class="wrap" data-debut="2026-11-27" data-fin="2026-11-29" hidden>
+      <div class="bf-carte reveal">
+        <div class="bf-gauche">
+          <p class="eyebrow">Black Friday</p>
+          <p class="bf-chiffre"><span>-50</span><small>%</small></p>
+          <p class="bf-produits">[[bf.produits|sur 39 produits]]</p>
+        </div>
+        <div class="bf-droite">
+          <h2>[[bf.titre2|C'est le <span class="kw">Black Friday</span> !]]</h2>
+          <p class="bf-texte">[[bf.texte|Seulement ce weekend, du vendredi au dimanche, sur ma boutique en ligne.]]</p>
+          <p class="bf-reste">[[bf.reste|Il reste :]]</p>
+          <div class="bf-compte" data-bf-fin="2026-11-29T23:59:59+01:00" aria-live="off">
+            <span><b data-u="j">0</b><i>[[bf.jours|jours]]</i></span>
+            <span><b data-u="h">00</b><i>[[bf.heures|heures]]</i></span>
+            <span><b data-u="m">00</b><i>[[bf.minutes|min]]</i></span>
+            <span><b data-u="s">00</b><i>[[bf.secondes|sec]]</i></span>
+          </div>
+          <a class="btn plein bf-btn" href="https://www.fr.farmasi.com/melissamendez1/product-list/promotions?cid=ed2a51a1-e9ec-f011-8519-02f716a02c8f" target="_blank" rel="noopener">[[bf.bouton|J'en profite]]<span aria-hidden="true"> →</span></a>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function () {
+        var c = document.querySelector('.bf-compte'); if (!c) return;
+        var fin = new Date(c.dataset.bfFin).getTime();
+        function deux(n) { return (n < 10 ? '0' : '') + n; }
+        function maj() {
+          var r = Math.max(0, Math.floor((fin - Date.now()) / 1000));
+          c.querySelector('[data-u=j]').textContent = Math.floor(r / 86400);
+          c.querySelector('[data-u=h]').textContent = deux(Math.floor(r % 86400 / 3600));
+          c.querySelector('[data-u=m]').textContent = deux(Math.floor(r % 3600 / 60));
+          c.querySelector('[data-u=s]').textContent = deux(r % 60);
+        }
+        maj(); setInterval(maj, 1000);
+      })();
+    </script>
+  </section>
+  <!-- BLACK FRIDAY : fin du bloc -->
 
   <!-- Accueil : présentation -->
   <section class="page bienvenue" data-page="accueil">
