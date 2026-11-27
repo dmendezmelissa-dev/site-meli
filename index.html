@@ -11,7 +11,7 @@
   <link rel="alternate" hreflang="x-default" href="index.html">
   <link rel="preload" href="fonts/lora-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/quicksand-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/style.css?v=5c37fe0f">
+  <link rel="stylesheet" href="css/style.css?v=6c0f009c">
   <script>document.documentElement.classList.add("js");</script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="43b8bd1e-d7c6-4fc1-996d-8f5ff3d25c3b"></script>
 </head>
@@ -48,6 +48,7 @@
         </div></div>
       </div>
       <a href="#offres">Offres</a>
+      <a href="#en-stock">En stock</a>
       <div class="deroulant deroulant-equipe">
         <a href="#equipe" class="lien-packs">L'équipe</a>
         <div class="sous-menu"><div class="sm-boite">
@@ -1835,6 +1836,60 @@
         <a class="btn plein" href="#bilan" data-sujet="activite">Je veux en savoir plus</a>
       </div>
       <p class="petit">Chacune avance à son rythme. Les revenus dépendent de ton activité et ne sont jamais garantis. Farmasi est une marque internationale de beauté et de bien-être ; je suis distributrice indépendante.</p>
+    </div>
+  </section>
+
+  <!-- En stock : produits que Meli a chez elle, à acheter en direct.
+       Pour ajouter un produit : copier un <article class="kit-produit stock-produit">, changer la photo,
+       le nom, la description, le prix, la quantité et le message WhatsApp (nouvelles clés stock.xxx).
+       Produit épuisé : ajouter la classe "epuise" à l'article (il reste visible, grisé, sans bouton).
+       ATTENTION : les 3 produits ci-dessous sont des EXEMPLES à remplacer par le vrai stock. -->
+  <section class="page stock" data-page="en-stock" data-titre="En stock · Meli">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Dispo tout de suite</p>
+        <h2>Mes produits <span class="kw">en stock</span></h2>
+        <div class="rule"></div>
+        <p class="intro">Ces produits, je les ai déjà chez moi : pas besoin de commander en ligne ni d'attendre la livraison. Tu me dis ce qui te plaît sur WhatsApp, je te le mets de côté et on s'organise ensemble.</p>
+        <ul class="contenu-liste stock-liste">
+          <li>Remis en main propre, autour de Toulouse</li>
+          <li>Ou envoyé chez toi (+ 7,50 € de livraison)</li>
+          <li>Les quantités sont limitées : premier message, premier servi</li>
+        </ul>
+      </div>
+      <div class="kit-produits stock-produits">
+          <article class="kit-produit stock-produit reveal">
+            <img src="images/kit-gl-mascara.webp?v=89946a1f" width="500" height="500" alt="Mascara Double Lash Extend" loading="lazy">
+            <div>
+              <h3>Mascara Double Lash Extend <span class="stock-qte">Plus que 2</span></h3>
+              <p>Volume et longueur grâce à sa double brosse. Testé sous contrôle ophtalmologique.</p>
+              <p class="kit-produit-prix">22,00 €</p>
+              <a class="btn vide btn-mini" href="https://wa.me/33698915881?text=Bonjour%20Meli%20!%20Je%20voudrais%20r%C3%A9server%20le%20mascara%20Double%20Lash%20Extend%20en%20stock." target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>Je le réserve</a>
+            </div>
+          </article>
+          <article class="kit-produit stock-produit reveal">
+            <img src="images/kit-gl-rouge.webp?v=e0a4e695" width="500" height="500" alt="Rouge à lèvres Creamy Lipstick" loading="lazy">
+            <div>
+              <h3>Rouge à lèvres Creamy Lipstick <span class="stock-qte">Plus que 1</span></h3>
+              <p>Teinte Hot Cherry, texture crémeuse et confortable toute la journée.</p>
+              <p class="kit-produit-prix">11,50 €</p>
+              <a class="btn vide btn-mini" href="https://wa.me/33698915881?text=Bonjour%20Meli%20!%20Je%20voudrais%20r%C3%A9server%20le%20rouge%20%C3%A0%20l%C3%A8vres%20Creamy%20Lipstick%20en%20stock." target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>Je le réserve</a>
+            </div>
+          </article>
+          <article class="kit-produit stock-produit reveal">
+            <img src="images/kit-mo-mains.webp?v=e6a31b15" width="500" height="500" alt="Crème pour les mains Moringa" loading="lazy">
+            <div>
+              <h3>Crème pour les mains Moringa <span class="stock-qte">Plus que 3</span></h3>
+              <p>Une crème légère au parfum frais, qui nourrit sans coller.</p>
+              <p class="kit-produit-prix">6,00 €</p>
+              <a class="btn vide btn-mini" href="https://wa.me/33698915881?text=Bonjour%20Meli%20!%20Je%20voudrais%20r%C3%A9server%20la%20cr%C3%A8me%20pour%20les%20mains%20Moringa%20en%20stock." target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>Je le réserve</a>
+            </div>
+          </article>
+      </div>
+      <div class="center btns">
+        <a class="btn plein" href="https://wa.me/33698915881?text=Bonjour%20Meli%20!%20Quels%20produits%20as-tu%20en%20stock%20en%20ce%20moment%20%3F" target="_blank" rel="noopener">Une question ? Écris-moi</a>
+        <a class="btn vide" href="#packs">Voir tous mes produits</a>
+      </div>
     </div>
   </section>
 

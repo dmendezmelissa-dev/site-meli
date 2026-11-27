@@ -1302,3 +1302,12 @@ h1, h2, .encart-titre { text-wrap: balance; }
   .bf-compte span { min-width: 0; flex: 1; }
   .bf-btn { width: 100%; justify-content: center; }
 }
+
+/* En stock : produits à acheter en direct */
+.stock-liste { display: inline-block; text-align: left; }
+.stock-liste li:last-child { color: var(--encre); font-weight: 400; }
+.stock-qte { display: inline-block; vertical-align: middle; margin-left: 6px; padding: 2px 9px; border-radius: 999px; background: var(--terra); color: #fff; font-family: "Quicksand", sans-serif; font-size: 11.5px; font-weight: 700; }
+.stock-produit .btn-mini { margin-top: 4px; }
+.stock-produit.epuise { opacity: .55; }
+.stock-produit.epuise .btn-mini { display: none; }
+.stock-produit.epuise .stock-qte { background: var(--doux); }

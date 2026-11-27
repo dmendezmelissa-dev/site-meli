@@ -3014,5 +3014,101 @@
   "prix.eco.38": {
     "fr": "Tu économises 38,00 €",
     "es": "Ahorras 38,00 €"
+  },
+  "menu.stock": {
+    "fr": "En stock",
+    "es": "En stock"
+  },
+  "titre.stock": {
+    "fr": "En stock · Meli",
+    "es": "En stock · Meli"
+  },
+  "stock.surtitre": {
+    "fr": "Dispo tout de suite",
+    "es": "Disponible ya"
+  },
+  "stock.titre": {
+    "fr": "Mes produits <span class=\"kw\">en stock</span>",
+    "es": "Mis productos <span class=\"kw\">en stock</span>"
+  },
+  "stock.texte": {
+    "fr": "Ces produits, je les ai déjà chez moi : pas besoin de commander en ligne ni d'attendre la livraison. Tu me dis ce qui te plaît sur WhatsApp, je te le mets de côté et on s'organise ensemble.",
+    "es": "Estos productos ya los tengo en casa: no hace falta pedir en línea ni esperar el envío. Dime por WhatsApp lo que te gusta, te lo guardo y nos organizamos juntas."
+  },
+  "stock.l1": {
+    "fr": "Remis en main propre, autour de Toulouse",
+    "es": "Entrega en mano, en los alrededores de Toulouse"
+  },
+  "stock.l2": {
+    "fr": "Ou envoyé chez toi (+ 7,50 € de livraison)",
+    "es": "O te lo envío a casa (+ 7,50 € de envío)"
+  },
+  "stock.l3": {
+    "fr": "Les quantités sont limitées : premier message, premier servi",
+    "es": "Las cantidades son limitadas: el primer mensaje se lo lleva"
+  },
+  "stock.ex1.nom": {
+    "fr": "Mascara Double Lash Extend",
+    "es": "Máscara Double Lash Extend"
+  },
+  "stock.ex1.qte": {
+    "fr": "Plus que 2",
+    "es": "Quedan 2"
+  },
+  "stock.ex1.desc": {
+    "fr": "Volume et longueur grâce à sa double brosse. Testé sous contrôle ophtalmologique.",
+    "es": "Volumen y longitud gracias a su doble cepillo. Testada oftalmológicamente."
+  },
+  "stock.ex1.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20r%C3%A9server%20le%20mascara%20Double%20Lash%20Extend%20en%20stock.",
+    "es": "%C2%A1Hola%20Meli!%20Quiero%20reservar%20la%20m%C3%A1scara%20Double%20Lash%20Extend%20en%20stock."
+  },
+  "stock.reserver": {
+    "fr": "Je le réserve",
+    "es": "Lo reservo"
+  },
+  "stock.ex2.nom": {
+    "fr": "Rouge à lèvres Creamy Lipstick",
+    "es": "Barra de labios Creamy Lipstick"
+  },
+  "stock.ex2.qte": {
+    "fr": "Plus que 1",
+    "es": "Queda 1"
+  },
+  "stock.ex2.desc": {
+    "fr": "Teinte Hot Cherry, texture crémeuse et confortable toute la journée.",
+    "es": "Tono Hot Cherry, textura cremosa y cómoda todo el día."
+  },
+  "stock.ex2.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20r%C3%A9server%20le%20rouge%20%C3%A0%20l%C3%A8vres%20Creamy%20Lipstick%20en%20stock.",
+    "es": "%C2%A1Hola%20Meli!%20Quiero%20reservar%20la%20barra%20de%20labios%20Creamy%20Lipstick%20en%20stock."
+  },
+  "stock.ex3.nom": {
+    "fr": "Crème pour les mains Moringa",
+    "es": "Crema de manos Moringa"
+  },
+  "stock.ex3.qte": {
+    "fr": "Plus que 3",
+    "es": "Quedan 3"
+  },
+  "stock.ex3.desc": {
+    "fr": "Une crème légère au parfum frais, qui nourrit sans coller.",
+    "es": "Una crema ligera de aroma fresco que nutre sin dejar sensación pegajosa."
+  },
+  "stock.ex3.wa": {
+    "fr": "Bonjour%20Meli%20!%20Je%20voudrais%20r%C3%A9server%20la%20cr%C3%A8me%20pour%20les%20mains%20Moringa%20en%20stock.",
+    "es": "%C2%A1Hola%20Meli!%20Quiero%20reservar%20la%20crema%20de%20manos%20Moringa%20en%20stock."
+  },
+  "stock.wa": {
+    "fr": "Bonjour%20Meli%20!%20Quels%20produits%20as-tu%20en%20stock%20en%20ce%20moment%20%3F",
+    "es": "%C2%A1Hola%20Meli!%20%C2%BFQu%C3%A9%20productos%20tienes%20en%20stock%20ahora%3F"
+  },
+  "stock.cta": {
+    "fr": "Une question ? Écris-moi",
+    "es": "¿Una pregunta? Escríbeme"
+  },
+  "stock.lien": {
+    "fr": "Voir tous mes produits",
+    "es": "Ver todos mis productos"
   }
 }
